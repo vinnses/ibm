@@ -6,6 +6,16 @@ Cada currículo deve ser reconstruído como uma unidade histórica própria. Inf
 
 A reconstrução de um currículo deve preceder qualquer comparação com versões posteriores.
 
+## Eixos documentais
+
+O projeto distingue três eixos:
+
+1. **curricular**: resoluções, PPCs, matrizes, Fichas 1 e ementas;
+2. **administrativo**: editais, indicadores, diagnósticos, atas, pareceres, resultados e atos de gestão;
+3. **propositivo**: projetos de reorganização, transformação ou substituição do curso.
+
+Um documento propositivo é prova de que uma proposta foi formulada, mas não é, por si só, prova de aprovação ou implementação. A passagem entre os estados **proposta**, **selecionada**, **aprovada**, **autorizada** e **implementada** exige documento próprio.
+
 ## Hierarquia das fontes
 
 A prioridade documental é:
@@ -13,9 +23,10 @@ A prioridade documental é:
 1. resoluções do CEPE e demais atos normativos da UFPR;
 2. Projeto Pedagógico do Curso e documentos equivalentes;
 3. Portal do Ementário e Fichas 1;
-4. documentos oficiais de departamentos e da coordenação;
-5. páginas institucionais arquivadas;
-6. fontes secundárias, usadas apenas para localização ou contextualização.
+4. editais, atas, pareceres, resultados e documentos administrativos oficiais;
+5. documentos oficiais de departamentos, coordenação, setores, pró-reitorias e MEC;
+6. páginas institucionais arquivadas;
+7. fontes secundárias, usadas apenas para localização ou contextualização.
 
 Uma fonte posterior pode documentar uma equivalência ou preservar informação histórica, mas não deve ser tratada automaticamente como retrato da versão anterior.
 
@@ -29,9 +40,11 @@ Cada registro deve distinguir:
 
 Transcrições normalizadas devem informar quais transformações foram feitas e manter o original disponível.
 
-## Eixo principal
+Alegações feitas dentro de propostas — por exemplo, baixa procura, evasão, suficiência de infraestrutura ou demanda de mercado — devem ser registradas como alegações do documento até serem verificadas em bases independentes.
 
-A caracterização histórica do curso será baseada prioritariamente em elementos curriculares formalmente prescritos:
+## Eixo curricular principal
+
+A caracterização histórica de cada currículo será baseada prioritariamente em elementos formalmente prescritos:
 
 - componentes obrigatórios;
 - periodização recomendada;
@@ -41,9 +54,9 @@ A caracterização histórica do curso será baseada prioritariamente em element
 - quantidade e posição dos espaços optativos;
 - organização formal das áreas de formação.
 
-## Elementos voláteis
+## Elementos voláteis da oferta disciplinar
 
-Os seguintes elementos são considerados secundários para a decisão final:
+Os seguintes elementos são secundários para caracterizar uma matriz curricular:
 
 - oferta efetiva de optativas em um semestre específico;
 - docente responsável;
@@ -52,7 +65,7 @@ Os seguintes elementos são considerados secundários para a decisão final:
 - catálogo geral de disciplinas de outros cursos;
 - alterações operacionais sem mudança formal da matriz.
 
-Esses elementos podem ser preservados para contextualização, mas não devem ser confundidos com a estrutura curricular.
+Isso não reduz a relevância de editais, indicadores e dados administrativos para analisar decisões institucionais. Os dois conjuntos respondem a perguntas diferentes e devem permanecer separados.
 
 ## Departamentos
 
@@ -69,4 +82,4 @@ Quando uma fonte estiver ausente, contraditória ou sem vigência identificável
 - o que não foi localizado;
 - quais fontes foram consultadas;
 - qual divergência foi encontrada;
-- se existe uma versão próxima que não pode ser atribuída com segurança ao currículo analisado.
+- se existe uma versão próxima que não pode ser atribuída com segurança ao período analisado.

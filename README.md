@@ -11,25 +11,31 @@ Reconstruir cada versão curricular do curso antes de compará-las, preservando:
 - as disciplinas obrigatórias e os espaços curriculares efetivos;
 - as ementas historicamente identificáveis;
 - as mudanças documentadas entre versões;
+- os editais, indicadores e demais registros administrativos relevantes;
 - propostas institucionais relacionadas à continuidade, transformação ou substituição do curso.
 
 ## Recorte atual
 
-A primeira etapa está limitada ao currículo que entrou em vigor em 2011, instituído pela Resolução nº 34/2010-CEPE.
+A reconstrução curricular está limitada, nesta etapa, ao currículo que entrou em vigor em 2011, instituído pela Resolução nº 34/2010-CEPE.
 
-Nesta etapa, não serão comparados currículos posteriores nem avaliadas propostas de reforma.
+Documentos administrativos posteriores podem ser catalogados desde já em eixo próprio. Sua inclusão não antecipa a comparação curricular nem transforma uma proposta em decisão aprovada.
 
 ## Princípio de análise
 
-O eixo principal é a estrutura curricular formalmente prescrita: componentes obrigatórios, sequência recomendada, cargas horárias, pré-requisitos, trabalho de conclusão e espaços destinados a optativas e atividades formativas.
+O projeto mantém três eixos documentais separados:
 
-Ofertas ocasionais, docentes, planos de ensino semestrais e o catálogo amplo de disciplinas disponíveis são informações voláteis. Podem ser preservados como documentação secundária, mas não devem determinar a caracterização histórica do curso.
+1. **currículos** — estrutura formal, ementas e vigências;
+2. **administração** — editais, indicadores, diagnósticos, deliberações e decisões;
+3. **propostas** — projetos de transformação ou substituição, até que exista prova documental de aprovação e implementação.
+
+Ofertas ocasionais de disciplinas, docentes e planos de ensino semestrais são voláteis para a caracterização da matriz. Dados administrativos oficiais, contudo, são relevantes para reconstruir o processo decisório institucional.
 
 ## Estrutura
 
 - `metodologia/`: critérios de reconstrução e análise documental;
 - `curriculos/`: reconstrução separada de cada currículo;
-- `propostas/`: documentos sobre propostas institucionais, mantidos fora das reconstruções curriculares;
+- `administracao/`: editais, indicadores e outros registros administrativos;
+- `propostas/`: propostas institucionais, mantidas fora das reconstruções curriculares enquanto não implementadas;
 - `scripts/`: ferramentas de coleta, extração e validação, quando necessárias.
 
 ## Estado
@@ -38,6 +44,8 @@ Ofertas ocasionais, docentes, planos de ensino semestrais e o catálogo amplo de
 - [ ] Documentos normativos de 2011 preservados;
 - [ ] Ementas do currículo de 2011 verificadas;
 - [ ] Representação estruturada do currículo de 2011;
+- [x] Edital interno UFPR 01/2026 e proposta setorial catalogados;
+- [ ] Resultado final e atos decisórios da proposta de 2026 localizados;
 - [ ] Currículos posteriores;
 - [ ] Comparação histórica;
 - [ ] Análise de propostas institucionais.
