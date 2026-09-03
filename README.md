@@ -46,6 +46,8 @@ Ofertas ocasionais de disciplinas, docentes e planos de ensino semestrais são v
 - [ ] Representação estruturada do currículo de 2011;
 - [x] Edital interno UFPR 01/2026 e proposta setorial catalogados;
 - [ ] Resultado final e atos decisórios da proposta de 2026 localizados;
-- [ ] Currículos posteriores;
+- [x] Estrutura do currículo vigente de 2023 reconstruída e fontes primárias preservadas;
+- [ ] Ementas do currículo de 2023 verificadas individualmente;
+- [ ] Currículos intermediários, se identificados;
 - [ ] Comparação histórica;
 - [ ] Análise de propostas institucionais.
