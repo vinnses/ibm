@@ -1,0 +1,2 @@
+administracao/dados/inep/fontes/pacotes/*.zip filter=lfs diff=lfs merge=lfs -text
+administracao/dados/inep/fontes/planilhas/*.xlsx filter=lfs diff=lfs merge=lfs -text
