@@ -9,12 +9,12 @@ Data: 4 set. 2026. Escopo: arquivos textuais em `administracao/dados`, `administ
 | Estrutura dos CSVs | 7 CSVs verificados com `csv.reader`: cabeçalho presente e largura uniforme. |
 | Série do Observatório | 12 linhas, anos contínuos 2015–2026; somente `candidatos_por_vaga`, sem candidatos absolutos. A observação de 2026 preserva a divergência da interface. |
 | Links locais Markdown | 16 links em `administracao/dados` e `administracao/mec/2026` resolvidos; nenhum caminho quebrado. |
-| Integridade INEP | Os 11 XLSX em `/workspace/scratch/caa386d9bd48/tmp/inep_xlsx` conferem com os MD5 preservados (11/11). |
+| Integridade INEP | Os 11 pacotes e os 11 XLSX em caminhos estáveis sob `administracao/dados/inep/fontes/` conferem respectivamente com os SHA-256 de W006 e os MD5 oficiais preservados (11/11 em cada conjunto). |
 | Integridade MEC/UFPR | SHA-256 dos dois PDFs e do HTML preservado conferem com os valores declarados nos READMEs/matriz. |
 | Scripts INEP | Executados `extrair_indicadores_trajetoria.py` e `resumir_indicadores_trajetoria.py` com as 11 planilhas, coortes 2011–2020; a validação exige balanço coorte × ano e separa TCA/TDA acumuladas de TCAN/TADA anuais. |
 | Complemento NC/UFPR | Os três arquivos locais têm SHA-256/tamanho conferidos e as URLs oficiais retornaram HTTP 200. O HTML de 2016 confirma 65 no campo “Total Geral de Inscritos” (1 treineiro separado). No PDF de 2019/2020 foram preservados somente os 37 da coluna “Concorrência Geral” e os 2 treineiros; categorias potencialmente sobrepostas não foram somadas. |
 
-O caminho de scratch registrado para os XLSX documenta o ambiente original da auditoria e não é portátil. Os pacotes e planilhas brutos não estão presentes em um clone limpo; esta limitação foi formalizada como exceção de preservação no roadmap de governança.
+W008 substituiu os caminhos de scratch por caminhos relativos e passou a versionar pacotes e planilhas com Git LFS. A materialização em clone limpo e a regeneração byte a byte das três saídas de W006 integram o gate de revisão de W008.
 
 ## Reconciliações confirmadas
 

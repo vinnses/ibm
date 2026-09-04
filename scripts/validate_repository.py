@@ -38,7 +38,14 @@ MANIFESTS = (
         "caminho_local",
         "sha256",
         "status",
-        frozenset({"versionado", "versionado_origem_fornecida"}),
+        frozenset({"versionado", "versionado_lfs", "versionado_origem_fornecida"}),
+    ),
+    ManifestSpec(
+        "administracao/dados/inep/fontes/manifesto-fontes-volumosas.csv",
+        "local_path",
+        "sha256",
+        "status",
+        frozenset({"preserved_lfs"}),
     ),
     ManifestSpec(
         "curriculos/2023/fichas/manifesto-dinf.csv",
@@ -115,6 +122,18 @@ def validate_manifests(errors: list[str], warnings: list[str]) -> int:
                     errors.append(
                         f"SHA-256 mismatch: {relative} expected={expected} actual={actual}"
                     )
+                expected_size = row.get("tamanho_bytes", "").strip()
+                if expected_size:
+                    try:
+                        size = int(expected_size)
+                    except ValueError:
+                        errors.append(f"invalid byte size: {spec.path}:{line_number}")
+                    else:
+                        if path.stat().st_size != size:
+                            errors.append(
+                                f"byte-size mismatch: {relative} "
+                                f"expected={size} actual={path.stat().st_size}"
+                            )
     return checked
 
 

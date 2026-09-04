@@ -113,19 +113,24 @@ O Planejamento Estratégico 2016–2020 do Setor de Ciências Exatas registra ev
 
 ## Proveniência, arquivos e reprodução
 
-O inventário [`fontes.csv`](fontes.csv) registra URL, instituição, data de consulta, tamanho, SHA-256, caminho e estado de preservação. Os documentos UFPR efetivamente usados foram versionados. Os 11 pacotes nacionais do INEP foram baixados e verificados, mas somam aproximadamente **697 MiB** e não foram inseridos no histórico Git; o inventário conserva suas URLs e hashes, enquanto os manifestos MD5 oficiais, o dicionário, o recorte integral do curso e os scripts reprodutíveis foram versionados.
+O inventário [`fontes.csv`](fontes.csv) registra URL, instituição, data de consulta, tamanho, SHA-256, caminho e estado de preservação. Os 11 pacotes nacionais do INEP (aproximadamente 697 MiB) e as 11 planilhas XLSX exatas usadas na extração de W006 (aproximadamente 401 MiB) estão sob Git LFS em caminhos estáveis. O [manifesto específico](inep/fontes/manifesto-fontes-volumosas.csv) acrescenta versão/validade, finalidade e notas de captura. Os SHA-256 dos pacotes coincidem com os valores registrados em W006, e os MD5 das planilhas coincidem com os manifestos oficiais preservados.
 
-Isso permanece como **exceção de preservação não resolvida**: os caminhos temporários registrados para os 11 pacotes não existem em um clone limpo, e URLs mais hashes não atendem integralmente à regra de preservação do projeto. A resolução está priorizada em [`governance/ROADMAP.md`](../../governance/ROADMAP.md), preferencialmente por Git LFS ou outro mecanismo versionado vinculado ao repositório.
+Um checkout reprodutível requer Git LFS instalado e a materialização dos objetos com `git lfs pull`. Arquivos de poucos bytes iniciados por `version https://git-lfs.github.com/spec/v1` são apenas ponteiros e não satisfazem a preservação. A captura W008 precisou desativar a verificação TLS porque a cadeia do host do INEP não era reconhecida neste ambiente; a identidade foi aceita somente após a coincidência exata com os SHA-256 de W006 e os MD5 oficiais.
 
 Reprodução:
 
 ```bash
-python scripts/extrair_indicadores_trajetoria.py \
-  /caminho/para/os/xlsx/*.xlsx \
+python -m venv .venv
+.venv/bin/python -m ensurepip --upgrade
+.venv/bin/python -m pip install -r requirements-reproducibility.txt
+git lfs pull
+
+.venv/bin/python scripts/extrair_indicadores_trajetoria.py \
+  administracao/dados/inep/fontes/planilhas/*.xlsx \
   --ano-ingresso-min 2011 --ano-ingresso-max 2020 \
   --saida administracao/dados/inep/trajetoria_informatica_biomedica_ufpr.csv
 
-python scripts/resumir_indicadores_trajetoria.py \
+.venv/bin/python scripts/resumir_indicadores_trajetoria.py \
   --entrada administracao/dados/inep/trajetoria_informatica_biomedica_ufpr.csv \
   --diretorio-saida administracao/dados/inep
 ```
