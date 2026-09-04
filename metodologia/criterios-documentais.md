@@ -83,3 +83,24 @@ Quando uma fonte estiver ausente, contraditória ou sem vigência identificável
 - quais fontes foram consultadas;
 - qual divergência foi encontrada;
 - se existe uma versão próxima que não pode ser atribuída com segurança ao período analisado.
+
+## Preservação obrigatória das fontes
+
+Todo arquivo efetivamente utilizado na pesquisa deve ser preservado no repositório. A referência documental deve conter simultaneamente o caminho local e a URL de procedência, quando houver.
+
+São abrangidos PDFs, planilhas, páginas HTML, imagens, documentos de texto, dados estruturados e arquivos auxiliares. Uma página web usada como evidência deve ser arquivada em HTML ou formato equivalente, com data de consulta. Uma URL sem cópia local será tratada somente como pista pendente de preservação.
+
+Arquivos preservados devem possuir hash SHA-256 em manifesto. O nome local pode ser normalizado, desde que o título original, a URL e a transformação realizada sejam registrados. O conteúdo binário original não deve ser alterado.
+
+## Ficha 1 e Ficha 2
+
+A Ficha 1 permanente e a Ficha 2 variável são documentos distintos e não devem ser fundidos:
+
+- a Ficha 1 sustenta a ementa e os atributos permanentes formalmente aprovados;
+- a Ficha 2 registra a execução planejada para uma turma e período, incluindo programa, objetivos, procedimentos, avaliação, bibliografia e responsáveis;
+- múltiplas Fichas 2 do mesmo código serão preservadas individualmente;
+- uma Ficha 2 sem turma, período ou vigência identificável será marcada como indeterminada;
+- divergências entre Ficha 1 e Ficha 2 serão registradas, não corrigidas silenciosamente;
+- a generalidade da Ficha 1 e a variabilidade das Fichas 2 serão descritas separadamente.
+
+A presença da palavra “ementa” em uma Ficha 2 não torna esse documento substituto automático da Ficha 1. Quando a Ficha 1 não for localizada, a ementa reproduzida em Ficha 2 poderá ser transcrita apenas com essa procedência explicitada.
