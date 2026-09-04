@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import re
 import sys
 from pathlib import Path
 
@@ -122,6 +123,21 @@ def main() -> int:
         errors.append("Ementário manifest does not identify the preserved curriculum response")
     elif "3000" not in (ROOT / portal["local_path"]).read_text(encoding="utf-8"):
         errors.append("Ementário curriculum capture does not contain the recorded 3000-hour value")
+
+    readme = (BASE / "fontes/README.md").read_text(encoding="utf-8")
+    for row in sources:
+        source_path = Path(row["local_path"])
+        if source_path.parent != Path("curriculos/2023/fontes") or source_path.suffix.lower() != ".pdf":
+            continue
+        pattern = re.compile(
+            rf"^\| `{re.escape(source_path.name)}` \|.*\| `([0-9a-f]{{64}})` \|$",
+            re.MULTILINE,
+        )
+        match = pattern.search(readme)
+        if not match:
+            errors.append(f"source README lacks hash row for {source_path.name}")
+        elif match.group(1) != row["sha256"]:
+            errors.append(f"source README hash differs from manifest for {source_path.name}")
 
     for error in errors:
         print(f"ERROR: {error}", file=sys.stderr)

@@ -12,7 +12,7 @@ Consulta e preservação realizadas em 3 de setembro de 2026, com correção de 
 | `resolucao-77-22-cepe.pdf` | Criação de componentes no Departamento de Enfermagem | [Secretaria dos Órgãos Colegiados](https://soc.ufpr.br/wp-content/uploads/2022/12/Resolu%C3%A7%C3%A3o-77-22-CEPE.pdf) | `f68fcfb012ea216a3cf8444d93d47d13cf5b65882cabcf236048349cf348bc07` |
 | `resolucao-78-22-cepe.pdf` | Criação de componente no Departamento de Fisiologia | [Secretaria dos Órgãos Colegiados](https://soc.ufpr.br/wp-content/uploads/2022/12/Resolu%C3%A7%C3%A3o-78-22-CEPE.pdf) | `9469d5d32629d024cef7ce56139fc4fda3d626027d7441c184e6880d4add6543` |
 | `resolucao-79-22-cepe.pdf` | Criação de componente no Departamento de Genética | [Secretaria dos Órgãos Colegiados](https://soc.ufpr.br/wp-content/uploads/2022/12/Resolu%C3%A7%C3%A3o-79-22-CEPE.pdf) | `d0690f2ae20bce17c3e609c88eea3389c22681e5c83beb5c6d36cb770b5044db` |
-| `resolucao-80-22-cepe.pdf` | Criação de componentes no Departamento de Informática | [Secretaria dos Órgãos Colegiados](https://soc.ufpr.br/wp-content/uploads/2022/12/Resolu%C3%A7%C3%A3o-80-22-CEPE.pdf) | `f0419dbfc4e09047a76319e6bbc88990c88a5c5b61063a9f0ed7b038866df1a5` |
+| `resolucao-80-22-cepe.pdf` | Criação de componentes no Departamento de Informática | [Secretaria dos Órgãos Colegiados](https://soc.ufpr.br/wp-content/uploads/2022/12/Resolu%C3%A7%C3%A3o-80-22-CEPE.pdf) | `341692b01d0570e2b642aaab758e3c932e1d8ea37668d97afadab0ece2503d73` |
 
 Os hashes se referem exatamente aos binários armazenados neste diretório.
 
