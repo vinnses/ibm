@@ -36,3 +36,31 @@ The Ficha records remain distinct by type and version. The collection does not i
 ## Review boundary
 
 This review changes no research deliverable, global index, roadmap, or integration state. After the three required corrections, rerun the repository validator and the new work-specific validator, then request a follow-up cross-review. No integration is authorized by this review.
+
+## Post-correction follow-up — 2026-09-04
+
+- **Reviewed correction commits:** `838cd79`, `bfd3eeb`
+- **Prior verdict preserved:** **changes required**
+- **Follow-up verdict:** **changes required**
+
+### Corrections independently verified
+
+The new `2023-EMENTARIO` manifest record points to a separately preserved HTML response, and its SHA-256 (`12e638f4992bbc2da3da549d0b12d22a733e906d3d2d611dfb4d9dab79ec1501`) matches the stored bytes. The response itself labels option 1225 “Informática Biomédica - 2011 - Corrente” and labels the total workload `3000`. It therefore supports only those portal-display facts. It does not establish the portal record's administrative status, whether “Corrente” is historically accurate, or the 2023 matrix; Resolution 75/22-CEPE remains the preserved formal source for the 3,200-hour entrants-2022/2023 structure. The former `pagina-grade-semestral.html` is correctly retained as a distinct page whose own title and contents identify a 2025/2 schedule.
+
+The BQ083 PDF itself has the 2022-06-09 render header and 2022-04-05 signatures. The manifest, component inventory, and ementa record now use those internal dates and retain 2023 applicability as `indeterminado`; no continuity is inferred from the code or URL. CI1055 now transcribes “Algoritmos e Estruturas de Dados 1”, matching the preserved Ficha 1. The new W010 validator exists and independently passed its declared inventory, applicability, dependency, regulation, manifest-hash, BQ083, CI1055, and Ementário checks.
+
+### Remaining required correction
+
+`curriculos/2023/fontes/README.md` still reports the wrong SHA-256 for `resolucao-80-22-cepe.pdf`: it shows `f041…`, while both the actual stored bytes and the authoritative local source manifest produce `341692b01d0570e2b642aaab758e3c932e1d8ea37668d97afadab0ece2503d73`. Its nearby assertion that the listed hashes refer exactly to the stored binaries is consequently false. This is a source-provenance documentation defect, not a defect in the preserved binary or manifest. Correct the README, append a new W010 error event (rather than altering E-W010-001 through E-W010-004), and add a check or documented cross-check that keeps duplicated README hashes aligned with the manifest before requesting another review.
+
+### Validation performed
+
+- `python scripts/validate_w010_curriculum_2023.py` — passed: 43 targets, 21 dependencies, 12 source hashes, 40 Ficha hashes, four negative searches; zero errors.
+- `python scripts/validate_governance_audit.py` — passed: five error logs, 22 events, three human-review files, eight questions; zero errors.
+- `python scripts/validate_repository.py` — passed: 18 CSV files, 126 preserved hashes, 93 Markdown links; zero warnings and errors.
+- `git diff --check` — passed before this review update.
+- Independent checks — verified the Ementário stored-byte SHA-256 and HTML labels, the 2025/2 schedule identity, BQ083 internal dates/signatures, CI1055 source title, and the Resolution 80 stored-byte/manifest SHA-256.
+
+### Exceptions and gate
+
+The bounded public Ficha gaps and the three pending human-review questions remain documented exceptions, not evidence of nonexistence. They do not block correction of the README inconsistency, but they keep the P1 documentary-completeness gate open and materially limit P2 reconciliation and P3 content comparison. No integration is authorized.
