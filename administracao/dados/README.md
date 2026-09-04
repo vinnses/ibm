@@ -115,6 +115,8 @@ O Planejamento Estratégico 2016–2020 do Setor de Ciências Exatas registra ev
 
 O inventário [`fontes.csv`](fontes.csv) registra URL, instituição, data de consulta, tamanho, SHA-256, caminho e estado de preservação. Os documentos UFPR efetivamente usados foram versionados. Os 11 pacotes nacionais do INEP foram baixados e verificados, mas somam aproximadamente **697 MiB** e não foram inseridos no histórico Git; o inventário conserva suas URLs e hashes, enquanto os manifestos MD5 oficiais, o dicionário, o recorte integral do curso e os scripts reprodutíveis foram versionados.
 
+Isso permanece como **exceção de preservação não resolvida**: os caminhos temporários registrados para os 11 pacotes não existem em um clone limpo, e URLs mais hashes não atendem integralmente à regra de preservação do projeto. A resolução está priorizada em [`governance/ROADMAP.md`](../../governance/ROADMAP.md), preferencialmente por Git LFS ou outro mecanismo versionado vinculado ao repositório.
+
 Reprodução:
 
 ```bash
