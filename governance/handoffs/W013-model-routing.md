@@ -4,7 +4,7 @@
 - Commit base: `92b3f4cfb236cea252b917ad5cf6c5cd8c540929`.
 - Commits produced: `eedbaae` (Work specification); `8204236` (binding routing rules and prospective validation); `3e37081` (negative-test correction and audited resolution); handoff commit at branch `HEAD`.
 - Primary-session model and effort: Sol/medium, selected by the user for this active session; used directly for orchestration and the cross-cutting governance implementation.
-- Agent assignments actually used: primary agent / primary / orchestrator and governance implementer / Sol / medium / user-selected active session / appropriate because this is a global governance change reserved to the primary session. No implementation subagent was used. Independent review is pending and must use a recorded non-Sol assignment.
+- Agent assignments actually used: primary agent / primary / orchestrator and governance implementer / Sol / medium / user-selected active session / appropriate because this is a global governance change reserved to the primary session. No implementation subagent was used. Independent review: subagent / independent governance reviewer / gpt-5.6-terra (Terra) / high / actual / cross-validation of binding, cross-cutting model-routing rules.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none. No Sol subagent was created. No model identity was inferred from an agent display name.
 - Objective: make model routing, primary-session authority, and actual assignment provenance binding and machine-auditable for future Works.
 - Completion verdict: implementation complete; awaiting independent non-Sol review before integration.
@@ -20,4 +20,3 @@
 - Error log, resolved events, and open events: `governance/errors/W013.md`; resolved `E-W013-001`; no open W013 event.
 - Human-review questions and gate consequences: no additional human-only question. The user's model/effort selection remains authoritative, and only the user may change it.
 - Recommended next bounded work unit: independent Terra review of W013; if approved, the primary session integrates W013, updates global indexes, validates, and synchronizes the remote.
-
