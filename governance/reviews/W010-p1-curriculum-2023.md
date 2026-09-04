@@ -64,3 +64,21 @@ The BQ083 PDF itself has the 2022-06-09 render header and 2022-04-05 signatures.
 ### Exceptions and gate
 
 The bounded public Ficha gaps and the three pending human-review questions remain documented exceptions, not evidence of nonexistence. They do not block correction of the README inconsistency, but they keep the P1 documentary-completeness gate open and materially limit P2 reconciliation and P3 content comparison. No integration is authorized.
+
+## Second post-correction follow-up — 2026-09-04
+
+- **Reviewed correction commits:** `82b7eb7`, `d8acf9f`
+- **Prior verdicts preserved:** initial **changes required**; first follow-up **changes required**.
+- **Final verdict:** **changes required**
+
+### Independently confirmed
+
+`git diff 641cbdb..HEAD -- curriculos/2023/fontes/resolucao-80-22-cepe.pdf` is empty: the Resolution 80 PDF was not changed by this correction. Its current stored-byte SHA-256 is `341692b01d0570e2b642aaab758e3c932e1d8ea37668d97afadab0ece2503d73`, which now agrees with both `2023-R80` in `fontes/manifesto.csv` and the human-readable source README. The W010 validator now iterates every PDF source row, requires a corresponding README table row, and rejects a README/manifest hash mismatch. This is a suitable regression check for the duplicated-hash defect and passes on the reviewed branch.
+
+E-W010-005 is an append-only event: it retains the prior bad hash, the affected documentation, ordered recovery attempts, the fact that the binary and manifest were not invalid, and a resolved status. The handoff also lists E-W010-005 with the other resolved events. The W010, governance-audit, repository, and whitespace checks all pass.
+
+### Remaining required correction
+
+The E-W010-005 evidence field says “corrective commit pending,” and the handoff says the hash-correction commit is pending, but the correction is already committed as `82b7eb7` before the documentation commit `d8acf9f`. This is an inaccurate final-process reference in the audit trail. Do not rewrite the original event: append a dated resolution clarification naming `82b7eb7`, and amend the handoff's commit list to name `82b7eb7` and `d8acf9f`. Rerun the existing checks and request one final follow-up review. No research data, source bytes, or human-review status need change for this correction.
+
+The bounded public Ficha gaps and pending human-authority questions remain documented exceptions with the same P1/P2/P3 gate consequences. They do not excuse the agent-correctable audit-reference inconsistency, and no integration is authorized.
