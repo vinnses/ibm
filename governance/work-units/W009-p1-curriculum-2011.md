@@ -3,6 +3,8 @@
 - Objective: produce a per-component documentary inventory for the 2011 curriculum covering all 37 coded components and four elective spaces, with preserved evidence, explicit applicability/version judgments, transcribed formal electives and ementas, and structured dependencies.
 - Branch: `work/w009-p1-curriculum-2011`
 - Commit base: `22b14805956fcece4e381dc089f7dbb06d2b0857`
+- Error log: `governance/errors/W009.md`
+- Human review: `governance/human-reviews/W009-p1-curriculum-2011.md`
 - Inputs: preserved 2010 PPC and Resolução nº 34/2010-CEPE; captured 2011 curriculum pages; official public UFPR/CEPE/SOC/DInf/department/Ementário sources; repository documentary method and source specification.
 - In scope: transcribe the formal elective catalog; enumerate the 37 coded components and four elective spaces; locate and preserve applicable Ficha 1 documents or record bounded negative searches; transcribe ementas with source/version/applicability; locate and preserve Ficha 2 documents by term/class without merging versions; validate offering departments, prerequisites, correquisites, equivalences, and hidden formal requirements; create structured component and dependency datasets; document every conflict and indeterminate assignment.
 - Out of scope: 2023 inventory; administrative/procedural history; curricular quality judgment; cross-curriculum comparison; proposal design; inferring historical content or applicability from a current code/title alone.
