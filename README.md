@@ -77,9 +77,9 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 - [x] Grade, periodização, cargas e pré-requisitos reconstruídos.
 - [ ] Transcrever e estruturar o catálogo formal de optativas da resolução.
 - [ ] Criar inventário individual dos 39 componentes não-TCC e quatro códigos alternativos de TCC.
-- [ ] Localizar e preservar a Ficha 1 vigente de cada componente (20 Fichas 1 do DInf e quatro de outros departamentos preservadas nesta etapa; cobertura e vigência ainda incompletas).
+- [ ] Localizar e preservar a Ficha 1 vigente de cada componente (20 Fichas 1 do DInf e três de outros departamentos preservadas nesta etapa; cobertura e vigência ainda incompletas).
 - [ ] Transcrever literalmente cada ementa e registrar versão/vigência.
-- [ ] Localizar e preservar Fichas 2 por turma e período letivo, priorizando 2023–2026 (16 documentos do índice do DInf e uma oferta de 2022.1 preservados; período de parte do conjunto ainda indeterminado).
+- [ ] Localizar e preservar Fichas 2 por turma e período letivo, priorizando 2023–2026 (16 documentos do índice do DInf e uma oferta de `MN129` em 2022.1 preservados; período de parte do conjunto ainda indeterminado).
 - [ ] Comparar Fichas 2 do mesmo código para medir variação entre ofertas.
 - [ ] Classificar o grau de especificidade das Fichas 1 sem inferir conteúdo ausente.
 - [ ] Catalogar regulamentos próprios de estágio, TCC, extensão e atividades formativas.
