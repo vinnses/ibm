@@ -2,15 +2,14 @@
 
 - Date: 2026-09-04
 - Reviewer role: independent criteria-based review by the orchestrator
-- Branch and commits: `work/w008-p0-preservation`; `5b05d11`, `d8b0d06`, `d70bd4a`
-- Verdict: `blocked`
+- Branch and commits: `work/w008-p0-preservation`; `5b05d11`, `d8b0d06`, `d70bd4a`, `9b1dea5`, and the approval update at branch `HEAD`
+- Verdict: `approved for integration`
 
 ## Findings
 
 ### Blocking
 
-- The branch cannot be pushed because the configured GitHub SSH key is encrypted and no active SSH agent has an unlocked identity. GitHub accepted the public key and then authentication failed when the client could not obtain the passphrase. No LFS object or Git ref was transferred.
-- Consequently, a clone from the repository remote cannot yet be tested. The local clean-clone test proves the Git LFS layout and objects are internally usable, but it does not prove that the remote repository-backed mechanism stores and serves the objects. P0 acceptance and integration remain prohibited.
+- None. The prior SSH authentication blocker was resolved on retry. GitHub accepted all 22 LFS objects and the branch, and a subsequent clean clone from `origin` materialized and validated the source bytes.
 
 ### Non-blocking
 
@@ -28,7 +27,8 @@
 
 - All 11 ZIP integrity checks passed; every ZIP contained exactly one XLSX; every extracted XLSX equaled its ZIP member and matched the official MD5.
 - W006 regenerated 85 source observations and both summaries. The extracted course CSV and both derived CSVs were byte-identical to the committed outputs.
-- A clean clone from the local Git object/LFS stores materialized all 22 binaries and passed both validators. Remote clean-checkout reproducibility is untested and remains the blocker.
+- A clean clone from the local Git object/LFS stores and a separate clean clone from the GitHub remote each materialized all 22 binaries and passed both validators.
+- The remote clone regenerated the 85 W006 observations and both summaries; all three resulting CSVs were byte-identical to the committed outputs.
 
 ### Scope and historical validity
 
@@ -44,8 +44,10 @@
 - W006 extraction and summary regeneration — 85 observations and 85 balance/indicator checks; all three outputs byte-identical.
 - `git diff --check` — passed.
 - Clean local clone with LFS smudge — all 22 objects materialized; both validators passed.
-- `git push --set-upstream origin work/w008-p0-preservation` — failed before transfer with `Permission denied (publickey)` because the accepted encrypted key could not be unlocked non-interactively.
+- `git push --set-upstream origin work/w008-p0-preservation` — passed on retry; 22 LFS objects (reported as 1.2 GB) and the branch were uploaded.
+- Clean clone from `git@github.com:vinnses/ibm.git`, branch `work/w008-p0-preservation` — 22 LFS objects materialized; both validators passed; W006 regenerated 85 observations and all three outputs were byte-identical.
 
 ## Exceptions and roadmap destination
 
-- P0 remains active and blocked at its remote-storage/clean-checkout gate. Human action must unlock an authorized SSH key in an agent visible to this environment (or provide an already configured authorized Git transport). Afterward, rerun the branch push, clone the branch from `origin` into a new directory with Git LFS enabled, and repeat all validators. Only then may review issue an approving verdict and integration be considered.
+- The INEP TLS-chain limitation remains documented as a capture condition, with exact W006 SHA-256 and official MD5 matches establishing byte identity. It does not block integration.
+- P0 acceptance criteria are met. W008 may be integrated under the user's standing authorization to integrate only approved work.
