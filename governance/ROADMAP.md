@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Baseline: 2026-09-04 after integration of W008 P0 preservation and consistency closure.
+Baseline: 2026-09-04 after integration of W012 auditable agent-process governance.
 
 ## Completed foundation
 
@@ -13,6 +13,7 @@ Baseline: 2026-09-04 after integration of W008 P0 preservation and consistency c
 - Annual metrics are separated from cumulative cohort indicators, and the 2026 proposal claims have an evidence-status matrix.
 - The administrative research branch is merged into `main`; repository governance, transfer documentation, and automated validation are now present.
 - P0 preservation exceptions are closed: the 11 exact INEP packages and 11 XLSX inputs used by W006 are stored through Git LFS, remote clean-checkout reproduction passed, the assembly brief is current with the consolidated evidence, and the global catalog is explicitly a curated index backed by complete local manifests.
+- Agent/process failures, recovery attempts, review defects, and human-only questions now have append-only per-work audit trails. Stakeholder testimony and research hypotheses are preserved separately from documentary facts.
 
 ## Execution order
 

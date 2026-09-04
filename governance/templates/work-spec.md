@@ -11,3 +11,5 @@
 - Acceptance criteria:
 - Risks and uncertainty:
 - Validation:
+- Error log:
+- Human review:

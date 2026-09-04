@@ -45,3 +45,5 @@ Do not return long process narratives when these fields are sufficient.
 ## Failure and stop conditions
 
 Stop and hand off when scope must materially expand, a required protected source is inaccessible, a destructive operation needs new authority, or evidence cannot distinguish materially different interpretations. Do not bypass permissions or convert uncertainty into a guess.
+
+Every failure and recovery attempt must also be recorded under `governance/errors/` using `specs/ERROR_RECORD.md`. Review findings that identify incorrect data, provenance, logic, or a missing required deliverable are error events, even when corrected before integration. Human-only questions belong in `governance/human-reviews/`; agents should continue with permitted explicit gaps when the Work specification allows them.

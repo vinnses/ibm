@@ -11,6 +11,7 @@
 7. **Consistency:** internal links, hashes, cross-references, and summary counts agree.
 8. **Uncertainty:** gaps, negative searches, conflicts, and provisional conclusions are visible.
 9. **Git hygiene:** the branch has a known base, scoped commits, and no unrelated changes.
+10. **Process auditability:** failed attempts and review findings are retained in the Work error log; open events match the handoff; human-only questions are separate and state their gate consequence.
 
 ## Required verdict
 

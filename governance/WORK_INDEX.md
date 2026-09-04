@@ -12,6 +12,7 @@ Status is assigned to the bounded milestone, not to the entire research axis.
 | W006 | Administrative historical data | Complete for the bounded public-source search | `5b5423d`; merged by `c242270` | UFPR annual series, INEP cohorts 2011–2020, vacancy points, methods, scripts, audit, claim validation | Raw INEP packages are not repository-preserved; occupancy, complete applicant counts, evaluation data, and older acts remain |
 | W007 | ChatGPT Work consolidation and local Codex governance | Complete | `4421965`, `af8437a`; merged by `d3ac930` | `AGENTS.md`, `governance/`, repository validator, corrected hashes | Future work must follow the new contracts |
 | W008 | P0 preservation and consistency closure | Complete | `5b05d11`, `d8b0d06`, `d70bd4a`, `9b1dea5`, `989722c`; merged by `fdeef13` | 11 INEP packages and 11 exact XLSX inputs in Git LFS, stable manifests, reproducibility checks, updated assembly brief, D011 catalog decision | Git LFS is required to materialize large sources; P1 inventories remain separate work |
+| W012 | Auditable agent error and human-review trail | Complete | `88ded6d`, `fcd9aa8`, `f314806`, `d78ac14`, `2495074`, `2148744`; merged by `403ceac` | Error-record specification, W008-W012 event logs, separate human-review questions, stakeholder hypothesis record, audit validator | W009-W011 correction events remain open in their own P1 branches |
 
 ## Source and review indexes
 
