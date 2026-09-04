@@ -35,6 +35,7 @@ QUESTION_FIELDS = (
     "Gate consequence",
     "Status",
 )
+ALLOWED_EVENT_STATUSES = {"open", "resolved", "accepted exception", "blocked"}
 
 
 def sections(text: str, pattern: re.Pattern[str]) -> list[tuple[str, str]]:
@@ -63,6 +64,15 @@ def validate_records(
     return count, identifiers
 
 
+def event_status(section: str) -> str:
+    status_line = next(
+        (line for line in section.splitlines() if line.startswith("- **Resolution/status:**")),
+        "",
+    )
+    value = status_line.partition("**Resolution/status:**")[2]
+    return value.split(";", 1)[0].strip().lower()
+
+
 def main() -> int:
     errors: list[str] = []
     error_paths = sorted(path for path in ERROR_DIR.glob("W*.md") if path.is_file())
@@ -81,14 +91,9 @@ def main() -> int:
     if not question_ids:
         errors.append("no human-review questions found")
 
-    allowed_statuses = ("open", "resolved", "accepted exception", "blocked")
     for path in error_paths:
         for identifier, section in sections(path.read_text(encoding="utf-8"), EVENT_HEADING):
-            status_line = next(
-                (line for line in section.splitlines() if line.startswith("- **Resolution/status:**")),
-                "",
-            ).lower()
-            if not any(status in status_line for status in allowed_statuses):
+            if event_status(section) not in ALLOWED_EVENT_STATUSES:
                 errors.append(f"invalid or missing status value: {identifier}")
 
     for error in errors:
