@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Baseline: 2026-09-04 after integration of `research/admin-data-2026`.
+Baseline: 2026-09-04 after integration of W008 P0 preservation and consistency closure.
 
 ## Completed foundation
 
@@ -12,16 +12,19 @@ Baseline: 2026-09-04 after integration of `research/admin-data-2026`.
 - Administrative data are consolidated for the public scope reached: UFPR entrants and candidate/vacancy ratio for 2015–2026, official vacancy points, partial absolute applicant data, the UFPR historical dropout measure, and INEP cohort indicators for entry cohorts 2011–2020.
 - Annual metrics are separated from cumulative cohort indicators, and the 2026 proposal claims have an evidence-status matrix.
 - The administrative research branch is merged into `main`; repository governance, transfer documentation, and automated validation are now present.
+- P0 preservation exceptions are closed: the 11 exact INEP packages and 11 XLSX inputs used by W006 are stored through Git LFS, remote clean-checkout reproduction passed, the assembly brief is current with the consolidated evidence, and the global catalog is explicitly a curated index backed by complete local manifests.
 
 ## Execution order
 
-### P0 — Close preservation and consistency exceptions
+### P0 — Close preservation and consistency exceptions — complete
 
 1. Preserve the 11 INEP source packages and the exact extracted spreadsheets used by W006 in a repository-backed mechanism, preferably Git LFS. Replace temporary absolute paths in `administracao/dados/fontes.csv` with stable repository paths and verify the recorded hashes.
 2. Update `assembleia/subsidio-factual-preliminar.md` from the consolidated administrative data and validation matrix. The current file is explicitly marked preliminary and partially superseded.
 3. Decide whether `fontes/catalogo.csv` becomes a complete global catalog or remains an intentionally small index. If complete, generate it from local manifests rather than maintaining duplicates manually.
 
 Acceptance gate: a clean checkout can reproduce every source lookup used by existing conclusions, `python scripts/validate_repository.py` has no errors, and every preservation exception is either resolved or explicitly approved and documented.
+
+Gate result: passed by W008 on 2026-09-04. A clean clone from the GitHub remote materialized all 22 LFS objects, both source/repository validators passed with zero errors and zero warnings, and W006 regenerated 85 observations plus three byte-identical outputs. See `governance/reviews/W008-p0-preservation-consistency.md`.
 
 ### P1 — Complete the 2011 documentary inventory
 

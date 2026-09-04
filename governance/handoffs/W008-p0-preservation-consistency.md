@@ -14,4 +14,13 @@
 - Divergences: no source-byte or extraction divergence. The INEP TLS chain was not trusted by the local client during recapture; exact prior SHA-256 and official MD5 identity checks passed and the limitation is recorded.
 - Provisional information: none affecting the P0 gate. The recorded INEP transport limitation remains part of provenance.
 - Explicitly not performed: no integration into `main`; no update of global roadmap/work indexes; no P1 work; no curricular evaluation, proposal design, or inference from documentary absence.
-- Recommended next bounded work unit: integrate approved W008, update global indexes and the P0 roadmap state, validate `main`, then decompose P1 into independent work units without starting P2.
+- Recommended next bounded work unit: decompose P1 into independent curricular-2011, curricular-2023, and administrative/procedural work units with separate branches, worktrees, local manifests, reviews, and handoffs; do not start P2 until every P1 gate passes.
+
+## Integration record
+
+- Merged branch: `work/w008-p0-preservation` at `989722c`.
+- Merge commit: `fdeef13` (`Merge approved W008 P0 preservation`).
+- Conflict resolutions: none.
+- Global indexes updated: `governance/WORK_INDEX.md` and `governance/ROADMAP.md` in the integration metadata commit at `HEAD`.
+- Final validation: `scripts/validate_inep_sources.py` passed 11 packages, 11 spreadsheets, and 11 official MD5 entries with zero errors; `scripts/validate_repository.py` passed 11 CSV files, 126 hashes, and 88 local Markdown links with zero warnings and zero errors; Python compilation and `git diff --check` passed.
+- Remote synchronization state: work branch and all 22 LFS objects are synchronized; `main` push follows this integration metadata commit.
