@@ -35,3 +35,14 @@ No secret, credential, private key, session cookie, or passphrase was found in t
 ## Consequence and destination
 
 W012 must not be integrated until the exact-status validator correction is committed and passes, and the W009 append is made on the affected W009 branch. These are governance/process corrections; they do not alter the documented research findings or authorize integration of W009–W011. After correction, rerun both validators and request follow-up review.
+
+## Follow-up review — 2026-09-04
+
+- **Corrective commit reviewed:** `2495074 Fix audit status validation and event closure`
+- **Verdict:** **approved for integration**
+
+The two required corrections are complete. The validator now extracts the status value before the first semicolon and compares it to the exact allowed set. Independent negative checks confirm that `unresolved` and `openly` are rejected while all four permitted values are accepted. `E-W012-002` through `E-W012-004` preserve the validator defect, the stale W009 recovery state, and the punctuation failure exposed by the corrected parser, including ordered remediation.
+
+`E-W009-004` retains its original open-event history and now has a dated append recording review commit `24fda02` and its resolution. The substantive W009 findings `E-W009-001` through `E-W009-003`, all four W010 findings, and W011's false-negative finding remain visibly open; W012 approval does not approve or integrate those P1 works.
+
+The handoff count is correct: 22 events across five W008–W012 logs and eight questions across three W009–W011 human-review files. `python scripts/validate_governance_audit.py` and `python scripts/validate_repository.py` both pass with zero errors; `git diff --check` passes and the worktree is clean. No further W012 blocker remains.
