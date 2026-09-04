@@ -18,6 +18,8 @@ Every execution branch requires a work specification containing the following fi
 | Acceptance criteria | Observable conditions for completion |
 | Risks and uncertainty | Expected gaps, conflicting sources, or access limits |
 | Validation | Commands and manual checks required before handoff |
+| Error log | Exact per-work path under `governance/errors/` |
+| Human review | Exact question-record path or an explicit statement that none is anticipated |
 
 ## Execution lifecycle
 
@@ -27,8 +29,10 @@ Every execution branch requires a work specification containing the following fi
 4. Extract or transcribe without interpretation drift.
 5. Validate against sources and work-specific invariants.
 6. Commit in semantically bounded increments.
-7. Produce the handoff in the format defined by `HANDOFF.md`.
-8. Stop. Integration is a separate authorization.
+7. Append every failed attempt, incorrect output, review defect, and recovery to the per-work error log.
+8. Separate agent-correctable errors from questions that genuinely require human access or judgment.
+9. Produce the handoff in the format defined by `HANDOFF.md`.
+10. Stop. Integration is a separate authorization.
 
 ## Definition of done
 

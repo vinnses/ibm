@@ -39,6 +39,14 @@ These instructions apply to the entire repository. Read this file before making 
 - Do not begin the next milestone automatically after completing the current one.
 - Use the smallest capable model and effort. Mechanical capture, hashing, and simple extraction should not consume the strongest reasoning tier.
 
+## Process auditability
+
+- Record every agent, tool, validation, review, source-access, Git, environment, or orchestration error in the affected Work's append-only file under `governance/errors/`, following `governance/specs/ERROR_RECORD.md`.
+- Preserve the failed attempt, affected paths/state, impact, ordered recovery attempts, final status, and verification. A later success does not erase the error history.
+- Do not place secrets, credentials, private keys, session cookies, or passphrases in error records.
+- Keep agent-correctable defects separate from questions that require protected access, institutional authority, value judgment, or human testimony. Record the latter under `governance/human-reviews/` with their gate consequence.
+- Treat stakeholder statements as testimony or research hypotheses until independently supported. Preserve their provenance and do not silently convert them into institutional facts.
+
 ## Language and preservation
 
 - Write technical agent documentation, code, comments, and identifiers in English.

@@ -17,6 +17,8 @@
 
 ### Scope and historical validity
 
+### Process errors and human-review boundary
+
 ## Validation executed
 
 ## Exceptions and roadmap destination

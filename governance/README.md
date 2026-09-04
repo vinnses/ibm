@@ -22,8 +22,12 @@ This directory is the durable operating context for AI-assisted work on the hist
 | [`AGENT_OPERATIONS.md`](AGENT_OPERATIONS.md) | Agent roles, effort routing, and compact result contract |
 | [`specs/WORK_UNIT.md`](specs/WORK_UNIT.md) | Required specification for a bounded work unit |
 | [`specs/SOURCE_RECORD.md`](specs/SOURCE_RECORD.md) | Provenance and preservation schema |
+| [`specs/ERROR_RECORD.md`](specs/ERROR_RECORD.md) | Append-only agent/process error and recovery schema |
 | [`specs/REVIEW.md`](specs/REVIEW.md) | Review and integration criteria |
 | [`specs/HANDOFF.md`](specs/HANDOFF.md) | Mandatory handoff contract |
+| [`errors/`](errors/) | Per-work failed attempts, impacts, corrections, and open events |
+| [`human-reviews/`](human-reviews/) | Questions requiring protected access, authority, testimony, or human judgment |
+| [`research-hypotheses/`](research-hypotheses/) | Stakeholder testimony and research leads kept separate from facts |
 | [`reviews/`](reviews/) | Dated repository and work reviews |
 | [`handoffs/`](handoffs/) | Dated transfers between agents or environments |
 | [`templates/`](templates/) | Copyable work, review, and handoff templates |
