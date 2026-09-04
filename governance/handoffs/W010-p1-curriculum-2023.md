@@ -2,7 +2,7 @@
 
 - **Branch:** `work/w010-p1-curriculum-2023`
 - **Commit base:** `22b14805956fcece4e381dc089f7dbb06d2b0857`
-- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; follow-up documentation commit pending this amended handoff.
+- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; `bfd3eeb` — correction documentation; hash-correction commit pending this amended handoff.
 - **Verdict:** Collection and structuring complete for the bounded public evidence reached; documentary completeness remains **not established** because many applicable Ficha 1/Ficha 2 versions were not publicly located. This is a handoff for cross-branch review, not approval or integration.
 
 ## Deliverables and coverage
@@ -40,7 +40,7 @@ No claim is made that an indeterminate Ficha applies to the 2023 curriculum. No 
 
 ## Error events and human-review questions
 
-`E-W010-001` through `E-W010-004` remain in the append-only error log with dated correction updates; all four are resolved by the source/Ficha/validator correction recorded above. `HR-W010-001` (current applicable Ficha 1), `HR-W010-002` (term/class-specific Ficha 2), and `HR-W010-003` (authoritative Ementário status) remain pending human-access/authority questions. They do not replace the completed agent corrections.
+`E-W010-001` through `E-W010-005` remain in the append-only error log with dated correction updates; all five are resolved. E-W010-005 corrects a README-only Resolution 80 hash divergence and adds an automated README/manifest hash cross-check. `HR-W010-001` (current applicable Ficha 1), `HR-W010-002` (term/class-specific Ficha 2), and `HR-W010-003` (authoritative Ementário status) remain pending human-access/authority questions. They do not replace the completed agent corrections.
 
 ## Recommended next bounded work unit
 
