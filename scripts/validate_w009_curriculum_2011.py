@@ -43,10 +43,28 @@ def main() -> int:
         if row["target_type"] == "coded_component" and not row["ficha1_status"]:
             errors.append(f"missing Ficha 1 state: {row['target_id']}")
     component_codes = {row["code"] for row in coded}
+    edges: dict[str, set[str]] = {code: set() for code in component_codes}
     for row in rows("curriculos/2011/inventario/dependencias.csv"):
         for endpoint in (row["from_target"], row["to_target"]):
             if endpoint != "BLOCK-A" and endpoint not in component_codes:
                 errors.append(f"dependency endpoint not in coded inventory: {endpoint}")
+        if row["relation"] == "prerequisite":
+            edges[row["from_target"]].add(row["to_target"])
+    visiting: set[str] = set()
+    visited: set[str] = set()
+    def visit(node: str) -> None:
+        if node in visiting:
+            errors.append(f"prerequisite cycle includes: {node}")
+            return
+        if node in visited:
+            return
+        visiting.add(node)
+        for successor in edges[node]:
+            visit(successor)
+        visiting.remove(node)
+        visited.add(node)
+    for code in component_codes:
+        visit(code)
     for manifest in ("curriculos/2011/fontes/manifesto.csv", "curriculos/2011/fichas/manifesto.csv"):
         for row in rows(manifest):
             path = ROOT / row["local_path"]
