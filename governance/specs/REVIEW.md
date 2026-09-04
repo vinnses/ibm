@@ -12,6 +12,7 @@
 8. **Uncertainty:** gaps, negative searches, conflicts, and provisional conclusions are visible.
 9. **Git hygiene:** the branch has a known base, scoped commits, and no unrelated changes.
 10. **Process auditability:** failed attempts and review findings are retained in the Work error log; open events match the handoff; human-only questions are separate and state their gate consequence.
+11. **Model routing:** the spec and handoff identify the primary-session assignment and every agent model/effort/role; no Sol subagent was created; reassignments and escalations were recorded before continued execution.
 
 ## Required verdict
 

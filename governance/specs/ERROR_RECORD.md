@@ -2,6 +2,8 @@
 
 Every agent, tool, validation, review, source-access, Git, environment, or orchestration error must be recorded in the affected work's file under `governance/errors/`. Record failed attempts even when a later attempt succeeds. Do not erase or rewrite the failed path; append the resolution.
 
+Using an unrecorded model/effort, creating a Sol subagent, delegating primary-session-only work, or continuing after an unrecorded model escalation is an orchestration error and must be recorded.
+
 ## Required fields
 
 - `Event ID`: stable `E-W###-NNN` identifier.
