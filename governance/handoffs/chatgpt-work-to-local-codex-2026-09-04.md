@@ -7,10 +7,11 @@ Date: 2026-09-04.
 - Repository: `https://github.com/vinnses/ibm`
 - Integration base: `origin/main` at `ad1ce16`
 - Integrated work branch: `research/admin-data-2026` at `5b5423d`
-- Administrative merge commit: `5ca4b28`
-- Governance branch: `governance/local-codex-handoff`, based on `5ca4b28`
-- Governance commit: the commit containing this handoff and the `governance/` directory
-- Target: merge the governance branch into `main` and synchronize `origin/main`
+- Administrative merge commit: `c242270`
+- Source-integrity correction commit: `4421965`
+- Governance branch commit: `af8437a`
+- Governance merge commit: `d3ac930`
+- Remote state: governance merged and `origin/main` synchronized; the later metadata-only commit containing these final remote SHAs may advance `main` again
 
 Resolve the current remote state locally with:
 
@@ -26,7 +27,7 @@ python scripts/validate_repository.py
 
 Objective: consolidate completed ChatGPT Work branches into `main`, establish durable AI governance, and transfer an explicit roadmap to local Codex.
 
-Verdict: complete after the governance merge and remote synchronization, with the raw INEP preservation exception carried into roadmap P0.
+Verdict: complete, with the raw INEP preservation exception carried into roadmap P0.
 
 ## Deliverables
 

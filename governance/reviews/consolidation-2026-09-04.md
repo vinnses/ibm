@@ -11,8 +11,10 @@ The completed administrative branch was suitable for integration after reproduci
 - Remote default branch before integration: `origin/main` at `ad1ce16`.
 - Only unmerged remote work branch found: `origin/research/admin-data-2026` at `5b5423d`.
 - The branch was one commit ahead and zero commits behind `main`.
-- Merge commit: `5ca4b28` (`Merge administrative data research`).
+- Remote merge commit: `c242270` (`Merge administrative data research`).
 - The earlier 2011 and 2023 work was already present in `main`.
+
+The governance changes were committed as `4421965` and `af8437a`, then merged into remote `main` by `d3ac930`.
 
 ## Validation performed
 
