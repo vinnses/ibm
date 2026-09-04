@@ -4,7 +4,8 @@
 - Branch: `governance/w013-model-routing`
 - Commit base: `92b3f4cfb236cea252b917ad5cf6c5cd8c540929`
 - Primary-session assignment: Sol/medium, selected by the user for the active session; the primary agent acts as orchestrator and governance integrator.
-- Subagent assignments: no subagent for implementation; any independent review may use Terra/high and must record its assignment before work begins. Sol subagents are prohibited.
+- Agent assignments: primary agent / orchestrator and governance implementer / Sol / medium / actual / global governance change remains in the user-supervised primary session. No implementation subagent is assigned. An independent reviewer may later be assigned Terra/high and must record that assignment before review.
+- Escalation rule: Sol subagents are prohibited. Work requiring Sol returns to the primary session, which continues at its active user-selected model/effort or waits for the user to change it.
 - Inputs: `AGENTS.md`; `governance/AGENT_OPERATIONS.md`; `governance/DECISIONS.md`; governance Work, review, handoff, and error specifications; the user's binding clarification in the active session.
 - In scope: reserve Sol for the user-supervised primary session; prohibit Sol subagents; define Luna and Terra routing; state that integration, final audit, and global synthesis are performed directly by the active primary session at its current user-selected model/effort; require model, effort, role, actor, and routing rationale in Work specs and handoffs; require escalation records; add automated prospective checks; update the decision log and agent entry-point instructions.
 - Out of scope: changing historical model assignments that cannot be proven; redoing W008-W012; completing W010 or the P1 gate; P2-P4 research; changing the user's active model or reasoning effort.
@@ -15,4 +16,3 @@
 - Validation: inspect all changed governance language for agreement; exercise positive and negative model-routing validator cases; `python scripts/validate_governance_audit.py`; `python scripts/validate_repository.py`; `git diff --check`; independent review under `governance/specs/REVIEW.md` using a non-Sol subagent.
 - Error log: `governance/errors/W013.md`.
 - Human review: the user's active-session selection is authoritative; no additional human-only question is anticipated for this bounded Work.
-

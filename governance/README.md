@@ -9,7 +9,8 @@ This directory is the durable operating context for AI-assisted work on the hist
 3. [`ROADMAP.md`](ROADMAP.md) — completed milestones, open work, dependencies, and gates.
 4. [`WORK_INDEX.md`](WORK_INDEX.md) — map from past work to commits and deliverables.
 5. [`../metodologia/criterios-documentais.md`](../metodologia/criterios-documentais.md) — documentary method.
-6. The relevant specification in [`specs/`](specs/) before starting a branch.
+6. [`AGENT_OPERATIONS.md`](AGENT_OPERATIONS.md) — functional roles, binding model routing, and primary-session authority.
+7. The relevant specification in [`specs/`](specs/) before starting a branch.
 
 ## Directory map
 
