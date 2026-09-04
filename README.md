@@ -38,12 +38,15 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 ## Estrutura
 
 - `metodologia/`: critérios documentais e regras de transcrição;
+- `governance/`: operating rules, work specifications, reviews, handoffs and roadmap for AI-assisted work;
 - `curriculos/2011/`: reconstrução do currículo original;
 - `curriculos/2023/`: reconstrução do currículo vigente;
 - `administracao/`: editais, indicadores, atas, pareceres e demais registros administrativos;
 - `propostas/`: documentos e análise futura da reorganização;
 - `assembleia/`: sínteses factuais temporárias para discussão;
 - `scripts/`: coleta e validação reproduzíveis.
+
+AI agents and local Codex sessions must start with [`AGENTS.md`](AGENTS.md) and the [governance index](governance/README.md).
 
 ## Estado e plano completo
 
@@ -53,7 +56,8 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 - [x] Separação entre documento original, extração e interpretação.
 - [x] Regra de preservação local de todo arquivo utilizado.
 - [x] Criar catálogo global inicial de fontes com URL, caminho, data, tipo, vigência e SHA-256.
-- [ ] Verificar todos os links internos e hashes em rotina automatizada.
+- [x] Adicionar rotina automatizada para estrutura dos CSVs, hashes manifestados e links Markdown locais.
+- [ ] Resolver a exceção de preservação dos 11 pacotes brutos do INEP usados na extração administrativa.
 - [x] Preservar cópias das páginas HTML utilizadas nesta etapa.
 
 ### 1. Currículo de 2011
@@ -124,8 +128,10 @@ Síntese, dados e auditoria: [`administracao/dados/`](administracao/dados/).
 
 ## Prioridade imediata
 
-1. concluir a coleta das Fichas 1 e 2 disponíveis para o currículo vigente;
-2. produzir inventário legível das ementas e das lacunas;
-3. reunir documentos e perguntas factuais para a assembleia extraordinária;
-4. completar as lacunas remanescentes de candidatos absolutos, ocupação, notas de corte e avaliações institucionais;
-5. avançar na comparação curricular antes de avaliar os efeitos formativos da proposta.
+O roteiro autoritativo e seus critérios de conclusão estão em [`governance/ROADMAP.md`](governance/ROADMAP.md). Em resumo:
+
+1. preservar no repositório os insumos brutos do INEP ainda ausentes e atualizar o subsídio preliminar da assembleia;
+2. concluir os inventários documentais e a coleta de Fichas dos currículos de 2011 e 2023;
+3. completar atos históricos, avaliações e documentos processuais da proposta de 2026;
+4. auditar e congelar uma base documental antes da comparação curricular;
+5. somente então comparar currículos e avaliar a proposta.

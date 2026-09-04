@@ -2,6 +2,8 @@
 
 Data de preparação: 4 de setembro de 2026.
 
+> **Aviso de atualização:** este texto foi preparado antes da consolidação dos dados administrativos no mesmo dia. A seção sobre alegações ainda não verificadas foi parcialmente superada por [`administracao/dados/README.md`](../administracao/dados/README.md) e pela [`matriz de validação de alegações`](../administracao/mec/2026/matriz-validacao-alegacoes.md). Ele deve ser atualizado antes de uso em assembleia; permanece preservado como subsídio preliminar.
+
 Este documento não apresenta uma posição final. Ele reúne o que está comprovado, o que é alegado pela proposta e o que ainda precisa ser apresentado para que a reorganização possa ser avaliada documentalmente.
 
 ## O que está comprovado

@@ -14,6 +14,8 @@ Data: 4 set. 2026. Escopo: arquivos textuais em `administracao/dados`, `administ
 | Scripts INEP | Executados `extrair_indicadores_trajetoria.py` e `resumir_indicadores_trajetoria.py` com as 11 planilhas, coortes 2011–2020; a validação exige balanço coorte × ano e separa TCA/TDA acumuladas de TCAN/TADA anuais. |
 | Complemento NC/UFPR | Os três arquivos locais têm SHA-256/tamanho conferidos e as URLs oficiais retornaram HTTP 200. O HTML de 2016 confirma 65 no campo “Total Geral de Inscritos” (1 treineiro separado). No PDF de 2019/2020 foram preservados somente os 37 da coluna “Concorrência Geral” e os 2 treineiros; categorias potencialmente sobrepostas não foram somadas. |
 
+O caminho de scratch registrado para os XLSX documenta o ambiente original da auditoria e não é portátil. Os pacotes e planilhas brutos não estão presentes em um clone limpo; esta limitação foi formalizada como exceção de preservação no roadmap de governança.
+
 ## Reconciliações confirmadas
 
 - A matriz passa a reconhecer a série pública do Observatório UFPR: ingressantes e relação candidato/vaga para 2015–2025; 2026 é preservado exclusivamente com a ressalva da interface.
