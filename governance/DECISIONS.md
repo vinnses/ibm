@@ -12,5 +12,6 @@
 | D008 | Use the smallest capable model and effort. | Capture and hashing do not require global reasoning. | Reserve high-reasoning models for reconciliation, audit, and synthesis. |
 | D009 | The repository replaces chat as durable project memory. | Work is moving from ChatGPT Work to local Codex. | New agents recover state from `AGENTS.md`, governance, manifests, commits, and handoffs. |
 | D010 | Global catalogs change only during explicit integration. | Concurrent collectors can conflict on shared indexes. | Collection branches maintain local manifests; integration reviews decide global updates. |
+| D011 | `fontes/catalogo.csv` is a curated global index rather than a complete union. | Local manifests are authoritative for bounded collections; duplicating every record in a global CSV creates drift and merge conflicts without adding evidence. | Every collection maintains a complete local manifest. The global catalog may point to major source sets but completeness claims and validation use the local manifests. |
 
 Add decisions only when they change future work. Do not use this file as a narrative activity log.
