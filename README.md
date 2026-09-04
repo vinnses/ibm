@@ -1,53 +1,129 @@
 # História curricular da Informática Biomédica — UFPR
 
-Este repositório reúne a reconstrução documental e a análise histórica do curso de Bacharelado em Informática Biomédica da Universidade Federal do Paraná (UFPR), criado em 2011 e vinculado ao Departamento de Informática.
+Este repositório reúne a reconstrução documental e a análise histórica do Bacharelado em Informática Biomédica da Universidade Federal do Paraná (UFPR), vinculado ao Departamento de Informática.
 
 ## Objetivo
 
-Reconstruir cada versão curricular do curso antes de compará-las, preservando:
+Reconstruir documentalmente cada currículo antes de compará-los e, em seguida, analisar a proposta de reorganização do curso. O projeto preserva a estrutura formal, as ementas, os planos de ensino, as vigências, os atos administrativos, os indicadores e os documentos propositivos.
 
-- a estrutura formal de cada currículo;
-- os documentos normativos e suas respectivas vigências;
-- as disciplinas obrigatórias e os espaços curriculares efetivos;
-- as ementas historicamente identificáveis;
-- as mudanças documentadas entre versões;
-- os editais, indicadores e demais registros administrativos relevantes;
-- propostas institucionais relacionadas à continuidade, transformação ou substituição do curso.
+## Regra de preservação
 
-## Recorte atual
+Todo arquivo utilizado como evidência deve ser copiado para este repositório e referenciado pelo caminho local e pela URL de procedência. Isso inclui PDFs, planilhas, páginas HTML, imagens e arquivos auxiliares. Uma URL sem cópia preservada pode ser registrada como pista de pesquisa, mas não sustenta uma conclusão documental do projeto.
 
-A reconstrução curricular está limitada, nesta etapa, ao currículo que entrou em vigor em 2011, instituído pela Resolução nº 34/2010-CEPE.
+Cada fonte preservada deve possuir, quando tecnicamente possível:
 
-Documentos administrativos posteriores podem ser catalogados desde já em eixo próprio. Sua inclusão não antecipa a comparação curricular nem transforma uma proposta em decisão aprovada.
+- nome local estável;
+- URL de origem;
+- data de consulta;
+- código da disciplina ou processo relacionado;
+- tipo documental e vigência observável;
+- hash SHA-256;
+- indicação de autenticidade, incompletude ou divergência.
 
-## Princípio de análise
+## Eixos
 
-O projeto mantém três eixos documentais separados:
+1. **Currículo de 2011:** matriz, Fichas 1, Fichas 2, optativas, atividades formativas e documentação normativa.
+2. **Currículo de 2023:** matriz vigente, Fichas 1, Fichas 2, estágio, extensão, TCC, optativas e documentação normativa.
+3. **História administrativa:** criação do curso, reformulações, procura, ingresso, evasão, conclusão, avaliações e decisões colegiadas.
+4. **Proposta de 2026:** tramitação, justificativas, matriz proposta, recursos associados e consequências institucionais.
+5. **Comparação:** realizada somente depois da reconstrução suficiente dos documentos anteriores.
 
-1. **currículos** — estrutura formal, ementas e vigências;
-2. **administração** — editais, indicadores, diagnósticos, deliberações e decisões;
-3. **propostas** — projetos de transformação ou substituição, até que exista prova documental de aprovação e implementação.
+## Ficha 1 e Ficha 2
 
-Ofertas ocasionais de disciplinas, docentes e planos de ensino semestrais são voláteis para a caracterização da matriz. Dados administrativos oficiais, contudo, são relevantes para reconstruir o processo decisório institucional.
+- A **Ficha 1 permanente** é a referência principal da ementa, natureza, carga horária e requisitos formalmente aprovados.
+- A **Ficha 2 variável** registra a concretização de uma oferta: programa, objetivos, procedimentos, avaliação, bibliografia, docente, turma e período.
+- Diferentes Fichas 2 do mesmo código não serão fundidas. A variação entre elas é um objeto da pesquisa.
+- Uma Ficha 1 genérica será descrita como tal; sua relação com inconsistências entre ofertas só será avaliada após a comparação das Fichas 2.
 
 ## Estrutura
 
-- `metodologia/`: critérios de reconstrução e análise documental;
-- `curriculos/`: reconstrução separada de cada currículo;
-- `administracao/`: editais, indicadores e outros registros administrativos;
-- `propostas/`: propostas institucionais, mantidas fora das reconstruções curriculares enquanto não implementadas;
-- `scripts/`: ferramentas de coleta, extração e validação, quando necessárias.
+- `metodologia/`: critérios documentais e regras de transcrição;
+- `curriculos/2011/`: reconstrução do currículo original;
+- `curriculos/2023/`: reconstrução do currículo vigente;
+- `administracao/`: editais, indicadores, atas, pareceres e demais registros administrativos;
+- `propostas/`: documentos e análise futura da reorganização;
+- `assembleia/`: sínteses factuais temporárias para discussão;
+- `scripts/`: coleta e validação reproduzíveis.
 
-## Estado
+## Estado e plano completo
 
-- [x] Grade curricular de 2011 identificada;
-- [ ] Documentos normativos de 2011 preservados;
-- [ ] Ementas do currículo de 2011 verificadas;
-- [ ] Representação estruturada do currículo de 2011;
-- [x] Edital interno UFPR 01/2026 e proposta setorial catalogados;
-- [ ] Resultado final e atos decisórios da proposta de 2026 localizados;
-- [x] Estrutura do currículo vigente de 2023 reconstruída e fontes primárias preservadas;
-- [ ] Ementas do currículo de 2023 verificadas individualmente;
-- [ ] Currículos intermediários, se identificados;
-- [ ] Comparação histórica;
-- [ ] Análise de propostas institucionais.
+### 0. Infraestrutura documental
+
+- [x] Repositório e critérios iniciais criados.
+- [x] Separação entre documento original, extração e interpretação.
+- [x] Regra de preservação local de todo arquivo utilizado.
+- [x] Criar catálogo global inicial de fontes com URL, caminho, data, tipo, vigência e SHA-256.
+- [ ] Verificar todos os links internos e hashes em rotina automatizada.
+- [x] Preservar cópias das páginas HTML utilizadas nesta etapa.
+
+### 1. Currículo de 2011
+
+- [x] Grade e periodização identificadas na Resolução nº 34/2010-CEPE.
+- [x] Preservar a Resolução nº 34/2010-CEPE no diretório do currículo.
+- [x] Localizar e preservar o PPC original de 30 de julho de 2010.
+- [ ] Transcrever o elenco formal de optativas.
+- [ ] Criar inventário dos 37 componentes codificados.
+- [ ] Localizar e preservar a Ficha 1 correspondente à vigência de cada componente.
+- [ ] Transcrever literalmente cada ementa e registrar versão/vigência.
+- [ ] Localizar e preservar Fichas 2 por turma e período letivo.
+- [ ] Registrar Fichas 1 ou 2 genéricas, ausentes, contraditórias ou posteriores.
+- [ ] Documentar departamentos, correquisitos e requisitos não visíveis na tabela resumida.
+- [ ] Representar a estrutura e as dependências em formato estruturado.
+
+### 2. Currículo de 2023 — vigente
+
+- [x] Resolução nº 75/22-CEPE e PPC 2023 preservados.
+- [x] Resoluções departamentais nº 76 a 80/22-CEPE preservadas.
+- [x] Grade, periodização, cargas e pré-requisitos reconstruídos.
+- [ ] Transcrever e estruturar o catálogo formal de optativas da resolução.
+- [ ] Criar inventário individual dos 39 componentes não-TCC e quatro códigos alternativos de TCC.
+- [ ] Localizar e preservar a Ficha 1 vigente de cada componente (20 Fichas 1 do DInf e quatro de outros departamentos preservadas nesta etapa; cobertura e vigência ainda incompletas).
+- [ ] Transcrever literalmente cada ementa e registrar versão/vigência.
+- [ ] Localizar e preservar Fichas 2 por turma e período letivo, priorizando 2023–2026 (16 documentos do índice do DInf e uma oferta de 2022.1 preservados; período de parte do conjunto ainda indeterminado).
+- [ ] Comparar Fichas 2 do mesmo código para medir variação entre ofertas.
+- [ ] Classificar o grau de especificidade das Fichas 1 sem inferir conteúdo ausente.
+- [ ] Catalogar regulamentos próprios de estágio, TCC, extensão e atividades formativas.
+- [ ] Resolver a divergência do Portal do Ementário, que ainda expõe a matriz anterior.
+- [ ] Representar a estrutura e as dependências em formato estruturado.
+
+### 3. História administrativa e indicadores
+
+- [ ] Preservar atos de criação e reconhecimento do curso.
+- [ ] Preservar atas e pareceres da reforma aprovada em 2022.
+- [ ] Obter séries oficiais de vagas, inscritos, concorrência e notas de corte.
+- [ ] Obter séries oficiais de ingresso, permanência, evasão, retenção e conclusão.
+- [ ] Identificar metodologia, denominadores e recortes temporais de cada indicador.
+- [ ] Obter avaliações institucionais, Enade, relatórios da CPA e dados do e-MEC.
+- [ ] Separar indicadores específicos do curso de diagnósticos gerais do Setor de Ciências Exatas.
+
+### 4. Edital e proposta de reorganização de 2026
+
+- [x] Edital nº 01/2026-PROGRAP/PROPLAD preservado.
+- [x] Apêndice B preenchido preservado e descrito.
+- [ ] Localizar e preservar o Apêndice A e o memorando de encaminhamento.
+- [ ] Localizar atas e deliberações do NDE, Colegiado e Conselho Setorial.
+- [ ] Localizar resultado final e pareceres da PROGRAP/PROPLAD.
+- [ ] Localizar submissão institucional e decisão do MEC.
+- [ ] Obter a matriz proposta de Inteligência Artificial Aplicada à Saúde.
+- [ ] Obter ementas, Fichas 1, PPC ou minutas dos novos componentes propostos.
+- [ ] Identificar precisamente componentes mantidos, removidos, reduzidos, substituídos e compartilhados.
+- [ ] Verificar documentalmente as alegações de baixa procura, evasão, demanda por IA e suficiência de infraestrutura.
+- [ ] Identificar condições e garantias relativas às duas vagas docentes solicitadas.
+- [ ] Determinar o estágio correto: proposta, selecionada, aprovada, autorizada ou implementada.
+
+### 5. Comparação e análise
+
+- [ ] Comparar 2011 e 2023 somente após completar seus inventários documentais.
+- [ ] Comparar ementas e programas, não apenas códigos e nomes.
+- [ ] Analisar progressão, pré-requisitos, continuidade e redundância dos conteúdos.
+- [ ] Comparar a formação em Computação, Biociências, Saúde e integração interdisciplinar.
+- [ ] Avaliar a proposta de 2026 contra os currículos reconstruídos e os indicadores verificados.
+- [ ] Produzir análise final distinguindo fatos, alegações institucionais e interpretação.
+
+## Prioridade imediata
+
+1. concluir a coleta das Fichas 1 e 2 disponíveis para o currículo vigente;
+2. produzir inventário legível das ementas e das lacunas;
+3. reunir documentos e perguntas factuais para a assembleia extraordinária;
+4. completar depois a série histórica de 2011 e os indicadores administrativos;
+5. só então desenvolver a comparação e a análise da proposta.
