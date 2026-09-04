@@ -1,0 +1,79 @@
+code,title,total_hours,formal_source,status,notes
+BC012,Técnicas Histológicas,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BC043,Biologia Celular Avançada,90,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BC061,Processos Celulares,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG020,Genética Médica,40,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG030,Imunogenética Básica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG048,Genética de Populações Humanas,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG049,Temas Atuais em Genética,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG055,Citogenética Humana,45,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+BG066,Epigenética,45,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1008,Introdução a Sistemas Embarcados,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1009,Computação Paralela com GPUs,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1010,Programação Web,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1011,Reconhecimento de Padrões,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1013,Grandes Ideias da Computação Teórica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1014,Redes Sociais e Econômicas,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1015,Teste de Software,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1016,Técnicas em Modelagem de Aplicações,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1017,Criptografia,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1018,Tópicos em Inteligência Artificial,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1019,Tópicos em Inteligência Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1020,Robótica Móvel,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1021,Programação de Dispositivos Móveis,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1022,Projeto de Sistemas Digitais,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1023,Projeto de Sistemas Embarcados,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1024,Tópicos em Arquitetura de Computadores,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1025,Dispositivos Reprogramáveis,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1026,Visão Computacional e Percepção,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1027,Introdução à Pesquisa em Ciência da Computação,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1028,Biometria e Vigilância por Visão Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1029,Tópicos em Segurança Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1030,Ciência de Dados para Segurança,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1031,Desafios de Programação,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1032,Tópicos em Complexidade Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1033,Computação Quântica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1034,Tópicos em Otimização,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1035,Tópicos em Computação Científica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1036,Tópicos em Programação Paralela,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1037,Tópicos em Sistemas Operacionais,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1038,Tópicos em Programação de Computadores,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1040,Fundamentos da Extensão Universitária,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1059,Introdução à Teoria da Computação,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1084,Tópicos em Teoria dos Grafos,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1086,Arquiteturas de Alto Desempenho,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1087,Tópicos em Banco de Dados,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1088,Sistemas Distribuídos,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1090,Tópicos em Engenharia de Software,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1091,Avaliação de Desempenho,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1170,Tópicos em Computação Bioinspirada,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1173,Computação Gráfica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1174,Tópicos em Aprendizado de Máquina,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1175,Oficina de Computação de Imagens,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1176,Tópicos em Visão Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1177,Tópicos em Computação Gráfica,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1178,Teoria do Aprendizado de Máquina,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1204,Inovação Tecnológica e Gestão de Projetos,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1211,Construção de Compiladores,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1219,Sistemas Avançados de Banco de Dados,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1220,Teoria de Sistemas,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1311,Fundamentos Lógicos da Inteligência Artificial,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1315,Projeto de Sistemas Operacionais,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1338,Geometria Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1339,Complexidade Computacional,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1351,Tópicos em Interação Humano-Computador,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1352,Design de Sistemas Sociotécnicos,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1353,Prática em Desenvolvimento de Software,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1355,Tópicos em Algoritmos,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1360,Redes Móveis,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1365,Tópicos em Redes de Computadores,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1366,Gerenciamento de Redes de Computadores,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1367,Tópicos em Simulação de Sistemas Computacionais,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1394,Processamento de Imagens,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CI1397,Sistemas Tutores Inteligentes,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+CM314,Cálculo 4,60,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+MN150,Epidemiologia Crítica,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+MN152,Gestão da Qualidade em Saúde,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+MN155,Saúde do Trabalho,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+MN156,Gênero e Saúde Coletiva,30,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta
+MN159,Primeiros Socorros,15,Resolução 75/22-CEPE Anexo I,comprovada,catálogo formal; não indica oferta

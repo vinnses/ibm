@@ -1,0 +1,22 @@
+dependent_code,prerequisite_code,relation,source,notes
+CI1001,CI1055,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1056,CI1055,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CM311,CM310,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+BQ083,BQ112,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1002,CI1001,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1002,CI1056,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1057,CI1001,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1212,CI1068,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+BF114,BC056,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+BF114,BQ112,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+BG079,BQ083,prerequisite,Resolução 75/22-CEPE Anexo I,literal
+CI1163,CI1062,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1163,CI1162,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1171,CE009,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1169,CI1171,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1221,CI1163,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1005,CI1163,prerequisite,Resolução 75/22-CEPE Anexo I,in addition to the 17-component barrier
+CI1132,CI1131,alternative-prerequisite,Resolução 75/22-CEPE Anexo I,literal OR
+CI1132,CI1133,alternative-prerequisite,Resolução 75/22-CEPE Anexo I,literal OR
+CI1134,CI1131,alternative-prerequisite,Resolução 75/22-CEPE Anexo I,literal OR
+CI1134,CI1133,alternative-prerequisite,Resolução 75/22-CEPE Anexo I,literal OR

@@ -1,0 +1,5 @@
+search_id,accessed_at,official_domains,terms,result,limits,affected_targets
+N01,2026-09-04,web.inf.ufpr.br/dinf,"CI1054 CI1101 CI1172 CI1244 CI1131 CI1132 CI1133 CI1134 ficha 1 ficha 2",Índice DInf preservado não lista Fichas destes códigos,A página atual é índice departamental e não prova inexistência,CI1054|CI1101|CI1172|CI1244|CI1131|CI1132|CI1133|CI1134
+N02,2026-09-04,ementario.ufpr.br,"currículo 96A Informática Biomédica",Portal preservado apresenta matriz de 3000h anterior; não fornece representação utilizável da matriz 2023,A página pode estar desatualizada e não prova inexistência de registros atuais,todos os 43
+N03,2026-09-04,ufpr.br,"BA040 CM310 CM304 CM311 BC056 CE009 ficha 1 Informática Biomédica",Nenhuma Ficha 1 específica da matriz 2023 preservada na coleta inicial,Busca pública limitada; departamentos podem manter fonte não indexada,BA040|CM310|CM304|CM311|BC056|CE009
+N04,2026-09-04,ufpr.br,"Ficha 2 2023 2024 2025 2026 Informática Biomédica",Apenas MN129 2022.1 foi localizada fora do DInf; Fichas 2 DInf preservadas não têm período/turma identificado de modo inequívoco,Não converter ausência pública em inexistência,todos os 43
