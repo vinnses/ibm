@@ -34,3 +34,67 @@ The local manifests resolve and hash correctly. The source captures preserve the
 - Independent CSV audit — component and ementa code sets match (37/37); all ementa evidence paths exist; seven explicit prerequisite edges match the resolution sample; the five improper Bloco A endpoints and sampled credit mismatches above were reproduced directly from the preserved resolution.
 
 No integration is authorized by this review.
+
+## Post-correction follow-up — 2026-09-04
+
+- **Corrective commits reviewed:** `b7c998d`, `50db1b9`
+- **Post-correction verdict:** **approved with documented exceptions**
+
+The preceding `changes required` verdict is retained as the record of the
+pre-correction review. The three integration blockers have been corrected and
+rechecked; this follow-up is the operative verdict for the corrected branch.
+
+### Corrected Bloco A rule and component measures
+
+The Article 1 Formação Básica set is now represented as its 15 members:
+`CI241`, `CI055`, `CM201`, `CM045`, `BA040`, `CI243`, `CI056`, `CI067`,
+`CM005`, `BQ005`, `CI244`, `CI057`, `CI166`, `BQ054`, and `BC056`.
+The Article 2 §1 hidden-requirement rows now have 26 endpoints: 22 coded
+components outside that set and the four elective spaces (`OPT-07-01`,
+`OPT-08-01`, `OPT-08-02`, and `OPT-08-03`). The four space rows expressly
+condition a later catalog selection and do not assert an offering. No Bloco A
+member is an endpoint of its own completion rule.
+
+Independent cross-checking of every Anexo I row confirms the fields are now
+kept distinct: `weekly_total_hours` transcribes `Tot.`, and `credits`
+transcribes `Créd.`. The 37 coded components comprise 26 rows of
+`60/4/3`, 10 rows of `60/4/4`, and CI262 at `120/8/6`
+(`total_hours/weekly_total_hours/credits`); each of the four elective spaces
+is `60/4/4`. The calculated `total_hours` values are consistent with the
+15-week structure and the act's category totals; they are not a relabeling of
+the Anexo's weekly `Tot.` field.
+
+### Workload contradiction and prior-review calculation
+
+The preserved act remains contradictory in its category presentation. Article
+1 labels Formação Profissional Geral as 840 hours, while Article 3 labels it
+as 960 hours. Anexo I independently recomputes to 840 hours for its 14
+non-TCC 60-hour components; adding CI262 Trabalho de Conclusão de Curso
+(120 hours) produces 960 hours. This arithmetic supports neither an assertion
+that the act explicitly classifies TCC inside Formação Profissional Geral nor
+an assertion that it excludes it: Article 1 displays TCC separately, and the
+classification treatment is not stated expressly. `D-W009-001` correctly
+preserves this as contradictory evidence rather than resolving it by
+inference.
+
+The earlier review's 900-hour statement is also retained as a review claim,
+but is not reproducible from Anexo I: the apparent fifteenth item, CI262, is
+120 rather than 60 hours. Its correction does not erase the 840/960 source
+contradiction.
+
+### Remaining documented exceptions and checks
+
+- The bounded public-search/Ficha gaps and the current-portal Ementário
+  limitation remain documented research limits, not findings of nonexistence.
+- Error-log and human-review records preserve the original defects and their
+  corrections; no new unrecorded exception was found in this recheck.
+- `python scripts/validate_w009_curriculum_2011.py` — passed (41 targets, 37
+  codes, 26 Bloco A targets, one workload divergence; 0 errors).
+- `python scripts/validate_governance_audit.py` — passed (0 errors).
+- `python scripts/validate_repository.py` — passed (19 CSV files, 126
+  preserved hashes, 93 local Markdown links; 0 warnings, 0 errors).
+- `git diff --check` — passed.
+
+This review approves the corrected W009 branch with the stated documentary
+exceptions. It does not integrate the branch or resolve the source's 840/960
+classification conflict.
