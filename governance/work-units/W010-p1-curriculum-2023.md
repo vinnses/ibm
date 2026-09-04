@@ -11,3 +11,9 @@
 - Acceptance criteria: exactly 43 inventory targets (39 non-TCC plus four alternative TCC codes) each have status, evidence path or bounded-search record, source hash where preserved, version/applicability assessment, and explicit gaps/conflicts; every pre-reform Ficha has an evidenced applicability judgment or remains explicitly indeterminate; formal electives and regulations are structured; dependency endpoints validate; Ficha versions remain separate; work-specific and repository validation pass.
 - Risks and uncertainty: cross-department Fichas and internal regulations may be inaccessible; current web pages may overwrite historical versions; the Portal do Ementário may remain stale; TCC alternatives require distinct records. A protected required source or materially ambiguous interpretation triggers a blocked handoff.
 - Validation: target counts and uniqueness; manifest path/hash/status checks; source-to-transcription sampling for every source/version; explicit applicability state for all pre-2023 Fichas; dependency endpoint/cycle checks; regulation coverage checks; CSV width checks; `python scripts/validate_repository.py`; `git diff --check`; cross-review under `governance/specs/REVIEW.md`.
+
+## Error log and human review
+
+- Append every material failed source capture, provenance mismatch, transcription defect, validation defect, and correction attempt to `governance/errors/W010.md` under `governance/specs/ERROR_RECORD.md`; do not erase earlier attempts.
+- Human-only access or authority questions remain in `governance/human-reviews/W010-p1-curriculum-2023.md`. They do not convert an agent-correctable defect into a human-review item.
+- Before requesting follow-up review, run `python scripts/validate_w010_curriculum_2023.py`, `python scripts/validate_governance_audit.py`, `python scripts/validate_repository.py`, and `git diff --check`; record the commands and results in the handoff.

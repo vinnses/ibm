@@ -1,6 +1,6 @@
 # Fontes do currículo de 2023
 
-Consulta e preservação realizadas em 3 de setembro de 2026.
+Consulta e preservação realizadas em 3 de setembro de 2026, com correção de proveniência do Portal do Ementário em 4 de setembro de 2026.
 
 ## Documentos originais
 
@@ -21,7 +21,7 @@ Os hashes se referem exatamente aos binários armazenados neste diretório.
 - [Currículo 2023](https://site-ibm-bbec98.pages.c3sl.ufpr.br/curso/curriculo-2023/): síntese da distribuição da carga horária e identificação da Resolução nº 75/22-CEPE.
 - [Projeto Pedagógico](https://ibm.inf.ufpr.br/curso/projeto-pedagogico/): identifica o PPC 2023 como documento vigente.
 - [Ata da 1ª Câmara do CEPE de 2 de dezembro de 2022](https://soc.ufpr.br/wp-content/uploads/2023/02/Ata-1%C2%AA-CEPE-02.12.2022.pdf): registra parecer favorável e aprovação unânime da reformulação no processo nº 061269/2022-16.
-- [Portal do Ementário — curso 96A](https://ementario.ufpr.br/ementario/curriculo.action?v=1225): consultado como controle de divergência; a página recuperada ainda mostra 3.000 horas e disciplinas da matriz anterior.
+- [Portal do Ementário — curso 96A](https://ementario.ufpr.br/ementario/curriculo.action?v=1225): a captura preservada de 4 de setembro identifica “Informática Biomédica - 2011 - Corrente” e mostra 3.000 horas; foi usada apenas como registro da divergência portal/resolução.
 - [Disciplinas atuais do Departamento de Informática](https://web.inf.ufpr.br/dinf/?page_id=232): índice institucional de Fichas 1 e Fichas 2, a ser usado na etapa de reconstrução das ementas.
 
 ## Critério de uso

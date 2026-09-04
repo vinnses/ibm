@@ -6,4 +6,4 @@
 
 `optativas.csv` is a transcription of the formal catalog in the resolution; it does not report offerings. `dependencias.csv` stores direct endpoints where the resolution has an individual condition. The repeated 17-component barrier is retained literally in the resolution and described in the component records; it is not expanded into edges to avoid obscuring its conjunctive semantics.
 
-The preserved Ementário page is descriptively conflicting: it presents a 3,000-hour previous structure, whereas Resolution 75/22 fixes the 3,200-hour curriculum for entrants from 2022/2023. It remains a preserved source and is not silently corrected.
+The preserved Ementário response at `curriculo.action?v=1225` identifies itself as “Informática Biomédica - 2011 - Corrente” and displays 3,000 hours. It is therefore a portal representation of the earlier curriculum, whereas Resolution 75/22 fixes 3,200 hours for entrants from 2022/2023. The separately preserved `pagina-grade-semestral.html` is a 2025/2 schedule page, not Ementário evidence.
