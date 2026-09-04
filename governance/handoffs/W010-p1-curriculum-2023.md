@@ -2,7 +2,7 @@
 
 - **Branch:** `work/w010-p1-curriculum-2023`
 - **Commit base:** `22b14805956fcece4e381dc089f7dbb06d2b0857`
-- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; `bfd3eeb` — correction documentation; hash-correction commit pending this amended handoff.
+- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; `bfd3eeb` — correction documentation; `82b7eb7` — Resolution 80 README/validator hash correction; `d8acf9f` — E-W010-005 and hash-correction handoff documentation; final traceability clarification commit pending this amended handoff.
 - **Verdict:** Collection and structuring complete for the bounded public evidence reached; documentary completeness remains **not established** because many applicable Ficha 1/Ficha 2 versions were not publicly located. This is a handoff for cross-branch review, not approval or integration.
 
 ## Deliverables and coverage
