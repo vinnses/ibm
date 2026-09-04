@@ -111,8 +111,12 @@ def validate_routing_fields(
                 "",
             )
             if not line or not line.partition(":")[2].strip():
+                try:
+                    display_path = path.relative_to(ROOT)
+                except ValueError:
+                    display_path = path
                 errors.append(
-                    f"missing or empty model-routing field {field} in {path.relative_to(ROOT)}"
+                    f"missing or empty model-routing field {field} in {display_path}"
                 )
     return checked
 
