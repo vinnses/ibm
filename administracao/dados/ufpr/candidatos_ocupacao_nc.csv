@@ -1,0 +1,3 @@
+ano_referencia,processo,indicador,valor,definicao,url,cobertura
+2016,PS UFPR 2016,candidatos_concorrentes,65,"Total Geral de Inscritos no Curso; exclui 1 treineiro, conforme legenda do NC/UFPR.",https://www.nc.ufpr.br/concursos_institucionais/ufpr/ps2016/candvaga_curso.htm,"Informática Biomédica - Bacharelado - TN; página de relação candidato/vaga por categoria."
+2020,PS UFPR 2019/2020,candidatos_concorrencia_geral,37,"Campo C da coluna Concorrência Geral; o relatório também apresenta categorias de cotas e 2 treineiros. Não é total de inscritos únicos no curso.",https://servicos.nc.ufpr.br/PortalNC/obterDocumento?pub=2401,"Informática Biomédica - Bacharelado - TN; dado parcial por categoria, não comparável ao total de 2016 e não utilizável como ocupação."

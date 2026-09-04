@@ -90,11 +90,13 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 
 - [ ] Preservar atos de criação e reconhecimento do curso.
 - [ ] Preservar atas e pareceres da reforma aprovada em 2022.
-- [ ] Obter séries oficiais de vagas, inscritos, concorrência e notas de corte.
-- [ ] Obter séries oficiais de ingresso, permanência, evasão, retenção e conclusão.
-- [ ] Identificar metodologia, denominadores e recortes temporais de cada indicador.
+- [x] Obter e documentar a série disponível de vagas e concorrência, mantendo explícitas as lacunas de candidatos absolutos, ocupação final e notas de corte.
+- [x] Obter séries oficiais de ingresso, permanência, evasão e conclusão nos recortes disponíveis da UFPR e do INEP.
+- [x] Identificar metodologia, denominadores e recortes temporais de cada indicador, separando medidas anuais de acumulados por coorte.
 - [ ] Obter avaliações institucionais, Enade, relatórios da CPA e dados do e-MEC.
-- [ ] Separar indicadores específicos do curso de diagnósticos gerais do Setor de Ciências Exatas.
+- [x] Separar indicadores específicos do curso de diagnósticos gerais do Setor de Ciências Exatas.
+
+Síntese, dados e auditoria: [`administracao/dados/`](administracao/dados/).
 
 ### 4. Edital e proposta de reorganização de 2026
 
@@ -107,7 +109,7 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 - [ ] Obter a matriz proposta de Inteligência Artificial Aplicada à Saúde.
 - [ ] Obter ementas, Fichas 1, PPC ou minutas dos novos componentes propostos.
 - [ ] Identificar precisamente componentes mantidos, removidos, reduzidos, substituídos e compartilhados.
-- [ ] Verificar documentalmente as alegações de baixa procura, evasão, demanda por IA e suficiência de infraestrutura.
+- [x] Classificar documentalmente as alegações de baixa procura, evasão, demanda por IA e suficiência de infraestrutura, registrando confirmações, suporte parcial e itens não validados.
 - [ ] Identificar condições e garantias relativas às duas vagas docentes solicitadas.
 - [ ] Determinar o estágio correto: proposta, selecionada, aprovada, autorizada ou implementada.
 
@@ -125,5 +127,5 @@ Cada fonte preservada deve possuir, quando tecnicamente possível:
 1. concluir a coleta das Fichas 1 e 2 disponíveis para o currículo vigente;
 2. produzir inventário legível das ementas e das lacunas;
 3. reunir documentos e perguntas factuais para a assembleia extraordinária;
-4. completar depois a série histórica de 2011 e os indicadores administrativos;
-5. só então desenvolver a comparação e a análise da proposta.
+4. completar as lacunas remanescentes de candidatos absolutos, ocupação, notas de corte e avaliações institucionais;
+5. avançar na comparação curricular antes de avaliar os efeitos formativos da proposta.
