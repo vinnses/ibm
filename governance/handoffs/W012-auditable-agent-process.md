@@ -17,3 +17,12 @@
 - Error log, resolved events, and open events: `governance/errors/W012.md`; resolved `E-W012-001` through `E-W012-004`; no open W012 events after correction.
 - Human-review questions and gate consequences: no W012-specific human decision is required. W009-W011 access questions are separately recorded and do not replace agent-correctable review findings.
 - Recommended next bounded work unit: independent W012 review; if approved, integrate the framework, merge the new `main` into W009-W011, then correct and re-review each P1 branch.
+
+## Integration record
+
+- Merged branch: `governance/w012-auditable-error-trail` at `2148744`.
+- Merge commit: `403ceac` (`Merge approved W012 audit framework`).
+- Conflict resolutions: none.
+- Global indexes updated: `governance/WORK_INDEX.md`, `governance/ROADMAP.md`, and this handoff in the integration metadata commit at `HEAD`.
+- Final validation: audit validator passed five logs/22 events and three human-review files/eight questions; repository validator passed 11 CSV files, 126 hashes, and 93 local links with zero warnings/errors; `git diff --check` passed.
+- Remote synchronization state: W012 branch synchronized; `main` push pending final integration validation.
