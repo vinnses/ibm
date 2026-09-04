@@ -8,3 +8,5 @@ This directory is the bounded W011 register. It records documentary status; it d
 - `buscas-negativas.csv` makes all required unresolved public fronts reproducible by recording domains, terms, date, results, and limits.
 
 Sources already preserved elsewhere in the repository remain at their stable original paths and are recorded in the local source manifest. W011's new original captures are under `fontes/`.
+
+The 2 December 2022 first-CEPE-Chamber minute is preserved as a separate primary procedural record. It supports the reported favorable opinion and unanimous approval of the 2022 curricular reform for process `061269/2022-16`; it does not establish a later administrative stage for the separate 2026 proposal.
