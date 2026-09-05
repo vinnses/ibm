@@ -1,6 +1,16 @@
 # Project Roadmap
 
-Baseline: 2026-09-05 after W010 integration and closure of P1 for the approved bounded documentary scope.
+Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
+
+## Active direction — data delivery before analysis
+
+The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
+
+- W014: commit and integrate the new direction and checkpoint contract.
+- W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.
+- W016: recover two original historical acts in separately committed batches, or record bounded retrieval gaps; Terra/medium.
+
+These three small steps are explicitly covered by the user's execution request. Each output is committed before the next batch, reviewed proportionately, and integrated separately by the primary. Cosmetic corrections stay deferred. Later data batches are selected from observed gaps and specified before activation; comparative P3 and analytical P4 are not authorized by this instruction.
 
 ## Completed foundation
 
@@ -71,9 +81,9 @@ Acceptance gate: each administrative transition is tied to a primary act or rema
 
 Gate result: passed for the bounded public-source scope by W011 on 2026-09-04 and integrated by `92b3f4c`. Protected and not-located records remain explicit gaps and do not establish nonexistence.
 
-### P2 — Documentary reconciliation and audit
+### Historical P2 plan — broad reconciliation deferred; essential data checks retained
 
-P1 closure: W009, W010 and W011 are integrated and their bounded documentary gates have passed with the recorded exceptions. This does not certify exhaustive recovery of applicable Fichas or protected administrative records. P2 is the next separately authorized Work; it has not started. Its coverage matrices must carry forward the W009/W010/W011 human-review limits before any P3 comparison.
+P1 closure: W009, W010 and W011 are integrated and their bounded documentary gates have passed with recorded exceptions. This does not certify exhaustive data recovery. W014-W016 now take priority; only source identity, accurate transcription, version separation and preservation checks needed for trustworthy data delivery are immediate. The former broader P2 plan below is retained for later authorization.
 
 1. Audit every manifest, link, hash, extraction, and version assignment.
 2. Reconcile conflicts between resolutions, PPCs, institutional pages, Ementário, and Fichas without silently selecting one.
@@ -82,7 +92,7 @@ P1 closure: W009, W010 and W011 are integrated and their bounded documentary gat
 
 Acceptance gate: no required component or claim lacks a status, and all material contradictions have an audit note.
 
-### P3 — Comparative curricular analysis
+### Historical P3 plan — comparative curricular analysis deferred
 
 Begin only after both curriculum inventory gates and the P2 audit pass.
 
@@ -92,7 +102,7 @@ Begin only after both curriculum inventory gates and the P2 audit pass.
 4. Evaluate the 2026 proposal against reconstructed curricula and verified administrative evidence.
 5. Keep direct facts, inferences, interpretations, and normative recommendations visibly separate.
 
-### P4 — Final synthesis and reproducible release
+### Historical P4 plan — analytical synthesis deferred; data release remains a priority
 
 1. Produce the final evidence-backed report and machine-readable datasets.
 2. Include source catalogs, methodology, limitations, conflicts, and reproducibility instructions.

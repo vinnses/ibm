@@ -130,6 +130,8 @@ Síntese, dados e auditoria: [`administracao/dados/`](administracao/dados/).
 
 ## Prioridade imediata
 
+Direção atual: reunir e disponibilizar dados e documentos estáveis, em passos pequenos com commits próprios. O [plano de execução e ponto de retomada](governance/DATA_FIRST.md) registra o que está sendo feito. Comparações, síntese analítica e verificação de práticas atuais estão adiadas; o roteiro P2–P4 abaixo descreve a sequência anterior.
+
 O roteiro autoritativo e seus critérios de conclusão estão em [`governance/ROADMAP.md`](governance/ROADMAP.md). Em resumo:
 
 1. autorizar um novo Work de P2 para reconciliar documentos, auditar manifestos e congelar a base documental;
