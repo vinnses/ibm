@@ -2,7 +2,7 @@
 
 - **Branch:** `work/w010-p1-curriculum-2023`
 - **Commit base:** `22b14805956fcece4e381dc089f7dbb06d2b0857`
-- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; `bfd3eeb` — correction documentation; `82b7eb7` — Resolution 80 README/validator hash correction; `d8acf9f` — E-W010-005 and hash-correction handoff documentation; final traceability clarification commit pending this amended handoff.
+- **Commits produced:** `61be19b` — `Build 2023 curricular documentary inventory`; `9f576f7` — initial handoff; `838cd79` — correction of source/Ficha records and W010 validator; `bfd3eeb` — correction documentation; `82b7eb7` — Resolution 80 README/validator hash correction; `d8acf9f` — E-W010-005 and hash-correction handoff documentation; `7405e16` — clarification of hash-correction traceability. Subsequent resumption and integration records appear below.
 - **Verdict:** Collection and structuring complete for the bounded public evidence reached; documentary completeness remains **not established** because many applicable Ficha 1/Ficha 2 versions were not publicly located. This is a handoff for cross-branch review, not approval or integration.
 
 ## Deliverables and coverage
@@ -45,3 +45,15 @@ No claim is made that an indeterminate Ficha applies to the 2023 curriculum. No 
 ## Recommended next bounded work unit
 
 Cross-review W010 against the preserved PDFs and targeted retrieval from the responsible departments/UFPR systems for the missing current Ficha 1 and term/class-specific 2023–2026 Ficha 2 documents. Preserve any recovered originals before assigning applicability.
+
+## Resumption record — 2026-09-05
+
+- Primary-session model and effort: GPT-6 (runtime-exposed family after the user model switch; exact backend identifier not exposed); medium requested in the user's resumption plan, runtime effort not independently exposed.
+- Agent assignments actually used: resumption primary / primary / orchestrator, process-reference corrector, integrator and final auditor / GPT-6 / medium requested, runtime value not exposed / user-supervised integration role. Historical W010 collector, correction-agent and reviewer model/effort assignments remain unknown where unrecorded. The independent Terra/high reviewer is prospectively specified in the Work and will be recorded here upon activation; conditional Luna/medium and Terra/medium correctors are not activated.
+- Reassignments, escalations, equivalent-tier mappings, and routing deviations: the runtime-exposed GPT-6 primary maps to the repository's primary-only Sol role; the model change came from the user/session, not agent orchestration. No Sol subagent was created. The late durable primary-assignment record is logged as E-W010-009; there is no subagent escalation.
+- Resumption baseline: clean W010 at `7405e16`; clean `main` and fetched `origin/main` at `1edcb35f582da966169406f3dab46215bfca959d`; incorporated by merge `6483fa0389018a86dc57a59c6861094452785afd`, with no conflicts or changes to W010 source bytes/data.
+- Pre-merge validation: W009, W011, governance and repository validators on `main`; W010 and repository validators on the W010 branch; whitespace and LFS integrity checks on both worktrees passed. Full combined validation and independent review follow before integration.
+- Error-log path: `governance/errors/W010.md`. E-W010-006 records the prior interrupted review (open until a new verdict); E-W010-007 (incorrect discovery path), E-W010-008 (residual handoff reference), and E-W010-009 (late assignment record) are resolved. E-W010-001 through E-W010-005 retain their original records and resolution updates.
+- Human-review path: `governance/human-reviews/W010-p1-curriculum-2023.md`; HR-W010-001 through HR-W010-003 remain pending. P2 must retain version/applicability and portal-status gaps; P3 may compare only source-supported content and cannot infer missing term/class plans or institutional portal status. Bounded inventory acceptance does not certify exhaustive Ficha recovery.
+- Current verdict: resumed and awaiting independent review. The historical collection and prior-review statements above describe their dated stages; the final operative verdict will be appended after review.
+- Explicitly unperformed: new public-source collection, protected access, source/CSV changes, P2-P4 work. Recommended next Work after approved integration: P2 documentary reconciliation, manifest audit, coverage matrices, and evidence-baseline freeze, requiring separate authorization.
