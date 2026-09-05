@@ -1,6 +1,6 @@
 # W010 handoff — 2023 documentary inventory
 
-Current operative status, 2026-09-05: **approved with documented exceptions** by independent review `0518f67`; see the final closure and integration records below. Earlier stage descriptions are retained as history.
+Current operative status, 2026-09-05: **complete and integrated with documented exceptions**, approved by independent review `0518f67` and merged by `750df8b`. P1 is closed for the approved bounded documentary scope. Earlier stage descriptions are retained as history.
 
 - **Branch:** `work/w010-p1-curriculum-2023`
 - **Commit base:** `22b14805956fcece4e381dc089f7dbb06d2b0857`
@@ -83,3 +83,15 @@ Correction commit `75b4ee4` completes 92 formal elective records, fixes both CI1
 - Gaps, divergences and provisional information: pre-reform/undated Ficha applicability remains indeterminate where unsupported; MN162 chronology and Ementário versus formal-matrix representation remain documented; BF114's directory date establishes no applicability; no identified 2023–2026 Ficha 2 set was recovered. Prior source-specific qualifications remain operative.
 - Human-review questions: `governance/human-reviews/W010-p1-curriculum-2023.md`, HR-W010-001/002/003 pending. P2 must reconcile source versions, applicability, coverage and portal status without filling gaps. P3 must exclude or explicitly qualify unsupported component content and offering-level comparisons. These exceptions do not establish nonexistence.
 - Explicitly unperformed: protected-source access, new collection, P2 reconciliation or baseline freeze, P3 comparisons, P4 synthesis, proposal evaluation. Recommended next bounded Work: separately authorized P2 documentary reconciliation and audit from integrated `main`; it is not started here.
+
+## Integration record — 2026-09-05
+
+- Primary-session assignment: the same user-supervised GPT-6 primary, medium requested and runtime effort/backend identifier not independently exposed; integration and final audit performed directly, with no delegation or model change.
+- Published and merged branch: `work/w010-p1-curriculum-2023` at `ee2a240` (final approved handoff), published to the matching origin branch before integration.
+- Merge commit: `750df8b4c25a5fe8c7016724562b882bed1f20c4`; non-fast-forward merge from clean `main` at `1edcb35`, no conflicts, original `7405e16` and all prior history preserved.
+- Integration documentation: separate commit updating `governance/ROADMAP.md`, `governance/WORK_INDEX.md`, this handoff, and current-status summaries in `governance/PROJECT.md` and root `README.md`. Detailed old checklists and historical W009/W011 handoff refinements remain deferred in the consolidated corrections file.
+- Primary pre-merge validation: W009, W010, W011, governance-audit and repository validators; all six W010 regression tests; `git diff --check`; `git lfs fsck` passed. Repository: 31 CSV files, 126 globally indexed preserved hashes, 95 local Markdown links, zero warnings/errors; work-specific validators additionally check their local manifests.
+- Final validation result: all seven required checks and all six regression cases passed on integrated `main` after the documentation update. Governance audit checked six logs/35 events and three human-review files/eight questions; repository validation checked 31 CSV files, 126 globally indexed hashes and 97 local Markdown links, with zero warnings/errors. W009/W010/W011 local-manifest checks, whitespace and LFS integrity passed. The terminal remote check requires local `main`, `origin/main`, and the live remote main ref to agree and both main/W010 worktrees to be clean.
+- Remote synchronization: approved W010 branch is published at `ee2a240`; the main merge and its separate integration-documentation commit are published together at closure. The containing Git commit identifies this record; equality with the live remote is verified after publication rather than embedding a self-referential commit hash.
+- Errors at integration: E-W010-001 through E-W010-013 and E-W010-015 resolved; E-W010-014 accepted nonmaterial process exception; no open material event. All prior attempts remain in `governance/errors/W010.md`.
+- P1 outcome: W009, W010 and W011 bounded gates are complete, with public/human exceptions carried forward. P2 remains unstarted and requires a new Work and separate authorization.

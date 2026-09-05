@@ -17,6 +17,14 @@ Status is assigned to the bounded milestone, not to the entire research axis.
 | W012 | Auditable agent error and human-review trail | Complete | `88ded6d`, `fcd9aa8`, `f314806`, `d78ac14`, `2495074`, `2148744`; merged by `403ceac` | Error-record specification, W008-W012 event logs, separate human-review questions, stakeholder hypothesis record, audit validator | Later Works append their own events; W010 remains outside `main` pending final review |
 | W013 | Binding model routing and primary-session authority | Complete | `eedbaae`, `8204236`, `3e37081`, `4ad0d41`, `7a16bc0`; merged by `a783dc3` | Sol-primary-session rule, Luna/Terra routing, mandatory assignment provenance, prospective validator, review, and handoff | Historical model assignments without provenance remain unknown and are not reconstructed |
 
+## W010 integration — 2026-09-05
+
+| ID | Milestone | Status | Commits | Primary deliverables | Remaining boundary |
+|---|---|---|---|---|---|
+| W010 | 2023 documentary inventory and P1 closure | Complete with documented exceptions | `61be19b`, `838cd79`, `82b7eb7`, `7405e16`; resumed through `6483fa0`, `6411ecd`, `94415ae`, `0392c8c`, `6ae22e5`, `75b4ee4`, `6c07a5d`, `0518f67`, `ee2a240`; merged by `750df8b` | 43-target inventory, 92 formal electives, 21 dependencies, 40 separate Ficha records, regulations, source manifests, validator and six regression tests, independent review and final handoff | HR-W010-001/002/003 limit P2 reconciliation and P3 source-supported comparison; C-W010-003 through C-W010-006 are nonblocking deferred corrections; P2 not started |
+
+The W012 row's statement that W010 was outside `main` describes the W012 integration stage; it is superseded by this W010 integration record. P1 is now complete only for the approved bounded documentary scope of W009, W010 and W011. See `governance/corrections/W010.md` for consolidated nonessential follow-ups.
+
 ## Source and review indexes
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

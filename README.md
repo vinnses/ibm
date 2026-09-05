@@ -50,6 +50,8 @@ AI agents and local Codex sessions must start with [`AGENTS.md`](AGENTS.md) and 
 
 ## Estado e plano completo
 
+Atualização de 05/09/2026: P0 e P1 estão concluídos no alcance documental aprovado, com W009, W010 e W011 integrados. O W010 inclui 43 alvos, 92 optativas formais e 21 dependências. Permanecem lacunas de Fichas aplicáveis e documentos institucionais, com consequências explícitas para P2 e P3. O estado autoritativo está no [roadmap](governance/ROADMAP.md); os [ajustes secundários adiados](governance/corrections/W010.md) não bloqueiam o encerramento. As listas detalhadas abaixo preservam etapas anteriores e aguardam atualização editorial.
+
 ### 0. Infraestrutura documental
 
 - [x] Repositório e critérios iniciais criados.
@@ -130,8 +132,9 @@ Síntese, dados e auditoria: [`administracao/dados/`](administracao/dados/).
 
 O roteiro autoritativo e seus critérios de conclusão estão em [`governance/ROADMAP.md`](governance/ROADMAP.md). Em resumo:
 
-1. preservar no repositório os insumos brutos do INEP ainda ausentes e atualizar o subsídio preliminar da assembleia;
-2. concluir os inventários documentais e a coleta de Fichas dos currículos de 2011 e 2023;
-3. completar atos históricos, avaliações e documentos processuais da proposta de 2026;
-4. auditar e congelar uma base documental antes da comparação curricular;
-5. somente então comparar currículos e avaliar a proposta.
+1. autorizar um novo Work de P2 para reconciliar documentos, auditar manifestos e congelar a base documental;
+2. manter explícitas as lacunas públicas e humanas herdadas de P1;
+3. após o gate P2, autorizar P3 para comparação curricular limitada às evidências disponíveis;
+4. após P3, autorizar P4 para síntese e versão reproduzível.
+
+P2 ainda não foi iniciado.

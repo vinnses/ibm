@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Baseline: 2026-09-04 after integration of W013 binding model-routing governance.
+Baseline: 2026-09-05 after W010 integration and closure of P1 for the approved bounded documentary scope.
 
 ## Completed foundation
 
@@ -54,7 +54,9 @@ Gate result: passed with documented public-source exceptions by W009 on 2026-09-
 
 Acceptance gate: the same per-component evidence standard used for 2011 is met, and every pre-reform Ficha has an applicability judgment or remains explicitly indeterminate.
 
-Gate status: open. W010 corrections are locally complete at `7405e16`, but the final independent review was interrupted before a new approval verdict. W010 is not integrated.
+Gate result: passed with documented exceptions by W010 on 2026-09-05, independently approved in `0518f67` and integrated by `750df8b`. Coverage: 43 unique targets (39 non-TCC and four alternative TCC codes), 92 formal electives, 21 direct dependency rows, five regulatory subjects and 40 separately preserved Ficha records. The missing electives and CI1215 derived-hash defects were corrected in `75b4ee4` and independently verified.
+
+Accepted exceptions: HR-W010-001 (applicable Ficha 1), HR-W010-002 (term/class-specific 2023–2026 Ficha 2), and HR-W010-003 (authoritative Ementário status) remain pending. P2 must retain these gaps in version/applicability and conflict reconciliation; P3 must limit content and offering comparisons to supported evidence. Indeterminate applicability is not continuity or nonexistence. Nonmaterial editorial/process corrections C-W010-003 through C-W010-006 are deferred under the user's explicit direction in `governance/corrections/W010.md`; E-W010-014 is an accepted process-documentation exception with no research-data impact.
 
 ### P1 — Extend administrative and procedural history
 
@@ -70,6 +72,8 @@ Acceptance gate: each administrative transition is tied to a primary act or rema
 Gate result: passed for the bounded public-source scope by W011 on 2026-09-04 and integrated by `92b3f4c`. Protected and not-located records remain explicit gaps and do not establish nonexistence.
 
 ### P2 — Documentary reconciliation and audit
+
+P1 closure: W009, W010 and W011 are integrated and their bounded documentary gates have passed with the recorded exceptions. This does not certify exhaustive recovery of applicable Fichas or protected administrative records. P2 is the next separately authorized Work; it has not started. Its coverage matrices must carry forward the W009/W010/W011 human-review limits before any P3 comparison.
 
 1. Audit every manifest, link, hash, extraction, and version assignment.
 2. Reconcile conflicts between resolutions, PPCs, institutional pages, Ementário, and Fichas without silently selecting one.

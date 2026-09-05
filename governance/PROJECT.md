@@ -10,11 +10,11 @@ The documentary record must be sufficiently reconstructed before the project eva
 
 | Axis | Scope | Current baseline |
 |---|---|---|
-| 2011 curriculum | Formal matrix, PPC, resolutions, Ficha 1, Ficha 2, electives, formative activities, dependencies | Formal structure reconstructed; documentary inventory incomplete |
-| 2023 curriculum | Current matrix, PPC, resolutions, Fichas, electives, TCC, internship, extension, dependencies | Formal structure reconstructed; initial Ficha collection incomplete |
+| 2011 curriculum | Formal matrix, PPC, resolutions, Ficha 1, Ficha 2, electives, formative activities, dependencies | W009 bounded inventory complete with documented public/human exceptions; applicable historical Fichas remain incomplete |
+| 2023 curriculum | Current matrix, PPC, resolutions, Fichas, electives, TCC, internship, extension, dependencies | W010 bounded inventory complete with documented exceptions; applicable Ficha and portal-status gaps remain |
 | Administrative history | Creation, recognition, reforms, applicants, vacancies, entrants, enrollment/continuance, completion, dropout, evaluation, decisions | Bounded UFPR/INEP series complete for located public data; historical and evaluation gaps remain |
 | 2026 proposal | Internal call, feasibility form, procedural status, proposed matrix, resources, institutional consequences | Call and proposal preserved; later acts and proposed matrix not located |
-| Comparison and analysis | Content, progression, dependencies, disciplinary balance, evidence-based assessment of the proposal | Blocked by documentary completeness gate |
+| Comparison and analysis | Content, progression, dependencies, disciplinary balance, evidence-based assessment of the proposal | P1 bounded gates passed; comparison awaits separately authorized P2 reconciliation and its gate, with evidence-coverage limits retained |
 
 ## Evidence model
 
