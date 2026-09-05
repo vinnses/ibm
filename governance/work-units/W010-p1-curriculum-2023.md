@@ -27,7 +27,7 @@
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | Resumption primary | Primary | Orchestrator, process-reference correction, integrator, final auditor | GPT-6; exact backend identifier not exposed | medium requested; runtime value not exposed | Actual | User-selected primary session owns orchestration and integration; GPT-6 is mapped to the primary-only role reserved to Sol in repository terminology |
-| Resumption reviewer | Subagent | Independent documentary reviewer | gpt-5.6-terra (Terra) | high | Planned; activated only by explicit tool assignment | Demanding source cross-validation and reconciliation of three prior reviews |
+| Resumption reviewer | Subagent | Independent documentary reviewer | gpt-5.6-terra (Terra) | high | Actual assignment recorded before activation, 2026-09-05 | Demanding source cross-validation and reconciliation of three prior reviews |
 | Conditional mechanical corrector | Subagent | Mechanical correction | gpt-5.6-luna (Luna) | medium | Planned, conditional, not activated | Only bounded mechanical defects found by review |
 | Conditional documentary corrector | Subagent | Applicability/evidence correction | gpt-5.6-terra (Terra) | medium | Planned, conditional, not activated | Only documentary findings within existing acceptance criteria |
 
