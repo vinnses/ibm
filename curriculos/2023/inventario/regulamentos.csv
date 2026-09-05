@@ -1,0 +1,6 @@
+id,subject,location_in_source,formal_requirement,source_path,source_sha256,status,notes
+R01,Orientação Acadêmica,PPC 2023 Anexo I,atividade realizada por regulamento,curriculos/2023/fontes/ppc-2023.pdf,548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6,localizado,Resolução 75/22 art. 3 remete ao PPC
+R02,Atividades Formativas,PPC 2023 Anexo II,mínimo 80 horas; CAF avalia comprovantes,curriculos/2023/fontes/ppc-2023.pdf,548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6,localizado,Resolução 75/22 arts. 1 e 7
+R03,Estágio obrigatório e não obrigatório,PPC 2023 Anexo III,CI1101 obrigatório 220 horas; realizado após requisitos da periodização,curriculos/2023/fontes/ppc-2023.pdf,548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6,localizado,Resolução 75/22 art. 4
+R04,Trabalho de Conclusão de Curso,PPC 2023 Anexo IV,duas disciplinas de 160 horas nas versões extensionista ou padrão,curriculos/2023/fontes/ppc-2023.pdf,548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6,localizado,Resolução 75/22 art. 6
+R05,Atividades Curriculares de Extensão,PPC 2023 Anexo V,320 horas ACE; TCC extensionista quando necessário à integralização,curriculos/2023/fontes/ppc-2023.pdf,548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6,localizado,Resolução 75/22 art. 5
