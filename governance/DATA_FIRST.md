@@ -1,0 +1,34 @@
+# Data-first execution and restart point
+
+User direction, 2026-09-05: prioritize access to relevant data and original documents. Analytical comparison and synthesis are deferred. Do not spend collection time establishing whether a rule is followed today, which electives are currently offered, or other volatile operational details.
+
+## Overall sequence
+
+1. Make existing datasets and preserved documents easy to find and use, without merging incompatible versions or statistical universes.
+2. Recover missing stable documentary inputs in small batches: historical acts; formally applicable curricular documents/ementas; source-stated historical quantitative data; original proposal/matrix documents when accessible.
+3. Deliver the accumulated data with originals, local provenance/hashes, explicit gaps, and reproducible access instructions. This is a data release, not an analytical report.
+4. Resume comparison or evaluative synthesis only under a later explicit user request. Historical P2-P4 definitions remain below in ROADMAP as deferred plans.
+
+## Current authorized steps
+
+| Step / Work | Output and boundary | Actor | Status / restart |
+|---|---|---|---|
+| S0 / W014 | Save this direction and bounded specifications; review and integrate roadmap revision | Primary GPT-6, user-selected session | Active: plan checkpoint; `governance/work-units/W014-data-first-plan.md` |
+| S1 / W015 | Machine-readable access catalog of existing datasets and preserved-source records, plus concise gap queue from existing records; no new factual inference | Luna/medium in isolated worktree | Assigned: `governance/work-units/W015-data-access.md` in `work/w015-data-access` |
+| S2 / W016 | Bounded recovery of original Resolução 19/10-COUN and Portaria 44 of 22 January 2015; preserve any exact originals and record unsuccessful searches | Terra/medium in isolated worktree | Assigned: `governance/work-units/W016-historical-acts.md` in `work/w016-historical-acts` |
+
+S1 and S2 are independent and may run concurrently on separate branches. Each begins by committing its Work record, then commits each usable data/source batch and a handoff. The primary reviews and integrates each separately. The user authorized these small data steps in the current request; no analysis milestone is implicitly started.
+
+## Checkpoint and interruption contract
+
+- Each Work specification is committed before substantive agent work. The Work handoff identifies the active substep, completed commits, exact output paths and next bounded action, including when incomplete.
+- Collection agents commit a preserved original together with its local source manifest before relying on it. A URL/hash alone never closes preservation.
+- Do not start a new batch until the prior usable batch is committed. Keep exploratory downloads out of committed evidence until identity/provenance is verified.
+- Push checkpoint branches after validation when feasible; primary integration includes repository validation and updates this status table. No active worktree is discarded on interruption.
+- Material source/data/validation errors are corrected or block the affected claim. Minor editorial issues go to the Work's correction list and do not trigger repeated review loops.
+- Record effort/model assignments and actual agent IDs in each Work/handoff. Luna handles organization/extraction; Terra handles source investigation; the primary handles integration. No Sol subagents.
+- The reported usage balance is user-provided; no precise remaining-time or quota guarantee is assumed. End each small step with a useful saved result.
+
+## Priorities after these steps
+
+Select one further stable-document or missing-data batch from the actual gap queue. Prefer existing preserved sources that contain unextracted data, then targeted official-public retrieval. Record protected-access needs without attempting access or contacting custodians. Historical/applicable Fichas remain relevant; current offering/compliance verification is deferred. No percentage of research completeness is inferred from inventory closure.
