@@ -82,3 +82,44 @@ E-W010-005 is an append-only event: it retains the prior bad hash, the affected 
 The E-W010-005 evidence field says “corrective commit pending,” and the handoff says the hash-correction commit is pending, but the correction is already committed as `82b7eb7` before the documentation commit `d8acf9f`. This is an inaccurate final-process reference in the audit trail. Do not rewrite the original event: append a dated resolution clarification naming `82b7eb7`, and amend the handoff's commit list to name `82b7eb7` and `d8acf9f`. Rerun the existing checks and request one final follow-up review. No research data, source bytes, or human-review status need change for this correction.
 
 The bounded public Ficha gaps and pending human-authority questions remain documented exceptions with the same P1/P2/P3 gate consequences. They do not excuse the agent-correctable audit-reference inconsistency, and no integration is authorized.
+
+## Resumed independent review — 2026-09-05
+
+- **Branch reviewed:** `work/w010-p1-curriculum-2023`
+- **Baseline and reviewed state:** correction baseline `7405e16`; merged-main baseline `6483fa0`; review head `94415ae`.
+- **Reviewer:** subagent / independent documentary reviewer / `gpt-5.6-terra` (Terra) / high / actor ID `01a0732b-44ac-7390-a52b-af30504f85bb` / demanding independent source cross-validation and reconciliation. The display nickname is not used as model evidence.
+- **Operative verdict:** **changes required**
+
+### Confirmed corrections and bounded evidence checks
+
+The prior Ementário provenance correction holds: manifest record `2023-EMENTARIO`, its preserved HTML, URL, and stored-byte SHA-256 agree; the page identifies `Informática Biomédica - 2011 - Corrente` and shows 3,000 hours. `pagina-grade-semestral.html` separately identifies a 2025/2 schedule and is not used as Ementário evidence. Resolution 75/22 remains the formal 3,200-hour source.
+
+BQ083 retains its internally supported 2022-04-05 signature and 2022-06-09 render dates with 2023 applicability `indeterminado`; CI1055 retains the Ficha 1 transcription `Algoritmos e Estruturas de Dados 1`; MN162's 2019 Ficha 1 remains a chronology conflict with the 2022 creation act without an applicability assignment; and BF114's 2024 Ficha 1 remains `indeterminado`. The Resolution 80 README, manifest, and preserved PDF agree at `341692b01d0570e2b642aaab758e3c932e1d8ea37668d97afadab0ece2503d73`.
+
+The 43 inventory targets remain exactly 39 non-TCC targets plus four individually recorded TCC alternatives. The 21 direct dependency rows have valid inventory endpoints and preserve the two `CI1131 OU CI1133` TCC alternatives as alternatives rather than conjunctive edges. The preserved Resolution 75/22 and `grade-curricular.md` retain the separate literal 17-component conjunctive prerequisite set; it is not treated as 17 independent alternative requirements. The five regulation subjects are present. The 40 preserved Ficha records remain separate by Ficha 1/Ficha 2 and version/term; no pre-reform Ficha is assigned through code/title continuity alone.
+
+The 12 preserved W010 source-manifest hashes and 40 Ficha-manifest hashes match their stored bytes. The three public/human gaps remain HR-W010-001 (applicable Ficha 1), HR-W010-002 (identified 2023–2026 Ficha 2), and HR-W010-003 (authoritative portal status). They are bounded documentary exceptions, not nonexistence claims; after agent-correctable defects are closed, they remain inputs to P2 reconciliation and constrain P3 to source-supported comparison.
+
+The W013 routing records identify this reviewer prospectively as Terra/high, do not create a Sol subagent, and record the primary-role mapping/deviation. No routing defect was found in the resumed review assignment.
+
+### Required corrections
+
+1. **Formal elective transcription is incomplete.** `optativas.csv` contains 78 rows, but the preserved Resolution 75/22 Appendix I contains 92 formal elective rows. It omits CMI071, CMI103, CMI104, CMM031, CMM041, CMM051, CMM201, CMM202, CMM211, CMM212, CMM213, CMM222, CMM242, and LIB038. This is an agent-correctable transcription defect, not an accepted public-source exception. Add the exact code, title, and hours from the preserved resolution and extend the W010 validator with the full expected catalog/count.
+
+2. **CI1215 has two incorrect inventory hash claims.** The stored PDF and `fichas/manifesto-dinf.csv` record SHA-256 `1de3538f19829396f8c7a99cd8af298d33afbc0b7ce2148dfafda13298f91e93`; `componentes.csv` and `ementas.csv` instead state `1de3538e19829396f8c7a99cd8af298d33afbc0b7ce2148dfafda13298f91e93`. Correct both derived-record fields and make the validator cross-check Ficha paths/hashes in the component and ementa inventories against their applicable local manifests.
+
+The current W010 validator passes because it validates the manifests' hashes but neither the full elective catalog nor these duplicate inventory hash claims. Its current pass is therefore not sufficient to satisfy W010 acceptance.
+
+### Required checks run
+
+- `python scripts/validate_w009_curriculum_2011.py` — passed: 41 targets, 37 codes, 26 Bloco A targets, one workload divergence; 0 errors.
+- `python scripts/validate_w010_curriculum_2023.py` — passed: 43 targets, 21 dependencies, 12 source hashes, 40 Ficha hashes, four negative searches; 0 errors, with the validation gaps above.
+- `python scripts/validate_w011_admin_procedure.py` — passed: 10 source hashes, nine transitions, 11 negative searches; 0 errors.
+- `python scripts/validate_governance_audit.py` — passed: six logs, 29 events, three human-review files with eight questions, and one Work/handoff/review routing record; 0 errors.
+- `python scripts/validate_repository.py` — passed: 31 CSV files, 126 preserved hashes, 95 local Markdown links; 0 warnings, 0 errors.
+- `git diff --check` — passed.
+- `git lfs fsck` — passed.
+
+### Gate consequence
+
+The two new open agent-correctable defects prevent a favorable P1 inventory-closure verdict and integration. They are not converted to HR-W010 exceptions. Once corrected and independently re-reviewed, the existing bounded public Ficha and portal-status exceptions may support only `approved with documented exceptions`; they require P2 manifest/version/applicability reconciliation and limit P3 comparison to supported content. This review does not begin P2 or P3.
