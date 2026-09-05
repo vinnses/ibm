@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Baseline: 2026-09-04 after integration of W012 auditable agent-process governance.
+Baseline: 2026-09-04 after integration of W013 binding model-routing governance.
 
 ## Completed foundation
 
@@ -14,6 +14,7 @@ Baseline: 2026-09-04 after integration of W012 auditable agent-process governanc
 - The administrative research branch is merged into `main`; repository governance, transfer documentation, and automated validation are now present.
 - P0 preservation exceptions are closed: the 11 exact INEP packages and 11 XLSX inputs used by W006 are stored through Git LFS, remote clean-checkout reproduction passed, the assembly brief is current with the consolidated evidence, and the global catalog is explicitly a curated index backed by complete local manifests.
 - Agent/process failures, recovery attempts, review defects, and human-only questions now have append-only per-work audit trails. Stakeholder testimony and research hypotheses are preserved separately from documentary facts.
+- Sol is reserved to the user-supervised primary session. Subagents use Luna or Terra according to task complexity, while model, effort, role, rationale, and escalation are mandatory prospective Work records. Integration, final audit, and global synthesis remain direct duties of the active primary session at its user-selected model/effort.
 
 ## Execution order
 
@@ -39,6 +40,8 @@ Gate result: passed by W008 on 2026-09-04. A clean clone from the GitHub remote 
 
 Acceptance gate: every component has a status, evidence path, source hash, version/applicability assessment, and explicit gaps or conflicts.
 
+Gate result: passed with documented public-source exceptions by W009 on 2026-09-04 and integrated by `267011f`. Historical applicable Fichas and offering-unit confirmation remain explicitly separated human-review questions; no nonexistence is inferred.
+
 ### P1 — Complete the 2023 documentary inventory
 
 1. Transcribe and structure the formal elective catalog in the resolution.
@@ -51,6 +54,8 @@ Acceptance gate: every component has a status, evidence path, source hash, versi
 
 Acceptance gate: the same per-component evidence standard used for 2011 is met, and every pre-reform Ficha has an applicability judgment or remains explicitly indeterminate.
 
+Gate status: open. W010 corrections are locally complete at `7405e16`, but the final independent review was interrupted before a new approval verdict. W010 is not integrated.
+
 ### P1 — Extend administrative and procedural history
 
 1. Preserve acts creating and recognizing the course.
@@ -61,6 +66,8 @@ Acceptance gate: the same per-component evidence standard used for 2011 is met, 
 6. Obtain the proposed 2,700-hour matrix, component list, equivalences, PPC/minutes, and staffing guarantees.
 
 Acceptance gate: each administrative transition is tied to a primary act or remains explicitly not located; quantitative series state universe, denominator, time basis, and comparability.
+
+Gate result: passed for the bounded public-source scope by W011 on 2026-09-04 and integrated by `92b3f4c`. Protected and not-located records remain explicit gaps and do not establish nonexistence.
 
 ### P2 — Documentary reconciliation and audit
 

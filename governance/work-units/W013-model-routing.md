@@ -1,0 +1,18 @@
+# Work Specification — W013: Enforce model routing and primary-session authority
+
+- Objective: make model routing, primary-session authority, and per-execution model provenance explicit, mandatory, and machine-auditable for all future Works.
+- Branch: `governance/w013-model-routing`
+- Commit base: `92b3f4cfb236cea252b917ad5cf6c5cd8c540929`
+- Primary-session assignment: Sol/medium, selected by the user for the active session; the primary agent acts as orchestrator and governance integrator.
+- Agent assignments: primary agent / orchestrator and governance implementer / Sol / medium / actual / global governance change remains in the user-supervised primary session. No implementation subagent is assigned. An independent reviewer may later be assigned Terra/high and must record that assignment before review.
+- Escalation rule: Sol subagents are prohibited. Work requiring Sol returns to the primary session, which continues at its active user-selected model/effort or waits for the user to change it.
+- Inputs: `AGENTS.md`; `governance/AGENT_OPERATIONS.md`; `governance/DECISIONS.md`; governance Work, review, handoff, and error specifications; the user's binding clarification in the active session.
+- In scope: reserve Sol for the user-supervised primary session; prohibit Sol subagents; define Luna and Terra routing; state that integration, final audit, and global synthesis are performed directly by the active primary session at its current user-selected model/effort; require model, effort, role, actor, and routing rationale in Work specs and handoffs; require escalation records; add automated prospective checks; update the decision log and agent entry-point instructions.
+- Out of scope: changing historical model assignments that cannot be proven; redoing W008-W012; completing W010 or the P1 gate; P2-P4 research; changing the user's active model or reasoning effort.
+- Deliverables: updated `AGENTS.md`, `governance/AGENT_OPERATIONS.md`, `governance/DECISIONS.md`, `governance/specs/WORK_UNIT.md`, `governance/specs/HANDOFF.md`, and governance audit validation; a W013 error log, review, and handoff.
+- Method: distinguish session model from agent display name; treat the user-selected primary-session model/effort as authoritative; forbid creation or delegation of Sol subagents; route mechanical work to Luna and documentary/reconciliation work to Terra; record every assignment and escalation durably; validate the required fields prospectively without rewriting unprovable historical metadata.
+- Acceptance criteria: a new chat reading repository governance can determine who may use Sol, which tasks belong to Luna/Terra, who performs integration/audit/synthesis, and what must be recorded; W013 and later Work specs and handoffs fail validation when routing provenance is missing; no historical model identity is invented; independent review approves before integration.
+- Risks and uncertainty: runtime products may expose different model names; equivalent tiers must be mapped explicitly rather than guessed. The repository cannot reconstruct unrecorded historical model assignments, which remain unknown.
+- Validation: inspect all changed governance language for agreement; exercise positive and negative model-routing validator cases; `python scripts/validate_governance_audit.py`; `python scripts/validate_repository.py`; `git diff --check`; independent review under `governance/specs/REVIEW.md` using a non-Sol subagent.
+- Error log: `governance/errors/W013.md`.
+- Human review: the user's active-session selection is authoritative; no additional human-only question is anticipated for this bounded Work.

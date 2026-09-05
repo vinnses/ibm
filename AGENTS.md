@@ -24,6 +24,15 @@ These instructions apply to the entire repository. Read this file before making 
 - Before a merge, run `python scripts/validate_repository.py` and the work-specific checks.
 - End every work with the handoff contract in `governance/specs/HANDOFF.md`.
 
+## Model routing and primary-session authority
+
+- The user-selected model and effort of the primary session govern orchestration, complex integration, final audit, and global synthesis. Only the user may change that primary-session selection.
+- Sol is reserved exclusively for the user-supervised primary agent. Never create, spawn, or delegate to a Sol subagent at any effort level.
+- Route subagent work by the smallest capable tier: Luna/medium for mechanical capture, download, hashing, organization, and simple extraction; Terra/medium for documentary investigation and structured search; Terra/high for reconciliation, cross-validation, divergence audits, and demanding independent review.
+- If delegated work genuinely requires Sol, return it to the primary session instead of creating a Sol subagent. The primary session performs it with its active model/effort or waits for the user to change that selection.
+- Record the primary-session model and effort, every agent's functional role, model, effort, and routing rationale in each Work specification and handoff. Record any reassignment or escalation before the affected work continues.
+- Agent display names are not model evidence. Never infer a model assignment from a name, prior chat, cost, speed, or behavior; mark an unrecorded historical assignment as unknown.
+
 ## Source handling
 
 - Keep original binaries and captured pages unchanged.

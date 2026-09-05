@@ -3,6 +3,9 @@
 - Branch:
 - Commit base:
 - Commits produced:
+- Primary-session model and effort:
+- Agent assignments actually used:
+- Reassignments, escalations, equivalent-tier mappings, and routing deviations:
 - Objective:
 - Completion verdict:
 - Deliverables:

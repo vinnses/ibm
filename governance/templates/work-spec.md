@@ -3,6 +3,9 @@
 - Objective:
 - Branch:
 - Commit base:
+- Primary-session assignment:
+- Agent assignments:
+- Escalation rule: no Sol subagent; return Sol-requiring work to the primary session.
 - Inputs:
 - In scope:
 - Out of scope:
