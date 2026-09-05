@@ -123,3 +123,15 @@ The current W010 validator passes because it validates the manifests' hashes but
 ### Gate consequence
 
 The two new open agent-correctable defects prevent a favorable P1 inventory-closure verdict and integration. They are not converted to HR-W010 exceptions. Once corrected and independently re-reviewed, the existing bounded public Ficha and portal-status exceptions may support only `approved with documented exceptions`; they require P2 manifest/version/applicability reconciliation and limit P3 comparison to supported content. This review does not begin P2 or P3.
+
+## Focused post-correction review — 2026-09-05
+
+- **Correction reviewed:** `75b4ee4`.
+- **Reviewer:** subagent / independent documentary reviewer / `gpt-5.6-terra` (Terra) / high / actor ID `01a0732b-44ac-7390-a52b-af30504f85bb`.
+- **Operative verdict:** **approved with documented exceptions**.
+
+The 92 `optativas.csv` code/title/total-hour tuples now agree with the source-derived validator set. Independent PDF checks confirmed the 14 former omissions, including the wrapped LIB038 title, against Resolution 75/22-CEPE Appendix I. CI1215 now uses the stored-byte and manifest SHA-256 `1de3538f19829396f8c7a99cd8af298d33afbc0b7ce2148dfafda13298f91e93` in both derived CSVs; an independent comparison confirms all 40 ementa/manifest code/type/path/hash tuples agree. The validator now enforces the complete formal elective tuple set and all component/ementa Ficha claims; six focused regression tests pass, including rejection of the original omission and hash defects.
+
+All seven required checks passed once: W009, W010, W011, governance-audit, repository, whitespace, and LFS integrity. The regression suite also passed six tests. C-W010-003 through C-W010-006 are nonblocking deferred editorial/process items under the user-directed closure policy, including E-W010-014's accepted timestamp/wording clarification. HR-W010-001 through HR-W010-003 remain documented public/human exceptions: P2 must reconcile applicable Ficha and portal-status gaps, and P3 may compare only source-supported content. They do not establish nonexistence.
+
+E-W010-010 and E-W010-011 are resolved. No P2 or P3 work was performed. This verdict permits the user-authorized primary session to perform its separate integration and final audit; it does not itself merge, push, or update global status records.
