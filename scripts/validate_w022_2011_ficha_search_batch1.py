@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate W022 checkpoint B's bounded CI055 and CI056 search records."""
+"""Validate W022 checkpoint B's bounded CI055, CI056, and CI057 records."""
 
 from __future__ import annotations
 
@@ -40,6 +40,13 @@ def main() -> int:
             "f2": "W022-CI056-F2-IBM-2010-1",
             "f2_context": "Informática Biomédica",
         },
+        "CI057": {
+            "base": ROOT / "curriculos/2011/fichas/w022-ci057",
+            "records": {"W022-CI057-F1-2011", "W022-CI057-F2-2011-1"},
+            "f1": "W022-CI057-F1-2011",
+            "f2": "W022-CI057-F2-2011-1",
+            "f2_context": "Ciência da Computação",
+        },
     }
     total_sources = 0
     for code, checkpoint in checkpoints.items():
@@ -69,7 +76,7 @@ def main() -> int:
     if errors:
         for error in errors: print(f"ERROR: {error}", file=sys.stderr)
         return 1
-    print(f"W022 checkpoint B validation passed: CI055 and CI056 have three targeted attempts each and {total_sources} separately preserved, hashed official sources; Ficha 1/Ficha 2 applicability limits remain explicit.")
+    print(f"W022 checkpoint B validation passed: CI055, CI056, and CI057 have three targeted attempts each and {total_sources} separately preserved, hashed official sources; Ficha 1/Ficha 2 applicability limits remain explicit.")
     return 0
 
 
