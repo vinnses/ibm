@@ -45,6 +45,8 @@ W020 complete preserved Ficha data: complete with documented applicability/versi
 
 W021 stable curricular rules: complete with documented source-set limits and integrated on 2026-09-06. Commits `7236457`, `d0735ab`, `9e35962`, `45e5782`, `d632134`, `aad2366`; merge `257da0c`. Deliverable: 75 separate provisions for TCC, internship, formative activities and extension across 2011/2023, with complete normalized rule text, locators and provenance. No current-practice claim or cross-source synthesis was made.
 
+W022 2011 Ficha search batch 1: complete with documented applicability/access exceptions and integrated on 2026-09-06. Commits `feb25ed`, `92d9eb9`, `9554f65`, `81d9577`, `5bf9af5`; merge `609ee91`. Deliverable: nine targeted attempts and eight preserved official sources for CI055, CI056 and CI057. Three Ficha 1 documents are valid from 2011/01 but remain indeterminate for curriculum 96A; distinct Ficha 2 contexts remain separate.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

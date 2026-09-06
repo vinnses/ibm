@@ -1,6 +1,6 @@
 # Remaining data: selectable batches and safe stopping points
 
-Updated 2026-09-06 after W021. D01 is complete for every locally preserved Ficha, and D02 is complete for preserved TCC, internship, formative-activity and extension provisions across 2011/2023. D09 was refreshed. Remaining gaps require missing documents, new stable sources or separately selected administrative tables; no collection agent is active.
+Updated 2026-09-06 after W022. D01/D02 local extraction is complete; the first D03 search batch preserved eight official records for CI055-CI057 but did not prove curriculum-96A applicability. D09 was refreshed. Remaining gaps require further bounded code batches, protected institutional evidence, or separately selected administrative tables; no collection agent is active.
 
 ## What is already available
 

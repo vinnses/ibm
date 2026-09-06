@@ -4,7 +4,7 @@ Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
 
 ## Active direction — data delivery before analysis
 
-Latest execution checkpoint: W021 completed 75 stable curricular provisions for TCC, internship, formative activities and extension after W020 structured all 40 preserved Fichas. [`REMAINING_DATA.md`](REMAINING_DATA.md) now distinguishes missing-document/applicability gaps from completed local extraction. Other data/search batches remain unstarted.
+Latest execution checkpoint: W022 completed the first three-code 2011 Ficha search batch after W020/W021 completed local Ficha and rule extraction. Eight official sources were preserved for CI055-CI057, while curriculum-96A applicability remains indeterminate. [`REMAINING_DATA.md`](REMAINING_DATA.md) distinguishes remaining bounded searches and protected evidence from completed work.
 
 The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
 

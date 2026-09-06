@@ -17,4 +17,4 @@
 
 ## Integration record
 
-Pending primary merge, D09 refresh, final validation and remote synchronization.
+Branch `work/w022-2011-ficha-search-batch1` at `5bf9af5` was published and merged by `609ee91` without conflicts by the primary session. D09 was rebuilt and now indexes 47 datasets; its existing source/gap union remains 191/33 records because W022's work-local manifests/search logs are exposed as datasets rather than folded into those curated unions. Final W009/W022, access, governance, repository, whitespace and LFS checks passed. Main publication and remote equality were verified after the containing integration-metadata commit. No second search batch began.
