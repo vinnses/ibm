@@ -10,6 +10,8 @@ The user's latest instruction supersedes the immediate P2-P4 sequence below. Pri
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.
 - W016: recover two original historical acts in separately committed batches, or record bounded retrieval gaps; Terra/medium.
 
+Execution result: W014/W015/W016 are integrated (`20fa763`, `90929c0`, `241204b`). Lower-tier usage limits required a recorded primary takeover. The access package now indexes 36 datasets, 191 source records and 33 existing gap/search records. W016 preserved a Portaria 44/2015 institutional reproduction and literal UFPR annex data; the COUN original and original DOU facsimile remain gaps. See DATA_FIRST for the next bounded data batch and current restart point.
+
 These three small steps are explicitly covered by the user's execution request. Each output is committed before the next batch, reviewed proportionately, and integrated separately by the primary. Cosmetic corrections stay deferred. Later data batches are selected from observed gaps and specified before activation; comparative P3 and analytical P4 are not authorized by this instruction.
 
 ## Completed foundation

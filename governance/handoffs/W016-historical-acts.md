@@ -30,3 +30,7 @@ Operative completion status: bounded batch complete with documented exceptions; 
 - Errors: E-W016-001 resolved as execution interruption; no open process event. Original-act gaps remain documentary exceptions, not runtime errors or nonexistence claims.
 - Human review: HR-W011-002 remains for exact originals; no protected access or institutional contact. W011's earlier not-located records remain historical and are not silently rewritten.
 - Next bounded action: primary publication/integration, then select a stable missing-data batch from the access queue. Further searches and analysis are not automatically begun by this completion.
+
+## Integration record
+
+Final batch `6fef8d5` merged by `241204b` without conflicts, directly by the unchanged primary session. W016 target/source checker and governance/repository/whitespace checks passed before and after integration. W015 access index refreshed to include the new local manifesto and eight attempt records. DATA_FIRST, ROADMAP and WORK_INDEX record completion and remaining original-document limits. Both Work branch checkpoints and integrated main are published at session closure; verify live remote equality then. No analytical or volatile-current-state research was performed.

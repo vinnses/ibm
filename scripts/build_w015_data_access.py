@@ -28,6 +28,7 @@ MANIFESTS = [
     Path("administracao/dados/fontes.csv"),
     Path("administracao/dados/inep/fontes/manifesto-fontes-volumosas.csv"),
     Path("administracao/historico/fontes/manifesto.csv"),
+    Path("administracao/historico/atos-originais/manifesto.csv"),
     Path("administracao/mec/2026/fontes/manifesto.csv"),
 ]
 
@@ -35,6 +36,7 @@ NEGATIVE_SEARCHES = [
     Path("curriculos/2011/inventario/buscas-negativas.csv"),
     Path("curriculos/2023/inventario/buscas-negativas.csv"),
     Path("administracao/historico/buscas-negativas.csv"),
+    Path("administracao/historico/atos-originais/buscas.csv"),
 ]
 
 HUMAN_REVIEWS = [
@@ -195,6 +197,8 @@ def build_gaps() -> list[dict[str, str]]:
                 }
             )
     for path in NEGATIVE_SEARCHES:
+        if not (ROOT / path).is_file():
+            continue
         for row_number, row in enumerate(read_csv(ROOT / path), start=2):
             identifier = source_value(row, "search_id", "id") or f"row-{row_number}"
             rows.append(
@@ -203,7 +207,7 @@ def build_gaps() -> list[dict[str, str]]:
                     "gap_type": "public_documentary",
                     "origin_path": path.as_posix(),
                     "origin_id": identifier,
-                    "target": source_value(row, "targets", "affected_targets", "target"),
+                    "target": source_value(row, "targets", "affected_targets", "target", "target_id"),
                     "status": "recorded search; see original result and limits",
                     "recorded_result": source_value(row, "result"),
                     "gate_consequence": "",

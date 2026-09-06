@@ -32,6 +32,8 @@ The W012 row's statement that W010 was outside `main` describes the W012 integra
 | ID | Status | Saved commits | Output / remaining boundary |
 |---|---|---|---|
 | W014 | Complete; integrated | `478268c`, `1db440e`; merge `20fa763` | Data-first direction and per-step restart plan in `governance/DATA_FIRST.md`; analytical P2-P4 execution deferred |
+| W015 | Complete with documented access-snapshot limits; integrated | `b174421`, `feaaf0c`, `03f129c`; merge `90929c0` | Existing-data index; integration refresh covers 36 datasets, 191 source records and 33 recorded gaps/searches; no claim of exhaustive underlying data |
+| W016 | Complete bounded batch with documentary exceptions; integrated | `91bdd4c`, `6501723`, `9f94e37`, `6fef8d5`; merge `241204b` | Portaria 44/2015 institutional reproduction plus one annex record; COUN original not located; original DOU facsimile remains pending |
 
 ## Source access links
 

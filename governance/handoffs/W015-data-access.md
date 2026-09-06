@@ -16,3 +16,7 @@
 - Human review: existing W009/W010/W011 question records copied with original text; no new access authority or answer.
 - Active step / restart: B/C outputs committed; primary integration is next. Rebuild with `python scripts/build_w015_data_access.py`; check with `--check`. Do not treat this access index as the full evidence itself.
 - Recommended next bounded work: retrieve a stable missing source or extract unextracted data, using the gap queue; W016 already has separate authorization and interruption checkpoint.
+
+## Integration and refresh
+
+Merged `03f129c` by `90929c0` without conflicts, primary only. After W016 merge `241204b`, the primary added its local manifest/search file to the explicit input lists and regenerated the derived access snapshot: 36 datasets, 191 original source records and 33 gap/search records. This mechanical refresh retains historical W011 gaps alongside newer W016 results rather than silently overwriting them. Builder `--check`, W016 validator, governance/repository and whitespace checks passed on the integrated state. DATA_FIRST, ROADMAP and WORK_INDEX updated; branch and main publication follow this final metadata checkpoint. No open W015 event; no new source bytes modified.
