@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,8 @@ W020_F1_CODES = ("CI1068", "CI1162", "CI1163", "CI1171", "CI1209", "CI1212", "CI
 F2_CODES = ("CI1001", "CI1002", "CI1005", "CI1007", "CI1055", "CI1056", "CI1057", "CI1062", "CI1068", "CI1163", "CI1171", "CI1209", "CI1212", "CI1218", "CI1221", "CI1316", "MN129")
 F1_FIELDS = {"document_id", "document_kind", "code", "source_title", "ementa", "source_total_hours", "unit_department", "document_date", "signature_date", "applicability_2023", "source_path", "source_sha256", "source_url", "title_locator", "ementa_locator", "total_hours_locator", "unit_locator", "date_locator", "normalization_notes"}
 F2_FIELDS = {"document_id", "document_kind", "code", "source_title", "term_or_period", "class_identifier", "plan_version", "document_date", "applicability_2023", "unit_department", "permanent_fields", "ementa", "program", "objectives", "method", "evaluation", "bibliography", "teacher_fields", "source_path", "source_sha256", "source_url", "source_locators", "normalization_notes"}
+F2_CONTENT_FIELDS = ("permanent_fields", "ementa", "program", "objectives", "method", "evaluation", "bibliography", "teacher_fields")
+F2_PLACEHOLDERS = re.compile(r"listed in PDF|source-stated|see locator|see PDF|titles on PDF|topics? on PDF|topic count|entries span PDF|present on PDF", re.IGNORECASE)
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -93,6 +96,10 @@ def main() -> int:
         if kind_label == "Ficha 2":
             for field in ("term_or_period", "class_identifier", "plan_version", "document_date", "permanent_fields", "program", "objectives", "method", "evaluation", "bibliography", "teacher_fields", "normalization_notes"):
                 if not row.get(field): errors.append(f"{label}/{code}: {field} must be explicit and non-empty")
+            for field in F2_CONTENT_FIELDS:
+                value = row.get(field, "")
+                if F2_PLACEHOLDERS.search(value): errors.append(f"{label}/{code}: {field} contains a summary/pointer placeholder")
+                if field != "teacher_fields" and len(value) < 20: errors.append(f"{label}/{code}: {field} is not a meaningful transcription")
         for field in locator_fields:
             locator = row.get(field, "")
             if "PDF p. " not in locator and "PDF pp. " not in locator: errors.append(f"{label}/{code}: {field} lacks a PDF page locator")
