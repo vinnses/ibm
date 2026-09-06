@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-CM045-01,2026-09-06,ufpr.br,"site:ufpr.br \"CM045\" \"Ficha 1\"",CM045,"No CM045 Ficha 1 result was located.","Targeted public search only; no authenticated or unindexed repositories searched.",No public Ficha 1 applicable to 2011/96A was located; not evidence of nonexistence.
+W024-CM045-02,2026-09-06,ufpr.br,"site:ufpr.br \"CM045\" \"Ficha 2\" \"2011\"",CM045,"No CM045 Ficha 2 result was located.","Targeted public search only; no authenticated or unindexed repositories searched.",No term/class-specific 2011/96A Ficha 2 was located; not evidence of nonexistence.
+W024-CM045-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CM045\"",CM045,"Results were unrelated timetable material, not a Ficha.","Public archive search coverage is limited; unrelated results not used.",No additional Ficha evidence applicable to 2011/96A was located; not evidence of nonexistence.
