@@ -47,6 +47,8 @@ W021 stable curricular rules: complete with documented source-set limits and int
 
 W022 2011 Ficha search batch 1: complete with documented applicability/access exceptions and integrated on 2026-09-06. Commits `feb25ed`, `92d9eb9`, `9554f65`, `81d9577`, `5bf9af5`; merge `609ee91`. Deliverable: nine targeted attempts and eight preserved official sources for CI055, CI056 and CI057. Three Ficha 1 documents are valid from 2011/01 but remain indeterminate for curriculum 96A; distinct Ficha 2 contexts remain separate.
 
+W023 2011 Ficha search batch 2: complete with documented public-source/applicability exceptions and integrated on 2026-09-06. Commits `42586c7`, `3f6238a`, `6dc9cb7`, `32657db`, `dd58a77`; merge `b7c4acd`. Deliverable: nine targeted attempts for CI241, CI243 and CI244; two new CI244 Fichas preserved separately, existing CI241 2025 evidence revalidated, and CI243 no-source result recorded. No curriculum-96A applicability was inferred.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

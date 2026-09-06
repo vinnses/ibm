@@ -1,6 +1,6 @@
 # Remaining data: selectable batches and safe stopping points
 
-Updated 2026-09-06 after W022. D01/D02 local extraction is complete; the first D03 search batch preserved eight official records for CI055-CI057 but did not prove curriculum-96A applicability. D09 was refreshed. Remaining gaps require further bounded code batches, protected institutional evidence, or separately selected administrative tables; no collection agent is active.
+Updated 2026-09-06 after W023. D01/D02 local extraction is complete; two D03 batches cover CI055-CI057 and CI241/CI243/CI244. CI244 added two official sources, while CI241/CI243 remain public/applicability gaps. D09 was refreshed. Next proposed D03 batch: CI062, CI065 and CI067; no collection agent is active.
 
 ## What is already available
 

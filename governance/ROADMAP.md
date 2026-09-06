@@ -4,7 +4,7 @@ Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
 
 ## Active direction — data delivery before analysis
 
-Latest execution checkpoint: W022 completed the first three-code 2011 Ficha search batch after W020/W021 completed local Ficha and rule extraction. Eight official sources were preserved for CI055-CI057, while curriculum-96A applicability remains indeterminate. [`REMAINING_DATA.md`](REMAINING_DATA.md) distinguishes remaining bounded searches and protected evidence from completed work.
+Latest execution checkpoint: W023 completed the second three-code 2011 Ficha search batch for CI241, CI243 and CI244. CI244 added separate Ficha 1/Ficha 2 sources; CI241/CI243 retain explicit limitations. [`REMAINING_DATA.md`](REMAINING_DATA.md) sets CI062, CI065 and CI067 as the next bounded batch.
 
 The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
 

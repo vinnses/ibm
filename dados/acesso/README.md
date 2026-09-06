@@ -9,4 +9,4 @@ This directory is a local, reproducible access index for the already-recorded re
 
 Use `python scripts/build_w015_data_access.py` to rebuild all outputs and `python scripts/build_w015_data_access.py --check` to verify paths, counts, hashes, origins, and nonempty gap coverage.
 
-Integrated snapshot after W022: 47 datasets, 191 curated source-manifest records and 33 curated human-question/search records. Counts are records, not unique documents or unresolved gaps. W022's six work-local manifest/search datasets expose eight newly preserved official sources and nine bounded attempts for CI055-CI057; they are not folded into the older curated unions. Applicability to curriculum 96A remains indeterminate.
+Integrated snapshot after W023: 53 datasets, 191 curated source-manifest records and 33 curated human-question/search records. Counts are records, not unique documents or unresolved gaps. W022/W023 work-local manifest/search datasets expose the two completed three-code 2011 search batches; they are not folded into the older curated unions. Applicability to curriculum 96A remains indeterminate for the located historical Ficha 1 documents.
