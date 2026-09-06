@@ -39,6 +39,8 @@ The W012 row's statement that W010 was outside `main` describes the W012 integra
 
 W018 D01 first Ficha 1 batch: complete with documented applicability/date gaps and integrated on 2026-09-05. Commits `4c428d8`, `5dbce54`, `edbf444`; merge `d94900e`. Deliverable: five source-located records for CI1001, CI1002, CI1003, CI1055 and CI1215 plus validator. All 2023 applicability values remain indeterminate; HR-W010-001 remains. Access package refreshed afterward; no second batch started.
 
+W019 D01 second Ficha 1 batch: complete with documented applicability/date gaps and integrated on 2026-09-06. Commits `8d03d28`, `283936e`, `9c30680`; merge `58fc5be`. Deliverable: five source-located records for CI1005, CI1007, CI1056, CI1057 and CI1062 plus validator. All 2023 applicability values remain indeterminate; HR-W010-001 remains. Access package refreshed afterward; no third batch started.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

@@ -17,4 +17,4 @@
 
 ## Integration record
 
-Pending primary merge, D09 access-package refresh, final validation and remote synchronization.
+Branch `work/w019-d01-ficha1-batch2` at `9c30680` was published and merged by `58fc5be` without conflicts by the primary session. D09 was refreshed to index the new five-row CSV, bringing the access snapshot to 38 datasets. Final work-specific, regression, access, governance, repository, whitespace and LFS checks passed. Main publication and remote equality were verified after the containing integration-metadata commit. No third batch or analysis was started.

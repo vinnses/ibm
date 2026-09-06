@@ -1,6 +1,6 @@
 # Remaining data: selectable batches and safe stopping points
 
-Updated 2026-09-05 after W018. D01 first five-document batch is complete and integrated; D09 was run only to refresh access for that output. Every other D-series batch remains not started and awaits user direction. No collection agent is active.
+Updated 2026-09-06 after W019. Two five-document D01 batches are complete and integrated; D09 was refreshed for both outputs. Every other D-series batch remains not started and awaits user direction. No collection agent is active.
 
 ## What is already available
 
@@ -20,7 +20,7 @@ If the user already has institutional files to provide, D07/D08 may take priorit
 
 | ID / proposed priority | Exact small unit and starting inputs | Data output and acceptance | Planned smallest capable tier | Stop boundary / dependency |
 |---|---|---|---|---|
-| D01 / first | **Complete in W018:** CI1001, CI1002, CI1003, CI1055, CI1215 | `dados/curriculos/2023/fichas-1-lotes/D01/ementas.csv`: five source-located records with ementa, stated hours/unit, dates or explicit absence, path/hash and PDF locators | Luna/medium extraction; primary source review | Integrated by `d94900e`; all applicability remains indeterminate. A second D01 batch is separate and unstarted; candidates may include other preserved DInf Fichas or BQ083/BF114/MN162 with their existing chronology limits |
+| D01 / first and second | **Complete in W018/W019:** CI1001, CI1002, CI1003, CI1055, CI1215; CI1005, CI1007, CI1056, CI1057, CI1062 | Two five-row source-located datasets under `dados/curriculos/2023/fichas-1-lotes/`, with ementa, stated hours/unit, dates or explicit absence, path/hash and PDF locators | Luna/medium extraction; primary source review | Integrated by `d94900e` and `58fc5be`; all applicability remains indeterminate. A third D01 batch is separate and unstarted |
 | D02 / local stable rules | One topic per batch from preserved 2011/2023 PPCs and formal acts: first TCC, then internship, extension or formative activities. Begin with existing grade/regulation tables | Work-local `regras.csv`: literal prescribed requirement, curriculum/version, exact source/page/article, workload/eligibility when stated, uncertainty. Fill missing transcription fields, not duplicate a complete existing record | Luna/medium for extraction; Terra/medium if cross-source identity is necessary | One section/topic committed; no check of whether a rule is followed today. Conflicting statements remain separate |
 | D03 / historical curricular gaps | At most three 2011 component codes selected from W009 gap inventory; consult prior NS/HR-W009-001 before searching official historical public archives | Originals plus local manifesto and extracted fields if found; otherwise dated query log per code. Matching code alone never establishes 2011 applicability | Terra/medium; Luna only for identified-file capture | Maximum three targeted public attempts per code; commit each code's outcome. Stop at authentication/archive access; no repeated broad search |
 | D04 / 2023 curricular gaps | At most three components with missing Ficha 1 or missing applicability evidence, chosen from W010 components and HR-W010-001 | Original approved Ficha/version evidence, manifesto and literal data, or explicit bounded retrieval/applicability gap | Terra/medium | Maximum three attempts per code; current webpage/offering is not applicability evidence. No requirement to establish present implementation |
@@ -49,4 +49,4 @@ Proposed output names above are local to the future Work; determine the exact di
 
 ## Status to resume from now
 
-W018 completed the first D01 batch and refreshed D09 access for it. Current next choices remain unstarted: a second D01 batch of up to five preserved Ficha 1s, or D02 for one stable regulation topic. Await user selection; do not start either automatically.
+W018 and W019 completed two D01 batches and refreshed D09 access for them. Current next choices remain unstarted: a third D01 batch of up to five preserved Ficha 1s, or D02 for one stable regulation topic. Await user selection; do not start either automatically.
