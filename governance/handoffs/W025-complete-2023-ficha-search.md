@@ -16,4 +16,4 @@
 
 ## Integration record
 
-Pending primary merge, D09 refresh, final validation and remote synchronization.
+Branch `work/w025-complete-2023-ficha-search` at `8842070` was published and merged by `dfe216d` without conflicts by the primary session. D09 was rebuilt and now indexes 201 datasets; W025 per-target search datasets remain individually exposed rather than folded into the older curated 191/33 unions. Final W010/W020/W024/W025, access, governance, repository, whitespace and LFS checks passed. Main publication and remote equality were verified after the containing integration-metadata commit. The bounded public Ficha lane is complete; no administrative or analytical Work began.

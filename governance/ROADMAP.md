@@ -4,7 +4,7 @@ Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
 
 ## Active direction — data delivery before analysis
 
-Latest execution checkpoint: W024 completed all remaining code-specific 2011 public Ficha searches in eleven intermediate pushed lots. Together W022-W024 cover all 37 coded components; public-search absence and curriculum-96A applicability remain explicit, with institutional access routed to HR-W009-001. [`REMAINING_DATA.md`](REMAINING_DATA.md) identifies D04 as the next Ficha lane.
+Latest execution checkpoint: W025 completed the entire bounded public Ficha lane for 2023 in fifteen intermediate pushed lots. Combined with W022-W024, every coded 2011 component and every 2023 target has a code-specific public-search outcome. Remaining applicable-version and term/class evidence is institutional (D07/HR-W009-001/HR-W010-001/002), not unfinished public search.
 
 The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
 
