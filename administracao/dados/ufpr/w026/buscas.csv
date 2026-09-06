@@ -1,0 +1,31 @@
+search_id,accessed_at,domains,terms,target,result,limits
+W026-H1-2015-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2015\" \"inscritos\"",2015,Located official literal course-level concorrentes record.,Search result and preserved HTML; treineiros are separate and not added.
+W026-H1-2015-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2015\" \"candidatos\"",2015,No additional source located.,Public archive index only.
+W026-H1-2015-03,2026-09-06,nc.ufpr.br,"ps2015 candidato vaga Informática Biomédica",2015,Confirmed the preserved NC record.,No ratio-to-count derivation used.
+W026-H1-2017-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2017\" \"inscritos\"",2017,Located official literal Total Geral de Inscritos no Curso record.,Search result and preserved NC PDF.
+W026-H1-2017-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2017\" \"candidatos\"",2017,No additional source located.,Public archive index only.
+W026-H1-2017-03,2026-09-06,nc.ufpr.br,"ps2017 candvaga curso Informática Biomédica",2017,Confirmed the preserved NC record.,Category fragments are not summed.
+W026-H2-2018-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2018\" \"Total Geral\" \"Inscritos\"",2018,No source-stated course or category count located.,Targeted official-domain result search only.
+W026-H2-2018-02,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"site paths PS2018 and PortalNC \"Informática Biomédica\" candidato",2018,Located only candidate-list or cutoff surfaces without a stated absolute applicant field.,No count derived from a list or cutoff surface.
+W026-H2-2018-03,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2018\" \"inscritos\"",2018,No relevant public archive record located.,Archive-index search only.
+W026-H2-2019-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2019\" \"Total Geral\" \"Inscritos\"",2019,Located the official PS2019 second-phase candidate/vacancy index.,Index distinguishes its limited second-phase universe.
+W026-H2-2019-02,2026-09-06,servicos.nc.ufpr.br,"PS2019 \"Informática Biomédica\" \"Relação Candidato / Vaga\"",2019,Located the official course-specific page.,Course page preserved before its literal category count was used.
+W026-H2-2019-03,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2019\" \"inscritos\"",2019,No additional public archive record located.,The preserved NC page remains the only qualifying source located.
+W026-H3-2021-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2021\" \"Relação Candidato\"",2021,Located official result and homologation surfaces.,Result lists were not counted as applicant totals.
+W026-H3-2021-02,2026-09-06,servicos.nc.ufpr.br,"PS2021 \"Informática Biomédica\" \"Total de Candidatos\"",2021,Located definitive post-validation category totals.,Course page preserved before its literal category count was used.
+W026-H3-2021-03,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2021\" candidatos",2021,No additional relevant public archive count located.,Archive results did not state the target process count.
+W026-H3-2022-01,2026-09-06,nc.ufpr.br;servicos.nc.ufpr.br,"\"Informática Biomédica\" \"2022\" \"Relação Candidato\"",2022,Located official approval and homologation surfaces.,Approval lists were not counted as applicant totals.
+W026-H3-2022-02,2026-09-06,servicos.nc.ufpr.br,"PS2022 \"Informática Biomédica\" \"Total de Candidatos\"",2022,Located definitive post-validation category totals.,Course page preserved before its literal category count was used.
+W026-H3-2022-03,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2022\" candidatos",2022,No additional relevant public archive count located.,Archive results did not state the target process count.
+W026-H4-2023-01,2026-09-06,servicos.nc.ufpr.br,"PS2023 \"Informática Biomédica\" \"Total de Candidatos\"",2023,Search result did not locate a qualifying count.,No current-offering or result-list count used.
+W026-H4-2023-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2023\" candidatos",2023,No relevant public archive count located.,Archive results did not state the target process count.
+W026-H4-2023-03,2026-09-06,servicos.nc.ufpr.br,"PS2023 definitivePosBanca 094 \"Total de Candidatos\"",2023,Located definitive course-category totals.,Course page preserved before its literal category count was used.
+W026-H4-2024-01,2026-09-06,servicos.nc.ufpr.br,"PS2024 \"Informática Biomédica\" \"Total de Candidatos\"",2024,Search result did not locate a qualifying count.,No current-offering or result-list count used.
+W026-H4-2024-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2024\" candidatos",2024,No relevant public archive count located.,Archive results did not state the target process count.
+W026-H4-2024-03,2026-09-06,servicos.nc.ufpr.br,"PS2024 definitivePosBanca 094 \"Total de Candidatos\"",2024,Located definitive course-category totals.,Course page preserved before its literal category count was used.
+W026-H5-2025-01,2026-09-06,servicos.nc.ufpr.br,"PS2025 \"Informática Biomédica\" \"Total de Candidatos\"",2025,No source-stated aggregate applicant count located.,Search did not yield a qualifying historical count.
+W026-H5-2025-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2025\" candidatos",2025,No relevant public archive count located.,Archive results did not state the target process count.
+W026-H5-2025-03,2026-09-06,servicos.nc.ufpr.br,"PS2025 definitivePosBanca 094",2025,Located a named-candidate registration list without an aggregate count.,Individual-list rows were not counted.
+W026-H5-2026-01,2026-09-06,servicos.nc.ufpr.br,"PS2026 \"Informática Biomédica\" \"Total de Candidatos\"",2026,No source-stated aggregate applicant count located.,Search did not yield a qualifying historical count.
+W026-H5-2026-02,2026-09-06,acervodigital.ufpr.br,"\"Informática Biomédica\" \"2026\" candidatos",2026,No relevant public archive count located.,Archive results did not state the target process count.
+W026-H5-2026-03,2026-09-06,servicos.nc.ufpr.br,"PS2026 definitivePosBanca 094",2026,Located a named-candidate registration list without an aggregate count.,Individual-list rows were not counted.
