@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CI1169-01,2026-09-06,ufpr.br,"site:ufpr.br \"CI1169\" \"Ficha 1\" \"2023\"",CI1169,No target Ficha 1 returned.,Public official index only.,No target Ficha 1 applicable to 2023 established.
+W025-CI1169-02,2026-09-06,ufpr.br,"site:ufpr.br \"CI1169\" \"Ficha 2\" \"2023\"",CI1169,No target Ficha 2 returned.,Public official index only.,No target term/class Ficha 2 applicable to 2023 established.
+W025-CI1169-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CI1169\"",CI1169,No Ficha returned.,Public archive index only.,No archival target Ficha applicable to 2023 established.

@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-BQ112-01,2026-09-06,ufpr.br,"site:ufpr.br \"BQ112\" \"Ficha 1\" \"2023\"",BQ112,No target-specific Ficha 1 returned.,Public official indexed search only.,No Ficha 1 applicable to 2023 established.
+W025-BQ112-02,2026-09-06,ufpr.br,"site:ufpr.br \"BQ112\" \"Ficha 2\" \"2023\"",BQ112,No target-specific Ficha 2 returned.,Public official indexed search only.,No term/class Ficha 2 applicable to 2023 established.
+W025-BQ112-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"BQ112\"",BQ112,No Ficha returned.,Public archive index only.,No archival Ficha applicable to 2023 established.

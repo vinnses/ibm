@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CE009-01,2026-09-06,ufpr.br,"site:ufpr.br \"CE009\" \"Ficha 1\" \"2023\"",CE009,Only other-course index references returned.,Course-specific context is absent for the 2023 Biomedical Informatics target.,No target Ficha 1 applicable to 2023 established.
+W025-CE009-02,2026-09-06,ufpr.br,"site:ufpr.br \"CE009\" \"Ficha 2\" \"2023\"",CE009,Only other-course Ficha 2 references returned.,Other course/classes cannot establish target applicability.,No target term/class Ficha 2 applicable to 2023 established.
+W025-CE009-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CE009\"",CE009,No target Ficha returned.,Public archive index only.,No archival target Ficha applicable to 2023 established.

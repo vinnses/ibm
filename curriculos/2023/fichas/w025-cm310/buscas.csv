@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CM310-01,2026-09-06,ufpr.br,"site:ufpr.br \"CM310\" \"Ficha 1\" \"2023\"",CM310,No target-specific Ficha 1 returned.,Public official indexed search only.,No Ficha 1 applicable to 2023 established.
+W025-CM310-02,2026-09-06,ufpr.br,"site:ufpr.br \"CM310\" \"Ficha 2\" \"2023\"",CM310,Only Electrical Engineering Ficha 2 references returned.,Different course/class cannot establish Biomedical Informatics applicability.,No term/class Ficha 2 applicable to 2023 established.
+W025-CM310-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CM310\"",CM310,No Ficha returned.,Public archive index only.,No archival Ficha applicable to 2023 established.

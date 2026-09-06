@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CM304-01,2026-09-06,ufpr.br,"site:ufpr.br \"CM304\" \"Ficha 1\" \"2023\"",CM304,No target Ficha 1 returned.,Public official index only.,No 2023 applicability established.
+W025-CM304-02,2026-09-06,ufpr.br,"site:ufpr.br \"CM304\" \"Ficha 2\" \"2023\"",CM304,No target Ficha 2 returned.,Public official index only.,No 2023 term/class applicability established.
+W025-CM304-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CM304\"",CM304,No Ficha returned.,Archive index only.,No 2023 applicability established.

@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-BC056-01,2026-09-06,ufpr.br,"site:ufpr.br \"BC056\" \"Ficha 1\" \"2023\"",BC056,No target Ficha 1 returned.,Public official index only.,No 2023 applicability established.
+W025-BC056-02,2026-09-06,ufpr.br,"site:ufpr.br \"BC056\" \"Ficha 2\" \"2023\"",BC056,No target Ficha 2 returned.,Public official index only.,No 2023 term/class applicability established.
+W025-BC056-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"BC056\"",BC056,No Ficha returned; thesis component listing only.,Not a Ficha or curriculum applicability act.,No 2023 applicability established.
