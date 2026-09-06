@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-CE003-01,2026-09-06,ufpr.br,"site:ufpr.br \"CE003\" \"Ficha 1\"",CE003,Located official CE003 Ficha 1 and preserved it unchanged.,PDF metadata is 2022 and does not state 2011/96A applicability.,Preserved as indeterminate rather than assigned to 2011/96A.
+W024-CE003-02,2026-09-06,ufpr.br,"site:ufpr.br \"CE003\" \"Ficha 2\" \"2011\"",CE003,No CE003 Ficha 2 for 2011 returned.,Results referenced CE003 in other course materials rather than a CE003 Ficha 2.,No term/class Ficha 2 establishes 2011 or curriculum-96A applicability.
+W024-CE003-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CE003\"",CE003,No Ficha returned.,Repository results mention CE003 only as a prerequisite or component in unrelated materials.,No public archival Ficha establishes 2011 or curriculum-96A applicability.
