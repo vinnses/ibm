@@ -53,6 +53,8 @@ W024 complete bounded 2011 Ficha public search: complete with documented public-
 
 W025 complete bounded 2023 Ficha public search: complete with documented public-source/applicability exceptions and integrated on 2026-09-06. Specification `dc77cee`; fifteen intermediate M/A commits from `37d79f6` through `7c37ef6`; review `8842070`; merge `dfe216d`. Deliverable: 129 targeted attempts covering 20 missing-Ficha and 23 applicability targets. No new qualifying source or formal continuity act was located; public Ficha work is exhausted without replacing HR-W010-001/002 institutional-access needs.
 
+W026 historical applicant counts: complete with documented source/universe exceptions and integrated on 2026-09-06. Specification `1dabb92`; H1-H5 `b442aff`, `ae934a0`, `808149e`, `ec06333`, `5a019d7`; review/closure `3015d66`; merge `a63472b`. Deliverable: ten process-year outcomes, thirty bounded attempts and seven preserved official sources. Course totals exist for 2015/2017; narrower category counts for 2019/2021-2024 remain explicitly non-comparable; 2018/2025/2026 are not located.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

@@ -21,7 +21,7 @@ S1 and S2 are independent and may run concurrently on separate branches. Each be
 
 Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
-Current restart point: S0-S2 and W018-W025 are complete and integrated; no collection agent is active. The bounded public Ficha lane is complete for all coded 2011 components and all 43 curriculum-2023 targets. W025 added 129 stable official-public attempts but no qualifying new source or formal applicability act. D09 now indexes 201 datasets. Further Ficha progress requires institutionally supplied/authorized files under D07; otherwise continue with administrative data or historical acts. No analytical phase is active.
+Current restart point: S0-S2 and W018-W026 are complete and integrated; no collection agent is active. W026 added ten historical-applicant outcomes from thirty bounded attempts and preserved seven official sources. Only 2015 and 2017 are source-stated course totals; 2019 and 2021-2024 are narrower categories, while 2018, 2025 and 2026 remain not located. D09 now indexes 204 datasets. Further Ficha progress requires institutionally supplied/authorized files under D07; D06 requires a new lead, and CPA extraction requires a compatible spreadsheet runtime. No analytical phase is active.
 
 ## Checkpoint and interruption contract
 

@@ -15,4 +15,4 @@
 
 ## Integration record
 
-Pending branch publication, no-fast-forward merge, D09 rebuild, integration metadata and remote-equality verification.
+Branch `work/w026-historical-applicants` at `3015d66` was published and merged without conflicts by `a63472b`. D09 was rebuilt and indexes 204 datasets. Final W026/W011, access, governance, repository, authored-whitespace and LFS checks are recorded by the containing integration-metadata commit. Main publication and remote equality are verified after that commit. No subsequent collection or analysis Work began.

@@ -4,7 +4,7 @@ Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
 
 ## Active direction — data delivery before analysis
 
-Latest execution checkpoint: W025 completed the entire bounded public Ficha lane for 2023 in fifteen intermediate pushed lots. Combined with W022-W024, every coded 2011 component and every 2023 target has a code-specific public-search outcome. Remaining applicable-version and term/class evidence is institutional (D07/HR-W009-001/HR-W010-001/002), not unfinished public search.
+Latest execution checkpoint: W026 completed the selected historical-applicant batch in five intermediate pushed lots. Ten process-years received bounded searches, seven official sources were preserved, and the output keeps total-course and category-only counts separate. Absolute counts remain not located for 2018, 2025 and 2026; no named list, ratio or unmatched vacancy count was converted into a total.
 
 The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
 
@@ -23,7 +23,7 @@ These three small steps are explicitly covered by the user's execution request. 
 - The 2023 formal curriculum is reconstructed from the Resolução nº 75/22-CEPE, the 2023 PPC, and related component-creation resolutions: periodization, workloads, prerequisites, TCC alternatives, internship, extension, and 3,200-hour total.
 - An initial 2023 Ficha collection is preserved: 20 DInf Ficha 1 documents, 16 DInf Ficha 2 documents, three external Ficha 1 documents, and one external Ficha 2 document.
 - The UFPR 2026 internal call and the Biomedical Informatics feasibility form are preserved and described. The form is classified as a proposal, not evidence of approval or implementation.
-- Administrative data are consolidated for the public scope reached: UFPR entrants and candidate/vacancy ratio for 2015–2026, official vacancy points, partial absolute applicant data, the UFPR historical dropout measure, and INEP cohort indicators for entry cohorts 2011–2020.
+- Administrative data are consolidated for the public scope reached: UFPR entrants and candidate/vacancy ratio for 2015–2026, official vacancy points, source-stated applicant records with explicit universes, the UFPR historical dropout measure, and INEP cohort indicators for entry cohorts 2011–2020.
 - Annual metrics are separated from cumulative cohort indicators, and the 2026 proposal claims have an evidence-status matrix.
 - The administrative research branch is merged into `main`; repository governance, transfer documentation, and automated validation are now present.
 - P0 preservation exceptions are closed: the 11 exact INEP packages and 11 XLSX inputs used by W006 are stored through Git LFS, remote clean-checkout reproduction passed, the assembly brief is current with the consolidated evidence, and the global catalog is explicitly a curated index backed by complete local manifests.
@@ -77,7 +77,7 @@ Accepted exceptions: HR-W010-001 (applicable Ficha 1), HR-W010-002 (term/class-s
 1. Preserve acts creating and recognizing the course.
 2. Preserve minutes and opinions supporting the reform approved in 2022.
 3. Add official institutional evaluations, Enade, CPA reports, and e-MEC records with comparable definitions.
-4. Continue the bounded search for complete applicant counts, final occupancy after all calls, and comparable cutoff scores.
+4. Preserve source-stated applicant counts and retain unresolved complete-count, final-occupancy and comparable-cutoff gaps without deriving values from mismatched universes. W026 completed a bounded 2015–2026 applicant search; 2018, 2025 and 2026 remain not located.
 5. Preserve Apêndice A, forwarding memorandum, SEI identifier, NDE/Colegiado/Setor decisions, PROGRAP/PROPLAD result, UFPR submission, and MEC decision if they become available.
 6. Obtain the proposed 2,700-hour matrix, component list, equivalences, PPC/minutes, and staffing guarantees.
 
