@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate W023 checkpoint B's bounded CI241 documentary-search record."""
+"""Validate W023 checkpoints B/C's bounded CI241 and CI243 records."""
 
 from __future__ import annotations
 
@@ -10,11 +10,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = ROOT / "curriculos/2011/fichas/w023-ci241"
-
-
-def read_csv(name: str) -> list[dict[str, str]]:
-    with (BASE / name).open(encoding="utf-8", newline="") as stream:
+def read_csv(base: Path, name: str) -> list[dict[str, str]]:
+    with (base / name).open(encoding="utf-8", newline="") as stream:
         return list(csv.DictReader(stream))
 
 
@@ -28,7 +25,8 @@ def sha256(path: Path) -> str:
 
 def main() -> int:
     errors: list[str] = []
-    manifest = read_csv("manifesto.csv")
+    ci241 = ROOT / "curriculos/2011/fichas/w023-ci241"
+    manifest = read_csv(ci241, "manifesto.csv")
     if len(manifest) != 1 or {row.get("record_id") for row in manifest} != {"W023-CI241-EXISTING-F1-2025"}:
         errors.append("CI241 manifest must contain only the retained pre-existing 2025 Ficha 1")
     if manifest:
@@ -42,7 +40,7 @@ def main() -> int:
             errors.append("retained CI241 Ficha must retain its 2025 and 2011/96A applicability limit")
         if not row.get("source_url", "").startswith("https://bio.ufpr.br/"):
             errors.append("retained CI241 Ficha must retain its official UFPR source URL")
-    searches = read_csv("buscas-negativas.csv")
+    searches = read_csv(ci241, "buscas-negativas.csv")
     expected = {"W023-CI241-01", "W023-CI241-02", "W023-CI241-03"}
     if len(searches) != 3 or {row.get("search_id") for row in searches} != expected:
         errors.append("CI241 must record exactly three new targeted attempts")
@@ -50,10 +48,22 @@ def main() -> int:
         if row.get("targets") != "CI241": errors.append(f"out-of-scope target: {row.get('search_id')}")
         for field in ("accessed_at", "domains", "terms", "result", "limits", "applicability_consequence"):
             if not row.get(field): errors.append(f"missing {field}: {row.get('search_id')}")
+    ci243 = ROOT / "curriculos/2011/fichas/w023-ci243"
+    ci243_manifest = read_csv(ci243, "manifesto.csv")
+    if ci243_manifest:
+        errors.append("CI243 manifest must remain empty unless a Ficha source is preserved")
+    ci243_searches = read_csv(ci243, "buscas-negativas.csv")
+    ci243_expected = {"W023-CI243-01", "W023-CI243-02", "W023-CI243-03"}
+    if len(ci243_searches) != 3 or {row.get("search_id") for row in ci243_searches} != ci243_expected:
+        errors.append("CI243 must record exactly three new targeted attempts")
+    for row in ci243_searches:
+        if row.get("targets") != "CI243": errors.append(f"CI243 out-of-scope target: {row.get('search_id')}")
+        for field in ("accessed_at", "domains", "terms", "result", "limits", "applicability_consequence"):
+            if not row.get(field): errors.append(f"CI243 missing {field}: {row.get('search_id')}")
     if errors:
         for error in errors: print(f"ERROR: {error}", file=sys.stderr)
         return 1
-    print("W023 checkpoint B validation passed: CI241 has three new targeted attempts and retains one separately hashed 2025 Ficha 1 without 2011/96A assignment.")
+    print("W023 checkpoint C validation passed: CI241 retains one separately hashed 2025 Ficha 1 and CI243 has an explicit no-source result; each code has three new targeted attempts without 2011/96A inference.")
     return 0
 
 
