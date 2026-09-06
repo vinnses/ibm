@@ -19,4 +19,4 @@
 
 ## Integration record
 
-Branch `work/w028-documentary-release` at `6f974a7` was published and merged without conflicts by `117d4ff`. Governance, roadmap and Work indexes were updated in the following integration commit. Clean-clone validation, release tag and final remote equality are recorded by the final integration update. No analytical Work began.
+Branch `work/w028-documentary-release` at `6f974a7` was published and merged without conflicts by `117d4ff`. Governance, roadmap and Work indexes were updated by `5336b37`. A fresh GitHub clone at that commit materialized LFS and passed W015/W027/W028 deterministic checks, governance audit, repository validation, whitespace and LFS integrity with a clean worktree equal to `origin/main`. The containing final metadata commit is tagged `documentary-release-2026-09-06`; main/tag publication and remote equality were verified. No analytical Work began.
