@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CM303-01,2026-09-06,ufpr.br,"site:ufpr.br \"CM303\" \"Ficha 1\" \"2023\"",CM303,Only unrelated Cartographic Engineering records returned.,Different course cannot establish target Ficha or applicability.,No target Ficha 1 applicable to 2023 established.
+W025-CM303-02,2026-09-06,ufpr.br,"site:ufpr.br \"CM303\" \"Ficha 2\" \"2023\"",CM303,No target Ficha 2 returned.,Official-public targeted search only.,No term/class target Ficha 2 applicable to 2023 established.
+W025-CM303-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CM303\"",CM303,Only Electrical Engineering resolution and unrelated thesis references returned.,Neither is a target Ficha nor proves Biomedical Informatics applicability.,No archival target Ficha applicable to 2023 established.
