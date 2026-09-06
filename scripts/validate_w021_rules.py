@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate W021 checkpoint-B literal TCC provisions and source provenance."""
+"""Validate W021 literal TCC and internship provisions and source provenance."""
 
 from __future__ import annotations
 
@@ -39,25 +39,26 @@ def main() -> int:
         return 1
     with DATA.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    if len(rows) != 19:
-        errors.append(f"expected 19 distinct TCC provisions, found {len(rows)}")
+    if len(rows) != 54:
+        errors.append(f"expected 54 distinct provisions (19 TCC + 35 Internship), found {len(rows)}")
     if any(set(row) != REQUIRED for row in rows):
         errors.append("schema differs from the documented W021 rule schema")
     if len({row.get("provision_id", "") for row in rows}) != len(rows):
         errors.append("provision_id values must be unique")
     if {row.get("curriculum_version") for row in rows} != {"2011", "2023"}:
         errors.append("both curriculum versions must be represented")
-    if sum(row.get("curriculum_version") == "2011" for row in rows) != 3:
-        errors.append("2011 must have exactly 3 TCC provisions")
-    if sum(row.get("curriculum_version") == "2023" for row in rows) != 16:
-        errors.append("2023 must have exactly 16 TCC provisions")
+    for topic, expected in (("TCC", 19), ("Internship", 35)):
+        if sum(row.get("topic") == topic for row in rows) != expected:
+            errors.append(f"{topic} must have exactly {expected} provisions")
+        if {row.get("curriculum_version") for row in rows if row.get("topic") == topic} != {"2011", "2023"}:
+            errors.append(f"{topic} must cover both curriculum versions")
     for row in rows:
         ident = row.get("provision_id", "")
         for field in REQUIRED:
             if not row.get(field):
                 errors.append(f"{ident}: empty required field {field}")
-        if row.get("topic") != "TCC":
-            errors.append(f"{ident}: topic is not TCC")
+        if row.get("topic") not in {"TCC", "Internship"}:
+            errors.append(f"{ident}: unsupported topic")
         if row.get("evidence_status") not in {"proven", "probable", "contradictory", "not located"}:
             errors.append(f"{ident}: invalid evidence_status")
         if len(row.get("rule_text", "")) < 80:
@@ -95,7 +96,7 @@ def main() -> int:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print("W021 checkpoint-B validation passed: 19 complete TCC provisions across 2011/2023; manifest URLs, hashes, stored bytes, locators, and non-placeholder rule text verified.")
+    print("W021 validation passed: 19 TCC + 35 Internship provisions across 2011/2023; manifest URLs, hashes, stored bytes, locators, and non-placeholder rule text verified.")
     return 0
 
 
