@@ -4,12 +4,12 @@
 - **Branch:** `work/w027-documentary-delivery-plan`.
 - **Commit base:** `2d6c14378b42ae36ffa3b657795a78ecf96e349d`.
 - Primary-session assignment: GPT-5 exposed family; exact backend and effort are not exposed; actual orchestrator, scope authority, reviewer and integrator.
-- Agent assignments: primary / scope authority-review-integration / GPT-5 exposed family / effort unavailable / actual; W027 inventory agent / mechanical inventory builder / `gpt-5.6-luna` / medium / planned.
+- Agent assignments: primary / scope authority-review-integration / GPT-5 exposed family / effort unavailable / actual; `01a0782f-e3d0-7c30-a37e-093daa90026f` / mechanical inventory builder / `gpt-5.6-luna` / medium / actual.
 
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | Primary session | primary | orchestrator, scope authority, reviewer, integrator | GPT-5 exposed family | unavailable | actual | Objective reformulation, cross-cutting governance and integration remain primary-session duties |
-| W027 inventory agent | subagent | mechanical inventory builder | `gpt-5.6-luna` | medium | planned | Read existing access CSVs and generate a deterministic Markdown coverage view; canonical Luna/medium routing for mechanical organization and simple extraction |
+| `01a0782f-e3d0-7c30-a37e-093daa90026f` | subagent | mechanical inventory builder | `gpt-5.6-luna` | medium | actual | Read existing access CSVs and generate a deterministic Markdown coverage view; canonical Luna/medium routing for mechanical organization and simple extraction |
 
 - Escalation rule: ambiguity about project objectives, category boundaries or gate consequences returns to the primary session. No Sol subagent may be created; work genuinely requiring Sol remains with the user-supervised primary session.
 - **Inputs:** `governance/PROJECT.md`, `governance/ROADMAP.md`, `governance/DATA_FIRST.md`, `governance/REMAINING_DATA.md`, `governance/WORK_INDEX.md`, `dados/acesso/datasets.csv`, `dados/acesso/source-records.csv`, `dados/acesso/gaps.csv`, and existing W009-W026 records.
