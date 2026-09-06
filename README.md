@@ -1,10 +1,12 @@
 # História curricular da Informática Biomédica — UFPR
 
-Este repositório reúne a reconstrução documental e a análise histórica do Bacharelado em Informática Biomédica da Universidade Federal do Paraná (UFPR), vinculado ao Departamento de Informática.
+Este repositório reúne a reconstrução documental e os dados históricos do Bacharelado em Informática Biomédica da Universidade Federal do Paraná (UFPR), vinculado ao Departamento de Informática.
 
 ## Objetivo
 
-Reconstruir documentalmente cada currículo antes de compará-los e, em seguida, analisar a proposta de reorganização do curso. O projeto preserva a estrutura formal, as ementas, os planos de ensino, as vigências, os atos administrativos, os indicadores e os documentos propositivos.
+Entregar o acervo documental e de dados mais completo, rastreável e reutilizável razoavelmente obtenível, preservando versões, universos estatísticos, incertezas e lacunas. A comparação curricular e a avaliação da proposta dependem de um objetivo futuro com participação direta do usuário.
+
+Comece pela [entrega documental](dados/entrega-documental/README.md).
 
 ## Regra de preservação
 
@@ -50,7 +52,7 @@ AI agents and local Codex sessions must start with [`AGENTS.md`](AGENTS.md) and 
 
 ## Estado e plano completo
 
-Atualização de 05/09/2026: P0 e P1 estão concluídos no alcance documental aprovado, com W009, W010 e W011 integrados. O W010 inclui 43 alvos, 92 optativas formais e 21 dependências. Permanecem lacunas de Fichas aplicáveis e documentos institucionais, com consequências explícitas para P2 e P3. O estado autoritativo está no [roadmap](governance/ROADMAP.md); os [ajustes secundários adiados](governance/corrections/W010.md) não bloqueiam o encerramento. As listas detalhadas abaixo preservam etapas anteriores e aguardam atualização editorial.
+Atualização de 06/09/2026: P0/P1 e o programa documental N1-N6 estão concluídos no alcance aprovado. A entrega indexa 204 datasets, 191 registros de fontes e 33 lacunas/buscas, mantendo exceções explícitas. As listas detalhadas abaixo preservam o histórico e não substituem o [roadmap](governance/ROADMAP.md) nem a [entrega](dados/entrega-documental/README.md).
 
 ### 0. Infraestrutura documental
 
@@ -130,7 +132,7 @@ Síntese, dados e auditoria: [`administracao/dados/`](administracao/dados/).
 
 ## Prioridade imediata
 
-Direção atual: reunir e disponibilizar dados e documentos estáveis, em passos pequenos com commits próprios. O [plano de execução e ponto de retomada](governance/DATA_FIRST.md) registra o que está sendo feito. Comparações, síntese analítica e verificação de práticas atuais estão adiadas; o roteiro P2–P4 abaixo descreve a sequência anterior.
+Direção atual: a entrega documental N1-N6 está concluída com exceções documentadas. Novas evidências podem entrar por Work limitado quando forem fornecidas ou surgir uma pista concreta. Comparações e síntese analítica continuam adiadas.
 
 O roteiro autoritativo e seus critérios de conclusão estão em [`governance/ROADMAP.md`](governance/ROADMAP.md). Em resumo:
 
@@ -139,4 +141,4 @@ O roteiro autoritativo e seus critérios de conclusão estão em [`governance/RO
 3. após o gate P2, autorizar P3 para comparação curricular limitada às evidências disponíveis;
 4. após P3, autorizar P4 para síntese e versão reproduzível.
 
-P2 ainda não foi iniciado.
+O antigo P2 foi substituído pelo congelamento documental N5, concluído. P3 e a parte analítica de P4 não foram iniciados.

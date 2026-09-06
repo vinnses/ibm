@@ -1,6 +1,6 @@
 # Remaining documentary work: evidence queue and safe stopping points
 
-Updated during W027/N1. The active sequence is now N1-N6 in `DOCUMENTARY_DELIVERY_PLAN.md`; D01-D09 below remain the evidence-level queue and execution history. D01-D04 and the selected W026/D05 applicant batch are complete. Remaining work must be selected by access class: repository-local extraction, precise new public lead, institutional/user input, or documentary freeze. No collection agent is active.
+Updated after W028. N1-N6 are complete with documented exceptions and the release is available at `dados/entrega-documental/README.md`. The items below are no longer an active execution queue: they are evidence-intake routes for a future bounded Work if files, access or a genuinely new lead become available. No collection or analytical agent is active.
 
 ## What is already available
 

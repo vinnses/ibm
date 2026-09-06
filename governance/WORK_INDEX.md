@@ -57,6 +57,8 @@ W026 historical applicant counts: complete with documented source/universe excep
 
 W027 documentary delivery alignment: complete with a documented spreadsheet-runtime exception and integrated on 2026-09-06. Specification/assignment `6b2e61d`, `9d8773a`; program `1722524`; inventory `31ffca0`; review/closure `4acfd28`; merge `2692e2f`. Deliverable: active N1-N6 documentary program plus deterministic coverage inventory for 204 datasets, 191 source-manifest records and 33 gap/search records. P3/P4 analysis is deferred for direct user participation; N2 requires separate authorization.
 
+W028 N2-N6 documentary release: complete with documented access/provenance/tooling exceptions and integrated on 2026-09-06. Specification `be63ae1`; N2 `17a9a52`; N3 `000400d`; N4 `6a28d30`/`e0c7a21`; N5 `2c92d1d`; N6 `97cc72f`; review/closure `6f974a7`; merge `117d4ff`. Deliverable: four-axis navigation, 21-family extraction status, 17 actionable request subjects covering 33 gap records, independent audit, release guide and 375-file checksum manifest. Analysis remains deferred.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

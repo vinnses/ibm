@@ -46,6 +46,7 @@ Completion is not a claim that every document existing at UFPR was obtained. `No
 - Gate: a user can reach every material existing dataset and source class from one documented entry point without merging Ficha versions or statistical universes.
 - Stop boundary: navigation and packaging only; no claim of exhaustive evidence and no analysis.
 - Suggested next Work: one axis per committed and pushed checkpoint, followed by one package-level index checkpoint.
+- Work/status: W028 complete and integrated on 2026-09-06.
 
 ### N3 — Complete locally extractable stable data
 
@@ -53,6 +54,7 @@ Completion is not a claim that every document existing at UFPR was obtained. `No
 - Priority rule: inventory first; select one source family and explicit fields per Work. CPA workbook extraction is eligible only in a runtime exposing the mandated spreadsheet authoring dependencies.
 - Gate: every selected source is either structured or has a documented technical/content reason it cannot be extracted.
 - Stop boundary: no interpretation, cross-version synthesis or alternative spreadsheet library.
+- Work/status: W028 status accounting complete; remaining CPA extraction is an accepted tooling dependency, not silently omitted work.
 
 ### N4 — Resolve concrete leads and package institutional gaps
 
@@ -60,18 +62,21 @@ Completion is not a claim that every document existing at UFPR was obtained. `No
 - Output B: an actionable institutional request register for remaining documents, including likely custodian, exact version/period, evidentiary purpose, acceptable provenance and consequence of absence.
 - Gate: completed public searches are not repeated without a new lead; every protected/access-dependent gap has an owner/action and does not masquerade as nonexistence.
 - Stop boundary: agents do not contact institutions, bypass access, or check volatile current compliance/offering.
+- Work/status: W028 request/gap package complete; future supplied evidence may reopen a bounded intake Work.
 
 ### N5 — Minimum documentary audit and freeze
 
 - Output: audited baseline covering paths, hashes, manifest/source correspondence, schemas, locators, duplicates, version boundaries, statistical universes and unresolved contradictions.
 - Gate: no open agent-correctable material defect; accepted gaps and conflicts are machine- or human-readable; deterministic builders/checkers pass.
 - Stop boundary: record divergences without adjudicating their curricular meaning.
+- Work/status: W028 independently approved with documented exceptions and integrated on 2026-09-06.
 
 ### N6 — Publish the documentary release
 
 - Output: versioned access package, source catalog, coverage and gap matrices, methodology, reproduction commands, validation record and release commit/tag.
 - Gate: clean-checkout reproduction and remote availability are verified.
 - Stop boundary: no curricular judgment, proposal evaluation or recommendation.
+- Work/status: W028 release package complete and integrated; clean-checkout and tag are recorded in its handoff.
 
 ## Selection rule for the next Work
 

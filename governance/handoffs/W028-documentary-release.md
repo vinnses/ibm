@@ -19,4 +19,4 @@
 
 ## Integration record
 
-Pending branch publication, no-fast-forward merge, clean-clone validation, governance/index update, release tag and remote-equality verification.
+Branch `work/w028-documentary-release` at `6f974a7` was published and merged without conflicts by `117d4ff`. Governance, roadmap and Work indexes were updated in the following integration commit. Clean-clone validation, release tag and final remote equality are recorded by the final integration update. No analytical Work began.

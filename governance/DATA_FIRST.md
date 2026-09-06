@@ -25,7 +25,7 @@ S1 and S2 are independent and may run concurrently on separate branches. Each be
 
 Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
-Current restart point: W027/N1 is complete and integrated; no source-collection agent is active. The next separately authorized unit is N2 consolidation by one documentary axis, beginning with 2011 navigation. Further Ficha progress requires institutionally supplied/authorized files; historical-act retrieval requires a new lead; CPA extraction requires a compatible spreadsheet runtime. No analytical phase is active.
+Current restart point: W028 completed and integrated N2-N6; no source-collection or analytical agent is active. The documentary release starts at `dados/entrega-documental/README.md`. Further evidence enters only through a bounded intake Work when supplied or supported by a genuinely new lead. Comparison/evaluation requires a new user-supervised objective.
 
 ## Checkpoint and interruption contract
 
