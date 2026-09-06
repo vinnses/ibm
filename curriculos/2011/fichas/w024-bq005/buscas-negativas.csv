@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-BQ005-01,2026-09-06,ufpr.br,"site:ufpr.br \"BQ005\" \"Ficha 1\"",BQ005,"Preserved official 2022 BQ005 Ficha 1; it is later than 2011.","Public targeted search; source preserved before use.",Later Ficha 1 remains indeterminate for 2011/96A.
+W024-BQ005-02,2026-09-06,ufpr.br,"site:ufpr.br \"BQ005\" \"Ficha 2\" \"2011\"",BQ005,"Only later BQ005 Ficha 2 material was returned and was not used as 2011 evidence.","Public targeted search only.",No term/class 2011/96A Ficha 2 located; not nonexistence.
+W024-BQ005-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"BQ005\"",BQ005,"No BQ005 Ficha result was returned on the queried archive surface.","Public archive indexing limited.",No additional Ficha evidence applicable to 2011/96A located; not nonexistence.
