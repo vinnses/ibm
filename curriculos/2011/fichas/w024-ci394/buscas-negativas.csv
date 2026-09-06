@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-CI394-01,2026-09-06,ufpr.br,"site:ufpr.br \"CI394\" \"Ficha 1\"",CI394,No original Ficha returned.,Official-public search only.,No Ficha establishes applicability.
+W024-CI394-02,2026-09-06,ufpr.br,"site:ufpr.br \"CI394\" \"Ficha 2\" \"2011\"",CI394,No 2011 Ficha 2 returned.,Official-public search only.,No term/class Ficha 2 establishes applicability.
+W024-CI394-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CI394\"",CI394,No Ficha returned.,Public archive index only.,No archival Ficha establishes applicability.
