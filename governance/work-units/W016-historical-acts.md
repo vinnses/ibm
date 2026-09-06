@@ -13,3 +13,7 @@
 - Validation: verify every local hash/path and both target records; `python scripts/validate_repository.py`; `python scripts/validate_governance_audit.py`; `git diff --check` (preserved original whitespace exempt, documented).
 - Error log: `governance/errors/W016.md`; failed source/tool attempts appended; human-only remainder refers to HR-W011-002, no new question required.
 - Checkpoints: A specification commit (primary); B first target source/status/manifest/search record plus minimal handoff committed; C second target and final validation/handoff committed. Use an explicit handoff active-step line. Do not push, merge, edit other branches, or spawn agents. Primary publishes/integrates separately under user's small-step data-first request.
+
+## Interruption checkpoint — 2026-09-05
+
+Actor `01a073b1-9e30-7000-87ea-c19908a1ad47` hit the runtime usage limit before checkpoint B. Primary performs preservation of the incomplete state and handoff only, at its unchanged recorded model/effort. No new investigator is activated; no original-act retrieval success or bounded-search conclusion is claimed. Resume B (first act) from the committed specification; the unverified draft capture is not evidence for either act.
