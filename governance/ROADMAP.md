@@ -4,6 +4,8 @@ Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
 
 ## Active direction — data delivery before analysis
 
+Latest planning checkpoint: W017 divides the remaining work into small selectable batches in [`REMAINING_DATA.md`](REMAINING_DATA.md). The user will choose how far to execute after publication. All proposed batches are unstarted; do not infer collection authorization from this planning update.
+
 The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
 
 - W014: commit and integrate the new direction and checkpoint contract.
