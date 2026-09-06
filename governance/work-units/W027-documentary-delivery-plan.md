@@ -9,7 +9,7 @@
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | Primary session | primary | orchestrator, scope authority, reviewer, integrator | GPT-5 exposed family | unavailable | actual | Objective reformulation, cross-cutting governance and integration remain primary-session duties |
-| New bounded agent | subagent | mechanical inventory builder | runtime-provided non-Sol model, exact assignment recorded before activation | inherited unless exposed | planned | Read existing access CSVs and generate a deterministic Markdown coverage view; smallest available capable tier under the agent runtime |
+| W027 inventory agent | subagent | mechanical inventory builder | `gpt-5.6-luna` | medium | planned | Read existing access CSVs and generate a deterministic Markdown coverage view; canonical Luna/medium routing for mechanical organization and simple extraction |
 
 - **Escalation rule:** ambiguity about project objectives, category boundaries or gate consequences returns to the primary session. No Sol subagent may be created; work genuinely requiring Sol remains with the user-supervised primary session.
 - **Inputs:** `governance/PROJECT.md`, `governance/ROADMAP.md`, `governance/DATA_FIRST.md`, `governance/REMAINING_DATA.md`, `governance/WORK_INDEX.md`, `dados/acesso/datasets.csv`, `dados/acesso/source-records.csv`, `dados/acesso/gaps.csv`, and existing W009-W026 records.
