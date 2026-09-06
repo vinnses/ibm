@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-BF075-01,2026-09-06,ufpr.br,"site:ufpr.br \"BF075\" \"Ficha 1\"",BF075,No code-specific Ficha 1 returned.,Official-public targeted search only.,No Ficha 1 establishes 2011 or curriculum-96A applicability.
+W024-BF075-02,2026-09-06,ufpr.br,"site:ufpr.br \"BF075\" \"Ficha 2\" \"2011\"",BF075,No code-specific 2011 Ficha 2 returned.,Official-public targeted search only.,No term/class Ficha 2 establishes 2011 or curriculum-96A applicability.
+W024-BF075-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"BF075\"",BF075,No Ficha returned.,Public archive index only.,No public archival Ficha establishes 2011 or curriculum-96A applicability.
