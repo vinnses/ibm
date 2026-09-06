@@ -14,3 +14,7 @@
 - Error log: `governance/errors/W015.md`; log every unplanned failure, minor items may be deferred explicitly.
 - Human review: reference existing W009/W010/W011 human-review records; no new question required.
 - Checkpoints: A specification commit (primary); B dataset index and README commit; C manifest index/gap queue and validated handoff commit. If interrupted stop after the last complete commit; record active substep. No integration or push by subagent; primary publishes checkpoints and integrates separately under user's data-first execution request.
+
+## Recorded reassignment — 2026-09-05
+
+Luna actor `01a073b1-9dff-7f30-939c-dd131fb5eba8` stopped at the runtime usage limit after leaving an uncommitted builder/README draft. The user requested continuation. The unchanged primary session now performs bounded draft verification, mechanical completion and integration because the lower-tier runtime is unavailable; this is a recorded routing deviation, not a new model selection. No further subagent is spawned. Record the interruption and any draft defects in the Work error log before correction.
