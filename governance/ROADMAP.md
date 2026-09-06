@@ -1,12 +1,12 @@
 # Project Roadmap
 
-Baseline: 2026-09-05, data-first redirection after W010/P1 bounded closure.
+Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first expansion.
 
-## Active direction — data delivery before analysis
+## Active direction — documentary delivery
 
-Latest execution checkpoint: W026 completed the selected historical-applicant batch in five intermediate pushed lots. Ten process-years received bounded searches, seven official sources were preserved, and the output keeps total-course and category-only counts separate. Absolute counts remain not located for 2018, 2025 and 2026; no named list, ratio or unmatched vacancy count was converted into a total.
+W027 establishes [`DOCUMENTARY_DELIVERY_PLAN.md`](DOCUMENTARY_DELIVERY_PLAN.md) as the active N1-N6 program. The essential objective is a complete-as-reasonably-obtainable, traceable and reusable documentary/data release. Curricular comparison, evaluation and recommendations are a separate future objective requiring direct user participation.
 
-The user's latest instruction supersedes the immediate P2-P4 sequence below. Prioritize relevant stable data and original documents, not curricular analysis or verification of current compliance/offering. The executable overall plan and per-step restart state are in [`DATA_FIRST.md`](DATA_FIRST.md).
+Latest completed data checkpoint: W026 recovered historical applicant evidence in five intermediate pushed lots. N1 now aligns the objective and maps existing coverage; it does not collect new sources. The next authorized Work must be selected from the earliest incomplete documentary stage and specified separately.
 
 - W014: commit and integrate the new direction and checkpoint contract.
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.

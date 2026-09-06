@@ -2,11 +2,11 @@
 
 ## Purpose
 
-Build a verifiable documentary, curricular, and administrative history of the UFPR Bachelor of Biomedical Informatics, its curriculum reforms, and the 2026 reorganization proposal.
+Build and deliver the most complete, traceable and reusable documentary and data collection reasonably obtainable for the UFPR Bachelor of Biomedical Informatics, its curriculum reforms and the 2026 reorganization proposal. Preserve original sources, versions, statistical universes, uncertainty and actionable gaps.
 
-The documentary record must be sufficiently reconstructed before the project evaluates curricular quality, compares alternatives, or proposes a future course.
+The active program is documentary delivery, defined in `DOCUMENTARY_DELIVERY_PLAN.md`. It does not evaluate curricular quality or formulate recommendations. Comparison, interpretation, proposal evaluation and normative synthesis require the user's direct participation and remain a separate future objective.
 
-Immediate user priority, 2026-09-05: deliver relevant stable data and original documents in small committed batches. Follow `governance/DATA_FIRST.md`. Comparative analysis, evaluative synthesis and checks of current operational compliance/offering are deferred. P1 inventory closure does not mean all underlying data have been obtained.
+P1 closure means the bounded public inventory passed its documentary gate; it does not mean every underlying document was obtained. D01-D09 and W018-W026 extended the data available and now feed the N1-N6 documentary-delivery sequence rather than a competing roadmap.
 
 ## Research axes
 
@@ -16,7 +16,7 @@ Immediate user priority, 2026-09-05: deliver relevant stable data and original d
 | 2023 curriculum | Current matrix, PPC, resolutions, Fichas, electives, TCC, internship, extension, dependencies | W010 bounded inventory complete with documented exceptions; applicable Ficha and portal-status gaps remain |
 | Administrative history | Creation, recognition, reforms, applicants, vacancies, entrants, enrollment/continuance, completion, dropout, evaluation, decisions | Bounded UFPR/INEP series complete for located public data; historical and evaluation gaps remain |
 | 2026 proposal | Internal call, feasibility form, procedural status, proposed matrix, resources, institutional consequences | Call and proposal preserved; later acts and proposed matrix not located |
-| Comparison and analysis | Content, progression, dependencies, disciplinary balance, evidence-based assessment of the proposal | Deferred by latest user direction; stable data access and recovery take priority |
+| Comparison and analysis | Content, progression, dependencies, disciplinary balance, evidence-based assessment of the proposal | Future user-supervised objective; not part of documentary-delivery completion |
 
 ## Evidence model
 
@@ -67,3 +67,5 @@ The 2026 course document is currently established only as a located proposal. No
 ## Deliverable standard
 
 A research milestone is complete only when its conclusions trace to preserved evidence, manifests are valid, gaps and conflicts are explicit, work-specific checks pass, commits are scoped, and a handoff records what was and was not done.
+
+The active final deliverable is a reproducible documentary release: navigable datasets and originals, provenance and hashes, coverage and institutional-gap registers, methodology, deterministic validation, and a frozen repository state. Analytical conclusions and recommendations are not required for that release.
