@@ -28,7 +28,16 @@ def main():
                 if not p.is_file(): errors.append(f"missing source {row['source_path']}")
                 elif row["source_path"] not in manifest: errors.append(f"unmanifested source {row['source_path']}")
             if "derived" in row["denominator_status"].lower(): errors.append("derived applicant count")
+        expected_years={year for _, years in LOTS for year in years}
+        seen_years={row["reference_year"] for row in rows}
+        if seen_years != expected_years: errors.append("incomplete or unexpected W026 target-year coverage")
+    if (BASE/"buscas.csv").is_file():
+        with (BASE/"buscas.csv").open(encoding="utf-8", newline="") as f:
+            searches=list(csv.DictReader(f))
+        for year in {year for _, years in LOTS for year in years}:
+            count=sum(row["target"] == year for row in searches)
+            if count != 3: errors.append(f"expected three bounded attempts for {year}, found {count}")
     if errors:
         print(*[f"ERROR: {x}" for x in errors],sep="\n",file=sys.stderr); return 1
-    print(f"W026 validation passed: {len(rows)} applicant/gap records with literal-source and no-source statuses checked.")
+    print(f"W026 validation passed: {len(rows)} applicant/gap records and three bounded attempts per target checked.")
 if __name__=="__main__": raise SystemExit(main())
