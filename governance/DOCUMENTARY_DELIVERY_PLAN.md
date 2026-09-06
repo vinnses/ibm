@@ -38,7 +38,7 @@ Completion is not a claim that every document existing at UFPR was obtained. `No
 - Output: this program, a reproducible consolidated inventory, and synchronized project/roadmap/restart records.
 - Gate: existing, locally extractable, concrete-lead, access-dependent and deferred-analytical lanes are distinguishable.
 - Stop boundary: no new source collection or factual extraction.
-- Work: W027.
+- Work/status: W027 complete and integrated on 2026-09-06.
 
 ### N2 — Consolidate the existing documentary package
 

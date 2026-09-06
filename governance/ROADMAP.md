@@ -4,9 +4,9 @@ Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first exp
 
 ## Active direction — documentary delivery
 
-W027 establishes [`DOCUMENTARY_DELIVERY_PLAN.md`](DOCUMENTARY_DELIVERY_PLAN.md) as the active N1-N6 program. The essential objective is a complete-as-reasonably-obtainable, traceable and reusable documentary/data release. Curricular comparison, evaluation and recommendations are a separate future objective requiring direct user participation.
+W027 established [`DOCUMENTARY_DELIVERY_PLAN.md`](DOCUMENTARY_DELIVERY_PLAN.md) as the active N1-N6 program and completed N1. The essential objective is a complete-as-reasonably-obtainable, traceable and reusable documentary/data release. Curricular comparison, evaluation and recommendations are a separate future objective requiring direct user participation.
 
-Latest completed data checkpoint: W026 recovered historical applicant evidence in five intermediate pushed lots. N1 now aligns the objective and maps existing coverage; it does not collect new sources. The next authorized Work must be selected from the earliest incomplete documentary stage and specified separately.
+Latest planning checkpoint: W027 integrated the objective alignment and reproducible inventory of 204 datasets, 191 source-manifest records and 33 gap/search records. It collected no new source. The next Work is N2 consolidation for one documentary axis and requires separate authorization.
 
 - W014: commit and integrate the new direction and checkpoint contract.
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.

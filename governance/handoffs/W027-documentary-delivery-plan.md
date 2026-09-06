@@ -21,4 +21,4 @@
 
 ## Integration record
 
-Pending branch closure publication, no-fast-forward merge, global index update, final validation and remote-equality verification.
+Branch `work/w027-documentary-delivery-plan` at `4acfd28` was published and merged without conflicts by `2692e2f`. The integration metadata commit updates the active plan, restart point and Work index. Final W015/W027, governance, repository, whitespace and LFS checks pass. Main publication and remote equality are verified after the containing integration-metadata commit. N2 was not started.

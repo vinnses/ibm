@@ -55,6 +55,8 @@ W025 complete bounded 2023 Ficha public search: complete with documented public-
 
 W026 historical applicant counts: complete with documented source/universe exceptions and integrated on 2026-09-06. Specification `1dabb92`; H1-H5 `b442aff`, `ae934a0`, `808149e`, `ec06333`, `5a019d7`; review/closure `3015d66`; merge `a63472b`. Deliverable: ten process-year outcomes, thirty bounded attempts and seven preserved official sources. Course totals exist for 2015/2017; narrower category counts for 2019/2021-2024 remain explicitly non-comparable; 2018/2025/2026 are not located.
 
+W027 documentary delivery alignment: complete with a documented spreadsheet-runtime exception and integrated on 2026-09-06. Specification/assignment `6b2e61d`, `9d8773a`; program `1722524`; inventory `31ffca0`; review/closure `4acfd28`; merge `2692e2f`. Deliverable: active N1-N6 documentary program plus deterministic coverage inventory for 204 datasets, 191 source-manifest records and 33 gap/search records. P3/P4 analysis is deferred for direct user participation; N2 requires separate authorization.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
