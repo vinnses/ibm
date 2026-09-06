@@ -13,11 +13,13 @@ User direction, 2026-09-05: prioritize access to relevant data and original docu
 
 | Step / Work | Output and boundary | Actor | Status / restart |
 |---|---|---|---|
-| S0 / W014 | Save this direction and bounded specifications; review and integrate roadmap revision | Primary GPT-6, user-selected session | Active: plan checkpoint; `governance/work-units/W014-data-first-plan.md` |
-| S1 / W015 | Machine-readable access catalog of existing datasets and preserved-source records, plus concise gap queue from existing records; no new factual inference | Luna/medium in isolated worktree | Assigned: `governance/work-units/W015-data-access.md` in `work/w015-data-access` |
-| S2 / W016 | Bounded recovery of original Resolução 19/10-COUN and Portaria 44 of 22 January 2015; preserve any exact originals and record unsuccessful searches | Terra/medium in isolated worktree | Assigned: `governance/work-units/W016-historical-acts.md` in `work/w016-historical-acts` |
+| S0 / W014 | Save this direction and bounded specifications; review and integrate roadmap revision | Primary GPT-6, user-selected session | Complete, merged `20fa763`; `governance/work-units/W014-data-first-plan.md` |
+| S1 / W015 | Machine-readable access catalog of existing datasets and preserved-source records, plus recorded gap queue | Luna/medium draft; primary completion after runtime limit | Complete on branch at `03f129c`, integration next; usable data checkpoint `feaaf0c` |
+| S2 / W016 | Bounded recovery of two historical acts | Terra/medium interrupted; primary bounded continuation | Data/status checkpoints saved; Portaria institutional reproduction recovered, COUN original not located; final integration next |
 
 S1 and S2 are independent and may run concurrently on separate branches. Each begins by committing its Work record, then commits each usable data/source batch and a handoff. The primary reviews and integrates each separately. The user authorized these small data steps in the current request; no analysis milestone is implicitly started.
+
+Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
 ## Checkpoint and interruption contract
 

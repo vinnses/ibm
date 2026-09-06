@@ -15,3 +15,7 @@
 - Human review: existing W009/W010/W011 question files; no new question. Their limits continue to constrain any future factual claims.
 - Active step / restart: S0 direction saved; finish W014 integration, then review/publish each independently completed W015/W016 checkpoint. See `governance/DATA_FIRST.md` and their worktrees. Do not abandon an incomplete branch.
 - Recommended next bounded work: finish the already authorized W015/W016 outputs; choose later stable-document/data batches from actual gaps, with a new specification. Analysis remains deferred.
+
+## Integration checkpoint
+
+W014 merged by `20fa763` from `1db440e`; no conflicts. Governance/repository and whitespace checks passed (31 CSVs, 126 indexed hashes, 99 local links, zero errors). Updated global scope through ROADMAP, PROJECT, DATA_FIRST and README. W015/W016 specification branches were published before the runtime usage-limit interruptions; primary takeover and recovery are logged in their own Works. WORK_INDEX receives its W014 row in the explicit integration metadata commit. Primary publication of integrated main follows validation.

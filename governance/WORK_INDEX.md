@@ -27,6 +27,14 @@ The W012 row's statement that W010 was outside `main` describes the W012 integra
 
 ## Source and review indexes
 
+## Data-first checkpoints — 2026-09-05
+
+| ID | Status | Saved commits | Output / remaining boundary |
+|---|---|---|---|
+| W014 | Complete; integrated | `478268c`, `1db440e`; merge `20fa763` | Data-first direction and per-step restart plan in `governance/DATA_FIRST.md`; analytical P2-P4 execution deferred |
+
+## Source access links
+
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
 - Administrative source manifest: [`../administracao/dados/fontes.csv`](../administracao/dados/fontes.csv)
 - DInf Ficha manifest: [`../curriculos/2023/fichas/manifesto-dinf.csv`](../curriculos/2023/fichas/manifesto-dinf.csv)
