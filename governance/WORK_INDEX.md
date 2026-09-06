@@ -41,6 +41,8 @@ W018 D01 first Ficha 1 batch: complete with documented applicability/date gaps a
 
 W019 D01 second Ficha 1 batch: complete with documented applicability/date gaps and integrated on 2026-09-06. Commits `8d03d28`, `283936e`, `9c30680`; merge `58fc5be`. Deliverable: five source-located records for CI1005, CI1007, CI1056, CI1057 and CI1062 plus validator. All 2023 applicability values remain indeterminate; HR-W010-001 remains. Access package refreshed afterward; no third batch started.
 
+W020 complete preserved Ficha data: complete with documented applicability/version gaps and integrated on 2026-09-06. Commits `90fa834`, `6a307ec`, `cc93b6f`, `e6bd827`, `a833d14`; merge `35aa728`. Deliverable: structured records for all 40 preserved PDFs—23 Ficha 1 and 17 separate Ficha 2 documents—with complete normalized source fields, provenance and validator. No preserved Ficha remains unstructured; unavailable/applicability evidence remains outside this bounded result.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

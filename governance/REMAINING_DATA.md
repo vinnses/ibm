@@ -1,6 +1,6 @@
 # Remaining data: selectable batches and safe stopping points
 
-Updated 2026-09-06 after W019. Two five-document D01 batches are complete and integrated; D09 was refreshed for both outputs. Every other D-series batch remains not started and awaits user direction. No collection agent is active.
+Updated 2026-09-06 after W020. D01 is complete for every locally preserved Ficha: 23 Ficha 1 and 17 separate Ficha 2 records. D09 was refreshed. Remaining Ficha gaps require documents or applicability evidence not currently preserved; no collection agent is active.
 
 ## What is already available
 
@@ -20,7 +20,7 @@ If the user already has institutional files to provide, D07/D08 may take priorit
 
 | ID / proposed priority | Exact small unit and starting inputs | Data output and acceptance | Planned smallest capable tier | Stop boundary / dependency |
 |---|---|---|---|---|
-| D01 / first and second | **Complete in W018/W019:** CI1001, CI1002, CI1003, CI1055, CI1215; CI1005, CI1007, CI1056, CI1057, CI1062 | Two five-row source-located datasets under `dados/curriculos/2023/fichas-1-lotes/`, with ementa, stated hours/unit, dates or explicit absence, path/hash and PDF locators | Luna/medium extraction; primary source review | Integrated by `d94900e` and `58fc5be`; all applicability remains indeterminate. A third D01 batch is separate and unstarted |
+| D01 / preserved Fichas | **Complete in W018-W020:** all 40 locally preserved PDFs | 23 separate Ficha 1 records and 17 separate Ficha 2 records under `dados/curriculos/2023/`, with complete normalized source fields, explicit absences, locators, paths and hashes | Luna/medium extraction; primary source review | Integrated through `35aa728`; no locally preserved Ficha remains unstructured. Applicability and unavailable-document gaps remain explicit |
 | D02 / local stable rules | One topic per batch from preserved 2011/2023 PPCs and formal acts: first TCC, then internship, extension or formative activities. Begin with existing grade/regulation tables | Work-local `regras.csv`: literal prescribed requirement, curriculum/version, exact source/page/article, workload/eligibility when stated, uncertainty. Fill missing transcription fields, not duplicate a complete existing record | Luna/medium for extraction; Terra/medium if cross-source identity is necessary | One section/topic committed; no check of whether a rule is followed today. Conflicting statements remain separate |
 | D03 / historical curricular gaps | At most three 2011 component codes selected from W009 gap inventory; consult prior NS/HR-W009-001 before searching official historical public archives | Originals plus local manifesto and extracted fields if found; otherwise dated query log per code. Matching code alone never establishes 2011 applicability | Terra/medium; Luna only for identified-file capture | Maximum three targeted public attempts per code; commit each code's outcome. Stop at authentication/archive access; no repeated broad search |
 | D04 / 2023 curricular gaps | At most three components with missing Ficha 1 or missing applicability evidence, chosen from W010 components and HR-W010-001 | Original approved Ficha/version evidence, manifesto and literal data, or explicit bounded retrieval/applicability gap | Terra/medium | Maximum three attempts per code; current webpage/offering is not applicability evidence. No requirement to establish present implementation |
@@ -49,4 +49,4 @@ Proposed output names above are local to the future Work; determine the exact di
 
 ## Status to resume from now
 
-W018 and W019 completed two D01 batches and refreshed D09 access for them. Current next choices remain unstarted: a third D01 batch of up to five preserved Ficha 1s, or D02 for one stable regulation topic. Await user selection; do not start either automatically.
+W020 completed D01 for all locally preserved Fichas and refreshed D09. There is no third local extraction batch. Any further Ficha work requires retrieval or supply of documents not currently preserved, especially applicable historical versions and term/class-specific plans. D02 and the other non-Ficha data topics remain separate and unstarted.

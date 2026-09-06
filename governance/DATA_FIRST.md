@@ -21,7 +21,7 @@ S1 and S2 are independent and may run concurrently on separate branches. Each be
 
 Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
-Current restart point: S0-S2, W018 and W019 are complete and integrated; no collection agent is active. W018/W019 delivered two D01 batches totaling ten Ficha 1 records, then refreshed access through D09. [`REMAINING_DATA.md`](REMAINING_DATA.md) records the remaining choices. A third D01 batch or D02 remains unstarted and awaits the user's direction. Do not resume completed W016 as if no search had occurred. No analytical phase has begun.
+Current restart point: S0-S2 and W018-W020 are complete and integrated; no collection agent is active. W020 completed structured representation of all 40 preserved Fichas: 23 Ficha 1 and 17 separate Ficha 2 documents. D09 now indexes 40 datasets. [`REMAINING_DATA.md`](REMAINING_DATA.md) records only unavailable/unpreserved documentary gaps and other data topics. No further local Ficha extraction or analytical phase is active.
 
 ## Checkpoint and interruption contract
 
