@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,target,result,limits,applicability_consequence
+W025-CM311-01,2026-09-06,ufpr.br,"site:ufpr.br \"CM311\" \"Ficha 1\" \"2023\"",CM311,No target Ficha 1 returned.,Public official index only.,No 2023 applicability established.
+W025-CM311-02,2026-09-06,ufpr.br,"site:ufpr.br \"CM311\" \"Ficha 2\" \"2023\"",CM311,No target Ficha 2 returned.,Public official index only.,No 2023 term/class applicability established.
+W025-CM311-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CM311\"",CM311,Only other-course resolution material returned.,Different curriculum cannot establish applicability.,No 2023 applicability established.
