@@ -121,3 +121,18 @@ This file is append-only and is distinct from `governance/errors/W017.md`, which
 - **Resolution/status:** resolved
 - **Prevention/follow-up:** inspect exact surrounding text before a multi-file patch near a heading; prefer smaller patches for append-only audit records.
 - **Evidence:** patch verification failure and the successfully applied replacement patches.
+
+## E-W017-109 — Independent unauthenticated fetch encountered a transient GitHub 502
+
+- **Date/time:** 2026-09-06 UTC.
+- **Work / branch:** requested W017 / `work/w017-ementas-preservadas-2011`.
+- **Actor:** primary orchestrator, local Git client, and authenticated GitHub connector.
+- **Operation:** independently fetch the published remote branch through the local HTTPS remote and compare its tree with local checkpoint `446fcc67`.
+- **Expected result:** update the local remote-tracking ref and confirm remote commit/tree identity.
+- **Actual result:** GitHub returned HTTP 502 while `git fetch` requested the branch; the local remote-tracking ref was not updated.
+- **Affected paths/state:** none; the operation was read-only, the local branch stayed clean, and the previously published remote ref was unchanged.
+- **Impact:** only the redundant verification path was interrupted; publication and research artifacts were unaffected.
+- **Attempts:** after the failed fetch, queried the authenticated branch endpoint directly. It returned remote head `c414e007404e02569db249d5344e84484ae449e0` and tree `671975d1c26e211904493a6c6f025c81bc7296b8`, exactly equal to `git rev-parse HEAD^{tree}` at local checkpoint `446fcc67`.
+- **Resolution/status:** resolved
+- **Prevention/follow-up:** use the authenticated connector as the authoritative verification path when the unauthenticated HTTPS transport is unavailable or transiently failing.
+- **Evidence:** failed `git fetch` output; authenticated GitHub branch response; local `git rev-parse HEAD^{tree}` output.
