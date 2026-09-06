@@ -70,7 +70,7 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, str]]) -> 
 def csv_inputs() -> list[Path]:
     paths = sorted(
         path.relative_to(ROOT)
-        for base in (ROOT / "curriculos", ROOT / "administracao")
+        for base in (ROOT / "curriculos", ROOT / "administracao", ROOT / "dados")
         for path in base.rglob("*.csv")
         if path.is_file() and OUT not in path.parents
     )

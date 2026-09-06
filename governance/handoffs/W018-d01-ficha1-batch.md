@@ -14,3 +14,7 @@
 - Error log: `governance/errors/W018.md`; resolved E-W018-001 and E-W018-002; no open event.
 - Human review: HR-W010-001 remains and prevents treating these versions as proven applicable to the 2023 curriculum.
 - Active substep / restart: D01 dataset complete; primary integration and D09 access refresh next. Stop afterward and await user direction for another batch.
+
+## Integration record
+
+Branch `work/w018-d01-ficha1-batch` at `edbf444` was published and merged by `d94900e` without conflicts, directly by the unchanged primary GPT-5 session. D09 was limited to extending the existing access builder to include non-generated CSVs under `dados/`, regenerating the access package and recording W018 status. Final W018/W010/access/governance/repository/whitespace checks passed. Main publication and remote equality are verified after the containing integration-metadata commit. No second extraction or analysis batch was started.
