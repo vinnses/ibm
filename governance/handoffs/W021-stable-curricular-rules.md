@@ -18,4 +18,4 @@
 
 ## Integration record
 
-Pending primary merge, D09 refresh, final validation and remote synchronization.
+Branch `work/w021-stable-curricular-rules` at `aad2366` was published and merged by `257da0c` without conflicts by the primary session. D09 was rebuilt and now indexes 41 datasets. Final W009/W010/W011/W020/W021, access, governance, repository, whitespace and LFS checks passed. Main publication and remote equality were verified after the containing integration-metadata commit. No missing-source search or analysis Work was started.
