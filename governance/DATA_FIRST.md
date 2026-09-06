@@ -1,8 +1,12 @@
-# Data-first execution and restart point
+# Data-first execution history and documentary restart point
 
 User direction, 2026-09-05: prioritize access to relevant data and original documents. Analytical comparison and synthesis are deferred. Do not spend collection time establishing whether a rule is followed today, which electives are currently offered, or other volatile operational details.
 
-## Overall sequence
+## Relationship to the active program
+
+This file preserves the execution history and batch rules that produced W014-W026. As of W027, `DOCUMENTARY_DELIVERY_PLAN.md` is the single active N1-N6 roadmap. D01-D09 remain valid provenance and backlog identifiers; they no longer compete with P/N phases.
+
+## Historical overall sequence
 
 1. Make existing datasets and preserved documents easy to find and use, without merging incompatible versions or statistical universes.
 2. Recover missing stable documentary inputs in small batches: historical acts; formally applicable curricular documents/ementas; source-stated historical quantitative data; original proposal/matrix documents when accessible.
@@ -21,7 +25,7 @@ S1 and S2 are independent and may run concurrently on separate branches. Each be
 
 Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
-Current restart point: S0-S2 and W018-W026 are complete and integrated; no collection agent is active. W026 added ten historical-applicant outcomes from thirty bounded attempts and preserved seven official sources. Only 2015 and 2017 are source-stated course totals; 2019 and 2021-2024 are narrower categories, while 2018, 2025 and 2026 remain not located. D09 now indexes 204 datasets. Further Ficha progress requires institutionally supplied/authorized files under D07; D06 requires a new lead, and CPA extraction requires a compatible spreadsheet runtime. No analytical phase is active.
+Current restart point: W027/N1 is active for objective alignment and a consolidated coverage inventory. W014-W026 remain complete and integrated; no source-collection agent is active. After W027, the next separately authorized unit is N2 consolidation by one documentary axis. Further Ficha progress requires institutionally supplied/authorized files; historical-act retrieval requires a new lead; CPA extraction requires a compatible spreadsheet runtime. No analytical phase is active.
 
 ## Checkpoint and interruption contract
 

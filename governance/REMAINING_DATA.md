@@ -1,6 +1,6 @@
-# Remaining data: selectable batches and safe stopping points
+# Remaining documentary work: evidence queue and safe stopping points
 
-Updated 2026-09-06 after W026. D01-D04 are complete for bounded local extraction and official-public search. W026 completed the selected D05 historical-applicant batch for ten process-years; seven literal records and three bounded gaps are saved. Remaining Ficha gaps require institutionally supplied/authorized documents under D07. D09 was refreshed; no collection agent is active.
+Updated during W027/N1. The active sequence is now N1-N6 in `DOCUMENTARY_DELIVERY_PLAN.md`; D01-D09 below remain the evidence-level queue and execution history. D01-D04 and the selected W026/D05 applicant batch are complete. Remaining work must be selected by access class: repository-local extraction, precise new public lead, institutional/user input, or documentary freeze. No collection agent is active.
 
 ## What is already available
 
@@ -8,11 +8,12 @@ W009/W010 formal inventories, elective catalogs, dependencies and Ficha statuses
 
 Do not repeat completed searches or transcriptions. For example, `curriculos/2023/inventario/ementas.csv` is a document/status index and points to normalized transcriptions already in `fichas/inventario-dinf.md`; use those first. The 2011 ementa inventory records absent portal ementas and cannot supply invented content. W016 recovered an institutional reproduction, not the original DOU facsimile.
 
-## Recommended order for a short remaining session
+## Recommended order after W027
 
-1. **D01, one five-document batch:** the most predictable useful local output; no network needed.
-2. If capacity remains, another D01 batch **or D02, one regulation**. Save and publish the first before starting the second.
-3. **D09, package refresh:** update access paths/statuses for whatever actually finished. This may be the last step after any batch; it does not require completing the whole backlog.
+1. **N2, one documentary axis:** consolidate navigation and usage boundaries for 2011, 2023, administration, or the 2026 proposal; save and push each axis independently.
+2. **N3, one locally preserved source family:** extract only predefined factual fields. CPA is selectable only in a compatible spreadsheet runtime.
+3. **N4, one precise lead or institutional-gap register batch:** do not repeat completed Ficha searches or W016 act searches without new evidence.
+4. **N5/N6 only after N2-N4 status is explicit:** freeze and publish the documentary baseline without analysis.
 
 If the user already has institutional files to provide, D07/D08 may take priority over local extraction. D03-D06 searches have uncertain yield and should not consume the last available capacity before a saved local output. No minutes/token estimate is promised.
 
