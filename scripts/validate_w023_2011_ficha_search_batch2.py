@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate W023 checkpoints B/C's bounded CI241 and CI243 records."""
+"""Validate W023 checkpoints B-D's CI241, CI243, and CI244 records."""
 
 from __future__ import annotations
 
@@ -60,10 +60,34 @@ def main() -> int:
         if row.get("targets") != "CI243": errors.append(f"CI243 out-of-scope target: {row.get('search_id')}")
         for field in ("accessed_at", "domains", "terms", "result", "limits", "applicability_consequence"):
             if not row.get(field): errors.append(f"CI243 missing {field}: {row.get('search_id')}")
+    ci244 = ROOT / "curriculos/2011/fichas/w023-ci244"
+    ci244_manifest = read_csv(ci244, "manifesto.csv")
+    ci244_ids = {"W023-CI244-F1-2011", "W023-CI244-F2-2011-1"}
+    if len(ci244_manifest) != 2 or {row.get("record_id") for row in ci244_manifest} != ci244_ids:
+        errors.append("CI244 manifest must contain the separately preserved Ficha 1 and Ficha 2")
+    ci244_by_id = {row.get("record_id"): row for row in ci244_manifest}
+    for row in ci244_manifest:
+        path = ROOT / row.get("local_path", "")
+        if not path.is_file(): errors.append(f"CI244 missing manifested source: {row.get('local_path')}")
+        elif sha256(path) != row.get("sha256"): errors.append(f"CI244 SHA-256 mismatch: {row.get('local_path')}")
+        if row.get("institution") != "Universidade Federal do Paraná": errors.append(f"CI244 non-UFPR institution: {row.get('record_id')}")
+        if not row.get("source_url", "").startswith("https://www.inf.ufpr.br/"): errors.append(f"CI244 non-official source URL: {row.get('record_id')}")
+    if ci244_by_id.get("W023-CI244-F1-2011", {}).get("document_type") != "Ficha 1": errors.append("CI244 permanent document must remain Ficha 1")
+    if ci244_by_id.get("W023-CI244-F1-2011", {}).get("status") != "preserved_indeterminate": errors.append("CI244 Ficha 1 must retain indeterminate 96A applicability")
+    if ci244_by_id.get("W023-CI244-F2-2011-1", {}).get("document_type") != "Ficha 2": errors.append("CI244 separate plan must remain Ficha 2")
+    if "Ciência da Computação" not in ci244_by_id.get("W023-CI244-F2-2011-1", {}).get("notes", ""): errors.append("CI244 Ficha 2 must retain its source-stated course context")
+    ci244_searches = read_csv(ci244, "buscas-negativas.csv")
+    ci244_expected = {"W023-CI244-01", "W023-CI244-02", "W023-CI244-03"}
+    if len(ci244_searches) != 3 or {row.get("search_id") for row in ci244_searches} != ci244_expected:
+        errors.append("CI244 must record exactly three new targeted attempts")
+    for row in ci244_searches:
+        if row.get("targets") != "CI244": errors.append(f"CI244 out-of-scope target: {row.get('search_id')}")
+        for field in ("accessed_at", "domains", "terms", "result", "limits", "applicability_consequence"):
+            if not row.get(field): errors.append(f"CI244 missing {field}: {row.get('search_id')}")
     if errors:
         for error in errors: print(f"ERROR: {error}", file=sys.stderr)
         return 1
-    print("W023 checkpoint C validation passed: CI241 retains one separately hashed 2025 Ficha 1 and CI243 has an explicit no-source result; each code has three new targeted attempts without 2011/96A inference.")
+    print("W023 checkpoint D validation passed: CI241 retains one 2025 Ficha 1, CI243 has an explicit no-source result, and CI244 preserves separate Ficha 1/Ficha 2 sources; each code has three new targeted attempts without 2011/96A inference.")
     return 0
 
 
