@@ -68,3 +68,7 @@ No external document discovery, new source capture, Ficha 2 extraction, new comp
 ## Recommended next bounded work
 
 Recover and preserve the original Fichas 1 referenced as annexes to the 2010 PPC, or a small custodian-supplied batch whose approval/version metadata explicitly links each Ficha to the curriculum effective in 2011. Keep the separate W009 CI171/CI172/CI218/CI262 correction as a small data-quality Work. Start neither without explicit authorization.
+
+## Remote synchronization
+
+The local HTTPS push failed before writing because the runtime had no GitHub CLI credentials; E-W017-107 records the complete recovery. The authenticated GitHub connector created `work/w017-ementas-preservadas-2011` from the exact base and published commit `4ed8a129e34ed00248fad07446033e4892bd8790`. Its tree `2db0554cd3fa3b49b04ceba4262ce8c73c6f3164` was byte-identical to local closure `a99fa67`. A following connector commit adds this synchronization/error record; final ref/tree equality is verified after that containing update. The remote publication history is connector-generated rather than the five local commit objects, whose semantic sequence and hashes remain listed above. `main` was not changed or merged.

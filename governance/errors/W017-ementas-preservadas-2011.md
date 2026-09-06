@@ -91,3 +91,33 @@ This file is append-only and is distinct from `governance/errors/W017.md`, which
 - **Resolution/status:** open; bounded W009 correction, contained for W017 by source-specific fields and explicit divergence records.
 - **Prevention/follow-up:** the later W009 correction batch should audit every `title` against the primary act, correct these three rows together with CI262, and add literal-source regression expectations.
 - **Evidence:** `curriculos/2011/fontes/resolucao-34-2010-cepe.pdf`, Anexo I page 5; preserved Ementário component pages; `curriculos/2011/inventario/componentes.csv`.
+
+## E-W017-107 — Local HTTPS push had no GitHub credentials
+
+- **Date/time:** 2026-09-06 UTC.
+- **Work / branch:** requested W017 / `work/w017-ementas-preservadas-2011`.
+- **Actor:** primary orchestrator, local Git client, and authenticated GitHub connector.
+- **Operation:** publish the completed local branch to `origin` without merging `main`.
+- **Expected result:** `git push --set-upstream origin work/w017-ementas-preservadas-2011` publishes the five local semantic commits.
+- **Actual result:** the Git client failed with `fatal: could not read Username for 'https://github.com': No such device or address`; no CLI credential helper or authenticated `gh` session was available.
+- **Affected paths/state:** local branch remained clean at `a99fa67`; the remote branch did not yet contain the Work; `main` was unchanged.
+- **Impact:** the exact local commit objects could not be transferred through the configured HTTPS remote.
+- **Attempts:** (1) direct non-force push failed before writing; (2) checked for an available CLI credential/helper, which was unavailable; (3) used the authenticated GitHub connector to create the requested remote branch from base `3530173`, upload all 12 new-file blobs, create tree `2db0554cd3fa3b49b04ceba4262ce8c73c6f3164`, and publish commit `4ed8a129e34ed00248fad07446033e4892bd8790`; (4) the containing follow-up sync record is published separately and tree equality is verified after it.
+- **Resolution/status:** resolved; the remote branch is published without modifying `main`, with the local semantic commit sequence retained in this handoff and a byte-identical remote tree.
+- **Prevention/follow-up:** in this Work runtime, test authenticated Git push availability before the final checkpoint; if absent, publish through the GitHub connector and explicitly record the local/remote history mapping.
+- **Evidence:** failed Git output; connector branch/blob/tree/commit/ref results; final local-versus-remote tree comparison.
+
+## E-W017-108 — Combined synchronization-record patch used an incorrect heading context
+
+- **Date/time:** 2026-09-06 UTC.
+- **Work / branch:** requested W017 / `work/w017-ementas-preservadas-2011`.
+- **Actor:** primary orchestrator and patch tool.
+- **Operation:** append E-W017-107 and the remote synchronization section to the existing error log and handoff in one patch.
+- **Expected result:** both documentation updates apply cleanly.
+- **Actual result:** the patch was rejected before changing either file because it searched for `- Recommended next bounded work`, while the handoff uses the Markdown heading `## Recommended next bounded work`.
+- **Affected paths/state:** none; the patch application was atomic and made no partial changes.
+- **Impact:** no evidence or Git impact; documentation recovery required a corrected patch.
+- **Attempts:** inspected the handoff heading; split the update and reapplied it with the exact heading/file-end context.
+- **Resolution/status:** resolved
+- **Prevention/follow-up:** inspect exact surrounding text before a multi-file patch near a heading; prefer smaller patches for append-only audit records.
+- **Evidence:** patch verification failure and the successfully applied replacement patches.
