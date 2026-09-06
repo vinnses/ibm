@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-MN129-01,2026-09-06,ufpr.br,"site:ufpr.br \"MN129\" \"Ficha 1\"",MN129,No original Ficha returned.,Only public official indexed material was searched.,No Ficha establishes 2011 or curriculum-96A applicability.
+W024-MN129-02,2026-09-06,ufpr.br,"site:ufpr.br \"MN129\" \"Ficha 2\" \"2011\"",MN129,No code-specific 2011 Ficha 2 returned.,Only public official indexed material was searched.,No term/class Ficha 2 establishes applicability.
+W024-MN129-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"MN129\"",MN129,No Ficha returned.,Public archive index only.,No archival Ficha establishes applicability.

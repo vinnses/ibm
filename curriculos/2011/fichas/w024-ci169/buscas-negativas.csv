@@ -1,0 +1,4 @@
+search_id,accessed_at,domains,terms,targets,result,limits,applicability_consequence
+W024-CI169-01,2026-09-06,ufpr.br,"site:ufpr.br \"CI169\" \"Ficha 1\"",CI169,No original Ficha returned; index only.,Official-public index did not expose a source binary.,No Ficha establishes 2011 or curriculum-96A applicability.
+W024-CI169-02,2026-09-06,ufpr.br,"site:ufpr.br \"CI169\" \"Ficha 2\" \"2011\"",CI169,No code-specific 2011 Ficha 2 returned.,Only public official indexed material was searched.,No term/class Ficha 2 establishes applicability.
+W024-CI169-03,2026-09-06,acervodigital.ufpr.br,"site:acervodigital.ufpr.br \"CI169\"",CI169,No Ficha returned.,Public archive index only.,No archival Ficha establishes applicability.
