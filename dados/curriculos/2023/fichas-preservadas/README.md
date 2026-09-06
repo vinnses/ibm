@@ -1,4 +1,4 @@
-# W020 — Remaining preserved Ficha 1 records
+# W020 — Preserved Ficha 1 and Ficha 2 records
 
 This checkpoint publishes the 13 preserved Ficha 1 PDFs not represented by W018 or W019:
 
@@ -15,7 +15,20 @@ This checkpoint publishes the 13 preserved Ficha 1 PDFs not represented by W018 
 - `applicability_2023` is `indeterminado` for every row. The MN162 record is explicitly not upgraded despite the existing note that its 2019 Ficha predates formal code creation; that is a gap/conflict, not evidence of 2023 applicability.
 - Source spellings, ligatures, capitalization differences, and external department labels are preserved or described in `normalization_notes`; the original PDFs remain authoritative.
 
-W020 checkpoint B intentionally creates no Ficha 2 dataset. The validator combines this CSV with the W018 and W019 Ficha 1 CSVs and checks all 23 Ficha 1 records for schema, unique identity/path/URL, manifest agreement, and stored-byte hashes.
+W020 checkpoint B intentionally created no Ficha 2 dataset. Its 13 Ficha 1 rows remain in this directory, and checkpoint C adds the separate Ficha 2 dataset below.
+
+## Checkpoint C — Ficha 2
+
+`fichas-2.csv` contains exactly one row for each of the 17 preserved Ficha 2 PDFs: 16 DInf records and the external-department `MN129` record. Ficha 2 versions are not merged with Ficha 1 or with one another. The row schema is:
+
+- identity: `document_id`, `document_kind`, `code`, `source_title`;
+- version/context: `term_or_period`, `class_identifier`, `plan_version`, `document_date`, `applicability_2023`;
+- source-stated content: `unit_department`, `permanent_fields`, `ementa`, `program`, `objectives`, `method`, `evaluation`, `bibliography`, and `teacher_fields`;
+- provenance: `source_path`, `source_sha256`, `source_url`, `source_locators`, and `normalization_notes`.
+
+`permanent_fields` records the source table's hours, prerequisite/corequisite, modality, and period nature. `not stated` is used where the source does not state a value; `indeterminado` is retained for curriculum applicability. `source_locators` identifies the PDF page and section for every field group. Long bibliographic sections are represented by source-stated title groups or an explicit source-stated presence statement plus page locator; the preserved PDF remains authoritative for the complete list. The external MN129 row retains the source's `2022.1` term, Nursing department, 45 total hours, and responsible teacher without treating it as a 2023 offering.
+
+Checkpoint C extends validation to all 40 preserved PDFs exactly once: 23 Ficha 1 rows from W018/W019/W020 and these 17 Ficha 2 rows. It checks cross-kind source-path/URL/identity uniqueness, manifest agreement, SHA-256 values, and stored PDF bytes for both DInf and external manifests.
 
 ## Validation
 
