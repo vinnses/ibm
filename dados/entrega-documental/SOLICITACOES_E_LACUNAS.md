@@ -31,3 +31,12 @@ The HN003 row remains an auditable historical search record because the official
 ## Gate consequences
 
 These gaps do not block the documentary release when their status and route remain explicit. They do block claims that require the missing evidence: historical Ficha applicability, historical offering units, original creation/recognition terms, final occupancy, comparable cutoffs, Enade values, and any 2026 state beyond `proposal`. No item here authorizes curricular comparison, proposal evaluation or recommendation design.
+
+## Crosswalk of all 33 access-catalog records
+
+This crosswalk maps every `dados/acesso/gaps.csv` record to the grouped action above. Repeated rows are search-attempt records, not additional missing documents.
+
+- 2011 Fichas and allocation: `HR-W009-001`; `HR-W009-002`; `curriculos/2011/inventario/buscas-negativas.csv:NS-001`; `curriculos/2011/inventario/buscas-negativas.csv:NS-002`.
+- 2023 Fichas and Ementário: `HR-W010-001`; `HR-W010-002`; `HR-W010-003`; `curriculos/2023/inventario/buscas-negativas.csv:N01`; `curriculos/2023/inventario/buscas-negativas.csv:N02`; `curriculos/2023/inventario/buscas-negativas.csv:N03`; `curriculos/2023/inventario/buscas-negativas.csv:N04`.
+- 2026 process and administrative data: `HR-W011-001`; `HR-W011-002`; `HR-W011-003`; `administracao/historico/buscas-negativas.csv:HN004`; `administracao/historico/buscas-negativas.csv:HN005`; `administracao/historico/buscas-negativas.csv:HN006`; `administracao/historico/buscas-negativas.csv:HN007`; `administracao/historico/buscas-negativas.csv:HN008`; `administracao/historico/buscas-negativas.csv:HN009`; `administracao/historico/buscas-negativas.csv:HN010`; `administracao/historico/buscas-negativas.csv:HN011`.
+- Historical acts: `administracao/historico/buscas-negativas.csv:HN001`; `administracao/historico/buscas-negativas.csv:HN002`; `administracao/historico/buscas-negativas.csv:HN003`; `administracao/historico/atos-originais/buscas.csv:W016-Q01`; `administracao/historico/atos-originais/buscas.csv:W016-Q02`; `administracao/historico/atos-originais/buscas.csv:W016-Q03`; `administracao/historico/atos-originais/buscas.csv:W016-Q04`; `administracao/historico/atos-originais/buscas.csv:W016-Q05`; `administracao/historico/atos-originais/buscas.csv:W016-Q06`; `administracao/historico/atos-originais/buscas.csv:W016-Q07`; `administracao/historico/atos-originais/buscas.csv:W016-R01`.
