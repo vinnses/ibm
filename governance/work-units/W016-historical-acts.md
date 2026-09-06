@@ -17,3 +17,9 @@
 ## Interruption checkpoint — 2026-09-05
 
 Actor `01a073b1-9e30-7000-87ea-c19908a1ad47` hit the runtime usage limit before checkpoint B. Primary performs preservation of the incomplete state and handoff only, at its unchanged recorded model/effort. No new investigator is activated; no original-act retrieval success or bounded-search conclusion is claimed. Resume B (first act) from the committed specification; the unverified draft capture is not evidence for either act.
+
+### Resumption assignment — 2026-09-05
+
+After saving the interrupted checkpoint and on the user's explicit continuation request, primary / GPT-6 exposed family / medium last requested, runtime effort unknown / actual / assumes the two bounded retrieval targets because the Terra runtime is unavailable. Preserve the same six-attempt-per-target ceiling; no additional agent or broader source investigation. This is a recorded cost-routing deviation, not a primary model change.
+
+Official public university mirrors of the exact target acts are permitted retrieval alternatives (including UNIFAP). Label an institutional reproduction distinctly from an original DOU facsimile; no scope expansion to other acts. PDF skill used for read-only identity/page verification.

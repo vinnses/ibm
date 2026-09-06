@@ -1,0 +1,9 @@
+search_id,target_id,accessed_at,domains,terms_or_url,result,limits
+W016-Q01,COUN19,2026-09-05,soc.ufpr.br,"site.soc.ufpr.br ""19/10"" ""COUN""",No exact target original located in returned results,Search results only; no protected repositories; no nonexistence inference
+W016-Q02,P44,2026-09-05,Public web; institutional result www2.unifap.br,"""Portaria"" ""44"" ""22 de janeiro de 2015"" ""Informática Biomédica""",Located candidate institutional PDF at UNIFAP; preserved as W016-P44,Result used for discovery only; identity requires preserved PDF verification
+W016-Q03,COUN19,2026-09-05,ufpr.br,"""Resolução"" ""19/10"" ""Biomédica""",No exact target original located,UFPR domain filter; no exhaustive archive search
+W016-Q04,P44,2026-09-05,in.gov.br; gov.br,"""201307170"" ""44"" ""2015""",Located MEC summary lead gid=17074; not retrieved or used as evidence,Summary is not original act; no substantive claim based on snippet
+W016-Q05,COUN19,2026-09-05,ufpr.br,"""19/2010"" ""COUN"" ""Informática""",No exact target original located,UFPR domain filter; public indexed results only
+W016-Q06,COUN19,2026-09-05,soc.ufpr.br,"""19-10"" ""COUN""",No exact target original located,SOC domain filter; irrelevant results not used as evidence
+W016-Q07,COUN19,2026-09-05,ufpr.br,"""Resolução nº 19/10"" ""COUN""",Search returned no results,Bounded negative result; does not establish nonexistence
+W016-R01,P44,2026-09-05,www2.unifap.br,https://www2.unifap.br/cambientais/files/2023/04/191204_10152-5.pdf,HTTP retrieval succeeded; 41592-byte PDF preserved as W016-P44,Institutional reproduction; DOU facsimile not retrieved
