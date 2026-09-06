@@ -49,6 +49,8 @@ W022 2011 Ficha search batch 1: complete with documented applicability/access ex
 
 W023 2011 Ficha search batch 2: complete with documented public-source/applicability exceptions and integrated on 2026-09-06. Commits `42586c7`, `3f6238a`, `6dc9cb7`, `32657db`, `dd58a77`; merge `b7c4acd`. Deliverable: nine targeted attempts for CI241, CI243 and CI244; two new CI244 Fichas preserved separately, existing CI241 2025 evidence revalidated, and CI243 no-source result recorded. No curriculum-96A applicability was inferred.
 
+W024 complete bounded 2011 Ficha public search: complete with documented public-source/applicability exceptions and integrated on 2026-09-06. Specification `d3e43e6`; eleven intermediate lot commits from `2d34327` through `c5f790f`; review `363305e`; merge `c9287a0`. Deliverable: 31 remaining coded components, 93 targeted attempts, three preserved official Ficha 1 sources and 28 bounded no-source outcomes. Together W022-W024 give code-specific public-search coverage to all 37 coded 2011 components; applicable curriculum-96A versions remain a human-access gap.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

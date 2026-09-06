@@ -21,7 +21,7 @@ S1 and S2 are independent and may run concurrently on separate branches. Each be
 
 Runtime event: both subagents hit usage limits before their first data checkpoint. Their drafts were retained, the primary's takeover was recorded prospectively, and usable data checkpoints were completed after the user requested continuation. No claim is made that subagent usage is available again.
 
-Current restart point: S0-S2 and W018-W023 are complete and integrated; no collection agent is active. The first two three-code 2011 search batches cover CI055-CI057 and CI241/CI243/CI244. W023 added two CI244 sources while retaining CI241/CI243 limitations. D09 now indexes 53 datasets. The next proposed batch is CI062, CI065 and CI067. No analytical phase is active.
+Current restart point: S0-S2 and W018-W024 are complete and integrated; no collection agent is active. W022-W024 provide code-specific bounded public Ficha searches for all 37 coded 2011 components. W024 completed the final 31 codes through eleven intermediate GitHub checkpoints, preserving three additional indeterminate Ficha 1 sources. D09 now indexes 115 datasets. The next Ficha lane is D04 for missing/applicability evidence in 2023; no analytical phase is active.
 
 ## Checkpoint and interruption contract
 

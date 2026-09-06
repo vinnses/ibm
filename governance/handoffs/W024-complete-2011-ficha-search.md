@@ -16,4 +16,4 @@
 
 ## Integration record
 
-Pending primary merge, D09 refresh, final validation and remote synchronization.
+Branch `work/w024-complete-2011-ficha-search` at `363305e` was published and merged by `c9287a0` without conflicts by the primary session. D09 was rebuilt and now indexes 115 datasets; per-code W024 manifests/search logs remain individually accessible rather than folded into the older curated 191/33 unions. Final W009/W022/W023/W024, access, governance, repository, whitespace and LFS checks passed. Main publication and remote equality were verified after the containing integration-metadata commit. No 2023 search Work began.
