@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "dados/curriculos/regras-estaveis/regras.csv"
 MANIFESTS = (ROOT / "curriculos/2011/fontes/manifesto.csv", ROOT / "curriculos/2023/fontes/manifesto.csv")
 REQUIRED = {"provision_id", "topic", "curriculum_version", "source_kind", "rule_type", "rule_text", "workload", "eligibility", "process", "approval_evaluation", "evidence_status", "uncertainty", "source_path", "source_sha256", "source_url", "locator", "normalization_notes"}
-FORBIDDEN = re.compile(r"see[- ](?:the )?pdf|see locator|source[- ]stated summary|listed in pdf|topic count|titles on pdf|entries span", re.IGNORECASE)
+FORBIDDEN = re.compile(r"see[- ](?:the )?pdf|see locator|source[- ]stated summary|listed in pdf|topic count|titles on pdf|entries span|\bpoints\b", re.IGNORECASE)
 
 
 def digest(path: Path) -> str:
