@@ -1,5 +1,7 @@
 # W016 interrupted collection checkpoint
 
+Final batch status, 2026-09-05: `registros.csv` records both targets. The Resolução 19/10-COUN original was not located in five targeted public searches. The text and annex of Portaria 44/2015 were recovered as an institutional reproduction hosted by UNIFAP, preserved unchanged and manifested; this is not a verified original DOU facsimile. `dados-portaria-44.csv` transcribes the UFPR course row on PDF page 3, annex row 19, after visual inspection of that page and the act's first page. It records historical source-stated values only. Reproduce integrity checks with `python scripts/validate_w016_historical_acts.py`. The initial interruption record below is retained as history.
+
 Neither target original act has been recovered in a completed W016 batch. The runtime stopped the investigator before a usable search log or source manifest was delivered. Resume with Resolução 19/10-COUN, then Portaria 44 of 22 January 2015, following the committed Work limits.
 
 The `paginas/ementario-curso-96a-2026-09-05.html` draft is retained for recovery only. Its final retrieval URL, request history and timestamp were not delivered; do not use it as evidence or substitute it for either original act. The previously verified W011 registry capture remains available in its own manifest. `checkpoint.csv` records the draft's local identity and verification limit, not an official-source provenance claim.
