@@ -1,0 +1,7 @@
+search_id,target_id,accessed_at,official_domains,terms,result,limits
+W029-A01,COUN19,2026-09-06,soc.ufpr.br,Resolução 19/10-COUN,No qualifying original resolution returned; official search result exposed only the already-known UFPR Ementário registry attribution.,Search-result inspection only; exact act file was not supplied; no nonexistence inference.
+W029-A02,COUN19,2026-09-06,ufpr.br,19/10-COUN Resolução,No qualifying original resolution returned; the result set did not identify an official act copy.,Search-result inspection only; distinct from W016's recorded formulations; no exhaustive archive claim.
+W029-A03,COUN19,2026-09-06,acervodigital.ufpr.br,Resolução 19/10 CONSELHO UNIVERSITÁRIO,No qualifying original resolution returned.,Search-result inspection only; repository-domain lead did not yield a target file; no protected access attempted.
+W029-A04,P44,2026-09-06,in.gov.br,"Portaria nº 44 de 22 de janeiro de 2015",No qualifying DOU facsimile or target-act result returned.,Search-result inspection only; no page number or original bytes were established.
+W029-A05,P44,2026-09-06,in.gov.br,Portaria 44 201307170,No qualifying DOU facsimile or target-act result returned.,Search-result inspection only; course code was used only as a precise discovery term.
+W029-A06,P44,2026-09-06,gov.br,"Portaria 44 de 22 de janeiro de 2015 reconhecimento",No qualifying original act or DOU facsimile returned.,Search-result inspection only; government results unrelated to the target were not used.
