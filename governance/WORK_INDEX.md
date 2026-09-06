@@ -37,6 +37,8 @@ The W012 row's statement that W010 was outside `main` describes the W012 integra
 
 ## Source access links
 
+W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
+
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
 - Administrative source manifest: [`../administracao/dados/fontes.csv`](../administracao/dados/fontes.csv)
 - DInf Ficha manifest: [`../curriculos/2023/fichas/manifesto-dinf.csv`](../curriculos/2023/fichas/manifesto-dinf.csv)

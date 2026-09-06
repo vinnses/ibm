@@ -14,3 +14,7 @@
 - Error log: `governance/errors/W017.md`; no open/resolved event at planning checkpoint.
 - Human review: existing W009/W010/W011 files; no new question. Wait for user's chosen execution extent.
 - Active substep / restart: publish plan only; then stop. Recommended next bounded selection D01 (up to five already preserved Ficha 1 documents) and D09 refresh for completed output; neither started.
+
+## Integration record
+
+Plan commit `61702d3` merged by `f3f9d4e` without conflicts, directly by the unchanged primary session. DATA_FIRST, ROADMAP and WORK_INDEX updated. Governance/repository and whitespace checks passed before merge (39 CSVs, 126 globally indexed hashes, 105 local links, zero errors); repeat on integrated documentation before publication. Main and the W017 branch are published at closure, followed by a clean-state/remote check. No future batch was activated.
