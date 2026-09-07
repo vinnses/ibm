@@ -1,148 +1,199 @@
 # IBM site development environment
 
-This directory documents only the operational bootstrap created by W031. It is separate from the project's historical and documentary research.
+This guide covers only the operational bootstrap created by W031. It is separate
+from the project's historical and documentary research.
 
-## 1. Requirements
+## 1. Requirements and Docker installation
 
-- Docker Engine with the Docker Compose v2 plugin (`docker compose`).
-- Permission to pull images from Docker Hub and GitHub Container Registry.
-- For tailnet access: a Tailscale account allowed to register a non-ephemeral node.
-- For public access: an authorized tailnet administrator must permit Funnel and HTTPS certificates.
+The host needs Docker Engine, Compose v2, Buildx, Git, and network access to
+Docker Hub and GitHub Container Registry. On this CachyOS/Arch host:
 
-The stack uses these pinned runtime images:
+```sh
+sudo pacman -Syu --needed docker docker-compose docker-buildx jq
+sudo systemctl enable --now docker.service
+sudo docker run --rm hello-world
+```
 
-- `node:24.20.0-alpine` (`sha256:e67514e5…`) for the SvelteKit build and runtime;
-- `ghcr.io/coder/code-server:4.135.0` (`sha256:ccd32618…`) for the development workspace;
-- `tailscale/tailscale:v1.102.3` (`sha256:8c42c457…`) for the project node.
+A kernel upgrade can require a reboot before Docker can load the `bridge`,
+`veth`, and `overlay` modules. Use `sudo docker ...` unless the local
+administrator deliberately accepts that membership in the `docker` group
+grants root-equivalent daemon access. W031 does not add the user to that group.
 
-The complete digests are fixed in `site/Dockerfile` and `compose.yml`.
+The stack pins these runtime images by version and digest:
+
+- `node:24.20.0-alpine` for the SvelteKit build and runtime;
+- `ghcr.io/coder/code-server:4.135.0` for the development workspace;
+- `tailscale/tailscale:v1.102.3` for the project node.
 
 ## 2. Create local configuration
 
-Copy the safe example and edit the local file:
+Real credentials should remain outside the checkout. One reproducible option is:
 
 ```sh
-cp .env.example .env
+install -d -m 700 ~/.config/ibm
+install -m 600 .env.example ~/.config/ibm/compose.env
+ln -s "$HOME/.config/ibm/compose.env" .env
 ```
 
-At minimum, replace `CODE_SERVER_PASSWORD`. The `.env` file is ignored by Git.
+Edit `~/.config/ibm/compose.env` and replace
+`CODE_SERVER_PASSWORD` with a long random value. The `.env` path is ignored
+by Git; because it is an absolute symlink, it is also unresolved inside the
+repository bind mount seen by code-server.
 
-For unattended Tailscale registration, put a reusable, non-ephemeral auth key in `TS_AUTHKEY`. Generate it in the Tailscale admin console and never commit it. Because node state is persistent, the key is normally used only for the first registration (`TS_AUTH_ONCE=true`). An OAuth secret is not required for this bootstrap.
+`TS_AUTHKEY` is optional. If used, generate a reusable, non-ephemeral key in
+the Tailscale admin console and store it only in the external environment file.
+The named Tailscale state volume normally makes that key necessary only for the
+first registration. Do not place OAuth secrets or auth keys in tracked files.
 
 ## 3. Start
 
 From the repository root:
 
 ```sh
-docker compose up --build
+sudo docker compose up --build
 ```
 
-Use `docker compose up --build -d` to run in the background. The SvelteKit build runs its type and diagnostic check inside the image build.
+Use `sudo docker compose up --build -d` to run in the background. The web image
+build runs the Svelte and TypeScript checks before producing the runtime layer.
 
 ## 4. Stop
 
 ```sh
-docker compose down
+sudo docker compose down
 ```
 
-This retains the named volumes. Do not add `--volumes` when the Tailscale node identity should survive.
+This retains named volumes. Do not add `--volumes` when the Tailscale identity
+or code-server editor state must survive.
 
 ## 5. Local ports
 
-| Service | Default local URL | Environment controls | Exposure |
+| Service | Default local URL | Controls | Exposure |
 |---|---|---|---|
-| `web` | `http://127.0.0.1:5173` | `WEB_BIND`, `WEB_PORT` | Host loopback and, after explicit activation, Funnel |
+| `web` | `http://127.0.0.1:5173` | `WEB_BIND`, `WEB_PORT` | Host loopback and explicitly configured Funnel |
 | `code` | `http://127.0.0.1:8080` | `CODE_BIND`, `CODE_PORT` | Host loopback only |
 | `tailscale` | none | none | Tailnet node and Funnel endpoint |
 
-Changing a bind address to `0.0.0.0` exposes that local port on all host interfaces. The defaults intentionally use loopback.
+Changing a bind address to `0.0.0.0` exposes that port on host interfaces. The
+defaults intentionally use loopback.
 
-## 6. Authenticate and configure Tailscale
+## 6. Network and container isolation
 
-The recommended reproducible path is a reusable, non-ephemeral auth key in the ignored `.env` file:
+`web` joins only the internal `ibm_edge` bridge. `code` joins only
+`ibm_dev`. `tailscale` is the sole member of both and uses `ibm_dev` for
+external connectivity:
 
-```dotenv
-TS_AUTHKEY=your-real-key-only-in-this-ignored-file
+```text
+Internet -> Funnel -> tailscale -> ibm_edge -> web
+                         |
+                         +----------> ibm_dev  -> code
 ```
 
-Then start or recreate the service:
+Docker's user-defined bridges provide service-name DNS. No fixed container IP
+is used. Because `web` and `code` share no network, a compromised web
+process has no direct Docker route or DNS record for the workspace service.
+
+`web` uses a read-only root filesystem, UID/GID `10001:10001`, drops every
+Linux capability, and enables `no-new-privileges`. It has no mounts, Docker
+socket, Tailscale state, code-server password, or repository checkout.
+
+`code` is password-authenticated, non-root, capability-free, not privileged,
+and has no Docker socket. Its repository bind mount is intentional because the
+service is the development workspace. It is never a Funnel target.
+
+`tailscale` uses userspace networking, a read-only root filesystem, no Linux
+capabilities, no privileged mode, and private named state. Only its state
+volume is persistent; neither its state nor socket is shared with `web`.
+
+## 7. Authenticate and verify the `ibm` node
+
+With `TS_AUTHKEY` in the external environment file, recreate Tailscale:
 
 ```sh
-docker compose up -d web tailscale
+sudo docker compose up -d web tailscale
 ```
 
-The container is configured with:
-
-- `TS_HOSTNAME=ibm` for the tailnet hostname;
-- `TS_STATE_DIR=/var/lib/tailscale` backed by `ibm_tailscale_state`;
-- `TS_AUTH_ONCE=true` to reuse an authenticated state;
-- userspace networking, so no host `/dev/net/tun` or elevated network capabilities are required;
-- Docker DNS retained (`TS_ACCEPT_DNS=false`).
-
-If the tailnet requires tags or other already-approved `tailscale up` flags, add them to `TS_EXTRA_ARGS` in `.env`.
-
-## 7. Verify the `ibm` node
-
-Check the container and authenticated Tailscale state:
+Without a key, start the daemon and initiate the official interactive login:
 
 ```sh
-docker compose ps
-docker compose exec tailscale tailscale status
-docker compose exec tailscale tailscale status --json
+sudo docker compose exec tailscale tailscale up --hostname=ibm
 ```
 
-Confirm that the self node reports the hostname `ibm`. The container health check uses `tailscale status`, so an unauthenticated node is distinguishable from a merely started container.
-
-The two containers share the `web` network namespace because current Funnel HTTP proxy targets must be loopback addresses. Docker service-name reachability can still be checked independently:
+Complete the printed authorization flow in the browser. Do not copy its
+one-time URL into documentation or logs. Then verify:
 
 ```sh
-docker compose exec tailscale wget -qO- http://web:3000/health
+sudo docker compose exec tailscale tailscale status
+sudo docker compose exec tailscale tailscale status --json
+sudo docker compose exec tailscale wget -qO- http://web:3000/health
 ```
 
-The expected response is `{"status":"ok","service":"ibm-web"}`.
+The self node must report hostname `ibm`; the last command must return
+`{"status":"ok","service":"ibm-web"}`.
 
 ## 8. Activate and verify Funnel
 
-Funnel requires MagicDNS, tailnet HTTPS certificates, and a `funnel` node attribute in the tailnet policy. The first activation may provide a web approval flow. An Owner, Admin, or Network admin must authorize policy changes; do not bypass this gate.
+Funnel requires MagicDNS, HTTPS certificates, and a `funnel` node attribute in
+tailnet policy. An Owner, Admin, or Network admin may have to approve these
+settings. W031 does not bypass that external gate.
 
-After `web` is healthy and the node is authenticated, publish only the SvelteKit service:
-
-```sh
-docker compose exec tailscale tailscale funnel --bg --yes http://127.0.0.1:3000
-```
-
-Loopback is intentional: the current official CLI documentation states that HTTP reverse-proxy targets support `http://127.0.0.1`, and the Tailscale sidecar shares the web container's network namespace. The `--bg` configuration persists and resumes after Tailscale restarts.
-
-Inspect the actual state and URL allocated by the tailnet:
+Publish only the web service by service name:
 
 ```sh
-docker compose exec tailscale tailscale funnel status
-docker compose exec tailscale tailscale funnel status --json
+sudo docker compose exec tailscale tailscale funnel --bg --yes --tls-terminated-tcp=443 tcp://web:3000
+sudo docker compose exec tailscale tailscale funnel status
+sudo docker compose exec tailscale tailscale funnel status --json
 ```
 
-Do not infer the public domain. Use only the URL printed by these commands. Public DNS propagation can take up to ten minutes according to Tailscale's documentation.
+This mode terminates public TLS at Tailscale and forwards the resulting TCP
+stream to SvelteKit over `ibm_edge`. Tailscale v1.102.3 parses the
+`tcp://web:3000` destination and dials it through the container's system
+resolver. The final domain is tailnet-specific: record only the URL actually
+reported by `tailscale funnel status`. Public DNS propagation can take time.
 
-To disable this bootstrap's Funnel:
+Disable it with:
 
 ```sh
-docker compose exec tailscale tailscale funnel --https=443 off
+sudo docker compose exec tailscale tailscale funnel --tls-terminated-tcp=443 off
 ```
+
+Never configure a target for `code:8080`.
 
 ## 9. Access code-server
 
-Open `http://127.0.0.1:8080` and enter `CODE_SERVER_PASSWORD` from the local `.env`. The repository is bind-mounted directly at `/home/coder/project`; existing datasets are not copied into the image or duplicated into a separate data volume. Editor state is retained in `ibm_code_server_data`.
+Open `http://127.0.0.1:8080` and enter the external
+`CODE_SERVER_PASSWORD`. The repository is mounted directly at
+`/home/coder/project`; datasets are neither copied into the image nor
+duplicated into a data volume. Editor state persists in
+`ibm_code_server_data`.
 
-## 10. Current limitations
+## 10. Verification and current limitations
 
-- The page is an operational placeholder, not the final visual design.
-- No dataset is selected, transformed, or integrated with the frontend.
-- There is no curriculum visualization, lineage graph, storytelling, database, API, application authentication, analytics processing, or notebook stack.
-- code-server is locally password-protected but is not exposed through Funnel.
-- The final Funnel URL and approval state are tailnet-specific and cannot be recorded until an authorized, authenticated runtime test occurs.
-- Named volumes retain runtime state outside Git. `docker compose down --volumes` deliberately deletes that state and can require the Tailscale node to register again.
+Static checks:
 
-## Architecture evidence
+```sh
+sudo docker compose config
+python scripts/validate_w031_site_bootstrap.py
+python scripts/validate_repository.py
+python scripts/validate_governance_audit.py
+```
 
-The implementation follows the current official guidance preserved under [`infrastructure/tailscale/sources/`](../infrastructure/tailscale/sources/). The source manifest records URLs, access date, document validation dates, local paths, SHA-256 values, and evidentiary purposes. The principal upstream references are the official [Docker configuration parameters](https://tailscale.com/docs/features/containers/docker/docker-params), [Tailscale Funnel guide](https://tailscale.com/docs/features/tailscale-funnel), and [`tailscale funnel` CLI reference](https://tailscale.com/docs/reference/tailscale-cli/funnel).
+Runtime checks and their interpretation are recorded in the W031 handoff.
+Tailnet hostname, Funnel status, and public URL cannot be claimed until an
+authorized login has completed.
 
-The local `thesis`, `drugslm`, and `arcane` projects were inspected as architecture references. W031 adopts their useful repository bind-mount, named-volume, explicit-network, and health-check patterns without importing their unrelated services, data layouts, or custom Tailscale startup commands.
+The page remains an operational placeholder. W031 does not implement curriculum
+visualization, lineage, storytelling, final protest aesthetics, curricular
+analysis, dataset integration, a database, an API, application authentication,
+data processing, notebooks, or a 2026 proposal.
+
+## Preserved architecture evidence
+
+Official Docker evidence and its SHA-256 manifest are under
+[`infrastructure/docker/sources/`](../infrastructure/docker/sources/).
+Official Tailscale documentation and the exact v1.102.3 forwarding
+implementation inspected for this design are under
+[`infrastructure/tailscale/sources/`](../infrastructure/tailscale/sources/).
+
+The local `thesis`, `drugslm`, and `arcane` projects were also inspected as
+architecture references. W031 reuses only relevant bind-mount, named-volume,
+network, and health-check patterns, not their unrelated services or data.
