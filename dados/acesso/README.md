@@ -7,7 +7,10 @@ This directory is a local, reproducible access index for the already-recorded re
 - [`gaps.csv`](gaps.csv) copies already-recorded human-review and bounded negative-search records, distinguishing institutional access from public documentary gaps.
 - [`COBERTURA_DOCUMENTAL.md`](COBERTURA_DOCUMENTAL.md) is the W027 deterministic coverage view across the three catalogs, grouped for documentary-delivery planning without deduplicating versions or statistical universes.
 - [Builder and checker](../../scripts/build_w015_data_access.py) rebuilds or checks the package.
+- W030 CPA inventory, faithful cell representation and normalized datasets are under [`administracao/dados/cpa/`](../../administracao/dados/cpa/); the release manifest includes the JSON layers as well as indexed CSVs.
 
 Use `python scripts/build_w015_data_access.py` to rebuild the three CSV catalogs and `python scripts/build_w015_data_access.py --check` to verify paths, counts, hashes, origins, and nonempty gap coverage. Use `python scripts/build_w027_documentary_inventory.py --check` to verify the generated coverage view.
 
 W027 snapshot: 204 datasets, 191 curated source-manifest records and 33 curated human-question/search records. Counts are records, not unique documents or unresolved gaps. Work-local W022-W025 datasets expose bounded public Ficha searches for all coded 2011 components and all 43 curriculum-2023 targets; W026 adds historical applicant records with distinct universes. Remaining applicability and term/class gaps require institutional evidence.
+
+W030 current snapshot: 217 indexed CSV datasets, 212 source-manifest records and 33 retained historical gap/search records. The increase integrates CPA CSV outputs, the twelve-document historical Ficha extraction, seven W026 source rows and fourteen W022-W024 source-manifest rows. JSON/GZIP intermediates are included by the release checksum manifest rather than this CSV-only dataset catalog.

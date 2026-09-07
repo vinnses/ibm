@@ -10,9 +10,9 @@ This directory is the stable entry point for the documentary and data collection
 4. Read the [audit and freeze](AUDITORIA_E_CONGELAMENTO.md) for verified coverage and accepted exceptions.
 5. Verify this checkout with [validation instructions](VALIDACAO.md) and `MANIFEST.sha256`.
 
-The final W029 extraction adds [machine-readable 2026 call and proposal facts](../extracoes-w029/proposal-2026.json) and a [family-by-family closure record](../extracoes-w029/README.md).
+The W029 extraction adds [machine-readable 2026 call and proposal facts](../extracoes-w029/proposal-2026.json). W030 adds the [CPA extraction](../../administracao/dados/cpa/README.md), [twelve-document historical Ficha extraction](../curriculos/2011/fichas-preservadas/README.md), and [final factual closure](FECHAMENTO_DA_COLETA.md).
 
-The machine-readable access catalogs remain in [`dados/acesso/`](../acesso/): 209 dataset records, 191 source-manifest records and 33 gap/search records at this release. These counts are records, not unique documents or a completeness percentage.
+The machine-readable access catalogs remain in [`dados/acesso/`](../acesso/): 217 CSV dataset records, 212 source-manifest records and 33 historical gap/search records at this release. These counts are records, not unique documents or a completeness percentage.
 
 ## Evidence boundaries
 
@@ -29,6 +29,9 @@ From the repository root:
 
 ```text
 python scripts/build_w015_data_access.py --check
+python scripts/validate_cpa_extraction.py
+python scripts/validate_w030_historical_fichas.py
+python scripts/validate_w030_gap_closure.py
 python scripts/build_w027_documentary_inventory.py --check
 python scripts/build_w028_release_manifest.py --check
 python scripts/validate_w028_documentary_release.py

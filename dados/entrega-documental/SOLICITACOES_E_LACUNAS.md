@@ -1,5 +1,7 @@
 # Requests and documentary gaps
 
+W030 final classification: this request register remains the human/institutional intake specification. Current closure states and public-search exhaustion are machine-readable in [`governance/reviews/W030-gap-classification.csv`](../../governance/reviews/W030-gap-classification.csv). CPA and the twelve overlooked local Ficha PDFs have been extracted; neither remains an access request.
+
 Checkpoint N4 of W028. This is an actionable register assembled from existing human-review files and bounded public-search records. No institution was contacted and no new search was performed. `Not located` describes the bounded repository search and never establishes nonexistence.
 
 The route column identifies the next documentary action. It is not an authorization to contact an institution during W028.

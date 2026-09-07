@@ -19,7 +19,7 @@ This axis joins preserved administrative acts, public indicators, historical ser
 - [INEP official packages and extracted spreadsheets](../../../administracao/dados/inep/fontes/pacotes/) and [preserved official spreadsheets](../../../administracao/dados/inep/fontes/planilhas/) — preserved source families; extraction coverage is not equivalent to full workbook-field extraction.
 - [UFPR administrative source directory](../../../administracao/dados/ufpr/fontes/) — notices, resolutions, reports, pages and candidate/vacancy material.
 - [Preserved Portaria 44/2015 institutional reproduction](../../../administracao/historico/atos-originais/documentos/portaria-44-2015-reproducao-unifap.pdf) and [literal extracted annex data](../../../administracao/historico/atos-originais/dados-portaria-44.csv) — reproduction, not the original DOU facsimile.
-- [CPA page](../../../administracao/historico/fontes/paginas/cpa-avaliacao-cursos-2022-2026-09-04.html) and [CPA workbook](../../../administracao/historico/fontes/documentos/cpa-avaliacao-curso-informatica-biomedica-2022.xlsx) — preserved but not fully extracted in the mandated spreadsheet runtime.
+- [CPA page](../../../administracao/historico/fontes/paginas/cpa-avaliacao-cursos-2022-2026-09-04.html), [CPA workbook](../../../administracao/historico/fontes/documentos/cpa-avaliacao-curso-informatica-biomedica-2022.xlsx), and [W030 extraction](../../../administracao/dados/cpa/README.md) — original plus structural inventory, faithful cell layer and source-linked course tables.
 
 ## Evidence boundaries
 

@@ -31,11 +31,15 @@ def release_paths() -> dict[str, str]:
     for path in PACKAGE.rglob("*"):
         if path.is_file() and path != OUTPUT:
             selected[path.relative_to(ROOT).as_posix()] = "release-package"
-    extraction_dir = ROOT / "dados/extracoes-w029"
-    if extraction_dir.is_dir():
-        for path in extraction_dir.rglob("*"):
-            if path.is_file():
-                selected[path.relative_to(ROOT).as_posix()] = "structured-extraction"
+    for relative_dir in (
+        "dados/extracoes-w029", "administracao/dados/cpa",
+        "dados/curriculos/2011/fichas-preservadas",
+    ):
+        extraction_dir = ROOT / relative_dir
+        if extraction_dir.is_dir():
+            for path in extraction_dir.rglob("*"):
+                if path.is_file():
+                    selected[path.relative_to(ROOT).as_posix()] = "structured-extraction"
     for relative in (
         "dados/acesso/datasets.csv",
         "dados/acesso/source-records.csv",
@@ -43,6 +47,14 @@ def release_paths() -> dict[str, str]:
         "dados/acesso/COBERTURA_DOCUMENTAL.md",
         "metodologia/criterios-documentais.md",
         "governance/DOCUMENTARY_DELIVERY_PLAN.md",
+        "governance/reviews/W030-gap-classification.csv",
+        "governance/reviews/W030-gap-audit.md",
+        "governance/reviews/W030-final-data-closure.md",
+        "scripts/extract_cpa_workbook.py",
+        "scripts/validate_cpa_extraction.py",
+        "scripts/requirements-w030-cpa.txt",
+        "scripts/extract_w030_historical_fichas.py",
+        "scripts/validate_w030_historical_fichas.py",
     ):
         selected[relative] = "release-control"
     for row in csv_rows(ROOT / "dados/acesso/datasets.csv"):
