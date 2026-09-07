@@ -39,7 +39,7 @@ def main() -> int:
     datasets = rows(builder.DATASETS)
     sources = rows(builder.SOURCES)
     gaps = rows(builder.GAPS)
-    expected_counts = {"datasets": 204, "sources": 191, "gaps": 33}
+    expected_counts = {"datasets": 209, "sources": 191, "gaps": 33}
     actual_counts = {"datasets": len(datasets), "sources": len(sources), "gaps": len(gaps)}
     if actual_counts != expected_counts:
         raise SystemExit(f"unexpected catalog counts: {actual_counts}; expected {expected_counts}")
@@ -52,7 +52,7 @@ def main() -> int:
         raise SystemExit("source-records.csv contains a blank record_id")
     if not all(row.get("gap_id", "").strip() for row in gaps):
         raise SystemExit("gaps.csv contains a blank gap_id")
-    print("W027 documentary inventory: PASS (deterministic output; 204 datasets, 191 source records, 33 gaps)")
+    print("W027 documentary inventory: PASS (deterministic output; 209 datasets, 191 source records, 33 gaps)")
     return 0
 
 

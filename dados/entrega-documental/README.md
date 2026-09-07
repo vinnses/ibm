@@ -12,7 +12,7 @@ This directory is the stable entry point for the documentary and data collection
 
 The final W029 extraction adds [machine-readable 2026 call and proposal facts](../extracoes-w029/proposal-2026.json) and a [family-by-family closure record](../extracoes-w029/README.md).
 
-The machine-readable access catalogs remain in [`dados/acesso/`](../acesso/): 204 dataset records, 191 source-manifest records and 33 gap/search records at this release. These counts are records, not unique documents or a completeness percentage.
+The machine-readable access catalogs remain in [`dados/acesso/`](../acesso/): 209 dataset records, 191 source-manifest records and 33 gap/search records at this release. These counts are records, not unique documents or a completeness percentage.
 
 ## Evidence boundaries
 

@@ -59,6 +59,8 @@ W027 documentary delivery alignment: complete with a documented spreadsheet-runt
 
 W028 N2-N6 documentary release: complete with documented access/provenance/tooling exceptions and integrated on 2026-09-06. Specification `be63ae1`; N2 `17a9a52`; N3 `000400d`; N4 `6a28d30`/`e0c7a21`; N5 `2c92d1d`; N6 `97cc72f`; review/closure `6f974a7`; merge `117d4ff`; integration `5336b37`; release tag `documentary-release-2026-09-06`. Deliverable: four-axis navigation, 21-family extraction status, 17 actionable request subjects covering 33 gap records, independent audit, release guide and 375-file checksum manifest. Clean-clone reproduction passed; analysis remains deferred.
 
+W029 final agent-actionable data recovery: complete with documented public-access/tooling exceptions and integrated on 2026-09-06. Historical acts `d8d57b6`; evaluations/admissions `e3b95ac`; preserved extraction `b1ea30c`/`fcdda3c`; closure `698e338`; merge `6f59180`. Deliverable: 21 new precise search outcomes, eight-family extraction review and machine-readable 2026 proposal/call facts. No visualization was started.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

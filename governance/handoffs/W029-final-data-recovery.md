@@ -10,4 +10,4 @@
 - Gaps: original acts, e-MEC/Enade, applicant totals, institutional Fichas/process files and CPA tooling remain explicit.
 - Errors: `governance/errors/W029.md`; resolved E-W029-001,003-006,008; accepted E-W029-002 and E-W029-007; no open correctable event.
 - Explicitly unperformed: visualization, comparison, recommendations, institutional contact and access bypass.
-- Integration record: pending merge, release rebuild, final validation and remote synchronization.
+- Integration record: branch `698e338` merged without conflicts by `6f59180`; access and release indexes rebuilt; final validation and remote synchronization recorded by the containing integration commit. Visualization was not started.

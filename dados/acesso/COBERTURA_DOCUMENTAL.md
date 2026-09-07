@@ -13,16 +13,16 @@ Generated mechanically by `scripts/build_w027_documentary_inventory.py` from the
 
 | Catalog | Record count | Meaning |
 | --- | --- | --- |
-| datasets.csv | 204 | dataset index records |
+| datasets.csv | 209 | dataset index records |
 | source-records.csv | 191 | preserved/source-manifest records |
 | gaps.csv | 33 | recorded gap or bounded-search records |
-| datasets.csv declared rows | 1161 | rows declared by indexed datasets |
+| datasets.csv declared rows | 1189 | rows declared by indexed datasets |
 
 ## Dataset records by scope
 
 | Scope | Dataset records | Declared rows |
 | --- | --- | --- |
-| administrative data or historical series | 20 | 294 |
+| administrative data or historical series | 25 | 322 |
 | curriculum inventory or formal structure | 12 | 384 |
 | curated global source catalog | 1 | 10 |
 | repository dataset | 171 | 473 |
@@ -32,7 +32,7 @@ Generated mechanically by `scripts/build_w027_documentary_inventory.py` from the
 | Axis | Dataset records | Declared rows |
 | --- | --- | --- |
 | Curricular | 183 | 852 |
-| Administrative | 20 | 299 |
+| Administrative | 25 | 327 |
 | Propositive | 0 | 0 |
 | Cross-cutting | 1 | 10 |
 
