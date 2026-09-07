@@ -1,0 +1,84 @@
+name: ibm
+
+services:
+  web:
+    build:
+      context: ./site
+      dockerfile: Dockerfile
+    image: ibm-web:dev
+    restart: unless-stopped
+    init: true
+    ports:
+      - "${WEB_BIND:-127.0.0.1}:${WEB_PORT:-5173}:3000"
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - fetch('http://127.0.0.1:3000/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - ibm
+
+  code:
+    image: ghcr.io/coder/code-server:4.135.0@sha256:ccd326184d71efc5ebb94155eda7bb30153902342a35dbc8525450d81aa55012
+    restart: unless-stopped
+    init: true
+    working_dir: /home/coder/project
+    command:
+      - --bind-addr
+      - 0.0.0.0:8080
+      - --auth
+      - password
+      - /home/coder/project
+    environment:
+      PASSWORD: "${CODE_SERVER_PASSWORD:-change-me-before-starting}"
+    ports:
+      - "${CODE_BIND:-127.0.0.1}:${CODE_PORT:-8080}:8080"
+    volumes:
+      - ./:/home/coder/project
+      - code_server_data:/home/coder/.local/share/code-server
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8080/healthz >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - ibm
+
+  tailscale:
+    image: tailscale/tailscale:v1.102.3@sha256:8c42c4574ab066384fcb72f69e086a2ff1dd3652eb6f56856cee34bcf0d2f680
+    restart: unless-stopped
+    init: true
+    network_mode: service:web
+    depends_on:
+      web:
+        condition: service_healthy
+    environment:
+      TS_AUTHKEY: "${TS_AUTHKEY:-}"
+      TS_AUTH_ONCE: "true"
+      TS_ACCEPT_DNS: "false"
+      TS_HOSTNAME: ibm
+      TS_STATE_DIR: /var/lib/tailscale
+      TS_USERSPACE: "true"
+      TS_EXTRA_ARGS: "${TS_EXTRA_ARGS:-}"
+    volumes:
+      - tailscale_state:/var/lib/tailscale
+    healthcheck:
+      test: ["CMD", "tailscale", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+
+networks:
+  ibm:
+    name: ibm
+
+volumes:
+  code_server_data:
+  tailscale_state:
