@@ -20,8 +20,9 @@
 - Public searches considered exhausted: Resolução 19/10-COUN, original DOU Portaria 44/2015, W022-W025 historical/current Fichas, detailed e-MEC/Enade, specified applicant totals, final occupancy/cutoffs and public 2026 process documents, exactly as bounded in their existing registers. Absence does not prove nonexistence.
 - New leads found: none. The W030 historical-Ficha finding concerned already-preserved local files, not a new external lead.
 - Divergences/provisional information: Ficha applicability and portal status remain indeterminate; source universes remain separate; formula caches are preserved as stored values and are not treated as recalculated results; the 2026 status remains `proposal`.
-- Error-log path: `governance/errors/W030.md`; E-W030-001 through E-W030-021 resolved; no open event. Failed/rejected attempts and recoveries remain in the append-only log.
+- Error-log path: `governance/errors/W030.md`; E-W030-001 through E-W030-022 resolved; no open event. Failed/rejected attempts and recoveries remain in the append-only log.
 - Explicitly unperformed: new public searches, institutional contact, workbook replacement/modification, formula recalculation, curriculum comparison, continuity inference, similarity, lineage modeling, proposal evaluation, argumentation, recommendations, visualization, site creation, merge to `main`, push/tag, and any next milestone.
 - Recommended next bounded work: none inside the closed data phase. A future source-intake Work requires an actual supplied institutional file or a concrete new documentary lead; analysis requires separate user authorization and was not started.
+- Remote synchronization state: branch `work/w030-final-data-closure` was created on `origin`; the containing synchronization commit records the final remote-equality verification. No pull request or merge was created.
 
 DATA PHASE CLOSED — no remaining agent-actionable collection/extraction task identified.
