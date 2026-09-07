@@ -27,10 +27,10 @@ route, or URL is claimed. HR-W031-001 precisely retains that external gate.
 | Web least privilege | UID/GID 10001; read-only root; no-new-privileges; all capabilities dropped; not privileged; zero mounts | pass |
 | Web secret/socket/workspace isolation | no Docker socket, Tailscale state, code workspace, repository governance tree, or secret-shaped environment names | pass |
 | code-server hardening | UID/GID 1000; all capabilities dropped; no-new-privileges; not privileged; loopback-only host binding; no Docker socket | pass |
-| Tailscale hardening | userspace mode; read-only root; all capabilities dropped; no-new-privileges; not privileged; state-only named volume; no host port | pass |
+| Tailscale hardening | userspace mode; read-only root; all capabilities dropped; no-new-privileges; not privileged; one writable state volume plus read-only Funnel config; no host port | pass |
 | Persistent Tailscale state | identical state hash before and after `docker compose down` / `up`; ordinary down retained the named volume | pass |
 | Hostname | local Tailscale preferences report `Hostname: ibm`; authenticated tailnet self name is not yet observable | configuration observed; external observation pending |
-| Funnel excludes code | pre-auth `funnel status --json` is empty; documented activation has sole backend `tcp://web:3000`; code is absent from edge | pass locally; public route pending |
+| Funnel excludes code | pre-auth status is empty; declarative `TS_SERVE_CONFIG` has sole backend `http://web:3000`; code is absent from edge and config | pass locally; public route pending |
 | Secret hygiene | real environment file is external mode 0600; only `.env.example` tracked; targeted scan found no credentials | pass |
 | Repository governance | Work, source hashes, repository links, governance audit, and whitespace checks | pass |
 
@@ -44,10 +44,11 @@ isolated from the sensitive development workspace at both network and mount
 layers.
 
 Tailscale is the only dual-homed service. This is intentional: it is the edge
-gateway and future Funnel endpoint. Its empty Funnel configuration proves that
-code-server is not currently published. The exact v1.102.3 implementation
-preserved under `infrastructure/tailscale/sources/` establishes that the
-documented TLS-terminated TCP rule can dial `web:3000` through Docker DNS.
+gateway and future Funnel endpoint. Its pre-auth status proves that nothing is
+currently published. The declarative configuration contains one public handler
+for `http://web:3000` and no code-server reference. The exact v1.102.3
+implementation preserved under `infrastructure/tailscale/sources/`
+establishes the configuration schema and Docker-DNS proxy behavior.
 
 ## Runtime limitations and external dependency
 

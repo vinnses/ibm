@@ -79,6 +79,7 @@ services:
       TS_ENABLE_HEALTH_CHECK: "true"
       TS_LOCAL_ADDR_PORT: "0.0.0.0:9002"
       TS_BOOT_TIMEOUT: "24h"
+      TS_SERVE_CONFIG: /config/funnel.json
       TS_EXTRA_ARGS: "${TS_EXTRA_ARGS:-}"
     security_opt:
       - no-new-privileges:true
@@ -87,6 +88,7 @@ services:
     pids_limit: 256
     volumes:
       - tailscale_state:/var/lib/tailscale
+      - ./infrastructure/tailscale/funnel.json:/config/funnel.json:ro
     tmpfs:
       - /tmp:size=16m,mode=1777
       - /var/run/tailscale:size=4m,mode=0755

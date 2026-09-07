@@ -11,13 +11,16 @@ Docker Hub and GitHub Container Registry. On this CachyOS/Arch host:
 ```sh
 sudo pacman -Syu --needed docker docker-compose docker-buildx jq
 sudo systemctl enable --now docker.service
-sudo docker run --rm hello-world
+sudo usermod -aG docker "$USER"
+newgrp docker
+docker run --rm hello-world
 ```
 
 A kernel upgrade can require a reboot before Docker can load the `bridge`,
-`veth`, and `overlay` modules. Use `sudo docker ...` unless the local
-administrator deliberately accepts that membership in the `docker` group
-grants root-equivalent daemon access. W031 does not add the user to that group.
+`veth`, and `overlay` modules. W031 adds `vinnses` to the `docker`
+group as explicitly requested. Log out and back in (or use `newgrp docker`)
+before using `docker` without `sudo`. Docker documents that this group grants
+root-equivalent daemon access.
 
 The stack pins these runtime images by version and digest:
 
@@ -50,16 +53,16 @@ first registration. Do not place OAuth secrets or auth keys in tracked files.
 From the repository root:
 
 ```sh
-sudo docker compose up --build
+docker compose up --build
 ```
 
-Use `sudo docker compose up --build -d` to run in the background. The web image
+Use `docker compose up --build -d` to run in the background. The web image
 build runs the Svelte and TypeScript checks before producing the runtime layer.
 
 ## 4. Stop
 
 ```sh
-sudo docker compose down
+docker compose down
 ```
 
 This retains named volumes. Do not add `--volumes` when the Tailscale identity
@@ -102,7 +105,8 @@ service is the development workspace. It is never a Funnel target.
 
 `tailscale` uses userspace networking, a read-only root filesystem, no Linux
 capabilities, no privileged mode, and private named state. Only its state
-volume is persistent; neither its state nor socket is shared with `web`.
+volume is writable; the declarative Funnel file is mounted read-only. Neither
+state nor socket is shared with `web`.
 The supported `TS_BOOT_TIMEOUT=24h` setting keeps the first unauthenticated
 boot stable long enough for coordinated authorization rather than restarting
 the container after the default one-minute timeout.
@@ -112,55 +116,69 @@ the container after the default one-minute timeout.
 With `TS_AUTHKEY` in the external environment file, recreate Tailscale:
 
 ```sh
-sudo docker compose up -d web tailscale
+docker compose up -d web tailscale
 ```
 
 Without a key, follow the initial container output and complete the official
 interactive login it presents within the configured bootstrap window:
 
 ```sh
-sudo docker compose logs --follow tailscale
+docker compose logs --follow tailscale
 ```
 
 Complete the printed authorization flow in the browser. Do not copy its
 one-time URL into project documentation or Git. Then verify:
 
 ```sh
-sudo docker compose exec tailscale tailscale status
-sudo docker compose exec tailscale tailscale status --json
-sudo docker compose exec tailscale wget -qO- http://web:3000/health
+docker compose exec tailscale tailscale status
+docker compose exec tailscale tailscale status --json
+docker compose exec tailscale wget -qO- http://web:3000/health
 ```
 
 The self node must report hostname `ibm`; the last command must return
 `{"status":"ok","service":"ibm-web"}`.
 
-## 8. Activate and verify Funnel
+## 8. Automatic Funnel activation and verification
 
 Funnel requires MagicDNS, HTTPS certificates, and a `funnel` node attribute in
 tailnet policy. An Owner, Admin, or Network admin may have to approve these
 settings. W031 does not bypass that external gate.
 
-Publish only the web service by service name:
+No post-start Funnel command is required. Following the pattern used by
+`arcane/livesync`, Compose sets
+`TS_SERVE_CONFIG=/config/funnel.json` and mounts
+`infrastructure/tailscale/funnel.json` read-only. After Tailscale
+authentication, `containerboot` substitutes the real certificate domain and
+applies this configuration:
 
-```sh
-sudo docker compose exec tailscale tailscale funnel --bg --yes --tls-terminated-tcp=443 tcp://web:3000
-sudo docker compose exec tailscale tailscale funnel status
-sudo docker compose exec tailscale tailscale funnel status --json
+```json
+{
+  "Web": {
+    "${TS_CERT_DOMAIN}:443": {
+      "Handlers": {
+        "/": {
+          "Proxy": "http://web:3000"
+        }
+      }
+    }
+  },
+  "AllowFunnel": {
+    "${TS_CERT_DOMAIN}:443": true
+  }
+}
 ```
 
-This mode terminates public TLS at Tailscale and forwards the resulting TCP
-stream to SvelteKit over `ibm_edge`. Tailscale v1.102.3 parses the
-`tcp://web:3000` destination and dials it through the container's system
-resolver. The final domain is tailnet-specific: record only the URL actually
-reported by `tailscale funnel status`. Public DNS propagation can take time.
-
-Disable it with:
+Verify the applied backend and allocated URL:
 
 ```sh
-sudo docker compose exec tailscale tailscale funnel --tls-terminated-tcp=443 off
+docker compose exec tailscale tailscale funnel status
+docker compose exec tailscale tailscale funnel status --json
 ```
 
-Never configure a target for `code:8080`.
+The final domain is tailnet-specific: record only the URL actually reported by
+Tailscale. Public DNS propagation can take time. To stop public exposure
+immediately, stop the gateway with `docker compose stop tailscale`. Never add
+a handler for `code:8080`.
 
 ## 9. Access code-server
 
@@ -175,7 +193,7 @@ W031 persists only the identity-bearing Tailscale state.
 Static checks:
 
 ```sh
-sudo docker compose config
+docker compose config
 python scripts/validate_w031_site_bootstrap.py
 python scripts/validate_repository.py
 python scripts/validate_governance_audit.py

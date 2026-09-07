@@ -99,6 +99,8 @@ def validate_compose(errors: list[str]) -> None:
         'TS_ENABLE_HEALTH_CHECK: "true"',
         'TS_LOCAL_ADDR_PORT: "0.0.0.0:9002"',
         'TS_BOOT_TIMEOUT: "24h"',
+        "TS_SERVE_CONFIG: /config/funnel.json",
+        "./infrastructure/tailscale/funnel.json:/config/funnel.json:ro",
         "tailscale_state:/var/lib/tailscale",
         "tailscale/tailscale:v1.102.3@sha256:",
         "ghcr.io/coder/code-server:4.135.0@sha256:",
@@ -154,6 +156,22 @@ def validate_application(errors: list[str]) -> None:
     require("--chown=10001:10001" in dockerfile, "web runtime files must belong to its non-root user", errors)
 
 
+def validate_funnel_config(errors: list[str]) -> None:
+    funnel = json.loads(file_text("infrastructure/tailscale/funnel.json"))
+    cert_target = "${TS_CERT_DOMAIN}:443"
+    require(funnel.get("TCP") == {"443": {"HTTPS": True}}, "invalid declarative Funnel HTTPS listener", errors)
+    proxy = (
+        funnel.get("Web", {})
+        .get(cert_target, {})
+        .get("Handlers", {})
+        .get("/", {})
+        .get("Proxy")
+    )
+    require(proxy == "http://web:3000", "Funnel must proxy only to the web service", errors)
+    require(funnel.get("AllowFunnel") == {cert_target: True}, "Funnel allowlist must contain only the certificate host on 443", errors)
+    require("code" not in json.dumps(funnel).lower(), "Funnel config must not reference code-server", errors)
+
+
 def validate_secret_hygiene(errors: list[str]) -> None:
     ignore = file_text(".gitignore").splitlines()
     require(".env" in ignore and "!.env.example" in ignore, "root .env ignore rule missing", errors)
@@ -177,6 +195,7 @@ def main() -> int:
     source_count = validate_sources(errors)
     validate_compose(errors)
     validate_application(errors)
+    validate_funnel_config(errors)
     validate_secret_hygiene(errors)
 
     for error in errors:
