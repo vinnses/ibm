@@ -2,7 +2,7 @@
 
 - Branch: `work/w030-final-data-closure`.
 - Commit base: `c87d5a996210135807821b8c8d5ad757b25485de` from updated `origin/main`.
-- Commits produced: `82ecd15`, `36f41f9`, `522b58c`, `61017af`, `46ba088`, `3c6ee71`, `eb668dd`; the containing closure commit adds this final review/handoff.
+- Commits produced on the work branch: `82ecd15`, `36f41f9`, `522b58c`, `61017af`, `46ba088`, `3c6ee71`, `eb668dd`, `3264b7b`, `2b5a7a7`.
 - Primary-session model and effort: initial runtime exposed GPT-6 family, then runtime changed to GPT-5; exact backend and effort were unavailable in both periods and are not inferred.
 - Agent assignments actually used: primary / orchestration, corrective implementation, final audit and release integration / GPT-6 exposed family then GPT-5 / effort unavailable / primary authority; `cpa_extractor` / interrupted before accepted work / backend and effort unknown / invalid initial fork configuration; `cpa_python` / subagent CPA mechanical extraction draft / `gpt-5.6-luna` / medium / partial before usage-limit termination; `historical_ficha_extractor` / subagent PDF extraction and correction / `gpt-5.6-luna` / medium / completed; `gap_reviewer` / subagent documentary gap/source audit / `gpt-5.6-terra` / medium / substantive draft completed before usage-limit termination.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: invalid first CPA spawn was interrupted and replaced prospectively; both CPA and gap agents later hit service usage limits, so unfinished corrective work returned to the primary as required. Runtime changed the primary exposed family from GPT-6 to GPT-5. No Sol subagent was created; no equivalent-tier inference was made.
@@ -20,9 +20,18 @@
 - Public searches considered exhausted: Resolução 19/10-COUN, original DOU Portaria 44/2015, W022-W025 historical/current Fichas, detailed e-MEC/Enade, specified applicant totals, final occupancy/cutoffs and public 2026 process documents, exactly as bounded in their existing registers. Absence does not prove nonexistence.
 - New leads found: none. The W030 historical-Ficha finding concerned already-preserved local files, not a new external lead.
 - Divergences/provisional information: Ficha applicability and portal status remain indeterminate; source universes remain separate; formula caches are preserved as stored values and are not treated as recalculated results; the 2026 status remains `proposal`.
-- Error-log path: `governance/errors/W030.md`; E-W030-001 through E-W030-022 resolved; no open event. Failed/rejected attempts and recoveries remain in the append-only log.
+- Error-log path: `governance/errors/W030.md`; E-W030-001 through E-W030-023 resolved; no open event. Failed/rejected attempts and recoveries remain in the append-only log.
 - Explicitly unperformed: new public searches, institutional contact, workbook replacement/modification, formula recalculation, curriculum comparison, continuity inference, similarity, lineage modeling, proposal evaluation, argumentation, recommendations, visualization, site creation, merge to `main`, push/tag, and any next milestone.
 - Recommended next bounded work: none inside the closed data phase. A future source-intake Work requires an actual supplied institutional file or a concrete new documentary lead; analysis requires separate user authorization and was not started.
-- Remote synchronization state: branch `work/w030-final-data-closure` was created on `origin`; the containing synchronization commit records the final remote-equality verification. No pull request or merge was created.
+- Remote synchronization state: branch `work/w030-final-data-closure` was published at `2b5a7a76814215e19e85bb50c52eb9647f7f5809` and verified equal to its local HEAD before integration. No pull request was created.
+
+## Integration record
+
+- User explicitly authorized integration after branch publication.
+- Source branch: `work/w030-final-data-closure` at `2b5a7a76814215e19e85bb50c52eb9647f7f5809`.
+- Updated main base: `c87d5a996210135807821b8c8d5ad757b25485de`.
+- Merge commit: `57bc8b842ae0990fa8fc72058e9cb55beaf16438`; `ort`, no conflicts.
+- Global indexes updated: access datasets/source records, documentary coverage, release package/checksum manifest, roadmap, remaining-data register and Work index.
+- Final validation and `origin/main` synchronization are recorded by the containing integration-metadata commit after the merge checks pass.
 
 DATA PHASE CLOSED — no remaining agent-actionable collection/extraction task identified.
