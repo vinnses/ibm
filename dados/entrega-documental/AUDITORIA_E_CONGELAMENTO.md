@@ -1,5 +1,15 @@
 # Documentary audit and freeze
 
+## W030 superseding closure note
+
+W030 preserves this W028 audit as a dated baseline and adds the CPA extraction,
+the twelve-document W022-W024 local-representation repair, complete source-manifest
+integration and a final gap classification. The rebuilt catalogs contain 217 CSV
+dataset records, 212 source records and 33 retained historical gap/search records.
+The CPA tooling exception below is resolved. Remaining gaps are access-dependent,
+public-search-exhausted/new-lead-dependent, or outside the data phase; none is a
+currently executable agent collection/extraction task.
+
 Checkpoint N5 of W028. This is an independent documentary audit of the existing release inputs and N2--N4 package outputs. It freezes an auditable repository state; it neither adds evidence nor resolves the historical meaning of a divergence.
 
 ## Audited baseline

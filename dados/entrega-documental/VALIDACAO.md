@@ -1,5 +1,13 @@
 # Release validation record
 
+## W030 refresh
+
+- Current indexed coverage: 217 CSV datasets, 212 source-manifest records and 33 retained historical gap/search records.
+- CPA: 19 worksheets, 276,765 populated cells, 5,126 formulas, 132 literal course observations, 44 answered questions, 85 frequency rows and three source-labelled respondents; deterministic regeneration passed with pinned openpyxl 3.1.5.
+- Historical local repair: twelve W022-W024 PDFs and nineteen pages validated against seven manifests, with section-boundary regression checks.
+- Final gap audit: 17 grouped classifications cover all 33 access-catalog IDs; no remaining row is agent-actionable.
+- W028 counts and exceptions below are preserved as their dated historical baseline. The former CPA tooling exception is resolved by W030.
+
 - Release Work: W028.
 - Baseline audited independently: `e0c7a21d503efbff18264ead057c1b0250c2c80a`.
 - N5 verdict: `approved with documented exceptions`.

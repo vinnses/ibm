@@ -1,0 +1,79 @@
+{
+  "source": "W022-W024 manifest rows",
+  "documents": [
+    {
+      "document_id": "W022-CI055-F1-2011",
+      "page_count": 1,
+      "filled_page_count": 1,
+      "raw_text_path": "raw-text/W022-CI055-F1-2011.json"
+    },
+    {
+      "document_id": "W022-CI055-F2-2011-1",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W022-CI055-F2-2011-1.json"
+    },
+    {
+      "document_id": "W022-CI055-OLDER-COMPONENT",
+      "page_count": 1,
+      "filled_page_count": 1,
+      "raw_text_path": "raw-text/W022-CI055-OLDER-COMPONENT.json"
+    },
+    {
+      "document_id": "W022-CI056-F1-2011",
+      "page_count": 1,
+      "filled_page_count": 1,
+      "raw_text_path": "raw-text/W022-CI056-F1-2011.json"
+    },
+    {
+      "document_id": "W022-CI056-F2-IBM-2010-1",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W022-CI056-F2-IBM-2010-1.json"
+    },
+    {
+      "document_id": "W022-CI057-F1-2011",
+      "page_count": 1,
+      "filled_page_count": 1,
+      "raw_text_path": "raw-text/W022-CI057-F1-2011.json"
+    },
+    {
+      "document_id": "W022-CI057-F2-2011-1",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W022-CI057-F2-2011-1.json"
+    },
+    {
+      "document_id": "W023-CI244-F1-2011",
+      "page_count": 1,
+      "filled_page_count": 1,
+      "raw_text_path": "raw-text/W023-CI244-F1-2011.json"
+    },
+    {
+      "document_id": "W023-CI244-F2-2011-1",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W023-CI244-F2-2011-1.json"
+    },
+    {
+      "document_id": "W024-BQ005-F1-2022",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W024-BQ005-F1-2022.json"
+    },
+    {
+      "document_id": "W024-BQ054-F1-2022",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W024-BQ054-F1-2022.json"
+    },
+    {
+      "document_id": "W024-CE003-F1-2022",
+      "page_count": 2,
+      "filled_page_count": 2,
+      "raw_text_path": "raw-text/W024-CE003-F1-2022.json"
+    }
+  ],
+  "document_count": 12,
+  "extraction_method": "pdftotext -layout per page; whitespace normalization only"
+}

@@ -29,8 +29,16 @@ MANIFESTS = [
     Path("administracao/dados/inep/fontes/manifesto-fontes-volumosas.csv"),
     Path("administracao/historico/fontes/manifesto.csv"),
     Path("administracao/historico/atos-originais/manifesto.csv"),
-    Path("administracao/mec/2026/fontes/manifesto.csv"),
+    Path("administracao/dados/ufpr/w026/manifesto.csv"),
 ]
+
+# W030 integrates preserved W022-W024 sources from their original local
+# manifests, including empty bounded-search manifests without inventing rows.
+MANIFESTS.extend(sorted(
+    path.relative_to(ROOT)
+    for work in ("w022", "w023", "w024")
+    for path in (ROOT / "curriculos/2011/fichas").glob(f"{work}-*/manifesto.csv")
+))
 
 NEGATIVE_SEARCHES = [
     Path("curriculos/2011/inventario/buscas-negativas.csv"),
@@ -138,7 +146,7 @@ def build_sources() -> list[dict[str, str]]:
                     "local_path": source_value(row, "local_path", "caminho_local", "path", "arquivo"),
                     "sha256": source_value(row, "sha256"),
                     "version_or_validity": source_value(row, "version_or_validity", "version_or_term", "applicability", "version_or_date"),
-                    "purpose": source_value(row, "purpose"),
+                    "purpose": source_value(row, "purpose", "evidentiary_purpose"),
                     "status": source_value(row, "status"),
                     "notes": source_value(row, "notes"),
                     "original_metadata_json": json.dumps(row, ensure_ascii=False, sort_keys=True),

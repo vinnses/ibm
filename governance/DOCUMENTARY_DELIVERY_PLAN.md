@@ -51,10 +51,10 @@ Completion is not a claim that every document existing at UFPR was obtained. `No
 ### N3 — Complete locally extractable stable data
 
 - Output: factual fields from sources already preserved but not yet structured, each with source locator, method and validation.
-- Priority rule: inventory first; select one source family and explicit fields per Work. CPA workbook extraction is eligible only in a runtime exposing the mandated spreadsheet authoring dependencies.
+- Priority rule: inventory first; select one source family and explicit fields per Work. W030 explicitly authorizes and requires Python/openpyxl for the preserved CPA workbook, superseding the former authoring-runtime dependency for this extraction.
 - Gate: every selected source is either structured or has a documented technical/content reason it cannot be extracted.
-- Stop boundary: no interpretation, cross-version synthesis or alternative spreadsheet library.
-- Work/status: W028 status accounting complete; remaining CPA extraction is an accepted tooling dependency, not silently omitted work.
+- Stop boundary: no curricular interpretation, cross-version synthesis or source workbook changes; structural interpretation is explicit and source-bound.
+- Work/status: W028 status accounting complete; W030 handles CPA extraction and final agent-actionability review under the user's explicit Python instruction. W028/W029 tooling exceptions remain historical records.
 
 ### N4 — Resolve concrete leads and package institutional gaps
 

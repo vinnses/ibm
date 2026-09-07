@@ -6,7 +6,7 @@ Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first exp
 
 W028 completed N2-N6 and published the documentary/data release under [`../dados/entrega-documental/`](../dados/entrega-documental/). Curricular comparison, evaluation and recommendations remain a separate future objective requiring direct user participation.
 
-Latest checkpoint: W029 completed all currently agent-actionable data recovery, added a machine-readable 2026 proposal/call extraction, and recorded 21 new precise searches with no qualifying source. The access package now indexes 209 datasets. CPA and institutional/protected evidence remain explicit dependencies. No visualization or analytical Work is active.
+Latest checkpoint: W030 completed the reproducible CPA workbook extraction and corrected a W029 omission covering twelve already-preserved W022-W024 PDFs. The access package now indexes 217 CSV datasets, 212 source-manifest records and 33 historical gap/search records. Remaining factual gaps require institutional access or a genuinely new documentary lead; none is currently executable by agents. No visualization or analytical Work is active.
 
 - W014: commit and integrate the new direction and checkpoint contract.
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.

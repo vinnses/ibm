@@ -1,0 +1,18 @@
+{
+  "accessed_at": "2026-09-04",
+  "context_page_path": "administracao/historico/fontes/paginas/cpa-avaliacao-cursos-2022-2026-09-04.html",
+  "context_page_sha256": "657673cf98011c7fed93f4b086127b61690f5fb521cd4c5d75a1f053a8038ab8",
+  "course_code": "40001016064G0",
+  "course_name": "INFORMÁTICA BIOMÉDICA",
+  "document_period": "academic calendar 2022; presentation label 2022_2",
+  "extraction_status": "source-derived; no imputation",
+  "fieldwork_period_literal": "AVALIAÇÃO DE CURSOS 2022 (13 a 28 de fevereiro 2023)",
+  "fieldwork_period_source": "Questoes!C2:C48",
+  "respondent_count": 3,
+  "respondent_universe_literal": "QTD_RESPONDENTES_CURSO",
+  "response_count": 132,
+  "source_url": "https://cpa.ufpr.br/wp-content/uploads/2023/04/informatica-biomedica.xlsx",
+  "workbook_path": "administracao/historico/fontes/documentos/cpa-avaliacao-curso-informatica-biomedica-2022.xlsx",
+  "workbook_sha256": "4c968ff6e4c32b9d023cfd4f783c0a38b3474bbcde231c383587a9198771cf40",
+  "worksheet_count": 19
+}

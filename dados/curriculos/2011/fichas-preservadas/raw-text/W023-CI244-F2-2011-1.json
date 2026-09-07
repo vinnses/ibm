@@ -1,0 +1,15 @@
+{
+  "document_id": "W023-CI244-F2-2011-1",
+  "source_path": "curriculos/2011/fichas/w023-ci244/ficha-2-separada/CI244-ficha-2-2011-1-albini.pdf",
+  "source_sha256": "05a949f9522a102756af2ba378b8f953fa2b21427a68882bf4aa48cf5d6898ab",
+  "pages": [
+    {
+      "page": 1,
+      "text": "                     Ministério da Educação\n                     Universidade Federal do Paraná             PLANO DE ENSINO\n                     Setor de Ciências Exatas                       Ficha N° 2\n                     Departamento de Informática\n\n\nDisciplina: Fundamentos de Redes e Sistemas Distribuídos            Código: CI244\n\nTurma(s): A\n\nCurso: Ciência da Computação\n\nDepartamento: Informática\n\nSetor: Ciências Exatas\n\nEste plano de ensino terá validade a partir do ano e semestre letivo de 2011/1\n\nPrograma:\n\n1.Modelo OSI e Modelo TCP/IP\n2.Protocolos de camada de aplicação\n3.Principais serviços e aplicativos da camada de aplicação\n4.Protocolo TCP\n5.Protocolo UDP\n6.Protocolo IP\n7.Modelos de Sistemas Distribuídos\n8.Coordenação de concorrência em sistemas distribuídos\n\n\nProcedimentos didáticos:\nAulas teóricas expositivas dialogadas ministradas por professores do Departamento de\nInformática, utilizando-se os recursos de quadro de giz, datashow e sistema de multi-mídia.\n\n\n\nObjetivos:\n\n                                       OBJETIVO GERAL\nPropiciar ao aluno uma visão geral do funcionamento da Internet, bem como de seus principais\nprotocolos e aplicações. Por fim é dada uma visão sobre os conceitos iniciais de Sistemas\nDistribuídos junto com um panorama de aplicações.\n\n                                    OBJETIVO ESPECÍFICO\n\f"
+    },
+    {
+      "page": 2,
+      "text": "Avaliação:\nDuas provas, dois trabalhos e um exame final.\n\n\nBibliografia básica:\n   1. James Kurose a Keith Ross. Redes de Computadores e a Internet – Uma nova\n       abordagem. Pearson – 3ª Edição, 1006.\n   2. Adrian Farrel. A Internet e seus Protocolos – Uma análise Comparativa. Campus,\n       2005.\n   3. George Couloris, Jean Dollimore e Tim Kindberg. Distributed Systems – Concepts\n       and Design. Person 2004.\n   4. Andrew S. Tanembaum. Sistemas Operacionais Modernos. Pearson 2005.\n\n\nBibliografia complementar:\n\n    1. Abraham Silberschatz, Peter B. Galvin e Greg Gagne. Sistemas Operacionais\n          com Java. Campus 2008.\n    2. Douglas E. Comer. Interligação em Redes com TCP/IP. Campus, 1998.\n          William Stalings. Redes e Sistemas de Comunicação de Dados- Teoria e\n          aplicações corporativas. Campus 2005.\n\n\n\n\nProfessor responsável: Luiz Carlos P. Albini\n\n\n                                                               CARIMBO E ASSINATURA\n\nChefe do departamento: Luis Carlos Erpen de Bona\n\n\n                                                               CARIMBO E ASSINATURA\n\nCoordenador do Curso: Daniel Weingaertner\n\n\n                                                               CARIMBO E ASSINATURA\n\f"
+    }
+  ]
+}

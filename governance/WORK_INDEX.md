@@ -61,6 +61,8 @@ W028 N2-N6 documentary release: complete with documented access/provenance/tooli
 
 W029 final agent-actionable data recovery: complete with documented public-access/tooling exceptions and integrated on 2026-09-06. Historical acts `d8d57b6`; evaluations/admissions `e3b95ac`; preserved extraction `b1ea30c`/`fcdda3c`; closure `698e338`; merge `6f59180`. Deliverable: 21 new precise search outcomes, eight-family extraction review and machine-readable 2026 proposal/call facts. No visualization was started.
 
+W030 final documentary data closure: complete and published on branch `work/w030-final-data-closure` from `c87d5a996210135807821b8c8d5ad757b25485de`. Specification `82ecd15`; routing/audit record `36f41f9`; historical Ficha extraction `522b58c`; CPA extraction `61017af`/`46ba088`; gap audit/integration `3c6ee71`; release `eb668dd`; final review/handoff `3264b7b`; containing synchronization commit records remote publication. Deliverable: reproducible 19-worksheet CPA inspection and normalized data, corrected extraction of twelve already-preserved historical PDFs, 217-dataset/212-source release rebuild and final classification with no remaining agent-actionable data task. Not merged to main.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
