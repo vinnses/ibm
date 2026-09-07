@@ -52,7 +52,6 @@ services:
       - "${CODE_BIND:-127.0.0.1}:${CODE_PORT:-8080}:8080"
     volumes:
       - ./:/home/coder/project
-      - code_server_data:/home/coder/.local/share/code-server
     healthcheck:
       test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8080/healthz >/dev/null || exit 1"]
       interval: 10s
@@ -78,7 +77,8 @@ services:
       TS_STATE_DIR: /var/lib/tailscale
       TS_USERSPACE: "true"
       TS_ENABLE_HEALTH_CHECK: "true"
-      TS_LOCAL_ADDR_PORT: ":9002"
+      TS_LOCAL_ADDR_PORT: "0.0.0.0:9002"
+      TS_BOOT_TIMEOUT: "24h"
       TS_EXTRA_ARGS: "${TS_EXTRA_ARGS:-}"
     security_opt:
       - no-new-privileges:true
@@ -104,10 +104,8 @@ services:
 networks:
   edge:
     name: ibm_edge
-    internal: true
   dev:
     name: ibm_dev
 
 volumes:
-  code_server_data:
   tailscale_state:

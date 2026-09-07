@@ -63,7 +63,7 @@ sudo docker compose down
 ```
 
 This retains named volumes. Do not add `--volumes` when the Tailscale identity
-or code-server editor state must survive.
+must survive.
 
 ## 5. Local ports
 
@@ -78,7 +78,7 @@ defaults intentionally use loopback.
 
 ## 6. Network and container isolation
 
-`web` joins only the internal `ibm_edge` bridge. `code` joins only
+`web` joins only the dedicated `ibm_edge` bridge. `code` joins only
 `ibm_dev`. `tailscale` is the sole member of both and uses `ibm_dev` for
 external connectivity:
 
@@ -103,6 +103,9 @@ service is the development workspace. It is never a Funnel target.
 `tailscale` uses userspace networking, a read-only root filesystem, no Linux
 capabilities, no privileged mode, and private named state. Only its state
 volume is persistent; neither its state nor socket is shared with `web`.
+The supported `TS_BOOT_TIMEOUT=24h` setting keeps the first unauthenticated
+boot stable long enough for coordinated authorization rather than restarting
+the container after the default one-minute timeout.
 
 ## 7. Authenticate and verify the `ibm` node
 
@@ -112,14 +115,15 @@ With `TS_AUTHKEY` in the external environment file, recreate Tailscale:
 sudo docker compose up -d web tailscale
 ```
 
-Without a key, start the daemon and initiate the official interactive login:
+Without a key, follow the initial container output and complete the official
+interactive login it presents within the configured bootstrap window:
 
 ```sh
-sudo docker compose exec tailscale tailscale up --hostname=ibm
+sudo docker compose logs --follow tailscale
 ```
 
 Complete the printed authorization flow in the browser. Do not copy its
-one-time URL into documentation or logs. Then verify:
+one-time URL into project documentation or Git. Then verify:
 
 ```sh
 sudo docker compose exec tailscale tailscale status
@@ -163,8 +167,8 @@ Never configure a target for `code:8080`.
 Open `http://127.0.0.1:8080` and enter the external
 `CODE_SERVER_PASSWORD`. The repository is mounted directly at
 `/home/coder/project`; datasets are neither copied into the image nor
-duplicated into a data volume. Editor state persists in
-`ibm_code_server_data`.
+duplicated into a data volume. Editor state remains container-local because
+W031 persists only the identity-bearing Tailscale state.
 
 ## 10. Verification and current limitations
 
