@@ -48,3 +48,7 @@ No source was contacted, downloaded or re-searched in N3. Exact source identity 
 ## Counts and interpretation
 
 The W027 snapshot contains 204 indexed dataset records, 191 source-manifest records and 33 gap/search records. These are catalog-record counts, not counts of unique documents, unique sources or completeness. This register adds no CSV rows and does not assert that every field of any original source has been extracted.
+
+## W029 closure update
+
+W029 reviewed all eight formerly `partially_structured` families. Six are closed for further agent-only extraction because useful stable fields are already represented or, for the 2026 call/proposal, were added in `dados/extracoes-w029/proposal-2026.json`. The 2023 Ementário/departmental family remains partial pending authoritative applicability evidence. INEP packages remain partial for unspecified future fields, while CPA remains `deferred_tooling`. These states do not imply source exhaustiveness.

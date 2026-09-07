@@ -10,6 +10,8 @@ This directory is the stable entry point for the documentary and data collection
 4. Read the [audit and freeze](AUDITORIA_E_CONGELAMENTO.md) for verified coverage and accepted exceptions.
 5. Verify this checkout with [validation instructions](VALIDACAO.md) and `MANIFEST.sha256`.
 
+The final W029 extraction adds [machine-readable 2026 call and proposal facts](../extracoes-w029/proposal-2026.json) and a [family-by-family closure record](../extracoes-w029/README.md).
+
 The machine-readable access catalogs remain in [`dados/acesso/`](../acesso/): 204 dataset records, 191 source-manifest records and 33 gap/search records at this release. These counts are records, not unique documents or a completeness percentage.
 
 ## Evidence boundaries

@@ -31,6 +31,11 @@ def release_paths() -> dict[str, str]:
     for path in PACKAGE.rglob("*"):
         if path.is_file() and path != OUTPUT:
             selected[path.relative_to(ROOT).as_posix()] = "release-package"
+    extraction_dir = ROOT / "dados/extracoes-w029"
+    if extraction_dir.is_dir():
+        for path in extraction_dir.rglob("*"):
+            if path.is_file():
+                selected[path.relative_to(ROOT).as_posix()] = "structured-extraction"
     for relative in (
         "dados/acesso/datasets.csv",
         "dados/acesso/source-records.csv",
