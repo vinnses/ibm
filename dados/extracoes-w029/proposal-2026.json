@@ -1,0 +1,103 @@
+{
+  "work": "W029",
+  "evidence_model": "direct_fact_or_proposal_statement",
+  "scope_note": "Fields are transcribed from preserved documents. Proposal-stated fields establish what the proposal says, not selection, approval, authorization, or implementation.",
+  "sources": [
+    {
+      "source_id": "2026-edital",
+      "title": "Edital 01/2026 PROGRAP/PROPLAD",
+      "local_path": "administracao/mec/2026/edital-01-2026-prograp-proplad.pdf",
+      "sha256": "dc8b4a809155f4995224ecc25c71ad873357ff605e04ceb92aaa25b659897a11",
+      "note": "The source hash is verified by the repository manifest validator."
+    },
+    {
+      "source_id": "H003",
+      "title": "Apêndice B — proposta de Informática Biomédica",
+      "local_path": "administracao/mec/2026/apendice-b-proposta-informatica-biomedica.pdf",
+      "sha256": "994b17a9b1915a8d0dfc3104d01e7cc4d49b7f85e4002102687ee2e543109052",
+      "note": "Original user-provided proposal form preserved unchanged."
+    }
+  ],
+  "call": {
+    "document_title": "EDITAL 01/2026 PROGRAP/PROPLAD",
+    "institution": "Universidade Federal do Paraná",
+    "purpose": "Internal call for proposals for reorganization or creation of undergraduate courses to integrate an institutional project to be presented to the Ministry of Education.",
+    "submission_method": "System SEI, with the process sent to the PROGRAP mailbox.",
+    "mandatory_submission_parts": [
+      "Memorando da Direção do Setor ao Gabinete da PROGRAP",
+      "Formulário da Proposta Setorial (Apêndice A)",
+      "Estudo(s) de viabilidade da oferta/adequação de cada curso (Apêndice B)"
+    ],
+    "priority_topics": [
+      "Saúde e Cuidado",
+      "Educação",
+      "Tecnologia: STEM, Inteligência Artificial e Residência Tecnológica",
+      "Indústria: alinhamento às missões da Nova Indústria Brasil"
+    ],
+    "schedule": {
+      "launch": "29 de abril",
+      "submission_deadline": "11 de maio",
+      "analysis": "11 a 14 de maio",
+      "final_result": "15 de maio"
+    },
+    "locators": {
+      "purpose_and_object": "pages 1-2",
+      "mandatory_submission_parts": "page 1",
+      "priority_topics": "page 2",
+      "schedule": "page 2",
+      "submission_method": "page 3"
+    },
+    "evidence_status": "direct_fact_about_call"
+  },
+  "proposal": {
+    "proposal_type": "reorganização da oferta de curso de graduação",
+    "current_course_name": "Informática Biomédica",
+    "proposed_course_name": "Inteligência Artificial Aplicada à Saúde",
+    "campus": "Centro Politécnico",
+    "degree": "Bacharelado",
+    "shift": "Integral (V+N)",
+    "format": "Presencial",
+    "student_vacancies_stated": 30,
+    "cine_area": "06 — Computação e Tecnologias da Informação e Comunicação (TIC)",
+    "profile_topics_explicitly_listed": [
+      "ciência de dados",
+      "inteligência artificial",
+      "aprendizado de máquina",
+      "processamento de linguagem natural",
+      "visão computacional",
+      "mineração de dados",
+      "governança e ética relacionadas à IA e aos dados em saúde"
+    ],
+    "current_hours_stated": 3200,
+    "proposed_hours_stated": 2700,
+    "departments_and_sectors_stated": {
+      "departments": 9,
+      "sectors": ["Exatas", "Saúde", "Biológicas"]
+    },
+    "additional_staff_stated": {
+      "count": 2,
+      "area": "Inteligência Artificial e/ou Informática aplicada à Saúde"
+    },
+    "hospital_clinics_activity_stated": "programa de atuação dos alunos no Complexo Hospital de Clínicas por meio de estágio/projeto/residência",
+    "priority_selections_marked": [
+      "Inteligência Artificial (IA) na graduação",
+      "IA e multidisciplinaridade com Saúde"
+    ],
+    "locators": {
+      "identification_and_vacancies": "page 1",
+      "profile_and_topics": "pages 1-3",
+      "cine_area": "page 3",
+      "demand_impact_and_sustainability": "pages 3-5",
+      "current_and_proposed_hours": "pages 7-8",
+      "departments_and_staffing": "page 7",
+      "hospital_clinics_activity": "page 4",
+      "priority_selections": "page 8"
+    },
+    "evidence_status": "proposal_statement_only",
+    "limits": [
+      "The proposed 2700-hour matrix and component/equivalence list were not provided in the preserved form.",
+      "The form does not establish submission, selection, approval, authorization, or implementation.",
+      "The stated infrastructure sufficiency, demand, staffing need, and expected effects remain unverified proposal statements."
+    ]
+  }
+}
