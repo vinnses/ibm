@@ -14,7 +14,9 @@
   - `e028f4c` — segment and harden development stack;
   - `357d382` — document and validate isolated Funnel design;
   - `5ec183d` — record kernel reboot validation gate;
-  - `20b6a87` — validate runtime isolation and persistence.
+  - `20b6a87` — validate runtime isolation and persistence;
+  - `72b0447` — finalize the initial hardened bootstrap handoff;
+  - `b02eaaf` — automate Funnel through declarative configuration and record Docker group access.
 - Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
 - Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
@@ -80,8 +82,9 @@ Observed after the coordinated reboot:
 | jq | `1.8.2` |
 | Docker service | enabled and active |
 
-The user was not added to the root-equivalent `docker` group; documented
-commands use `sudo docker`.
+At the user's explicit request, `vinnses` was added to the root-equivalent
+`docker` group. A fresh login or `newgrp docker` is required before an
+already-running shell can access the daemon without `sudo`.
 
 ## Images and application versions
 
@@ -128,6 +131,8 @@ was not used.
 - `TS_ENABLE_HEALTH_CHECK=true`;
 - `TS_LOCAL_ADDR_PORT=0.0.0.0:9002`, reachable only through Docker networks;
 - `TS_BOOT_TIMEOUT=24h`, the official v1.102.3 control used to keep coordinated first authentication stable;
+- `TS_SERVE_CONFIG=/config/funnel.json`, backed by the tracked read-only
+  declarative configuration;
 - no capabilities, host TUN device, privileged mode, host port, or shared socket.
 
 Observed local preference hostname: **`ibm`**.
@@ -143,15 +148,17 @@ Both hashes were
 
 ## Funnel state
 
-- Observed Funnel configuration: empty JSON object; no backend is published.
+- Observed pre-auth Funnel configuration: empty JSON object; no backend is yet
+  published.
 - code-server public exposure: none.
-- Prepared command:
-
-```sh
-sudo docker compose exec tailscale tailscale funnel --bg --yes --tls-terminated-tcp=443 tcp://web:3000
-```
-
-- Intended only backend: `web:3000` over `ibm_edge`.
+- Activation method: automatic declarative application by the official
+  `containerboot` process after authentication; no manual Funnel command.
+- Configuration file:
+  `infrastructure/tailscale/funnel.json`, mounted read-only at
+  `/config/funnel.json`.
+- Intended only backend: `http://web:3000` over `ibm_edge`, selected by the
+  `Web` handler; `AllowFunnel` contains only
+  `${TS_CERT_DOMAIN}:443`.
 - URL observed: **none**; no domain was invented.
 - External dependency: an authorized tailnet login plus MagicDNS, HTTPS
   certificates, the `funnel` policy attribute, any required Owner/Admin/Network
@@ -165,8 +172,9 @@ sudo docker compose exec tailscale tailscale funnel --bg --yes --tls-terminated-
    `tailscale:9002/healthz`, proving network reachability while correctly
    reflecting `NeedsLogin`.
 2. **web cannot reach code:** pass; Docker DNS lookup returned `ENOTFOUND`.
-3. **code is not public through Funnel:** pass for current state; Funnel status
-   is empty and the sole documented future backend is `web:3000`. Public
+3. **code is not public through Funnel:** pass for current state and
+   configuration; pre-auth Funnel status is empty, the declarative file has one
+   `http://web:3000` handler, and it contains no code-server reference. Public
    end-to-end verification awaits HR-W031-001.
 4. **web has no Docker socket:** pass; zero mounts and the socket path is absent.
 5. **web has no Tailscale credentials:** pass; no secret-shaped environment
@@ -189,29 +197,32 @@ privilege controls, and only its private state volume.
 Primary start/stop:
 
 ```sh
-sudo docker compose up --build
-sudo docker compose down
+docker compose up --build
+docker compose down
 ```
 
 Executed successfully:
 
 - package installation and service enablement;
 - running/installed kernel and module checks;
-- `sudo docker run --rm hello-world`;
-- `sudo docker compose config --quiet`;
-- `sudo docker compose build --pull`;
-- `sudo docker compose up -d`;
-- exact `sudo docker compose up --build -d`;
+- `docker run --rm hello-world`;
+- `docker compose config --quiet`;
+- `docker compose build --pull`;
+- `docker compose up -d`;
+- exact `docker compose up --build -d`;
 - Compose status and filtered logs;
 - local web and code-server HTTP checks;
 - application login redirect and auth-log checks;
 - service-name positive and negative connectivity probes;
 - container user, mounts, environment, privileges, capabilities, read-only
-  filesystems, ports, restart counts, and network membership inspections;
+  filesystems, ports, restart counts, network membership, and declarative Funnel
+  configuration inspections;
+- Docker 29.7.2 client/server access without `sudo` under a refreshed
+  `docker` group context;
 - Tailscale preferences, state, health, Funnel status, and down/up persistence;
 - `npm ci`, Svelte checks, adapter-node build, production prune/server tests,
   and audit (during image/application validation);
-- `python scripts/validate_w031_site_bootstrap.py`: pass, 15 preserved
+- `python scripts/validate_w031_site_bootstrap.py`: pass, 16 preserved
   W031 infrastructure sources and zero errors;
 - `python scripts/validate_repository.py`: pass, zero warnings/errors;
 - `python scripts/validate_governance_audit.py`: pass, zero errors;
