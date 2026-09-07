@@ -85,6 +85,11 @@ def main() -> int:
         errors.append("formula count mismatch")
     if any(cell.get("formula_cache_status") not in {"stored", "missing"} for cell in formula_cells):
         errors.append("formula cache status missing")
+    cache_counts = Counter(cell["formula_cache_status"] for cell in formula_cells)
+    if inventory.get("formula_cached_value_count") != cache_counts["stored"] or inventory.get("formula_missing_cache_count") != cache_counts["missing"]:
+        errors.append("formula cache summary mismatch")
+    if not inventory.get("openpyxl_direct_load_error", "").startswith("KeyError:"):
+        errors.append("direct-load structural defect not recorded")
     cell_map = {(cell["worksheet"], cell["cell"]): cell for cell in cells}
 
     observations = rows(OUT / "cpa_observations.csv")

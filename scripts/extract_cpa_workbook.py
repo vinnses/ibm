@@ -99,6 +99,12 @@ def main() -> int:
     if actual != EXPECTED_SHA: raise SystemExit(f'SHA mismatch: expected {EXPECTED_SHA}, got {actual}')
     output.mkdir(parents=True, exist_ok=True)
     source_label = source.relative_to(ROOT).as_posix() if source.is_relative_to(ROOT) else str(source)
+    try:
+        direct_workbook = load_workbook(source, data_only=False)
+        direct_workbook.close()
+        direct_load_error = None
+    except Exception as exc:
+        direct_load_error = f"{type(exc).__name__}: {exc}"
     temp, missing = sanitized_copy(source)
     try:
         wb_formula = load_workbook(temp, data_only=False)
@@ -124,6 +130,9 @@ def main() -> int:
                            'headers': [safe(ws.cell(range_boundaries(table.ref)[1], col).value)
                                        for col in range(range_boundaries(table.ref)[0], range_boundaries(table.ref)[2] + 1)]}
                           for name in sorted(ws.tables) for table in [ws.tables[name]]],
+                'header_structure': ('single table header row for each recognized table'
+                                     if ws.tables else
+                                     'non-tabular/presentation layout; merged ranges and cell coordinates preserve header relationships'),
                 'data_types': {k:sum(1 for c in cells if c['data_type']==k) for k in sorted(set(c['data_type'] for c in cells))},
                 'number_formats': sorted(set(c['number_format'] for c in cells))})
         inventory={'source':{'path':source_label,'sha256':actual,'size_bytes':source.stat().st_size,'expected_sha256':EXPECTED_SHA,
@@ -132,6 +141,14 @@ def main() -> int:
                              'context_page_sha256': sha256(SOURCE_PAGE)},
             'workbook_properties':{'creator':safe(wb_formula.properties.creator),'title':safe(wb_formula.properties.title),'subject':safe(wb_formula.properties.subject),'created':safe(wb_formula.properties.created),'modified':safe(wb_formula.properties.modified),'calc_mode':safe(wb_formula.calculation.calcMode),'full_calc_on_load':safe(wb_formula.calculation.fullCalcOnLoad)},
             'worksheets':sheet_meta,'worksheet_count':len(sheet_meta),'populated_cell_count':len(all_cells),'formula_cell_count':sum(1 for c in all_cells if c['formula']),
+            'formula_cached_value_count':sum(1 for c in all_cells if c['formula'] and c['formula_cache_status']=='stored'),
+            'formula_missing_cache_count':sum(1 for c in all_cells if c['formula'] and c['formula_cache_status']=='missing'),
+            'merged_range_count':sum(len(sheet['merged_ranges']) for sheet in sheet_meta),
+            'hidden_row_count':sum(len(sheet['hidden_rows']) for sheet in sheet_meta),
+            'hidden_column_count':sum(len(sheet['hidden_columns']) for sheet in sheet_meta),
+            'hyperlink_cell_count':sum(sheet['hyperlinks'] for sheet in sheet_meta),
+            'comment_cell_count':sum(sheet['comments'] for sheet in sheet_meta),
+            'openpyxl_direct_load_error':direct_load_error,
             'dangling_relationships_removed_for_openpyxl':missing,
             'observations':['Direct openpyxl loading fails because workbook XML points to absent drawing/VML package members. A temporary sanitized ZIP removes only those 25 dangling internal drawing/VML relationships. Source bytes are unchanged.',
                             'No formulas were recalculated. Formula text and the workbook stored cache are separate; a stored cache is preserved but not presumed current.',
