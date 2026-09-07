@@ -1,0 +1,19 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# SvelteKit and Node build state
+site/node_modules/
+site/.svelte-kit/
+site/build/
+site/.vite/
+
+# Local runtime state
+tailscale-state/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
