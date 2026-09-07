@@ -32,3 +32,10 @@
 - `cpa_python`: replacement assignment, `gpt-5.6-luna` / medium, mechanical extractor, planned before spawn using bounded fork.
 - `gap_reviewer`: `gpt-5.6-terra` / medium, actual, bounded-fork documentary review with disjoint output paths.
 - `historical_ficha_extractor`: `gpt-5.6-luna` / medium, planned before spawn; mechanical extraction of twelve already-preserved W022-W024 PDFs into `dados/curriculos/2011/fichas-preservadas/` with `scripts/extract_w030_historical_fichas.py` and `scripts/validate_w030_historical_fichas.py`. Required by Part I: reviewer identified a concrete local extraction omission in W029, not a new research front. Preserve version/applicability uncertainty; no new searches. Primary performs catalog integration; no historical inventory status is silently replaced.
+- `gap_reviewer` additional bounded output: `scripts/validate_w030_gap_closure.py`, checks controlled closure statuses and complete original gap-ID crosswalk; same Terra/medium assignment, no escalation.
+- `gap_reviewer` also reviews historical field-boundary corrections and CPA structural context/universe coverage read-only, as the user's Terra/medium structural-interpretation route. No model/effort change.
+
+## Runtime continuation
+
+- The primary runtime changed during W030 from a GPT-6 exposed family to GPT-5; exact backend and effort remain unavailable. This user/runtime-directed change is recorded before continuation.
+- Both `cpa_python` (Luna/medium) and `gap_reviewer` (Terra/medium) then terminated on service usage limits. Their saved files and review findings remain evidence, but incomplete work returns to the primary under the escalation rule. The primary completes extraction fixes, final audit, integration and synthesis; no replacement Sol subagent is created.

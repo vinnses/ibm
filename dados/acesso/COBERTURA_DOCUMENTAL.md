@@ -13,26 +13,26 @@ Generated mechanically by `scripts/build_w027_documentary_inventory.py` from the
 
 | Catalog | Record count | Meaning |
 | --- | --- | --- |
-| datasets.csv | 209 | dataset index records |
-| source-records.csv | 191 | preserved/source-manifest records |
+| datasets.csv | 217 | dataset index records |
+| source-records.csv | 212 | preserved/source-manifest records |
 | gaps.csv | 33 | recorded gap or bounded-search records |
-| datasets.csv declared rows | 1189 | rows declared by indexed datasets |
+| datasets.csv declared rows | 1486 | rows declared by indexed datasets |
 
 ## Dataset records by scope
 
 | Scope | Dataset records | Declared rows |
 | --- | --- | --- |
-| administrative data or historical series | 25 | 322 |
+| administrative data or historical series | 31 | 595 |
 | curriculum inventory or formal structure | 12 | 384 |
 | curated global source catalog | 1 | 10 |
-| repository dataset | 171 | 473 |
+| repository dataset | 173 | 497 |
 
 ## Dataset records by top-level documentary axis
 
 | Axis | Dataset records | Declared rows |
 | --- | --- | --- |
-| Curricular | 183 | 852 |
-| Administrative | 25 | 327 |
+| Curricular | 185 | 876 |
+| Administrative | 31 | 600 |
 | Propositive | 0 | 0 |
 | Cross-cutting | 1 | 10 |
 
@@ -51,18 +51,18 @@ The axis is a deterministic path-based display grouping, not a claim that a reco
 
 | Measure | Records |
 | --- | --- |
-| Source records | 191 |
-| Local path recorded | 191 |
-| Recorded local path exists | 191 |
-| Source URL recorded | 178 |
-| SHA-256 recorded | 191 |
+| Source records | 212 |
+| Local path recorded | 212 |
+| Recorded local path exists | 212 |
+| Source URL recorded | 199 |
+| SHA-256 recorded | 212 |
 
 ### Source records by documentary axis
 
 | Axis | Records |
 | --- | --- |
-| Curricular | 106 |
-| Administrative | 82 |
+| Curricular | 120 |
+| Administrative | 89 |
 | Propositive | 3 |
 | Cross-cutting | 0 |
 
@@ -72,12 +72,13 @@ The axis is a deterministic path-based display grouping, not a claim that a reco
 | --- | --- |
 | downloaded | 40 |
 | preservado | 12 |
-| preserved | 62 |
-| preserved_indeterminate | 1 |
+| preserved | 63 |
+| preserved_indeterminate | 14 |
 | preserved_lfs | 22 |
 | versionado | 30 |
 | versionado_lfs | 22 |
 | versionado_origem_fornecida | 2 |
+| (blank) | 7 |
 
 ### Recorded source document type
 
@@ -85,10 +86,13 @@ The axis is a deterministic path-based display grouping, not a claim that a reco
 | --- | --- |
 | CEPE_chamber_minute | 1 |
 | CPA_evaluation_workbook | 1 |
-| Ficha 1 | 1 |
+| Ficha 1 | 9 |
+| Ficha 2 | 4 |
+| Fonte NC PDF | 1 |
+| HTML archive page | 1 |
 | HTML index | 1 |
 | HTML index page | 1 |
-| HTML page | 49 |
+| HTML page | 55 |
 | PPC | 4 |
 | Resolution | 1 |
 | Resolução | 6 |
@@ -108,6 +112,7 @@ The axis is a deterministic path-based display grouping, not a claim that a reco
 | proposal_form | 1 |
 | report | 1 |
 | resolution | 3 |
+| undesignated component document | 1 |
 | zip_dados_oficial | 11 |
 
 ## Gap records

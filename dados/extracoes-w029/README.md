@@ -1,5 +1,13 @@
 # W029 — preserved-source extraction closure
 
+> W030 correction: this is the historical W029 assessment. Its 2011 Ficha-family
+> row incorrectly described CI241 as the only preserved record, overlooking
+> twelve additional W022–W024 PDFs in local manifests. W030 records this defect
+> as E-W030-004 and supplies their separate extraction under
+> `dados/curriculos/2011/fichas-preservadas/`. No applicability to curriculum 96A
+> is inferred. The former CPA tooling dependency is superseded by the user's
+> explicit W030 Python instruction; see `administracao/dados/cpa/`.
+
 This directory records the final review of the eight `partially_structured` source
 families listed in `dados/entrega-documental/STATUS_EXTRACAO.md`.
 
