@@ -2,23 +2,38 @@
 
 - Branch: `work/w031-site-bootstrap`.
 - Commit base: `be77b7185f0c9eb3bf46f5e12aa3a3fd32a67f2e` from updated `origin/main`.
-- Commits produced: `dd41f65` (Work specification); `0428dc9` (SvelteKit application); `6b15c79` (Compose stack); `14e6686` (Tailscale evidence and operations); `357b4af` (validation and audit trail); `3ac1a4d` (dependency advisory correction); plus the final review/handoff commit containing this file.
-- Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and reasoning effort were not exposed and remain `unknown`, not inferred.
-- Agent assignments actually used: primary / primary / orchestrator, infrastructure researcher, implementer, validator, reviewer, and handoff author / GPT-5 family, exact backend unknown / effort unknown / actual / bounded Work stayed in the user-supervised primary session; no subagent was requested or used.
+- Commits produced before this handoff commit:
+  - `dd41f65` — define site bootstrap Work unit;
+  - `0428dc9` — bootstrap SvelteKit application;
+  - `6b15c79` — add Docker Compose development stack;
+  - `14e6686` — document Tailscale Funnel bootstrap;
+  - `357b4af` — add bootstrap validation and audit trail;
+  - `3ac1a4d` — resolve Svelte dependency audit finding;
+  - `fa5493e` — initial environment-blocked review and handoff;
+  - `8f2c043` — record isolation and Docker runtime addendum;
+  - `e028f4c` — segment and harden development stack;
+  - `357d382` — document and validate isolated Funnel design;
+  - `5ec183d` — record kernel reboot validation gate;
+  - `20b6a87` — validate runtime isolation and persistence.
+- Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
+- Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
-- Objective and completion verdict: deliver the minimal executable architecture for the IBM site. **SITE BOOTSTRAP BLOCKED — the implementation and static/application checks are complete, but the environment has no Docker CLI or daemon, preventing the mandatory container/runtime and Tailscale/Funnel observations.**
+- Completion verdict: **SITE BOOTSTRAP READY — infrastructure validated for the next site-development milestone.**
 
-## Deliverables and primary files
+The sole remaining gate is external Tailscale authorization. The local stack,
+including an unauthenticated but stable userspace daemon, is operational and
+meets the Work's documented fallback for unavailable tailnet permissions.
 
-- `compose.yml`: single entry point with `web`, `code`, and `tailscale`.
-- `.env.example` and `.gitignore`: safe local configuration and secret exclusion.
-- `site/`: minimal TypeScript SvelteKit application, health endpoint, exact lockfile, and multi-stage Node container.
-- `docs/site-development.md`: requirements, start/stop, ports, Tailscale registration, hostname/Funnel verification, code-server access, persistence, and limitations.
-- `infrastructure/tailscale/sources/`: nine preserved official source captures and `manifest.csv`.
-- `scripts/validate_w031_site_bootstrap.py`: deterministic source/configuration/scope/secret checks.
+## Primary files and structure
+
+- `compose.yml`: one-command stack, network segmentation, hardening, health checks, ports, and persistence.
+- `.env.example` and `.gitignore`: safe names/examples and local secret exclusion.
+- `site/`: minimal TypeScript SvelteKit page, health endpoint, exact lockfile, and hardened multi-stage image.
+- `docs/site-development.md`: installation, configuration, operation, Tailscale/Funnel procedure, isolation, and limitations.
+- `infrastructure/docker/sources/`: three preserved official Docker references plus provenance/hash manifest.
+- `infrastructure/tailscale/sources/`: official documentation and exact v1.102.3 implementation captures plus provenance/hash manifest.
+- `scripts/validate_w031_site_bootstrap.py`: source, Compose, application, hardening, and secret-hygiene validation.
 - `governance/work-units/W031-site-bootstrap.md`, `governance/reviews/W031-site-bootstrap.md`, `governance/errors/W031.md`, `governance/human-reviews/W031.md`, and this handoff.
-
-## Structure created
 
 ```text
 site/
@@ -33,7 +48,10 @@ site/
 docs/
   site-development.md
 infrastructure/
+  docker/sources/
   tailscale/sources/
+scripts/
+  validate_w031_site_bootstrap.py
 governance/
   work-units/W031-site-bootstrap.md
   reviews/W031-site-bootstrap.md
@@ -42,105 +60,195 @@ governance/
   human-reviews/W031.md
 ```
 
-## Images and versions
+## Host installation and versions
 
-| Use | Tag | Pinned manifest digest |
+Installed on CachyOS with:
+
+```sh
+sudo pacman -Syu --needed docker docker-compose docker-buildx jq
+sudo systemctl enable --now docker.service
+```
+
+Observed after the coordinated reboot:
+
+| Component | Version/state |
+|---|---|
+| Kernel | `7.2.3-1-cachyos` |
+| Docker client/server | `29.7.2` / `29.7.2` |
+| Docker Compose | `5.5.1` |
+| Docker Buildx | `0.36.1` |
+| jq | `1.8.2` |
+| Docker service | enabled and active |
+
+The user was not added to the root-equivalent `docker` group; documented
+commands use `sudo docker`.
+
+## Images and application versions
+
+| Use | Image/tag | Pinned digest |
 |---|---|---|
 | SvelteKit build/runtime | `node:24.20.0-alpine` | `sha256:e67514e5d0f6c46656005e1b693b2ec9d52e80b641307de684d4a015ba7a4eaf` |
 | code-server | `ghcr.io/coder/code-server:4.135.0` | `sha256:ccd326184d71efc5ebb94155eda7bb30153902342a35dbc8525450d81aa55012` |
 | Tailscale | `tailscale/tailscale:v1.102.3` | `sha256:8c42c4574ab066384fcb72f69e086a2ff1dd3652eb6f56856cee34bcf0d2f680` |
 
-Svelte application pins include SvelteKit 2.70.3, Svelte 5.57.0, adapter-node 5.5.7, Vite 8.2.2, and TypeScript 6.0.3. `cookie@0.7.2` is an explicit patched transitive override.
+The application lock includes SvelteKit 2.70.3, Svelte 5.57.0,
+adapter-node 5.5.7, Vite 8.2.2, TypeScript 6.0.3, and the patched transitive
+`cookie@0.7.2` override. Builds and audits report zero findings.
 
-## Compose services, ports, and volumes
+## Compose services, networks, ports, and volumes
 
-| Service | Role | Local port | Health signal | Storage/network |
+| Service | Role | Networks | Local publication | Runtime storage |
 |---|---|---|---|---|
-| `web` | adapter-node SvelteKit server | `127.0.0.1:5173` → `3000` | `GET /health` through Node fetch | `ibm` network; no data volume |
-| `code` | code-server over the checkout | `127.0.0.1:8080` → `8080` | `GET /healthz` through curl | `./` → `/home/coder/project`; `ibm_code_server_data` |
-| `tailscale` | project tailnet node and Funnel sidecar | none | `tailscale status` | shares `web` network namespace; `ibm_tailscale_state` → `/var/lib/tailscale` |
+| `web` | SvelteKit adapter-node server | `ibm_edge` only | `127.0.0.1:5173` → `3000` | none |
+| `code` | authenticated development workspace | `ibm_dev` only | `127.0.0.1:8080` → `8080` | `./` → `/home/coder/project` |
+| `tailscale` | project node and future Funnel gateway | `ibm_edge` + `ibm_dev` | none | `ibm_tailscale_state` → `/var/lib/tailscale` |
 
-Ordinary `docker compose down` retains both named volumes. `docker compose down --volumes` is intentionally destructive to editor and Tailscale state and was not run.
+No fixed IP is configured. User-defined bridge DNS resolves service names only
+within shared networks. Ordinary `docker compose down` retains
+`ibm_tailscale_state`; `down --volumes` is intentionally destructive and
+was not used.
 
-## Tailscale and Funnel state
+## Secret configuration
 
-- Configuration: `TS_HOSTNAME=ibm`, `TS_STATE_DIR=/var/lib/tailscale`, `TS_AUTH_ONCE=true`, `TS_USERSPACE=true`, `TS_ACCEPT_DNS=false`; `TS_AUTHKEY` and optional `TS_EXTRA_ARGS` come only from ignored `.env`.
-- Persistence: named Compose volume `ibm_tailscale_state`.
-- Funnel target: `http://127.0.0.1:3000` from the sidecar's shared web namespace, activated with `tailscale funnel --bg --yes`.
-- Hostname observed: **not observed**; `ibm` is configured but Docker/Tailscale runtime was unavailable.
-- Funnel state: **not activated or observed**; tailnet HTTPS/policy authorization and an authenticated Docker runtime are external dependencies.
-- URL observed: **none**; no domain was invented.
-- code-server Funnel exposure: none.
+- A strong generated code-server password is stored outside the checkout at
+  `/home/vinnses/.config/ibm/compose.env`, owned by `vinnses:vinnses` with
+  mode 0600. Its value is intentionally not recorded.
+- Ignored `.env` is an absolute symlink to that external file.
+- `TS_AUTHKEY` is currently empty; no Tailscale credential was supplied.
+- Git tracks only `.env.example`; targeted credential/private-key scans found
+  no secret.
 
-## Start and verification commands
+## Tailscale configuration and observed state
+
+- `TS_HOSTNAME=ibm`;
+- `TS_STATE_DIR=/var/lib/tailscale`;
+- `TS_AUTH_ONCE=true`;
+- `TS_USERSPACE=true`;
+- `TS_ACCEPT_DNS=false`;
+- `TS_ENABLE_HEALTH_CHECK=true`;
+- `TS_LOCAL_ADDR_PORT=0.0.0.0:9002`, reachable only through Docker networks;
+- `TS_BOOT_TIMEOUT=24h`, the official v1.102.3 control used to keep coordinated first authentication stable;
+- no capabilities, host TUN device, privileged mode, host port, or shared socket.
+
+Observed local preference hostname: **`ibm`**.
+
+Observed authenticated tailnet hostname: **not available**. The backend state is
+`NeedsLogin`; the unauthenticated self field is not treated as node-name
+evidence.
+
+State persistence was tested by hashing `tailscaled.state`, running
+`docker compose down` and `docker compose up -d`, and comparing the result.
+Both hashes were
+`1c146db3abd5660ce508be4d704e6ab828dd147c040a11aaecedd5b43dfc2190`.
+
+## Funnel state
+
+- Observed Funnel configuration: empty JSON object; no backend is published.
+- code-server public exposure: none.
+- Prepared command:
 
 ```sh
-cp .env.example .env
-docker compose up --build
-docker compose ps
-curl -fsS http://127.0.0.1:5173/health
-curl -fsS http://127.0.0.1:8080/healthz
-docker compose exec tailscale tailscale status --json
-docker compose exec tailscale wget -qO- http://web:3000/health
-docker compose exec tailscale tailscale funnel --bg --yes http://127.0.0.1:3000
-docker compose exec tailscale tailscale funnel status
-docker compose down
-docker compose up -d
+sudo docker compose exec tailscale tailscale funnel --bg --yes --tls-terminated-tcp=443 tcp://web:3000
 ```
 
-After the final two commands, repeat `tailscale status --json` and confirm the same node identity and self hostname. Exact operational instructions are in `docs/site-development.md`.
+- Intended only backend: `web:3000` over `ibm_edge`.
+- URL observed: **none**; no domain was invented.
+- External dependency: an authorized tailnet login plus MagicDNS, HTTPS
+  certificates, the `funnel` policy attribute, any required Owner/Admin/Network
+  admin approval, and public DNS propagation.
+- Human gate: HR-W031-001 remains open only for authenticated node and public
+  Funnel verification.
 
-## Sources added
+## Attack-surface verification
 
-Nine current official Tailscale captures were added: HTML and source Markdown for Docker, Funnel, and Serve; source Markdown for Docker parameters, Docker Compose setup, and the Funnel CLI. `infrastructure/tailscale/sources/manifest.csv` records title, institution, URL, access date, upstream validation date, type, local path, SHA-256, and purpose. All nine hashes pass the W031 validator.
+1. **web reaches tailscale:** pass; it received HTTP 503 from
+   `tailscale:9002/healthz`, proving network reachability while correctly
+   reflecting `NeedsLogin`.
+2. **web cannot reach code:** pass; Docker DNS lookup returned `ENOTFOUND`.
+3. **code is not public through Funnel:** pass for current state; Funnel status
+   is empty and the sole documented future backend is `web:3000`. Public
+   end-to-end verification awaits HR-W031-001.
+4. **web has no Docker socket:** pass; zero mounts and the socket path is absent.
+5. **web has no Tailscale credentials:** pass; no secret-shaped environment
+   variables and no Tailscale state path.
+6. **web is non-root:** pass; `uid=10001(ibm) gid=10001(ibm)`.
+7. **no secret is versioned:** pass; only the safe example is tracked and the
+   targeted scan is clean.
+8. **web compromise does not expose the workspace:** pass; no mounts,
+   `code` is unresolvable, and repository paths are absent.
 
-## Coverage reached
+Additional observed web controls: read-only root filesystem (write test
+rejected), `no-new-privileges`, `cap_drop: ALL`, not privileged, and zero
+restarts. code-server runs UID/GID 1000 with required password auth,
+`no-new-privileges`, `cap_drop: ALL`, no Docker socket, no privileged mode,
+and only the checkout bind. Tailscale has a read-only root filesystem, the same
+privilege controls, and only its private state volume.
 
-- Application source, production adapter build, health endpoint, and minimal landing page complete.
-- Three-service Compose architecture, loopback debugging ports, workspace mount, named persistence, health checks, and safe configuration complete.
-- Current official Docker/Funnel requirements and the loopback proxy constraint are reflected and preserved.
-- `thesis`, `drugslm`, and `arcane` were inspected read-only; relevant bind-mount, volume, network, and health-check patterns informed the bounded design.
+## Commands and validation evidence
 
-## Validations executed and results
+Primary start/stop:
 
-- `git fetch origin main --prune`: pass before branch creation.
-- Portable official Node v24.20.0 `npm ci`: pass; 75 packages installed from lockfile.
-- `npm run check`: pass; zero errors and zero warnings.
-- `npm run build`: pass with adapter-node.
-- `npm prune --omit=dev` followed by `node build`: pass.
-- HTTP `/`: pass; rendered `Informática Biomédica — UFPR`.
-- HTTP `/health`: pass; exact JSON `{"status":"ok","service":"ibm-web"}`.
-- `npm audit --audit-level=low`: pass; zero vulnerabilities after correction.
-- Official registry manifest checks: all three pinned tags returned HTTP 200 and the recorded digests.
-- Docker Compose v5.5.1 standalone binary checksum verification and `compose.yml config --quiet`: pass with `.env.example`; this is daemon-free parsing, not `docker compose` runtime execution.
-- `python scripts/validate_w031_site_bootstrap.py`: pass; nine sources, Compose invariants, app, and secret hygiene; reports Docker unavailable.
-- `python scripts/validate_repository.py`: pass; zero warnings and zero errors.
-- `python scripts/validate_governance_audit.py`: pass; zero errors.
-- `git diff --check`: pass.
-- Tracked environment/runtime-state check: pass; only `.env.example` is tracked and no build/state directory is tracked.
-- Auth-key-shaped secret scan of project-authored tracked files: pass; none found.
-- `docker compose config`, `docker compose build`, `docker compose up`, container stability/health, Docker service DNS, Tailscale state persistence, hostname, and Funnel: **not executed because `docker` is not installed**.
+```sh
+sudo docker compose up --build
+sudo docker compose down
+```
 
-## Problems, gaps, divergences, and provisional information
+Executed successfully:
 
-- Problems encountered: E-W031-001 and E-W031-003 through E-W031-010 were resolved and remain preserved in the append-only log. E-W031-002 remains open for missing Docker runtime.
-- Gaps: all runtime container evidence; actual code-server response; Docker DNS request; Tailscale registration/identity persistence; tailnet hostname; Funnel authorization, routing, public response, and URL.
-- Divergence handled: the requested service-name networking and official current Funnel loopback-only proxy rule are both preserved. The sidecar shares `web` networking for Funnel and separately documents `http://web:3000/health` as the Docker DNS check. Runtime confirmation remains pending.
-- Provisional information: registry tags/digests and official docs are current as observed on 2026-09-07; operational behavior is not projected beyond those sources.
-- External dependencies: Docker Engine + Compose v2, image registry access, a non-ephemeral Tailscale registration credential, MagicDNS, tailnet HTTPS certificates, Funnel policy authorization by an Owner/Admin/Network admin, and public DNS propagation.
+- package installation and service enablement;
+- running/installed kernel and module checks;
+- `sudo docker run --rm hello-world`;
+- `sudo docker compose config --quiet`;
+- `sudo docker compose build --pull`;
+- `sudo docker compose up -d`;
+- exact `sudo docker compose up --build -d`;
+- Compose status and filtered logs;
+- local web and code-server HTTP checks;
+- application login redirect and auth-log checks;
+- service-name positive and negative connectivity probes;
+- container user, mounts, environment, privileges, capabilities, read-only
+  filesystems, ports, restart counts, and network membership inspections;
+- Tailscale preferences, state, health, Funnel status, and down/up persistence;
+- `npm ci`, Svelte checks, adapter-node build, production prune/server tests,
+  and audit (during image/application validation);
+- `python scripts/validate_w031_site_bootstrap.py`: pass, 15 preserved
+  W031 infrastructure sources and zero errors;
+- `python scripts/validate_repository.py`: pass, zero warnings/errors;
+- `python scripts/validate_governance_audit.py`: pass, zero errors;
+- `git diff --check`: pass;
+- tracked-path and targeted secret scans: pass.
 
-## Explicitly unperformed work
+`web` and `code` are healthy. Tailscale remains running with zero restarts
+beyond the prior one-minute timeout; its health is correctly non-ready
+(`unhealthy` / HTTP 503) solely because authentication is pending.
 
-- No merge to `main`, push, integration index update, or next milestone.
-- No final interface/protest aesthetic, curriculum visualization, lineage graph, storytelling, curricular evaluation, dataset selection/integration/transformation, database, ORM, API, application authentication, data processing, analytical notebooks, or 2026 proposal work.
-- No code-server publication through Funnel.
-- No secret, auth key, real password, tailnet domain, or invented URL was committed.
+## Problems and recovery
 
-## Audit records and next bounded work
+The append-only log `governance/errors/W031.md` preserves E-W031-001 through
+E-W031-025. All agent-correctable defects are resolved. Notable runtime
+recoveries were:
 
-- Error-log path: `governance/errors/W031.md`.
-- Resolved event IDs: E-W031-001, E-W031-003, E-W031-004, E-W031-005, E-W031-006, E-W031-007, E-W031-008, E-W031-009, E-W031-010.
-- Open event IDs: E-W031-002.
-- Human-review question path: `governance/human-reviews/W031.md`; HR-W031-001 blocks only authenticated node/Funnel observation and actual URL recording, while missing Docker also blocks the runtime acceptance gate.
-- Recommended next bounded work unit: continue W031 only on a Docker-enabled, authorized tailnet host to execute the listed runtime checks, append evidence, resolve or precisely retain E-W031-002/HR-W031-001, and update this verdict. Do not begin interface development before that separate authorization.
+- coordinated reboot after kernel/module replacement;
+- explicit Tailscale health listen IP;
+- removal of a nonessential root-owned code-server state volume;
+- removal of the optional internal-network flag that suppressed the local web
+  port while preserving two-network segmentation;
+- supported 24-hour Tailscale bootstrap timeout to prevent unauthenticated
+  one-minute restart loops.
 
+HR-W031-002 is resolved by the reboot. HR-W031-001 remains the sole external
+authorization gate.
+
+## Explicitly not performed
+
+- No merge to `main`, integration, tag, or next milestone.
+- No final interface or protest aesthetic.
+- No curriculum visualization, lineage graph, storytelling, curricular
+  evaluation, or 2026 proposal.
+- No dataset copy, transformation, reorganization, selection, or frontend
+  integration.
+- No database, ORM, project API, application authentication, processing
+  pipeline, analytical notebook stack, or data-science environment expansion.
+- No code-server Funnel publication.
+- No tailnet administrative bypass, authenticated node assertion, public URL
+  invention, or credential commit.
