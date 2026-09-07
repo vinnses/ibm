@@ -3,15 +3,15 @@
 - **Objective:** deliver a reproducible, minimal three-service Docker Compose stack that starts a SvelteKit web application, a repository-mounted code-server workspace, and a persistent Tailscale node prepared to expose only the web service through Funnel.
 - **Branch:** `work/w031-site-bootstrap`.
 - **Commit base:** `be77b7185f0c9eb3bf46f5e12aa3a3fd32a67f2e` from updated `origin/main` fetched on 2026-09-07.
-- **Primary-session assignment:** GPT-5 family as exposed by the active runtime; exact backend model and reasoning effort are not exposed and are therefore recorded as `unknown`, not inferred.
+- Primary-session assignment: GPT-5 family as exposed by the active runtime; exact backend model and reasoning effort are not exposed and are therefore recorded as `unknown`, not inferred.
 
-## Agent assignments
+- Agent assignments: one primary actor; the table below records the required stable fields.
 
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | primary | primary | orchestration, architecture research, implementation, validation, review, and handoff | GPT-5 family; exact backend unknown | unknown | actual | The bounded infrastructure work and its final audit remain under primary-session authority; no delegation was requested or used. |
 
-- **Escalation rule:** no subagents are planned. Sol subagents are prohibited. Any task genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated; any other reassignment must be recorded before work continues.
+- Escalation rule: no subagents are planned. Sol subagents are prohibited. Any task genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated; any other reassignment must be recorded before work continues.
 - **Inputs:** repository governance and existing documentary checkout; local read-only architecture references `/home/vinnses/mestrado/thesis`, `/home/vinnses/mestrado/drugslm`, and `/home/vinnses/arcane`; current official Tailscale Docker, Serve, and Funnel documentation; official SvelteKit, Node, code-server, and Tailscale container images or package sources.
 - **In scope:** minimal TypeScript SvelteKit application; production-oriented web container with application health check; minimal code-server image/workspace with direct repository bind mount; Compose networking and local ports; dedicated persistent Tailscale node named `ibm`; reproducible Funnel preparation targeting the Docker service name `web`; safe environment example and secret exclusion; operational documentation; available runtime validation; scoped commits and handoff.
 - **Out of scope:** final interface or protest aesthetic; curriculum visualization, lineage graph, storytelling, curricular analysis, dataset selection or frontend integration; database, API, application authentication, data processing, analytical notebooks, 2026 proposal work; code-server Funnel publication; tailnet administration bypass; merge to `main`; subsequent milestones.
@@ -23,4 +23,3 @@
 - **Error log:** `governance/errors/W031.md` (append-only).
 - **Human review:** `governance/human-reviews/W031.md` will record only observed tailnet administrative, credential, or device-approval gates; none is assumed before validation.
 - **Commit policy:** use incremental semantic commits on the Work branch; record exact hashes in the handoff; do not merge or start W032.
-
