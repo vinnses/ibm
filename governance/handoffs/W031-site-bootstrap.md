@@ -16,7 +16,8 @@
   - `5ec183d` — record kernel reboot validation gate;
   - `20b6a87` — validate runtime isolation and persistence;
   - `72b0447` — finalize the initial hardened bootstrap handoff;
-  - `b02eaaf` — automate Funnel through declarative configuration and record Docker group access.
+  - `b02eaaf` — automate Funnel through declarative configuration and record Docker group access;
+  - `c6e6e6e` — update the handoff for automatic Funnel.
 - Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
 - Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
