@@ -1,0 +1,2 @@
+source_worksheet,source_cell,source_row,source_workbook,workbook_sha256,COD_CURSO,CURSO,COD_SETOR_CURSO,SETOR_CURSO,QTD_RESPOSTAS_CURSO,structural_status
+Cursos,A51:G51,51,administracao/historico/fontes/documentos/cpa-avaliacao-curso-informatica-biomedica-2022.xlsx,4c968ff6e4c32b9d023cfd4f783c0a38b3474bbcde231c383587a9198771cf40,40001016064G0,INFORMÁTICA BIOMÉDICA,110,SETOR DE CIÊNCIAS EXATAS,132,literal course registry row
