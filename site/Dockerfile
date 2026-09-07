@@ -15,11 +15,13 @@ ENV HOST=0.0.0.0
 ENV PORT=3000
 ENV NODE_ENV=production
 
+RUN addgroup -S -g 10001 ibm && adduser -S -D -H -u 10001 -G ibm ibm
+
 WORKDIR /app
-COPY --from=build /app/build ./build
-COPY --from=build /app/node_modules ./node_modules
-COPY --from=build /app/package.json ./package.json
+COPY --from=build --chown=10001:10001 /app/build ./build
+COPY --from=build --chown=10001:10001 /app/node_modules ./node_modules
+COPY --from=build --chown=10001:10001 /app/package.json ./package.json
 
 EXPOSE 3000
-USER node
+USER 10001:10001
 CMD ["node", "build"]
