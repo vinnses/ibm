@@ -1,0 +1,3710 @@
+{
+  "analytical": {
+    "content_domains": [
+      {
+        "description": "Fixture sintética para validar estados de revisão.",
+        "id": "fixture-domain-review",
+        "is_fixture": true,
+        "label": "Domínio de demonstração",
+        "provenance_note": "Created by W032 as a non-substantive interface fixture.",
+        "review_state": "proposed"
+      }
+    ],
+    "content_topics": [
+      {
+        "aliases": [],
+        "description": "Fixture sem associação a disciplina ou currículo real.",
+        "domain_id": "fixture-domain-review",
+        "evidence_ids": [],
+        "id": "fixture-topic-review",
+        "identification_provenance": "Synthetic W032 interface fixture; not identified from documentary evidence.",
+        "is_fixture": true,
+        "label": "Tópico de demonstração",
+        "review_state": "proposed"
+      }
+    ],
+    "evolution_relations": [],
+    "topic_occurrences": []
+  },
+  "factual": {
+    "component_dependencies": [
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-bf075-12",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-bf075"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-bg054-13",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-bg054"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ce003-10",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ce003"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci062-9",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci062"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci065-15",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci065"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci162-14",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci162"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci164-11",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci164"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci167-19",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci167"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci169-26",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci169"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci171-16",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci171"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci172-27",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci172"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci209-20",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci209"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci215-8",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci215"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci218-21",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci218"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci220-24",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci220"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci221-25",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci221"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci262-29",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci262"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci316-17",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci316"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-ci394-22",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-ci394"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-mn127-18",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-mn127"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-mn128-23",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-mn128"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-mn129-28",
+        "notes": "Article 2 §1. Endpoint is a coded component outside the 15-member Bloco A.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-mn129"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-opt-07-01-30",
+        "notes": "Article 2 §1. The target is an elective space: this row applies only after a catalog discipline is selected; it does not assert an offering.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-opt-07-01"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-opt-08-01-31",
+        "notes": "Article 2 §1. The target is an elective space: this row applies only after a catalog discipline is selected; it does not assert an offering.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-opt-08-01"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-opt-08-02-32",
+        "notes": "Article 2 §1. The target is an elective space: this row applies only after a catalog discipline is selected; it does not assert an offering.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-opt-08-02"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ba040",
+          "curriculum-2011-bc056",
+          "curriculum-2011-bq005",
+          "curriculum-2011-bq054",
+          "curriculum-2011-ci055",
+          "curriculum-2011-ci056",
+          "curriculum-2011-ci057",
+          "curriculum-2011-ci067",
+          "curriculum-2011-ci166",
+          "curriculum-2011-ci241",
+          "curriculum-2011-ci243",
+          "curriculum-2011-ci244",
+          "curriculum-2011-cm005",
+          "curriculum-2011-cm045",
+          "curriculum-2011-cm201"
+        ],
+        "id": "dependency-curriculum-2011-block-a-opt-08-03-33",
+        "notes": "Article 2 §1. The target is an elective space: this row applies only after a catalog discipline is selected; it does not assert an offering.",
+        "relation": "hidden_requirement",
+        "requirement_text": "Complete all Bloco A disciplines before taking any other discipline, except with Colegiado authorization",
+        "to_component_id": "curriculum-2011-opt-08-03"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ce003"
+        ],
+        "id": "dependency-curriculum-2011-ce003-ci169-6",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CE003 is prerequisite of CI169",
+        "to_component_id": "curriculum-2011-ci169"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ce003"
+        ],
+        "id": "dependency-curriculum-2011-ce003-ci171-5",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CE003 is prerequisite of CI171",
+        "to_component_id": "curriculum-2011-ci171"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ci055"
+        ],
+        "id": "dependency-curriculum-2011-ci055-ci056-1",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CI055 is prerequisite of CI056",
+        "to_component_id": "curriculum-2011-ci056"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ci055"
+        ],
+        "id": "dependency-curriculum-2011-ci055-ci067-2",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CI055 is prerequisite of CI067",
+        "to_component_id": "curriculum-2011-ci067"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ci056"
+        ],
+        "id": "dependency-curriculum-2011-ci056-ci057-4",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CI056 is prerequisite of CI057",
+        "to_component_id": "curriculum-2011-ci057"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-ci394"
+        ],
+        "id": "dependency-curriculum-2011-ci394-ci172-7",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CI394 is prerequisite of CI172",
+        "to_component_id": "curriculum-2011-ci172"
+      },
+      {
+        "curriculum_id": "curriculum-2011",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2011-cm045"
+        ],
+        "id": "dependency-curriculum-2011-cm045-cm005-3",
+        "notes": "Anexo I.",
+        "relation": "prerequisite",
+        "requirement_text": "CM045 is prerequisite of CM005",
+        "to_component_id": "curriculum-2011-cm005"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-bc056"
+        ],
+        "id": "dependency-curriculum-2023-bc056-bf114-9",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "BC056 is prerequisite of BF114",
+        "to_component_id": "curriculum-2023-bf114"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-bq083"
+        ],
+        "id": "dependency-curriculum-2023-bq083-bg079-11",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "BQ083 is prerequisite of BG079",
+        "to_component_id": "curriculum-2023-bg079"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-bq112"
+        ],
+        "id": "dependency-curriculum-2023-bq112-bf114-10",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "BQ112 is prerequisite of BF114",
+        "to_component_id": "curriculum-2023-bf114"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-bq112"
+        ],
+        "id": "dependency-curriculum-2023-bq112-bq083-4",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "BQ112 is prerequisite of BQ083",
+        "to_component_id": "curriculum-2023-bq083"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ce009"
+        ],
+        "id": "dependency-curriculum-2023-ce009-ci1171-14",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CE009 is prerequisite of CI1171",
+        "to_component_id": "curriculum-2023-ci1171"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1001"
+        ],
+        "id": "dependency-curriculum-2023-ci1001-ci1002-5",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1001 is prerequisite of CI1002",
+        "to_component_id": "curriculum-2023-ci1002"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1001"
+        ],
+        "id": "dependency-curriculum-2023-ci1001-ci1057-7",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1001 is prerequisite of CI1057",
+        "to_component_id": "curriculum-2023-ci1057"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1055"
+        ],
+        "id": "dependency-curriculum-2023-ci1055-ci1001-1",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1055 is prerequisite of CI1001",
+        "to_component_id": "curriculum-2023-ci1001"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1055"
+        ],
+        "id": "dependency-curriculum-2023-ci1055-ci1056-2",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1055 is prerequisite of CI1056",
+        "to_component_id": "curriculum-2023-ci1056"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1056"
+        ],
+        "id": "dependency-curriculum-2023-ci1056-ci1002-6",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1056 is prerequisite of CI1002",
+        "to_component_id": "curriculum-2023-ci1002"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1062"
+        ],
+        "id": "dependency-curriculum-2023-ci1062-ci1163-12",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CI1062 is prerequisite of CI1163",
+        "to_component_id": "curriculum-2023-ci1163"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1068"
+        ],
+        "id": "dependency-curriculum-2023-ci1068-ci1212-8",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CI1068 is prerequisite of CI1212",
+        "to_component_id": "curriculum-2023-ci1212"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1131"
+        ],
+        "id": "dependency-curriculum-2023-ci1131-ci1132-18",
+        "notes": "literal OR",
+        "relation": "other",
+        "requirement_text": "CI1131 is alternative-prerequisite of CI1132",
+        "to_component_id": "curriculum-2023-ci1132"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1131"
+        ],
+        "id": "dependency-curriculum-2023-ci1131-ci1134-20",
+        "notes": "literal OR",
+        "relation": "other",
+        "requirement_text": "CI1131 is alternative-prerequisite of CI1134",
+        "to_component_id": "curriculum-2023-ci1134"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1133"
+        ],
+        "id": "dependency-curriculum-2023-ci1133-ci1132-19",
+        "notes": "literal OR",
+        "relation": "other",
+        "requirement_text": "CI1133 is alternative-prerequisite of CI1132",
+        "to_component_id": "curriculum-2023-ci1132"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1133"
+        ],
+        "id": "dependency-curriculum-2023-ci1133-ci1134-21",
+        "notes": "literal OR",
+        "relation": "other",
+        "requirement_text": "CI1133 is alternative-prerequisite of CI1134",
+        "to_component_id": "curriculum-2023-ci1134"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1162"
+        ],
+        "id": "dependency-curriculum-2023-ci1162-ci1163-13",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CI1162 is prerequisite of CI1163",
+        "to_component_id": "curriculum-2023-ci1163"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1163"
+        ],
+        "id": "dependency-curriculum-2023-ci1163-ci1005-17",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CI1163 is prerequisite of CI1005",
+        "to_component_id": "curriculum-2023-ci1005"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1163"
+        ],
+        "id": "dependency-curriculum-2023-ci1163-ci1221-16",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CI1163 is prerequisite of CI1221",
+        "to_component_id": "curriculum-2023-ci1221"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-ci1171"
+        ],
+        "id": "dependency-curriculum-2023-ci1171-ci1169-15",
+        "notes": "in addition to the 17-component barrier",
+        "relation": "prerequisite",
+        "requirement_text": "CI1171 is prerequisite of CI1169",
+        "to_component_id": "curriculum-2023-ci1169"
+      },
+      {
+        "curriculum_id": "curriculum-2023",
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "from_component_ids": [
+          "curriculum-2023-cm310"
+        ],
+        "id": "dependency-curriculum-2023-cm310-cm311-3",
+        "notes": "literal",
+        "relation": "prerequisite",
+        "requirement_text": "CM310 is prerequisite of CM311",
+        "to_component_id": "curriculum-2023-cm311"
+      }
+    ],
+    "component_instances": [
+      {
+        "code": "BA040",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ba040",
+        "name": "Anatomia Humana Sistêmica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "BC056",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-bc056",
+        "name": "Fundamentos De Biologia Celular E Tecidual",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "BF075",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-bf075-12"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-bf075",
+        "name": "Fisiologia Para Informática Biomédica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "BG054",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-bg054-13"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-bg054",
+        "name": "Genética E Evolução Para O Curso De Informática Biomédica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "BQ005",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-bq005",
+        "name": "Introducao A Bioquimica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "BQ054",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-bq054",
+        "name": "Biologia Molecular E Bioinformática",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CE003",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ce003-10"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ce003",
+        "name": "Estatística Ii",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI055",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci055",
+        "name": "Algoritmos E Estruturas De Dados I",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI056",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ci055-ci056-1"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci056",
+        "name": "Algoritmos E Estruturas De Dados Ii",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI057",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ci056-ci057-4"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci057",
+        "name": "Algoritmos E Estruturas De Dados Iii",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI062",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci062-9"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci062",
+        "name": "Tecnicas Alternativas De Programacao",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI065",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci065-15"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci065",
+        "name": "Algoritmos E Teoria Dos Grafos",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI067",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ci055-ci067-2"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci067",
+        "name": "Oficina De Computacao",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI162",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci162-14"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci162",
+        "name": "Engenharia De Requisitos",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI164",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci164-11"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci164",
+        "name": "Introdução À Computação Científica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI166",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci166",
+        "name": "Metodologia Científica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI167",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci167-19"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci167",
+        "name": "Sistemas De Informação Em Saúde",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI169",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ce003-ci169-6",
+          "dependency-curriculum-2011-block-a-ci169-26"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci169",
+        "name": "Bioinformática",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI171",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ce003-ci171-5",
+          "dependency-curriculum-2011-block-a-ci171-16"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci171",
+        "name": "Aprendizado De Máquinas",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI172",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-ci394-ci172-7",
+          "dependency-curriculum-2011-block-a-ci172-27"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci172",
+        "name": "Processamento De Imagnes Biomédicas",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI209",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci209-20"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci209",
+        "name": "Inteligencia Artificial",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI215",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci215-8"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci215",
+        "name": "Sistemas Operacionais",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI218",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci218-21"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci218",
+        "name": "Sistemas De Bancos De Dados",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI220",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci220-24"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci220",
+        "name": "Teoria De Sistemas",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI221",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci221-25"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci221",
+        "name": "Engenharia De Software",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI241",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci241",
+        "name": "Introdução A Sistemas Computacionais",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI243",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci243",
+        "name": "Fundamentos De Projeto E Arquitetura De Computadores",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI244",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci244",
+        "name": "Fundamentos De Redes E Sistemas Distribuidos",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI262",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci262-29"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci262",
+        "name": "Trabalho De Conclusão De Curso Em Informática",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 7,
+        "workload_hours": 120
+      },
+      {
+        "code": "CI316",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci316-17"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci316",
+        "name": "Programação Paralela",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI394",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-ci394-22"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-ci394",
+        "name": "Processamento De Imagens",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM005",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-cm045-cm005-3"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-cm005",
+        "name": "Álgebra Linear",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM045",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-cm045",
+        "name": "Geometria Analítica",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM201",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-cm201",
+        "name": "Calculo Diferencial E Integral I",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN127",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-mn127-18"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-mn127",
+        "name": "Saúde, Meio Ambiente E Sociedade",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN128",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-mn128-23"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-mn128",
+        "name": "Organização Do Sistema De Saúde Brasileiro",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN129",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-mn129-28"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-mn129",
+        "name": "Metodologia Da Pesquisa E Bioética Em Saúde",
+        "nature": "coded_component",
+        "notes": "Ementário component page says “Não consta” for ementa; no term/class-specific Ficha 2 located",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "OPT-07-01",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-opt-07-01-30"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-opt-07-01",
+        "name": "Disciplina optativa",
+        "nature": "elective_space",
+        "notes": "Slot, not a coded component; selected offering and Ficha 2 not located",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "OPT-08-01",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-opt-08-01-31"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-opt-08-01",
+        "name": "Disciplina optativa",
+        "nature": "elective_space",
+        "notes": "Slot, not a coded component; selected offering and Ficha 2 not located",
+        "recommended_period": 8,
+        "workload_hours": 60
+      },
+      {
+        "code": "OPT-08-02",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-opt-08-02-32"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-opt-08-02",
+        "name": "Disciplina optativa",
+        "nature": "elective_space",
+        "notes": "Slot, not a coded component; selected offering and Ficha 2 not located",
+        "recommended_period": 8,
+        "workload_hours": 60
+      },
+      {
+        "code": "OPT-08-03",
+        "curriculum_id": "curriculum-2011",
+        "dependency_ids": [
+          "dependency-curriculum-2011-block-a-opt-08-03-33"
+        ],
+        "evidence_ids": [
+          "evidence-2011-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2011-opt-08-03",
+        "name": "Disciplina optativa",
+        "nature": "elective_space",
+        "notes": "Slot, not a coded component; selected offering and Ficha 2 not located",
+        "recommended_period": 8,
+        "workload_hours": 60
+      },
+      {
+        "code": "BA040",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ba040",
+        "name": "Anatomia Humana Sistêmica",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "BC056",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-bc056",
+        "name": "Fundamentos de Biologia Celular e Tecidual",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "BF114",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-bc056-bf114-9",
+          "dependency-curriculum-2023-bq112-bf114-10"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-bf114",
+        "name": "Fisiologia para Informática Biomédica",
+        "nature": "obrigatória",
+        "notes": "Ficha publicada em 2024 sem validade estabelecida; aplicabilidade não estabelecida",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "BG079",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-bq083-bg079-11"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-bg079",
+        "name": "Genética e Evolução para Informática Biomédica",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "BQ083",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-bq112-bq083-4"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-bq083",
+        "name": "Biologia Molecular e Bioinformática",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2022-04-05 e renderizada em 2022-06-09; nenhum ato de aplicabilidade à matriz 2023 localizado",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "BQ112",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-bq112",
+        "name": "Introdução a Bioquímica",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CE009",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ce009",
+        "name": "Introdução à Estatística",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1001",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1055-ci1001-1"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1001",
+        "name": "Programação 1",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1002",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1001-ci1002-5",
+          "dependency-curriculum-2023-ci1056-ci1002-6"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1002",
+        "name": "Programação 2",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1003",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1003",
+        "name": "Introdução à Ciência da Computação",
+        "nature": "obrigatória",
+        "notes": "Ficha sem data de assinatura extraída; ato de continuidade não localizado",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1005",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1163-ci1005-17"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1005",
+        "name": "Qualidade de Software",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 8,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1007",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1007",
+        "name": "Segurança Computacional",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1054",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1054",
+        "name": "Algoritmos em Grafos e Otimização",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1055",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1055",
+        "name": "Algoritmos e Estruturas de Dados 1",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1056",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1055-ci1056-2"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1056",
+        "name": "Algoritmos e Estrutura de Dados 2",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1057",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1001-ci1057-7"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1057",
+        "name": "Algoritmos e Estruturas de Dados 3",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1062",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1062",
+        "name": "Paradigmas de Programação",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1068",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1068",
+        "name": "Circuitos Digitais",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1101",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1101",
+        "name": "Estágio Supervisionado em Informática Biomédica",
+        "nature": "estágio obrigatório",
+        "notes": "Ficha 1/Ficha 2 pública não localizada; regulamento no PPC Anexo III",
+        "recommended_period": 4,
+        "workload_hours": 220
+      },
+      {
+        "code": "CI1131",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1131",
+        "name": "Trabalho de Conclusão de Curso 1 em Informática Biomédica - extensionista",
+        "nature": "TCC alternativa",
+        "notes": "Ficha 1/Ficha 2 pública não localizada; regulamento no PPC Anexo IV",
+        "recommended_period": 7,
+        "workload_hours": 160
+      },
+      {
+        "code": "CI1132",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1131-ci1132-18",
+          "dependency-curriculum-2023-ci1133-ci1132-19"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1132",
+        "name": "Trabalho de Conclusão de Curso 2 em Informática Biomédica - extensionista",
+        "nature": "TCC alternativa",
+        "notes": "Ficha 1/Ficha 2 pública não localizada; regulamento no PPC Anexo IV",
+        "recommended_period": 8,
+        "workload_hours": 160
+      },
+      {
+        "code": "CI1133",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1133",
+        "name": "Trabalho de Conclusão de Curso 1 em Informática Biomédica",
+        "nature": "TCC alternativa",
+        "notes": "Ficha 1/Ficha 2 pública não localizada; regulamento no PPC Anexo IV",
+        "recommended_period": 7,
+        "workload_hours": 160
+      },
+      {
+        "code": "CI1134",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1131-ci1134-20",
+          "dependency-curriculum-2023-ci1133-ci1134-21"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1134",
+        "name": "Trabalho de Conclusão de Curso 2 em Informática Biomédica",
+        "nature": "TCC alternativa",
+        "notes": "Ficha 1/Ficha 2 pública não localizada; regulamento no PPC Anexo IV",
+        "recommended_period": 8,
+        "workload_hours": 160
+      },
+      {
+        "code": "CI1162",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1162",
+        "name": "Engenharia de Requisitos",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1163",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1062-ci1163-12",
+          "dependency-curriculum-2023-ci1162-ci1163-13"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1163",
+        "name": "Design de Software",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1169",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1171-ci1169-15"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1169",
+        "name": "Bioinformática",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1171",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ce009-ci1171-14"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1171",
+        "name": "Aprendizado de Máquina",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1172",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1172",
+        "name": "Processamento de Imagens Biomédicas",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1209",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1209",
+        "name": "Inteligência Artificial",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1212",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1068-ci1212-8"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1212",
+        "name": "Arquitetura de Computadores",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019; ato de continuidade não localizado",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1215",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1215",
+        "name": "Sistemas Operacionais",
+        "nature": "obrigatória",
+        "notes": "Data de assinatura não extraída; ato de continuidade não localizado",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1218",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1218",
+        "name": "Banco de Dados",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1221",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-ci1163-ci1221-16"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1221",
+        "name": "Engenharia de Software",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 7,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1244",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-ci1244",
+        "name": "Redes de Computadores",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1316",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1316",
+        "name": "Programação Paralela",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 6,
+        "workload_hours": 60
+      },
+      {
+        "code": "CI1350",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "indeterminate",
+        "id": "curriculum-2023-ci1350",
+        "name": "Interação Humano-Computador",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2018; ato de continuidade não localizado",
+        "recommended_period": 4,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM303",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-cm303",
+        "name": "Introdução à Geometria Analítica e Álgebra Linear",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 3,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM304",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-cm304",
+        "name": "Complementos de Matemática",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM310",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-cm310",
+        "name": "Pré-Cálculo",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "CM311",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [
+          "dependency-curriculum-2023-cm310-cm311-3"
+        ],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-cm311",
+        "name": "Cálculo 1",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 2,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN129",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-mn129",
+        "name": "Metodologia da Pesquisa e Bioética em Saúde",
+        "nature": "obrigatória",
+        "notes": "Ficha 2 2022.1 é anterior à matriz; Ficha 1 não localizada",
+        "recommended_period": 5,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN162",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-mn162",
+        "name": "Organização do Sistema de Saúde Brasileiro",
+        "nature": "obrigatória",
+        "notes": "Ficha assinada em 2019 antecede criação formal do código em Resolução 77/22; aplicabilidade não estabelecida",
+        "recommended_period": 1,
+        "workload_hours": 60
+      },
+      {
+        "code": "MN163",
+        "curriculum_id": "curriculum-2023",
+        "dependency_ids": [],
+        "evidence_ids": [
+          "evidence-2023-resolution-structure"
+        ],
+        "evidence_state": "documented",
+        "id": "curriculum-2023-mn163",
+        "name": "Sistema de Informação em Saúde",
+        "nature": "obrigatória",
+        "notes": "Ficha 1/Ficha 2 pública não localizada",
+        "recommended_period": 4,
+        "workload_hours": 60
+      }
+    ],
+    "curricula": [
+      {
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2011-resolution-structure",
+          "evidence-2011-ppc-context"
+        ],
+        "id": "curriculum-2011",
+        "label": "Currículo 2011 (96A)",
+        "notes": "Unidade histórica própria; não presume continuidade de Fichas posteriores.",
+        "validity": "Implantado em 2011 pela Resolução nº 34/2010-CEPE.",
+        "year": 2011
+      },
+      {
+        "documentary_state": "documented",
+        "evidence_ids": [
+          "evidence-2023-resolution-structure",
+          "evidence-2023-ppc-context"
+        ],
+        "id": "curriculum-2023",
+        "label": "Currículo 2023",
+        "notes": "Unidade histórica própria; aplicabilidade de Fichas permanece conforme o inventário documental.",
+        "validity": "Estrutura aprovada para ingressantes de 2022/2023.",
+        "year": 2023
+      }
+    ],
+    "documents": [
+      {
+        "applicability_note": "PPC de 2010 associado à implantação curricular de 2011.",
+        "applicability_status": "documented",
+        "asset_path": "/documents/document-2011-ppc/ppc-2011.pdf",
+        "document_date": "2010-07-30",
+        "document_type": "PPC",
+        "documentary_state": "documented",
+        "id": "document-2011-ppc",
+        "institution": "UFPR",
+        "media_type": "application/pdf",
+        "original_url": "https://ibm.inf.ufpr.br/media/ppc-bib-1-1.pdf",
+        "public_path": "/documentos/document-2011-ppc/arquivo",
+        "repository_path": "curriculos/2011/fontes/ppc-2011.pdf",
+        "sha256": "ab0bf7e45575baa9ad8cad429d5f5e2467093a5dd8c2852c7d54cdd0ec1f891d",
+        "title": "Projeto Pedagógico do Bacharelado em Informática Biomédica"
+      },
+      {
+        "applicability_note": "Ato formal da matriz implantada em 2011.",
+        "applicability_status": "documented",
+        "asset_path": "/documents/document-2011-resolution-34-2010/resolucao-34-2010-cepe.pdf",
+        "document_date": "2010",
+        "document_type": "Resolution",
+        "documentary_state": "documented",
+        "id": "document-2011-resolution-34-2010",
+        "institution": "UFPR",
+        "media_type": "application/pdf",
+        "original_url": "https://www.inf.ufpr.br/infobiomedica/Arquivos/CEPE_Resolucao_34_2010.pdf",
+        "public_path": "/documentos/document-2011-resolution-34-2010/arquivo",
+        "repository_path": "curriculos/2011/fontes/resolucao-34-2010-cepe.pdf",
+        "sha256": "bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26",
+        "title": "Resolução nº 34/2010-CEPE"
+      },
+      {
+        "applicability_note": "PPC preservado para a estrutura curricular de 2023.",
+        "applicability_status": "documented",
+        "asset_path": "/documents/document-2023-ppc/ppc-2023.pdf",
+        "document_date": "2022-09-29",
+        "document_type": "PPC",
+        "documentary_state": "documented",
+        "id": "document-2023-ppc",
+        "institution": "UFPR",
+        "media_type": "application/pdf",
+        "original_url": "https://ibm.inf.ufpr.br/media/PPC-2-1.pdf",
+        "public_path": "/documentos/document-2023-ppc/arquivo",
+        "repository_path": "curriculos/2023/fontes/ppc-2023.pdf",
+        "sha256": "548f86328dd3a6940fda5535374882170d083eedb729bba601638bb7f26e4de6",
+        "title": "PPC Informática Biomédica 2023"
+      },
+      {
+        "applicability_note": "Ato formal da matriz com vigência para ingressantes de 2022/2023.",
+        "applicability_status": "documented",
+        "asset_path": "/documents/document-2023-resolution-75-22/resolucao-75-22-cepe.pdf",
+        "document_date": "2022-12-02",
+        "document_type": "Resolução",
+        "documentary_state": "documented",
+        "id": "document-2023-resolution-75-22",
+        "institution": "UFPR CEPE",
+        "media_type": "application/pdf",
+        "original_url": "https://ibm.inf.ufpr.br/media/Resolucao-75-22-CEPE.pdf",
+        "public_path": "/documentos/document-2023-resolution-75-22/arquivo",
+        "repository_path": "curriculos/2023/fontes/resolucao-75-22-cepe.pdf",
+        "sha256": "b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d",
+        "title": "Resolução nº 75/22-CEPE"
+      }
+    ]
+  },
+  "fixture_notice": "Synthetic records used only to exercise the review interface. They are not historical findings or the W033 taxonomy.",
+  "generated_at": "2026-09-08T00:00:00Z",
+  "generated_by": "scripts/build_w032_site_data.py",
+  "provenance": {
+    "claims": [],
+    "evidence": [
+      {
+        "applicability_note": "PPC de 2010 associado à implantação curricular de 2011.",
+        "cell_range": null,
+        "document_id": "document-2011-ppc",
+        "documentary_state": "documented",
+        "id": "evidence-2011-ppc-context",
+        "normalized_excerpt": null,
+        "notes": "Curriculum context only; component rows use the formal resolution as their structural basis.",
+        "page": null,
+        "section": null
+      },
+      {
+        "applicability_note": "Ato formal da matriz implantada em 2011.",
+        "cell_range": null,
+        "document_id": "document-2011-resolution-34-2010",
+        "documentary_state": "documented",
+        "id": "evidence-2011-resolution-structure",
+        "normalized_excerpt": null,
+        "notes": "Shared structural evidence; source metadata remains canonical on the document record.",
+        "page": null,
+        "section": "Anexo I"
+      },
+      {
+        "applicability_note": "PPC preservado para a estrutura curricular de 2023.",
+        "cell_range": null,
+        "document_id": "document-2023-ppc",
+        "documentary_state": "documented",
+        "id": "evidence-2023-ppc-context",
+        "normalized_excerpt": null,
+        "notes": "Curriculum context only; component rows use the formal resolution as their structural basis.",
+        "page": null,
+        "section": null
+      },
+      {
+        "applicability_note": "Ato formal da matriz com vigência para ingressantes de 2022/2023.",
+        "cell_range": null,
+        "document_id": "document-2023-resolution-75-22",
+        "documentary_state": "documented",
+        "id": "evidence-2023-resolution-structure",
+        "normalized_excerpt": null,
+        "notes": "Shared structural evidence; source metadata remains canonical on the document record.",
+        "page": null,
+        "section": "Anexo I"
+      }
+    ],
+    "evidence_links": [
+      {
+        "evidence_id": "evidence-2011-ppc-context",
+        "id": "link-evidence-2011-ppc-context-curriculum-2011",
+        "purpose": "Formal curriculum evidence",
+        "target_id": "curriculum-2011",
+        "target_type": "curriculum"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011",
+        "purpose": "Formal curriculum evidence",
+        "target_id": "curriculum-2011",
+        "target_type": "curriculum"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ba040",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ba040",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-bc056",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-bc056",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-bf075",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-bf075",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-bg054",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-bg054",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-bq005",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-bq005",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-bq054",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-bq054",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ce003",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ce003",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci055",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci055",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci056",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci056",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci057",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci057",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci062",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci062",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci065",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci065",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci067",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci067",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci162",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci162",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci164",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci164",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci166",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci166",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci167",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci167",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci169",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci169",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci171",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci171",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci172",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci172",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci209",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci209",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci215",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci215",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci218",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci218",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci220",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci220",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci221",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci221",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci241",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci241",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci243",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci243",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci244",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci244",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci262",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci262",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci316",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci316",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-ci394",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-ci394",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-cm005",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-cm005",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-cm045",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-cm045",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-cm201",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-cm201",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-mn127",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-mn127",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-mn128",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-mn128",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-mn129",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-mn129",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-opt-07-01",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-opt-07-01",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-opt-08-01",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-opt-08-01",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-opt-08-02",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-opt-08-02",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-curriculum-2011-opt-08-03",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2011-opt-08-03",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-bf075-12",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-bf075-12",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-bg054-13",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-bg054-13",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ce003-10",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ce003-10",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci062-9",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci062-9",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci065-15",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci065-15",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci162-14",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci162-14",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci164-11",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci164-11",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci167-19",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci167-19",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci169-26",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci169-26",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci171-16",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci171-16",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci172-27",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci172-27",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci209-20",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci209-20",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci215-8",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci215-8",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci218-21",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci218-21",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci220-24",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci220-24",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci221-25",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci221-25",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci262-29",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci262-29",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci316-17",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci316-17",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-ci394-22",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-ci394-22",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-mn127-18",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-mn127-18",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-mn128-23",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-mn128-23",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-mn129-28",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-mn129-28",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-opt-07-01-30",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-opt-07-01-30",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-opt-08-01-31",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-opt-08-01-31",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-opt-08-02-32",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-opt-08-02-32",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-block-a-opt-08-03-33",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-block-a-opt-08-03-33",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ce003-ci169-6",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ce003-ci169-6",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ce003-ci171-5",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ce003-ci171-5",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ci055-ci056-1",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ci055-ci056-1",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ci055-ci067-2",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ci055-ci067-2",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ci056-ci057-4",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ci056-ci057-4",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-ci394-ci172-7",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-ci394-ci172-7",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2011-resolution-structure",
+        "id": "link-evidence-2011-resolution-structure-dependency-curriculum-2011-cm045-cm005-3",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2011-cm045-cm005-3",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-ppc-context",
+        "id": "link-evidence-2023-ppc-context-curriculum-2023",
+        "purpose": "Formal curriculum evidence",
+        "target_id": "curriculum-2023",
+        "target_type": "curriculum"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023",
+        "purpose": "Formal curriculum evidence",
+        "target_id": "curriculum-2023",
+        "target_type": "curriculum"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ba040",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ba040",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-bc056",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-bc056",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-bf114",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-bf114",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-bg079",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-bg079",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-bq083",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-bq083",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-bq112",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-bq112",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ce009",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ce009",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1001",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1001",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1002",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1002",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1003",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1003",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1005",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1005",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1007",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1007",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1054",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1054",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1055",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1055",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1056",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1056",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1057",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1057",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1062",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1062",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1068",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1068",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1101",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1101",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1131",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1131",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1132",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1132",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1133",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1133",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1134",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1134",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1162",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1162",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1163",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1163",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1169",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1169",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1171",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1171",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1172",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1172",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1209",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1209",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1212",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1212",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1215",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1215",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1218",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1218",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1221",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1221",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1244",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1244",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1316",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1316",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-ci1350",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-ci1350",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-cm303",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-cm303",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-cm304",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-cm304",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-cm310",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-cm310",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-cm311",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-cm311",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-mn129",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-mn129",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-mn162",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-mn162",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-curriculum-2023-mn163",
+        "purpose": "Formal curriculum structure",
+        "target_id": "curriculum-2023-mn163",
+        "target_type": "component_instance"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-bc056-bf114-9",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-bc056-bf114-9",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-bq083-bg079-11",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-bq083-bg079-11",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-bq112-bf114-10",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-bq112-bf114-10",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-bq112-bq083-4",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-bq112-bq083-4",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ce009-ci1171-14",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ce009-ci1171-14",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1001-ci1002-5",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1001-ci1002-5",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1001-ci1057-7",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1001-ci1057-7",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1055-ci1001-1",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1055-ci1001-1",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1055-ci1056-2",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1055-ci1056-2",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1056-ci1002-6",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1056-ci1002-6",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1062-ci1163-12",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1062-ci1163-12",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1068-ci1212-8",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1068-ci1212-8",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1131-ci1132-18",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1131-ci1132-18",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1131-ci1134-20",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1131-ci1134-20",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1133-ci1132-19",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1133-ci1132-19",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1133-ci1134-21",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1133-ci1134-21",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1162-ci1163-13",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1162-ci1163-13",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1163-ci1005-17",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1163-ci1005-17",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1163-ci1221-16",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1163-ci1221-16",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-ci1171-ci1169-15",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-ci1171-ci1169-15",
+        "target_type": "component_dependency"
+      },
+      {
+        "evidence_id": "evidence-2023-resolution-structure",
+        "id": "link-evidence-2023-resolution-structure-dependency-curriculum-2023-cm310-cm311-3",
+        "purpose": "Formal dependency structure",
+        "target_id": "dependency-curriculum-2023-cm310-cm311-3",
+        "target_type": "component_dependency"
+      }
+    ]
+  },
+  "schema_version": "1.0.0"
+}
