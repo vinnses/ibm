@@ -6,11 +6,11 @@
 
 **SITE BOOTSTRAP READY — infrastructure validated for the next site-development milestone.**
 
-The local architecture and every attack-surface control available without a
-tailnet credential passed. Tailscale runs in userspace with persistent state and
-the configured hostname preference `ibm`, but the node is intentionally
-`NeedsLogin`. Consequently, no tailnet hostname, Funnel authorization, public
-route, or URL is claimed. HR-W031-001 precisely retains that external gate.
+The local architecture and every attack-surface control passed. After the user
+provided an ignored local credential, Tailscale registered the persistent
+userspace node as `ibm`, automatically applied the declarative Funnel config,
+obtained a TLS certificate, and served the SvelteKit page through both observed
+public ingress IPv4 addresses. HR-W031-001 is resolved.
 
 ## Acceptance review
 
@@ -22,15 +22,15 @@ route, or URL is claimed. HR-W031-001 precisely retains that external gate.
 | Web health and local access | healthy; `127.0.0.1:5173/health` returned exact `ibm-web` JSON | pass |
 | code-server workspace | healthy; root request redirects to `./login`; logs confirm password environment auth; only checkout bind mount | pass |
 | Network segmentation | web=`ibm_edge`; code=`ibm_dev`; tailscale=both; no fixed IPs | pass |
-| Positive edge path | Tailscale fetched `http://web:3000/health`; web received HTTP 503 from the unauthenticated Tailscale health endpoint | pass |
+| Positive edge path | Tailscale fetched `http://web:3000/`; web reaches the healthy Tailscale endpoint; public ingress returned the SvelteKit page | pass |
 | Negative web-to-code path | Docker DNS lookup from web returned `ENOTFOUND` | pass |
 | Web least privilege | UID/GID 10001; read-only root; no-new-privileges; all capabilities dropped; not privileged; zero mounts | pass |
 | Web secret/socket/workspace isolation | no Docker socket, Tailscale state, code workspace, repository governance tree, or secret-shaped environment names | pass |
 | code-server hardening | UID/GID 1000; all capabilities dropped; no-new-privileges; not privileged; loopback-only host binding; no Docker socket | pass |
 | Tailscale hardening | userspace mode; read-only root; all capabilities dropped; no-new-privileges; not privileged; one writable state volume plus read-only Funnel config; no host port | pass |
-| Persistent Tailscale state | identical state hash before and after `docker compose down` / `up`; ordinary down retained the named volume | pass |
-| Hostname | local Tailscale preferences report `Hostname: ibm`; authenticated tailnet self name is not yet observable | configuration observed; external observation pending |
-| Funnel excludes code | pre-auth status is empty; declarative `TS_SERVE_CONFIG` has sole backend `http://web:3000`; code is absent from edge and config | pass locally; public route pending |
+| Persistent Tailscale state | identical pre-auth state hash across `down`/`up`; after authentication, a container restart preserved the exact node ID and restored healthy live Funnel state | pass |
+| Hostname | authenticated status reports `HostName: ibm`, `DNSName: ibm.tail6629d6.ts.net.`, `Online: true`, and backend `Running` | pass |
+| Funnel excludes code | live Funnel status has the sole backend `http://web:3000` on HTTPS 443; code is absent from edge and config; both public IPv4 ingress addresses returned HTTP 200 | pass |
 | Secret hygiene | project-local `.env` is ignored and mode 0600; only `.env.example` is tracked; targeted scan found no credentials | pass |
 | Repository governance | Work, source hashes, repository links, governance audit, and whitespace checks | pass |
 
@@ -44,22 +44,20 @@ isolated from the sensitive development workspace at both network and mount
 layers.
 
 Tailscale is the only dual-homed service. This is intentional: it is the edge
-gateway and future Funnel endpoint. Its pre-auth status proves that nothing is
-currently published. The declarative configuration contains one public handler
-for `http://web:3000` and no code-server reference. The exact v1.102.3
+gateway and active Funnel endpoint. The live declarative configuration contains
+one public handler for `http://web:3000` and no code-server reference. The exact v1.102.3
 implementation preserved under `infrastructure/tailscale/sources/`
 establishes the configuration schema and Docker-DNS proxy behavior.
 
-## Runtime limitations and external dependency
+## Authenticated Funnel evidence
 
-- No auth key or tailnet credential was supplied or committed.
-- The daemon therefore reports `NeedsLogin`; its health endpoint returns 503
-  readiness while the container remains running for coordinated authorization.
-- MagicDNS, HTTPS certificates, the tailnet `funnel` node attribute, public
-  DNS, the allocated hostname, end-to-end public response, and public URL remain
-  unobserved.
-- Those conditions require an authorized Tailscale human action and do not
-  invalidate the validated local stack under the Work's explicit fallback.
+- The credential exists only in ignored `.env`; no value was displayed or committed.
+- The node is healthy, online, tagged `tag:funnel`, and reports no health warnings.
+- The observed public URL is `https://ibm.tail6629d6.ts.net/`.
+- Public DNS-over-HTTPS returned `209.177.145.97`, `209.177.145.192`,
+  `2607:f740:f::67`, and `2607:f740:f::b31`.
+- Forced HTTPS requests through both observed IPv4 ingress addresses returned
+  HTTP 200 and the title `Informática Biomédica — UFPR`.
 
 ## Scope review
 
