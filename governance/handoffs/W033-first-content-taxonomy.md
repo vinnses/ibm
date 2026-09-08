@@ -89,7 +89,7 @@ mount, network, non-root, read-only, and capability controls remain unchanged.
 - The `new` candidate is only a bounded-corpus search result, not a historical assertion. The networks case is indeterminate rather than removed.
 - An initial `reduced` recursion candidate was contradicted by CI1056 program text and removed after independent audit. This divergence is preserved in the audit and E-W033-009.
 - No embeddings were used. All candidate scores are null; lexical overlap and qualitative reconciliation generate review candidates only.
-- Remote divergence: local `main` contains the authorized W032 merge, while tracked `origin/main` remains stale because SSH fetch/push is unavailable. W033 is not merged or published.
+- Remote divergence: local `main` contains the authorized W032 and W033 merges, while tracked `origin/main` remains stale because SSH fetch/push is unavailable. W033 is integrated locally but not published remotely.
 
 ## Audit closure and exclusions
 
@@ -98,7 +98,17 @@ mount, network, non-root, read-only, and capability controls remain unchanged.
 - Accepted exception: E-W033-001 (remote refresh unavailable; user-authorized local W032 integration used as base).
 - Open event IDs: none.
 - Human-review question path and gate consequence: no W033 human-review file was required; no completion gate depends on protected access, institutional authority, value judgment, or testimony. All analytical records remain explicitly proposed for later site-based human review.
-- Explicitly unperformed: complete taxonomy, classification beyond available evidence, formal 2011→2023 continuity findings, unsupported removals, embeddings or semantic similarity at scale, 2026 proposal evaluation, advocacy or argument, political narrative, manifesto, storytelling, final visual design, merge, remote publication, and any subsequent Work.
+- Explicitly unperformed: complete taxonomy, classification beyond available evidence, formal 2011→2023 continuity findings, unsupported removals, embeddings or semantic similarity at scale, 2026 proposal evaluation, advocacy or argument, political narrative, manifesto, storytelling, final visual design, remote publication, and any subsequent Work.
 - Recommended next bounded work unit: human review and targeted documentary gap-filling may refine W033 before any use in a later 2026 analysis; it was not started.
+
+## Integration update — 2026-09-08
+
+- Merged branch: `work/w033-first-content-taxonomy` into local `main` after explicit user authorization.
+- Merge commit: `d0566286207e3218ccc138aaa364365c3d0c5062` (`Merge W033 first content taxonomy`).
+- Conflict resolution: none; the `ort` merge completed cleanly.
+- Global indexes updated: none; W033 did not require a global documentary index update.
+- Final validation: W031, W032, W033, repository, governance, Git LFS, Compose configuration/build, runtime health, route, document-hash, unknown-ID, and traversal checks passed after integration.
+- Remote synchronization state: not synchronized. Local `main` is ahead of tracked `origin/main`; the previously recorded SSH authentication exception remains unresolved externally.
+- Deployment state: the Compose `web` service was rebuilt from integrated `main`, recreated, and verified healthy on its configured loopback binding.
 
 FIRST CONTENT TAXONOMY READY — 2011–2023 content model populated for site-based review.
