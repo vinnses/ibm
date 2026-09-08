@@ -1,0 +1,2127 @@
+{
+  "data_as_of": "2026-09-08",
+  "generated_by": "scripts/build_w033_taxonomy.py",
+  "records": [
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar acesso sequencial e indexado entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado-2",
+        "evidence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado-3",
+        "evidence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado-1"
+      ],
+      "id": "topic-acesso-sequencial-e-indexado",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "acesso sequencial e indexado",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos de busca entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca-2",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca-3",
+        "evidence-corpus-w022-ci056-f1-2011-algoritmos-de-busca-1"
+      ],
+      "id": "topic-algoritmos-de-busca",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference. Ambiguous domain suggestions retained in provenance: Algoritmos e Estruturas de Dados (2), Programação (1).",
+      "is_fixture": false,
+      "label": "algoritmos de busca",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos de ordenação entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao-1",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao-2"
+      ],
+      "id": "topic-algoritmos-de-ordenacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "algoritmos de ordenação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos de ordenação interna entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-algoritmos-de-ordenacao-interna-1"
+      ],
+      "id": "topic-algoritmos-de-ordenacao-interna",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "algoritmos de ordenação interna",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos e resolução de problemas computacionais entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-f1-2011-algoritmos-e-resolucao-de-problemas-computacionais-1"
+      ],
+      "id": "topic-algoritmos-e-resolucao-de-problemas-computacionais",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "algoritmos e resolução de problemas computacionais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos genéticos entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-algoritmos-geneticos-1",
+        "evidence-corpus-ci1171-ficha-2-algoritmos-geneticos-2"
+      ],
+      "id": "topic-algoritmos-geneticos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "algoritmos genéticos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar algoritmos gulosos entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-algoritmos-gulosos-1",
+        "evidence-corpus-ci1057-ficha-2-algoritmos-gulosos-2"
+      ],
+      "id": "topic-algoritmos-gulosos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "algoritmos gulosos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar alinhamento de sequências e busca de genes entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes-2",
+        "evidence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes-1"
+      ],
+      "id": "topic-alinhamento-de-sequencias-e-busca-de-genes",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "alinhamento de sequências e busca de genes",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar alocação estática e dinâmica de memória entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-alocacao-estatica-e-dinamica-de-memoria-1"
+      ],
+      "id": "topic-alocacao-estatica-e-dinamica-de-memoria",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "alocação estática e dinâmica de memória",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar amostragem e estimação de parâmetros entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-amostragem-e-estimacao-de-parametros-1"
+      ],
+      "id": "topic-amostragem-e-estimacao-de-parametros",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "amostragem e estimação de parâmetros",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise assintótica de complexidade entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-analise-assintotica-de-complexidade-1"
+      ],
+      "id": "topic-analise-assintotica-de-complexidade",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise assintótica de complexidade",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise de algoritmos paralelos entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-ci1316-ficha-1-analise-de-algoritmos-paralelos-1",
+        "evidence-corpus-ci1316-ficha-2-analise-de-algoritmos-paralelos-2"
+      ],
+      "id": "topic-analise-de-algoritmos-paralelos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise de algoritmos paralelos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise de complexidade de algoritmos entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f1-2011-analise-de-complexidade-de-algoritmos-1"
+      ],
+      "id": "topic-analise-de-complexidade-de-algoritmos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise de complexidade de algoritmos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise de domínio entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-analise-de-dominio-1"
+      ],
+      "id": "topic-analise-de-dominio",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise de domínio",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise de variância entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-analise-de-variancia-1"
+      ],
+      "id": "topic-analise-de-variancia",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise de variância",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise filogenética entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-analise-filogenetica-2",
+        "evidence-corpus-w024-bq054-f1-2022-analise-filogenetica-1"
+      ],
+      "id": "topic-analise-filogenetica",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise filogenética",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análise in silico de macromoléculas entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-w024-bq054-f1-2022-analise-in-silico-de-macromoleculas-1"
+      ],
+      "id": "topic-analise-in-silico-de-macromoleculas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análise in silico de macromoléculas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar análises genômica, transcriptômica e proteômica entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica-2",
+        "evidence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica-1"
+      ],
+      "id": "topic-analises-genomica-transcriptomica-e-proteomica",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "análises genômica, transcriptômica e proteômica",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar aprendizagem não supervisionada entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-aprendizagem-nao-supervisionada-1",
+        "evidence-corpus-ci1171-ficha-2-aprendizagem-nao-supervisionada-2"
+      ],
+      "id": "topic-aprendizagem-nao-supervisionada",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "aprendizagem não supervisionada",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar aprendizagem supervisionada entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-aprendizagem-supervisionada-1",
+        "evidence-corpus-ci1171-ficha-2-aprendizagem-supervisionada-2"
+      ],
+      "id": "topic-aprendizagem-supervisionada",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "aprendizagem supervisionada",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar aritmética binária entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-aritmetica-binaria-1",
+        "evidence-corpus-ci1068-ficha-2-aritmetica-binaria-2"
+      ],
+      "id": "topic-aritmetica-binaria",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "aritmética binária",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar aritmética de inteiros e ponto flutuante entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-aritmetica-de-inteiros-e-ponto-flutuante-1",
+        "evidence-corpus-ci1212-ficha-2-aritmetica-de-inteiros-e-ponto-flutuante-2"
+      ],
+      "id": "topic-aritmetica-de-inteiros-e-ponto-flutuante",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "aritmética de inteiros e ponto flutuante",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar arquitetura básica de sistemas operacionais entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-arquitetura-basica-de-sistemas-operacionais-1"
+      ],
+      "id": "topic-arquitetura-basica-de-sistemas-operacionais",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "arquitetura básica de sistemas operacionais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar arquiteturas de alto desempenho entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-arquiteturas-de-alto-desempenho-1",
+        "evidence-corpus-ci1212-ficha-2-arquiteturas-de-alto-desempenho-2"
+      ],
+      "id": "topic-arquiteturas-de-alto-desempenho",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "arquiteturas de alto desempenho",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar auditoria e gestão de segurança entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-auditoria-e-gestao-de-seguranca-1",
+        "evidence-corpus-ci1007-ficha-2-auditoria-e-gestao-de-seguranca-2"
+      ],
+      "id": "topic-auditoria-e-gestao-de-seguranca",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "auditoria e gestão de segurança",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar autenticação e controle de acesso entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso-1",
+        "evidence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso-2"
+      ],
+      "id": "topic-autenticacao-e-controle-de-acesso",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "autenticação e controle de acesso",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar avaliação de classificadores entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-avaliacao-de-classificadores-1",
+        "evidence-corpus-ci1171-ficha-2-avaliacao-de-classificadores-2"
+      ],
+      "id": "topic-avaliacao-de-classificadores",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "avaliação de classificadores",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar avaliação de desempenho de computadores entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-avaliacao-de-desempenho-de-computadores-1",
+        "evidence-corpus-ci1212-ficha-2-avaliacao-de-desempenho-de-computadores-2"
+      ],
+      "id": "topic-avaliacao-de-desempenho-de-computadores",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "avaliação de desempenho de computadores",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar avaliação de desempenho paralelo entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-ci1316-ficha-1-avaliacao-de-desempenho-paralelo-1",
+        "evidence-corpus-ci1316-ficha-2-avaliacao-de-desempenho-paralelo-2"
+      ],
+      "id": "topic-avaliacao-de-desempenho-paralelo",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "avaliação de desempenho paralelo",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar avaliação em IHC entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-avaliacao-em-ihc-1"
+      ],
+      "id": "topic-avaliacao-em-ihc",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "avaliação em IHC",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar bancos de dados biológicos entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-bancos-de-dados-biologicos-2",
+        "evidence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos-1"
+      ],
+      "id": "topic-bancos-de-dados-biologicos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "bancos de dados biológicos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar biologia de sistemas entre descrições curriculares.",
+      "domain_id": "domain-bioinformatica",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-biologia-de-sistemas-1"
+      ],
+      "id": "topic-biologia-de-sistemas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "biologia de sistemas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar camadas de aplicação, transporte e rede entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-w023-ci244-f1-2011-camadas-de-aplicacao-transporte-e-rede-1"
+      ],
+      "id": "topic-camadas-de-aplicacao-transporte-e-rede",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "camadas de aplicação, transporte e rede",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar circuitos combinacionais entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-circuitos-combinacionais-1",
+        "evidence-corpus-ci1068-ficha-2-circuitos-combinacionais-2"
+      ],
+      "id": "topic-circuitos-combinacionais",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "circuitos combinacionais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar circuitos sequenciais entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-circuitos-sequenciais-1",
+        "evidence-corpus-ci1068-ficha-2-circuitos-sequenciais-2"
+      ],
+      "id": "topic-circuitos-sequenciais",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "circuitos sequenciais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar compromissos de tempo e espaço entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-compromissos-de-tempo-e-espaco-1"
+      ],
+      "id": "topic-compromissos-de-tempo-e-espaco",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "compromissos de tempo e espaço",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar computabilidade e intratabilidade entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-computabilidade-e-intratabilidade-1"
+      ],
+      "id": "topic-computabilidade-e-intratabilidade",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "computabilidade e intratabilidade",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar comunicação e sincronização entre processos entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-comunicacao-e-sincronizacao-entre-processos-1"
+      ],
+      "id": "topic-comunicacao-e-sincronizacao-entre-processos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "comunicação e sincronização entre processos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar contagem de recursos computacionais entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-contagem-de-recursos-computacionais-1",
+        "evidence-corpus-ci1056-ficha-2-contagem-de-recursos-computacionais-2"
+      ],
+      "id": "topic-contagem-de-recursos-computacionais",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "contagem de recursos computacionais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar controle de concorrência e recuperação entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-controle-de-concorrencia-e-recuperacao-1",
+        "evidence-corpus-ci1218-ficha-2-controle-de-concorrencia-e-recuperacao-2"
+      ],
+      "id": "topic-controle-de-concorrencia-e-recuperacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "controle de concorrência e recuperação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar controle estatístico de qualidade entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-controle-estatistico-de-qualidade-1"
+      ],
+      "id": "topic-controle-estatistico-de-qualidade",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "controle estatístico de qualidade",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar coordenação distribuída entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-w023-ci244-f1-2011-coordenacao-distribuida-1"
+      ],
+      "id": "topic-coordenacao-distribuida",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "coordenação distribuída",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar correspondência entre design e codificação entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-correspondencia-entre-design-e-codificacao-1",
+        "evidence-corpus-ci1163-ficha-2-correspondencia-entre-design-e-codificacao-2"
+      ],
+      "id": "topic-correspondencia-entre-design-e-codificacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "correspondência entre design e codificação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar criptografia entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-criptografia-1",
+        "evidence-corpus-ci1007-ficha-2-criptografia-2"
+      ],
+      "id": "topic-criptografia",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "criptografia",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar custo de programas entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-custo-de-programas-1",
+        "evidence-corpus-ci1055-ficha-2-custo-de-programas-2"
+      ],
+      "id": "topic-custo-de-programas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "custo de programas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar design de arquitetura de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-design-de-arquitetura-de-software-1",
+        "evidence-corpus-ci1163-ficha-2-design-de-arquitetura-de-software-2"
+      ],
+      "id": "topic-design-de-arquitetura-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "design de arquitetura de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar design detalhado de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-design-detalhado-de-software-1",
+        "evidence-corpus-ci1163-ficha-2-design-detalhado-de-software-2"
+      ],
+      "id": "topic-design-detalhado-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "design detalhado de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar design participativo entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-design-participativo-1"
+      ],
+      "id": "topic-design-participativo",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "design participativo",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar design universal entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-design-universal-1"
+      ],
+      "id": "topic-design-universal",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "design universal",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar distribuições de frequências entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-distribuicoes-de-frequencias-1"
+      ],
+      "id": "topic-distribuicoes-de-frequencias",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "distribuições de frequências",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar documento de requisitos entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-documento-de-requisitos-1"
+      ],
+      "id": "topic-documento-de-requisitos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "documento de requisitos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar elicitação e validação de requisitos entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-elicitacao-e-validacao-de-requisitos-1"
+      ],
+      "id": "topic-elicitacao-e-validacao-de-requisitos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "elicitação e validação de requisitos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar entrada e saída entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-entrada-e-saida-1"
+      ],
+      "id": "topic-entrada-e-saida",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "entrada e saída",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [
+        "estrutura de ácidos nucléicos"
+      ],
+      "description": "Unidade analítica intermediária proposta para representar estrutura de ácidos nucleicos entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-estrutura-de-acidos-nucleicos-2",
+        "evidence-corpus-w024-bq054-f1-2022-estrutura-de-acidos-nucleicos-1"
+      ],
+      "id": "topic-estrutura-de-acidos-nucleicos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "estrutura de ácidos nucleicos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar estrutura e função de biomoléculas entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-w024-bq005-f1-2022-estrutura-e-funcao-de-biomoleculas-1"
+      ],
+      "id": "topic-estrutura-e-funcao-de-biomoleculas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "estrutura e função de biomoléculas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar estruturas de dados básicas entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas-1",
+        "evidence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas-2"
+      ],
+      "id": "topic-estruturas-de-dados-basicas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "estruturas de dados básicas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar estruturas de dados elementares entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-estruturas-de-dados-elementares-1",
+        "evidence-corpus-ci1055-ficha-2-estruturas-de-dados-elementares-2"
+      ],
+      "id": "topic-estruturas-de-dados-elementares",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "estruturas de dados elementares",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar estruturas de dados em árvore entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci057-f1-2011-estruturas-de-dados-em-arvore-1"
+      ],
+      "id": "topic-estruturas-de-dados-em-arvore",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "estruturas de dados em árvore",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar ética e bioética em pesquisa em saúde entre descrições curriculares.",
+      "domain_id": "domain-metodologia-cientifica-e-bioetica",
+      "evidence_ids": [
+        "evidence-corpus-mn129-ficha-2-2022-1-etica-e-bioetica-em-pesquisa-em-saude-1"
+      ],
+      "id": "topic-etica-e-bioetica-em-pesquisa-em-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "ética e bioética em pesquisa em saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar ética em computação entre descrições curriculares.",
+      "domain_id": "domain-computacao-sociedade-e-etica",
+      "evidence_ids": [
+        "evidence-corpus-ci1003-ficha-1-etica-em-computacao-1"
+      ],
+      "id": "topic-etica-em-computacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "ética em computação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar ferramentas de programação entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1001-ficha-1-ferramentas-de-programacao-1",
+        "evidence-corpus-ci1001-ficha-2-ferramentas-de-programacao-2"
+      ],
+      "id": "topic-ferramentas-de-programacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "ferramentas de programação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar fisiologia dos sistemas corporais entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-fisiologia-dos-sistemas-corporais-1"
+      ],
+      "id": "topic-fisiologia-dos-sistemas-corporais",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "fisiologia dos sistemas corporais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar fisiologia endócrina entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-fisiologia-endocrina-1"
+      ],
+      "id": "topic-fisiologia-endocrina",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "fisiologia endócrina",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar fluxo informacional e regulação da expressão gênica entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-w024-bq054-f1-2022-fluxo-informacional-e-regulacao-da-expressao-genica-1"
+      ],
+      "id": "topic-fluxo-informacional-e-regulacao-da-expressao-genica",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "fluxo informacional e regulação da expressão gênica",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar funções booleanas entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-funcoes-booleanas-1",
+        "evidence-corpus-ci1068-ficha-2-funcoes-booleanas-2"
+      ],
+      "id": "topic-funcoes-booleanas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "funções booleanas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar fundamentos de interação humano-computador entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-fundamentos-de-interacao-humano-computador-1"
+      ],
+      "id": "topic-fundamentos-de-interacao-humano-computador",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "fundamentos de interação humano-computador",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar fundamentos de segurança computacional entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-fundamentos-de-seguranca-computacional-1",
+        "evidence-corpus-ci1007-ficha-2-fundamentos-de-seguranca-computacional-2"
+      ],
+      "id": "topic-fundamentos-de-seguranca-computacional",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "fundamentos de segurança computacional",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar gerenciamento de configuração entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-gerenciamento-de-configuracao-1",
+        "evidence-corpus-ci1005-ficha-2-gerenciamento-de-configuracao-2"
+      ],
+      "id": "topic-gerenciamento-de-configuracao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "gerenciamento de configuração",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar gerenciamento de memória entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-gerenciamento-de-memoria-1"
+      ],
+      "id": "topic-gerenciamento-de-memoria",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "gerenciamento de memória",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar gerenciamento de processos entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-gerenciamento-de-processos-1"
+      ],
+      "id": "topic-gerenciamento-de-processos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "gerenciamento de processos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar gestão de projetos de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1221-ficha-1-gestao-de-projetos-de-software-1",
+        "evidence-corpus-ci1221-ficha-2-gestao-de-projetos-de-software-2"
+      ],
+      "id": "topic-gestao-de-projetos-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "gestão de projetos de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar heaps entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-heaps-1",
+        "evidence-corpus-ci1056-ficha-2-heaps-2"
+      ],
+      "id": "topic-heaps",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "heaps",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar história da computação entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1003-ficha-1-historia-da-computacao-1"
+      ],
+      "id": "topic-historia-da-computacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "história da computação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar homeostasia e fisiologia celular entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-homeostasia-e-fisiologia-celular-1"
+      ],
+      "id": "topic-homeostasia-e-fisiologia-celular",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "homeostasia e fisiologia celular",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar impactos sociais da computação entre descrições curriculares.",
+      "domain_id": "domain-computacao-sociedade-e-etica",
+      "evidence_ids": [
+        "evidence-corpus-ci1003-ficha-1-impactos-sociais-da-computacao-1"
+      ],
+      "id": "topic-impactos-sociais-da-computacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "impactos sociais da computação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar indicadores ambientais e saúde entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-indicadores-ambientais-e-saude-1"
+      ],
+      "id": "topic-indicadores-ambientais-e-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "indicadores ambientais e saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar inteligência artificial simbólica entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1209-ficha-1-inteligencia-artificial-simbolica-1",
+        "evidence-corpus-ci1209-ficha-2-inteligencia-artificial-simbolica-2"
+      ],
+      "id": "topic-inteligencia-artificial-simbolica",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "inteligência artificial simbólica",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar introdução à programação entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-f1-2011-introducao-a-programacao-1"
+      ],
+      "id": "topic-introducao-a-programacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "introdução à programação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar linguagens de consulta entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-linguagens-de-consulta-1",
+        "evidence-corpus-ci1218-ficha-2-linguagens-de-consulta-2"
+      ],
+      "id": "topic-linguagens-de-consulta",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "linguagens de consulta",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar listas, filas e pilhas entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas-1"
+      ],
+      "id": "topic-listas-filas-e-pilhas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "listas, filas e pilhas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar manipulação genética e biotecnologia entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-w024-bq054-f1-2022-manipulacao-genetica-e-biotecnologia-1"
+      ],
+      "id": "topic-manipulacao-genetica-e-biotecnologia",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "manipulação genética e biotecnologia",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar manipulação gênica entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-manipulacao-genica-1"
+      ],
+      "id": "topic-manipulacao-genica",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "manipulação gênica",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar manutenção e evolução de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1221-ficha-1-manutencao-e-evolucao-de-software-1",
+        "evidence-corpus-ci1221-ficha-2-manutencao-e-evolucao-de-software-2"
+      ],
+      "id": "topic-manutencao-e-evolucao-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "manutenção e evolução de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar máquinas de estados entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-maquinas-de-estados-1",
+        "evidence-corpus-ci1068-ficha-2-maquinas-de-estados-2"
+      ],
+      "id": "topic-maquinas-de-estados",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "máquinas de estados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar medição empírica de desempenho entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-medicao-empirica-de-desempenho-1"
+      ],
+      "id": "topic-medicao-empirica-de-desempenho",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "medição empírica de desempenho",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar memória cache entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-memoria-cache-1",
+        "evidence-corpus-ci1212-ficha-2-memoria-cache-2"
+      ],
+      "id": "topic-memoria-cache",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "memória cache",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar memória virtual entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-memoria-virtual-1",
+        "evidence-corpus-ci1212-ficha-2-memoria-virtual-2"
+      ],
+      "id": "topic-memoria-virtual",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "memória virtual",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar metabolismo de biomoléculas entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-w024-bq005-f1-2022-metabolismo-de-biomoleculas-1"
+      ],
+      "id": "topic-metabolismo-de-biomoleculas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "metabolismo de biomoléculas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar métodos e técnicas de pesquisa em saúde entre descrições curriculares.",
+      "domain_id": "domain-metodologia-cientifica-e-bioetica",
+      "evidence_ids": [
+        "evidence-corpus-mn129-ficha-2-2022-1-metodos-e-tecnicas-de-pesquisa-em-saude-1"
+      ],
+      "id": "topic-metodos-e-tecnicas-de-pesquisa-em-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "métodos e técnicas de pesquisa em saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar métricas de qualidade entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-metricas-de-qualidade-1",
+        "evidence-corpus-ci1005-ficha-2-metricas-de-qualidade-2"
+      ],
+      "id": "topic-metricas-de-qualidade",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "métricas de qualidade",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelagem de casos de uso entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-modelagem-de-casos-de-uso-1"
+      ],
+      "id": "topic-modelagem-de-casos-de-uso",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelagem de casos de uso",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelagem e prototipação em IHC entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-modelagem-e-prototipacao-em-ihc-1"
+      ],
+      "id": "topic-modelagem-e-prototipacao-em-ihc",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelagem e prototipação em IHC",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelo de Von Neumann entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-modelo-de-von-neumann-1",
+        "evidence-corpus-ci1055-ficha-2-modelo-de-von-neumann-2"
+      ],
+      "id": "topic-modelo-de-von-neumann",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelo de Von Neumann",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelos de dados entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-modelos-de-dados-1",
+        "evidence-corpus-ci1218-ficha-2-modelos-de-dados-2"
+      ],
+      "id": "topic-modelos-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelos de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelos de design de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-modelos-de-design-de-software-1",
+        "evidence-corpus-ci1163-ficha-2-modelos-de-design-de-software-2"
+      ],
+      "id": "topic-modelos-de-design-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelos de design de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelos de referência OSI e TCP/IP entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip-1"
+      ],
+      "id": "topic-modelos-de-referencia-osi-e-tcp-ip",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelos de referência OSI e TCP/IP",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar modelos e estruturas de sistemas distribuídos entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-w023-ci244-f1-2011-modelos-e-estruturas-de-sistemas-distribuidos-1"
+      ],
+      "id": "topic-modelos-e-estruturas-de-sistemas-distribuidos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "modelos e estruturas de sistemas distribuídos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar neurofisiologia entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-neurofisiologia-1"
+      ],
+      "id": "topic-neurofisiologia",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "neurofisiologia",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar níveis de atenção à saúde entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-niveis-de-atencao-a-saude-1"
+      ],
+      "id": "topic-niveis-de-atencao-a-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "níveis de atenção à saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar ordenação externa entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-ordenacao-externa-2",
+        "evidence-corpus-ci1057-ficha-2-ordenacao-externa-3",
+        "evidence-corpus-w022-ci057-f1-2011-ordenacao-externa-1"
+      ],
+      "id": "topic-ordenacao-externa",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "ordenação externa",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar ordenação interna entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f1-2011-ordenacao-interna-1"
+      ],
+      "id": "topic-ordenacao-interna",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "ordenação interna",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar organização do sistema de saúde brasileiro entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-organizacao-do-sistema-de-saude-brasileiro-1"
+      ],
+      "id": "topic-organizacao-do-sistema-de-saude-brasileiro",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "organização do sistema de saúde brasileiro",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar otimização por enxame de partículas entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-otimizacao-por-enxame-de-particulas-1",
+        "evidence-corpus-ci1171-ficha-2-otimizacao-por-enxame-de-particulas-2"
+      ],
+      "id": "topic-otimizacao-por-enxame-de-particulas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "otimização por enxame de partículas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar padrões de design entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-padroes-de-design-1",
+        "evidence-corpus-ci1163-ficha-2-padroes-de-design-2"
+      ],
+      "id": "topic-padroes-de-design",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "padrões de design",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar paradigmas de programação entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1062-ficha-1-paradigmas-de-programacao-1",
+        "evidence-corpus-ci1062-ficha-2-paradigmas-de-programacao-2"
+      ],
+      "id": "topic-paradigmas-de-programacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "paradigmas de programação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar paralelismo entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-ci1316-ficha-1-paralelismo-1",
+        "evidence-corpus-ci1316-ficha-2-paralelismo-2"
+      ],
+      "id": "topic-paralelismo",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "paralelismo",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar pensamento computacional entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1003-ficha-1-pensamento-computacional-1"
+      ],
+      "id": "topic-pensamento-computacional",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "pensamento computacional",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar pesquisa binária entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-binaria-1"
+      ],
+      "id": "topic-pesquisa-binaria",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "pesquisa binária",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar pesquisa e ordenação em memória principal entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal-1"
+      ],
+      "id": "topic-pesquisa-e-ordenacao-em-memoria-principal",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "pesquisa e ordenação em memória principal",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar planejamento e avaliação em saúde entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-planejamento-e-avaliacao-em-saude-1"
+      ],
+      "id": "topic-planejamento-e-avaliacao-em-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "planejamento e avaliação em saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar políticas de saúde entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-politicas-de-saude-1"
+      ],
+      "id": "topic-politicas-de-saude",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "políticas de saúde",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar práticas de programação entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1001-ficha-1-praticas-de-programacao-1",
+        "evidence-corpus-ci1001-ficha-2-praticas-de-programacao-2"
+      ],
+      "id": "topic-praticas-de-programacao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "práticas de programação",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar probabilidade e distribuições probabilísticas entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-probabilidade-e-distribuicoes-probabilisticas-1"
+      ],
+      "id": "topic-probabilidade-e-distribuicoes-probabilisticas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "probabilidade e distribuições probabilísticas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar processador pipeline entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-processador-pipeline-1",
+        "evidence-corpus-ci1212-ficha-2-processador-pipeline-2"
+      ],
+      "id": "topic-processador-pipeline",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "processador pipeline",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar processamento e otimização de consultas entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-processamento-e-otimizacao-de-consultas-1",
+        "evidence-corpus-ci1218-ficha-2-processamento-e-otimizacao-de-consultas-2"
+      ],
+      "id": "topic-processamento-e-otimizacao-de-consultas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "processamento e otimização de consultas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar processo saúde-doença entre descrições curriculares.",
+      "domain_id": "domain-saude-coletiva-e-sistema-de-saude",
+      "evidence_ids": [
+        "evidence-corpus-mn162-ficha-1-processo-saude-doenca-1"
+      ],
+      "id": "topic-processo-saude-doenca",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "processo saúde-doença",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar processos de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-processos-de-software-1",
+        "evidence-corpus-ci1221-ficha-1-processos-de-software-2",
+        "evidence-corpus-ci1221-ficha-2-processos-de-software-3"
+      ],
+      "id": "topic-processos-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "processos de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar programação estruturada entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-programacao-estruturada-2",
+        "evidence-corpus-ci1055-ficha-2-programacao-estruturada-3",
+        "evidence-corpus-w022-ci055-older-component-programacao-estruturada-1"
+      ],
+      "id": "topic-programacao-estruturada",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "programação estruturada",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar programação multithreading e multiprocessos entre descrições curriculares.",
+      "domain_id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "evidence_ids": [
+        "evidence-corpus-ci1316-ficha-1-programacao-multithreading-e-multiprocessos-1",
+        "evidence-corpus-ci1316-ficha-2-programacao-multithreading-e-multiprocessos-2"
+      ],
+      "id": "topic-programacao-multithreading-e-multiprocessos",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "programação multithreading e multiprocessos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar projeto de bancos de dados entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-projeto-de-bancos-de-dados-1",
+        "evidence-corpus-ci1218-ficha-2-projeto-de-bancos-de-dados-2"
+      ],
+      "id": "topic-projeto-de-bancos-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "projeto de bancos de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar projetos de programação de média e alta complexidade entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1002-ficha-1-projetos-de-programacao-de-media-e-alta-complexidade-1",
+        "evidence-corpus-ci1002-ficha-2-projetos-de-programacao-de-media-e-alta-complexidade-2"
+      ],
+      "id": "topic-projetos-de-programacao-de-media-e-alta-complexidade",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "projetos de programação de média e alta complexidade",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar qualidade de processo de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-qualidade-de-processo-de-software-1",
+        "evidence-corpus-ci1005-ficha-2-qualidade-de-processo-de-software-2"
+      ],
+      "id": "topic-qualidade-de-processo-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "qualidade de processo de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar qualidade de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-qualidade-de-software-1",
+        "evidence-corpus-ci1005-ficha-2-qualidade-de-software-2"
+      ],
+      "id": "topic-qualidade-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "qualidade de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar qualidade em interação humano-computador entre descrições curriculares.",
+      "domain_id": "domain-interacao-humano-computador",
+      "evidence_ids": [
+        "evidence-corpus-ci1350-ficha-1-qualidade-em-interacao-humano-computador-1"
+      ],
+      "id": "topic-qualidade-em-interacao-humano-computador",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "qualidade em interação humano-computador",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [
+        "recursividade"
+      ],
+      "description": "Unidade analítica intermediária proposta para representar recursão entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-recursao-2",
+        "evidence-corpus-ci1056-ficha-2-recursao-3",
+        "evidence-corpus-w022-ci056-f1-2011-recursao-1"
+      ],
+      "id": "topic-recursao",
+      "identification_provenance": "W033 model-assisted reconciliation of 3 source-grounded proposal(s); no code/title-only inference. Ambiguous domain suggestions retained in provenance: Algoritmos e Estruturas de Dados (2), Programação (1).",
+      "is_fixture": false,
+      "label": "recursão",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar recursão e relações de recorrência entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-recursao-e-relacoes-de-recorrencia-1"
+      ],
+      "id": "topic-recursao-e-relacoes-de-recorrencia",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "recursão e relações de recorrência",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar refinamento sucessivo entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f1-2011-refinamento-sucessivo-1"
+      ],
+      "id": "topic-refinamento-sucessivo",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "refinamento sucessivo",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar registros entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-older-component-registros-1"
+      ],
+      "id": "topic-registros",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "registros",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar regressão, correlação e ajustamento de curvas entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-regressao-correlacao-e-ajustamento-de-curvas-1"
+      ],
+      "id": "topic-regressao-correlacao-e-ajustamento-de-curvas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "regressão, correlação e ajustamento de curvas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar regressão em aprendizado de máquina entre descrições curriculares.",
+      "domain_id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "evidence_ids": [
+        "evidence-corpus-ci1171-ficha-1-regressao-em-aprendizado-de-maquina-1",
+        "evidence-corpus-ci1171-ficha-2-regressao-em-aprendizado-de-maquina-2"
+      ],
+      "id": "topic-regressao-em-aprendizado-de-maquina",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "regressão em aprendizado de máquina",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar replicação, transcrição e tradução entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-replicacao-transcricao-e-traducao-1"
+      ],
+      "id": "topic-replicacao-transcricao-e-traducao",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "replicação, transcrição e tradução",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar representação de dados entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-f1-2011-representacao-de-dados-1"
+      ],
+      "id": "topic-representacao-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "representação de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar representação e aritmética binária entre descrições curriculares.",
+      "domain_id": "domain-fundamentos-da-computacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-f1-2011-representacao-e-aritmetica-binaria-1",
+        "evidence-corpus-w022-ci055-older-component-representacao-e-aritmetica-binaria-2"
+      ],
+      "id": "topic-representacao-e-aritmetica-binaria",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "representação e aritmética binária",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar representação tabular e gráfica de dados entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-representacao-tabular-e-grafica-de-dados-1"
+      ],
+      "id": "topic-representacao-tabular-e-grafica-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "representação tabular e gráfica de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar requisitos funcionais e não funcionais entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1162-ficha-1-requisitos-funcionais-e-nao-funcionais-1"
+      ],
+      "id": "topic-requisitos-funcionais-e-nao-funcionais",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "requisitos funcionais e não funcionais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar reuso de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1221-ficha-1-reuso-de-software-1",
+        "evidence-corpus-ci1221-ficha-2-reuso-de-software-2"
+      ],
+      "id": "topic-reuso-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "reuso de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar revisões e inspeções de design entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1163-ficha-1-revisoes-e-inspecoes-de-design-1",
+        "evidence-corpus-ci1163-ficha-2-revisoes-e-inspecoes-de-design-2"
+      ],
+      "id": "topic-revisoes-e-inspecoes-de-design",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "revisões e inspeções de design",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar segurança de redes e internet entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-seguranca-de-redes-e-internet-1",
+        "evidence-corpus-ci1007-ficha-2-seguranca-de-redes-e-internet-2"
+      ],
+      "id": "topic-seguranca-de-redes-e-internet",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "segurança de redes e internet",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar segurança de sistemas e aplicações entre descrições curriculares.",
+      "domain_id": "domain-seguranca-computacional",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-seguranca-de-sistemas-e-aplicacoes-1",
+        "evidence-corpus-ci1007-ficha-2-seguranca-de-sistemas-e-aplicacoes-2"
+      ],
+      "id": "topic-seguranca-de-sistemas-e-aplicacoes",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "segurança de sistemas e aplicações",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar séries temporais entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-series-temporais-1"
+      ],
+      "id": "topic-series-temporais",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "séries temporais",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar simulações computacionais em fisiologia entre descrições curriculares.",
+      "domain_id": "domain-informatica-biomedica",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-simulacoes-computacionais-em-fisiologia-1"
+      ],
+      "id": "topic-simulacoes-computacionais-em-fisiologia",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "simulações computacionais em fisiologia",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar sistemas de arquivos entre descrições curriculares.",
+      "domain_id": "domain-sistemas-operacionais",
+      "evidence_ids": [
+        "evidence-corpus-ci1215-ficha-1-sistemas-de-arquivos-1"
+      ],
+      "id": "topic-sistemas-de-arquivos",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "sistemas de arquivos",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar sistemas de memória entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1212-ficha-1-sistemas-de-memoria-1",
+        "evidence-corpus-ci1212-ficha-2-sistemas-de-memoria-2"
+      ],
+      "id": "topic-sistemas-de-memoria",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "sistemas de memória",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar sistemas de numeração entre descrições curriculares.",
+      "domain_id": "domain-arquitetura-e-hardware",
+      "evidence_ids": [
+        "evidence-corpus-ci1068-ficha-1-sistemas-de-numeracao-1",
+        "evidence-corpus-ci1068-ficha-2-sistemas-de-numeracao-2"
+      ],
+      "id": "topic-sistemas-de-numeracao",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "sistemas de numeração",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [
+        "SGBD"
+      ],
+      "description": "Unidade analítica intermediária proposta para representar sistemas gerenciadores de bancos de dados entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-sistemas-gerenciadores-de-bancos-de-dados-1",
+        "evidence-corpus-ci1218-ficha-2-sistemas-gerenciadores-de-bancos-de-dados-2"
+      ],
+      "id": "topic-sistemas-gerenciadores-de-bancos-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "sistemas gerenciadores de bancos de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar subprogramas e passagem de parâmetros entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci055-older-component-subprogramas-e-passagem-de-parametros-1"
+      ],
+      "id": "topic-subprogramas-e-passagem-de-parametros",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "subprogramas e passagem de parâmetros",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar técnicas avançadas de desenvolvimento de software entre descrições curriculares.",
+      "domain_id": "domain-programacao",
+      "evidence_ids": [
+        "evidence-corpus-ci1002-ficha-1-tecnicas-avancadas-de-desenvolvimento-de-software-1",
+        "evidence-corpus-ci1002-ficha-2-tecnicas-avancadas-de-desenvolvimento-de-software-2"
+      ],
+      "id": "topic-tecnicas-avancadas-de-desenvolvimento-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "técnicas avançadas de desenvolvimento de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar teste de programas entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-teste-de-programas-1",
+        "evidence-corpus-ci1055-ficha-2-teste-de-programas-2"
+      ],
+      "id": "topic-teste-de-programas",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "teste de programas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar teste de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-teste-de-software-1",
+        "evidence-corpus-ci1005-ficha-2-teste-de-software-2"
+      ],
+      "id": "topic-teste-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "teste de software",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar testes de hipóteses entre descrições curriculares.",
+      "domain_id": "domain-estatistica",
+      "evidence_ids": [
+        "evidence-corpus-w024-ce003-f1-2022-testes-de-hipoteses-1"
+      ],
+      "id": "topic-testes-de-hipoteses",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "testes de hipóteses",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar tipo abstrato de dados dicionário entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-tipo-abstrato-de-dados-dicionario-1",
+        "evidence-corpus-ci1057-ficha-2-tipo-abstrato-de-dados-dicionario-2"
+      ],
+      "id": "topic-tipo-abstrato-de-dados-dicionario",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "tipo abstrato de dados dicionário",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar tipos abstratos de dados lineares entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares-1"
+      ],
+      "id": "topic-tipos-abstratos-de-dados-lineares",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "tipos abstratos de dados lineares",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar tipos abstratos de dados simples entre descrições curriculares.",
+      "domain_id": "domain-algoritmos-e-estruturas-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-tipos-abstratos-de-dados-simples-1",
+        "evidence-corpus-ci1055-ficha-2-tipos-abstratos-de-dados-simples-2"
+      ],
+      "id": "topic-tipos-abstratos-de-dados-simples",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "tipos abstratos de dados simples",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar transações de banco de dados entre descrições curriculares.",
+      "domain_id": "domain-banco-de-dados",
+      "evidence_ids": [
+        "evidence-corpus-ci1218-ficha-1-transacoes-de-banco-de-dados-1",
+        "evidence-corpus-ci1218-ficha-2-transacoes-de-banco-de-dados-2"
+      ],
+      "id": "topic-transacoes-de-banco-de-dados",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "transações de banco de dados",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar transporte através de membranas entre descrições curriculares.",
+      "domain_id": "domain-biociencias",
+      "evidence_ids": [
+        "evidence-corpus-bf114-ficha-1-transporte-atraves-de-membranas-1"
+      ],
+      "id": "topic-transporte-atraves-de-membranas",
+      "identification_provenance": "W033 model-assisted reconciliation of 1 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "transporte através de membranas",
+      "review_state": "proposed"
+    },
+    {
+      "aliases": [],
+      "description": "Unidade analítica intermediária proposta para representar verificação e validação de software entre descrições curriculares.",
+      "domain_id": "domain-engenharia-de-software",
+      "evidence_ids": [
+        "evidence-corpus-ci1005-ficha-1-verificacao-e-validacao-de-software-1",
+        "evidence-corpus-ci1005-ficha-2-verificacao-e-validacao-de-software-2"
+      ],
+      "id": "topic-verificacao-e-validacao-de-software",
+      "identification_provenance": "W033 model-assisted reconciliation of 2 source-grounded proposal(s); no code/title-only inference.",
+      "is_fixture": false,
+      "label": "verificação e validação de software",
+      "review_state": "proposed"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,28 @@
+{
+  "data_as_of": "2026-09-08",
+  "generated_by": "scripts/build_w033_taxonomy.py",
+  "records": [
+    {
+      "alias": "estrutura de ácidos nucléicos",
+      "id": "alias-topic-estrutura-de-acidos-nucleicos-estrutura-de-acidos-nucleicos",
+      "justification": "W033 normalization of a source-proposed lexical variant; review remains pending.",
+      "review_state": "proposed",
+      "topic_id": "topic-estrutura-de-acidos-nucleicos"
+    },
+    {
+      "alias": "recursividade",
+      "id": "alias-topic-recursao-recursividade",
+      "justification": "W033 normalization of a source-proposed lexical variant; review remains pending.",
+      "review_state": "proposed",
+      "topic_id": "topic-recursao"
+    },
+    {
+      "alias": "SGBD",
+      "id": "alias-topic-sistemas-gerenciadores-de-bancos-de-dados-sgbd",
+      "justification": "Explicit source abbreviation.",
+      "review_state": "proposed",
+      "topic_id": "topic-sistemas-gerenciadores-de-bancos-de-dados"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

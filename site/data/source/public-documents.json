@@ -2,7 +2,9 @@
   "schema_version": "1.0.0",
   "allowed_repository_prefixes": [
     "curriculos/2011/fontes/",
-    "curriculos/2023/fontes/"
+    "curriculos/2023/fontes/",
+    "curriculos/2011/fichas/",
+    "curriculos/2023/fichas/"
   ],
   "documents": [
     {
