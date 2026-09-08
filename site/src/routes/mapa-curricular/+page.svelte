@@ -10,6 +10,7 @@
   // svelte-ignore state_referenced_locally
   let selectedTopicId = $state(data.initial_topic && data.topics.some((item: any) => item.id === data.initial_topic) ? data.initial_topic : '');
   let mobileCurriculum = $state<'curriculum-2011' | 'curriculum-2023'>('curriculum-2011');
+  let curriculumFilter = $state('');
   let period = $state('');
   let domain = $state('');
   let discipline = $state('');
@@ -40,6 +41,7 @@
   }).map((topic: any) => topic.id)));
 
   function visible(component: any) {
+    if (curriculumFilter && component.curriculum_id !== curriculumFilter) return false;
     if (period && String(component.recommended_period ?? '') !== period) return false;
     if (domain && !component.domain_ids.includes(domain)) return false;
     if (discipline && component.id !== discipline) return false;
@@ -63,7 +65,7 @@
   }
 
   function resetFilters() {
-    period = ''; domain = ''; discipline = ''; reviewState = ''; evidenceStrength = ''; coverage = '';
+    curriculumFilter = ''; period = ''; domain = ''; discipline = ''; reviewState = ''; evidenceStrength = ''; coverage = '';
     sharedOnly = false; proposedOnly = false; indeterminateOnly = false;
   }
 </script>
@@ -91,6 +93,7 @@
   <section class="filter-panel" aria-labelledby="filter-title">
     <div class="filter-heading"><h2 id="filter-title">Recortar o mapa</h2><button class="text-button" type="button" onclick={() => showMoreFilters = !showMoreFilters}>{showMoreFilters ? 'Menos filtros' : 'Mais filtros'}</button></div>
     <div class="filters primary-filters">
+      <label>Currículo<select bind:value={curriculumFilter} onchange={() => { if (curriculumFilter) mobileCurriculum = curriculumFilter as 'curriculum-2011' | 'curriculum-2023'; }}><option value="">2011 e 2023</option><option value="curriculum-2011">2011</option><option value="curriculum-2023">2023</option></select></label>
       <label>Período<select bind:value={period}><option value="">Todos</option>{#each [1,2,3,4,5,6,7,8] as value}<option value={String(value)}>{value}º</option>{/each}</select></label>
       <label>Domínio<select bind:value={domain}><option value="">Todos</option>{#each data.domains as item}<option value={item.id}>{item.label}</option>{/each}</select></label>
       <label>Disciplina<select bind:value={discipline}><option value="">Todas</option>{#each data.components as item}<option value={item.id}>{item.code} · {item.name}</option>{/each}</select></label>
@@ -171,7 +174,8 @@
                 <h4><button type="button" onclick={() => selectComponent(counterpart.id)}>{counterpart.code} · {counterpart.name}</button></h4>
                 <p>{counterpart.workload_hours ?? '—'} h · {counterpart.recommended_period}º período</p>
                 <p><strong>Compartilhados:</strong> {shared.length ? shared.map((item: any) => item.label).join(', ') : 'nenhum rótulo idêntico; vínculo por candidato de linhagem'}</p>
-                <p><strong>Exclusivos nesta comparação:</strong> {counterpart.topics.filter((topic: any) => !selectedComponent.topic_ids.includes(topic.id)).map((item: any) => item.label).join(', ') || 'nenhum no corpus'}</p>
+                <p><strong>Exclusivos em {selectedComponent.code}:</strong> {selectedComponent.topics.filter((topic: any) => !counterpart.topic_ids.includes(topic.id)).map((item: any) => item.label).join(', ') || 'nenhum no corpus'}</p>
+                <p><strong>Exclusivos em {counterpart.code}:</strong> {counterpart.topics.filter((topic: any) => !selectedComponent.topic_ids.includes(topic.id)).map((item: any) => item.label).join(', ') || 'nenhum no corpus'}</p>
               </article>
             {/each}
           {:else}<p class="empty-state">Nenhuma contraparte foi proposta ou localizada no corpus disponível.</p>{/if}
@@ -221,7 +225,7 @@
   .filter-panel { position: sticky; z-index: 5; top: 0; margin: 1rem 0; padding: .75rem 1rem; border: 1px solid var(--line); background: color-mix(in srgb, var(--surface) 94%, transparent); backdrop-filter: blur(8px); }
   .filter-heading { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
   .filter-heading h2 { margin: 0; font: 900 .9rem/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
-  .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; margin-top: .75rem; }
+  .filters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .75rem; margin-top: .75rem; }
   .secondary-filters { grid-template-columns: repeat(5, minmax(0, 1fr)); padding-top: .75rem; border-top: 1px dashed var(--line); }
   label { display: grid; gap: .2rem; color: var(--ink-soft); font-size: .72rem; font-weight: 800; }
   select { width: 100%; min-height: 2.5rem; border: 1px solid var(--line); background: var(--paper); font: inherit; color: var(--ink); }
