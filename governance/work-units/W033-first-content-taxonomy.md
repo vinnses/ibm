@@ -9,8 +9,8 @@
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | primary | primary | orchestration, corpus/builder integration, cross-curriculum synthesis, final audit, and handoff | GPT-5 family; exact backend unknown | unknown | planned and actual | Integration and global synthesis remain under primary-session authority. |
-| taxonomy-2011 | subagent | documentary investigation and structured topic proposal for the 2011 usable corpus | GPT-5.6 Terra | medium | planned | Source applicability and topic segmentation require documentary reasoning beyond mechanical extraction. |
-| taxonomy-2023 | subagent | documentary investigation and structured topic proposal for the 2023 usable corpus | GPT-5.6 Terra | medium | planned | Source applicability and topic segmentation require documentary reasoning beyond mechanical extraction. |
+| taxonomy-2011 | subagent | documentary investigation and structured topic proposal for the 2011 usable corpus | GPT-5.6 Terra | medium | actual | Processed 12 preserved records into 68 source-grounded proposals while retaining 96A applicability limits. |
+| taxonomy-2023 | subagent | documentary investigation and structured topic proposal for the 2023 usable corpus | GPT-5.6 Terra | medium | actual | Processed 23 Ficha 1 and 17 Ficha 2 records into 192 source-grounded proposals with indeterminate 2023 applicability. |
 | lineage-review | subagent | cross-validation, ambiguity reconciliation, split/merge audit, and qualitative sample review | GPT-5.6 Terra | high | planned | Cross-curriculum reconciliation and independent relation review are demanding audit tasks suited to Terra/high. |
 
 - Escalation rule: Luna/medium may replace purely mechanical tasks only after prospective recording; documentary reasoning remains Terra/medium and demanding reconciliation Terra/high. Sol subagents are prohibited. Work genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated.
