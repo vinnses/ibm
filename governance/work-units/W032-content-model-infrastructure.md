@@ -3,13 +3,14 @@
 - **Objective:** implement a deterministic, versioned content/evidence model and the minimum SvelteKit review routes needed to inspect factual curricula, analytical records, provenance, and explicitly allowlisted preserved public documents without performing substantive taxonomy or lineage analysis.
 - **Branch:** `work/w032-content-model-infrastructure`.
 - **Commit base:** `33c4fbda51b56de8110a19478908afb0ffa25fdd` (`main` and the locally tracked `origin/main` after W031 integration on 2026-09-08; the remote refresh attempt failed and is recorded as E-W032-001).
-- **Primary-session assignment:** GPT-5 family as exposed by the active runtime; exact backend model and reasoning effort are not exposed and are recorded as `unknown`, not inferred.
+- Primary-session assignment: GPT-5 family as exposed by the active runtime; exact backend model and reasoning effort are not exposed and are recorded as `unknown`, not inferred.
 
 | Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
 |---|---|---|---|---|---|---|
 | primary | primary | orchestration, architecture, implementation, validation, review, and handoff | GPT-5 family; exact backend unknown | unknown | actual | The user authorized one bounded implementation Work. No delegation was requested, and final audit remains primary-session work. |
 
-- **Escalation rule:** no subagents are planned. Sol subagents are prohibited. Work genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated; any reassignment must be recorded before continued execution.
+- Agent assignments: the table above is the complete planned/actual assignment record.
+- Escalation rule: no subagents are planned. Sol subagents are prohibited. Work genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated; any reassignment must be recorded before continued execution.
 - **Inputs:** W031 SvelteKit/Compose infrastructure; `curriculos/2011/inventario/`, `curriculos/2023/inventario/`, their source manifests and preserved formal documents; repository documentary methodology and governance.
 - **In scope:** explicit factual and analytical entity schemas; generic evidence links; deterministic builder and generated JSON; validation of identifiers, references, states, origins, preserved paths, hashes, and public-document allowlist; audited publication of a minimal formal-document subset; seven requested SvelteKit routes and a plain review interface; technical documentation; regression/build validation; incremental commits and handoff.
 - **Out of scope:** substantive taxonomy, bulk topic classification, 2011→2023 lineage, semantic similarity at scale, 2026 proposal evaluation, narrative, protest, final visual design, database, merge, and W033 execution.

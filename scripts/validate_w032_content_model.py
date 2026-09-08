@@ -23,6 +23,55 @@ DOCUMENTARY_STATES = {"documented", "probable", "contradictory", "not_located", 
 CHANGE_TYPES = {"maintained", "expanded", "reduced", "moved", "fragmented", "merged", "new", "removed", "indeterminate"}
 
 
+def validate_schema(instance: Any, schema: dict[str, Any], root_schema: dict[str, Any], location: str = "$") -> list[str]:
+    """Evaluate the JSON Schema keywords used by W032 without a runtime dependency."""
+    if "$ref" in schema:
+        prefix = "#/$defs/"
+        reference = schema["$ref"]
+        if not reference.startswith(prefix) or reference[len(prefix):] not in root_schema.get("$defs", {}):
+            return [f"{location}: unresolved schema reference {reference}"]
+        return validate_schema(instance, root_schema["$defs"][reference[len(prefix):]], root_schema, location)
+    errors: list[str] = []
+    if "const" in schema and instance != schema["const"]:
+        errors.append(f"{location}: does not match const")
+    if "enum" in schema and instance not in schema["enum"]:
+        errors.append(f"{location}: value is outside enum")
+    expected = schema.get("type")
+    if expected:
+        names = expected if isinstance(expected, list) else [expected]
+        checks = {
+            "object": lambda value: isinstance(value, dict),
+            "array": lambda value: isinstance(value, list),
+            "string": lambda value: isinstance(value, str),
+            "integer": lambda value: isinstance(value, int) and not isinstance(value, bool),
+            "boolean": lambda value: isinstance(value, bool),
+            "null": lambda value: value is None,
+        }
+        if not any(checks[name](instance) for name in names):
+            return [f"{location}: expected type {expected}"]
+    if isinstance(instance, str) and "pattern" in schema and not re.search(schema["pattern"], instance):
+        errors.append(f"{location}: string does not match pattern")
+    if isinstance(instance, list):
+        if len(instance) < schema.get("minItems", 0):
+            errors.append(f"{location}: fewer than minItems")
+        if "items" in schema:
+            for index, value in enumerate(instance):
+                errors.extend(validate_schema(value, schema["items"], root_schema, f"{location}[{index}]"))
+    if isinstance(instance, dict):
+        required = schema.get("required", [])
+        for field in required:
+            if field not in instance:
+                errors.append(f"{location}: missing required property {field}")
+        properties = schema.get("properties", {})
+        if schema.get("additionalProperties") is False:
+            for field in instance.keys() - properties.keys():
+                errors.append(f"{location}: unexpected property {field}")
+        for field, subschema in properties.items():
+            if field in instance:
+                errors.extend(validate_schema(instance[field], subschema, root_schema, f"{location}.{field}"))
+    return errors
+
+
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -182,6 +231,7 @@ def main() -> int:
     errors = []
     if schema.get("$schema") != "https://json-schema.org/draft/2020-12/schema" or not schema.get("$defs"):
         errors.append("explicit JSON Schema is missing or malformed")
+    errors.extend(validate_schema(model, schema, schema))
     if model.get("schema_version") != "1.0.0" or model.get("generated_by") != "scripts/build_w032_site_data.py":
         errors.append("generated metadata is invalid")
     errors.extend(validate_model(model))
