@@ -1,0 +1,1607 @@
+{
+  "data_as_of": "2026-09-08",
+  "generated_by": "scripts/build_w033_content_corpus.py",
+  "method_note": "Content is copied from existing normalized documentary extractions; original preserved files prevail.",
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized whitespace/line breaks only; source states `CH Total: 60h`, stored as numeric 60 to follow the W018/W019 field structure. PDF is published in a 2024 directory; applicability remains indeterminado.",
+      "component_code": "BF114",
+      "component_instance_id": "curriculum-2023-bf114",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-bf114-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://bio.ufpr.br/fisiologia/wp-content/uploads/sites/37/2024/12/1141.pdf",
+        "repository_path": "curriculos/2023/fichas/outros-departamentos/BF114-ficha-1.pdf",
+        "sha256": "405e9838e92b73ca318b66a9c5d47a7aed8e382bb64ee6d5b340bb3110e2300f",
+        "title": "Fisiologia para Informática Biomédica"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-bf114-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 2, section heading `EMENTA`, paragraph below heading",
+          "text": "Análise dos mecanismos que regulam a atividade funcional da célula e dos diferentes sistemas que participam da homeostasia do meio interno. Fisiologia dos líquidos corporais e as bases fisiológicas do transporte através de membranas. Fisiologia dos sistemas: Locomotor, cardiovascular, renal, respiratório e digestivo. Fisiologia das Glândulas Endócrinas com a respectiva função dos seus diferentes hormônios. Neurofisiologia: Sistema Nervoso Central, Sistema nervoso periférico, neurovegetativo, circuitos neuronais, neurotransmissão. Fundamentos fisiológicos para elaboração de simulações de computador."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized whitespace/line breaks only; source PDF prevails. Applicability remains indeterminado; manifest notes the PDF's 2022 signature/rendering dates and no separate 2023 applicability act is used here.",
+      "component_code": "BQ083",
+      "component_instance_id": "curriculum-2023-bq083",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-bq083-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://bio.ufpr.br/bioquimica/wp-content/uploads/sites/31/2021/12/BQ083-FICHA-1.pdf",
+        "repository_path": "curriculos/2023/fichas/outros-departamentos/BQ083-ficha-1.pdf",
+        "sha256": "65c7e762dd3e2587bee40187a0fdb690d60fd9f085b737b566b2439e95af5109",
+        "title": "Biologia Molecular e Bioinformática"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-bq083-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA (Unidade Didática)`, two paragraphs below heading",
+          "text": "Estrutura ácidos nucléicos; fluxo informacional em sistemas biológicos: replicação, transcrição, tradução, regulação da expressão gênica; princípios de manipulação gênica; aplicações biotecnológicas da biologia molecular; teoria e prática da manipulação de moléculas de DNA. Banco de dados biológicos; algoritmos de alinhamento de sequências e busca de genes; análise filogenética; análise Genômica, Transcriptômica e Proteômica; análise de macromoléculas in silico; Biologia de Sistemas e aplicações da Bioinformática na pesquisa biológica."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado because the PDF predates the 2023 reform and no continuity act is established here.",
+      "component_code": "CI1001",
+      "component_instance_id": "curriculum-2023-ci1001",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1001-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1001-Programa%C3%A7%C3%A3o-1.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1001/ficha-1.pdf",
+        "sha256": "de98f9b0340f8243d9f8f1f8eb9f0ef76a63ced54fd2088f915709281fa4dbb8",
+        "title": "Programação 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1001-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Uso dirigido de ferramentas para programação. Estudo de estruturas de dados básicas. Práticas de programação."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1001",
+      "component_instance_id": "curriculum-2023-ci1001",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1001-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1001-Programa%C3%A7%C3%A3o-1.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1001/ficha-2.pdf",
+        "sha256": "84c915a688a91dbd12a2dc5b02880a9e527794e8fdbf93593a6c020fd46253ab",
+        "title": "Programação 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1001-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Uso dirigido de ferramentas para programação. Estudo de estruturas de dados básicas. Práticas de programação."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Introdução ao sistema Linux. Comandos básicos 2. Ferramentas para apoio à programação em Linux (scripts, sed, awk, dentre outros) 3. Introdução à Linguagem C (migração de Pascal para C) 4. Registros (struct) e Enumeração. 5. Ponteiros e alocação dinâmica de memória, incluindo aritmética de ponteiros. 6. Estruturas de dados fundamentais. Tipos de dados, estruturas de dados e tipos abstratos de dados. 7. Estruturas de dados na memória principal: uso de alocação estática e dinâmica de memória. 8. Listas lineares e suas especializações: listas ordenadas, listas encadeadas, ﬁlas e pilhas. Aplicações de listas. 9. Implementação de listas, pilhas e ﬁlas em linguagem C 10. Métodos básicos de teste de código e depuração."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Capacitar o estudante a compreender o modelo de programação dos computadores atuais e a desenvolver programas usando técnicas elementares de algoritmos e estruturas de dados sobre este modelo. Capacitar o aluno a desenvolver soluções simples e eﬁcazes para problemas diversos que podem ser resolvidos com as técnicas elementares, sempre considerando a noção de eﬁciência dos códigos desenvolvidos.; OBJETIVO ESPECÍFICO: 1. Apresentar as características principais de sistemas Unix: comandos, processos, shell. Apresentar comandos básicos do Unix: manipulação de arquivos (ls, chmod, cp, mv, rm, tar ), editores de texto (vi, gedit), documentação on-line (man, apropos) 2. Apresentar aspectos adicionais de UNIX: controle de processos (kill, jobs, ps), ambiente shell (status de execução de comandos, variáveis de ambiente, redirecionamento de E/S), comandos para análise de conteúdo de arquivos (grep, diﬀ, cut, paste). Combinando comandos simples (pipes). 3. Introduzir uma nova linguagem de programação, abordando todos os conceitos vistos em disciplinas anteriores: estrutura geral de um programa em C, variáveis, estruturas de controle, funções, vetores, strings. O processo de compilação de programas em C, incluindo o uso simpliﬁcado da ferramenta ’make’, importante para a geração de programa de médio e grande porte que são vistos nos semestres seguintes. É fundamental o estudante compreender os bons princípios de programação em C, tais como uso do .h e .c, dentre outros. 4. Apresentar os tipos Registro (struct) e Enumeração, com suas aplicações. 5. Compreender conceito de ponteiros e sua utilidade de manipulação de variáveis através de seu endereço em memória. Será visto também o processo de criar variáveis dinamicamente durante a execução de um programa, através do mecanismo de alocação de memória. A relação destes conceitos com vetores, strings, matrizes e registros também é vista. 6. Compreender o conceito de Tipos abstratos de Dados e Estruturas de dados fundamentais. 7. Estudar a implementação de estruturas de dados na memória principal, com o uso de alocação estática e dinâmica de memória. 8. Estudar em profundidade listas lineares, suas especializações e aplicações: listas ordenadas, listas encadeadas, ﬁlas e pilhas. 9. Implementar as estruturas de dados vistas anteriormente (listas, pilhas e ﬁlas) em linguagem C. 10. Compreender os métodos básicos de testes de condicionais e repetições, bem como de ferramentas de depuração."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado because the PDF predates the 2023 reform and no continuity act is established here.",
+      "component_code": "CI1002",
+      "component_instance_id": "curriculum-2023-ci1002",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1002-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1002-Programa%C3%A7%C3%A3o-2.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1002/ficha-1.pdf",
+        "sha256": "166c5dcb4b46c9a999308d4907559c3bd4697f79315800de887b660abe80412a",
+        "title": "Programação 2"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1002-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Uso de técnicas avançadas para desenvolvimento de software. Práticas de projetos de desenvolvimento de programas de média e alta complexidade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1002",
+      "component_instance_id": "curriculum-2023-ci1002",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1002-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1002-Programa%C3%A7%C3%A3o-2.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1002/ficha-2.pdf",
+        "sha256": "38fa483c190948cb22650b4be7b2fad869c1d4873246ef20ec64b63b167762b6",
+        "title": "Programação 2"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1002-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Uso de técnicas avançadas para desenvolvimento de software. Práticas de projetos de desenvolvimento de programas de média e alta complexidade."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Conceitos avançados da linguagem C. 2. Manipulação de arquivos. 3. Aplicação avançada de ponteiros. 4. Modularização de programas e Makeﬁle. 5. Construção de Bibliotecas. 6. Métodos para teste de módulos/funções. Teste da caixa preta 7. Desenvolvimento de projetos de média e alta complexidade"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Capacitar o estudante a desenvolver programas de média e alta complexidade usando técnicas de algoritmos e estruturas de dados já vistas em disciplinas anteriores, sempre considerando a noção de eﬁciência dos códigos desenvolvidos.; OBJETIVO ESPECÍFICO: 1. Conceitos avançados da linguagem Conversão de tipos (casting), pré-processador C, argumentos da função main(), unions, bitﬁelds. 2. Compreender a manipulação de arquivos em disco por um programa: entrada e saída padrão, leitura e gravação de dados em arquivos. 3. Estudar a aplicação avançada de ponteiros: matrizes dinâmicas, ponteiros de funções, uso de alocação durante leitura de arquivos. 4. Compreender o conceito de modularização de programas de média e alta complexidade, e sua relação com a ferramenta make. 5. Compreender o conceito e mecanismo de construção de bibliotecas em ambiente Linux. 6. Complementar os métodos de depuração e teste de programas iniciado em semestre anteriores, incluindo teste de módulos/funções e teste da caixa preta. 7. Utilizar as técnicas e conceitos aprendidos no desenvolvimento de projetos de média e alta complexidade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained the inventory transcription's `proﬁssional` ligature and `Politicas`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1003",
+      "component_instance_id": "curriculum-2023-ci1003",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1003-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/06/CI1003-Introdu%C3%A7%C3%A3o-%C3%A0-Ci%C3%AAncia-da-Computa%C3%A7%C3%A3o.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1003/ficha-1.pdf",
+        "sha256": "50a65e1bfe4986f1e5ba39d9a36e1bec0ce8caf6c860df37ff5cfa99e748e91d",
+        "title": "Introdução à Ciência da Computação"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1003-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Introdução à Ciência da Computação; História da Computação; Impactos da Computação na Ciência, Tecnologia e Sociedade; Áreas da Ciência da Computação; O Curso de Ciência da Computação no DInf; Pensamento Computacional; Pensamento Sistêmico e Socialmente Consciente; Computação, Ética e Sociedade; Possibilidades e Demandas do Mercado de Trabalho; Características esperadas de um proﬁssional de Ciência da Computação. Ética na computação. Computação e a sociedade. Politicas nacionais de computação."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails. The PDF visibly has `Disciplina::` and `CI 1005`; the normalized code/title follows the existing inventory/manifest. Applicability remains indeterminado.",
+      "component_code": "CI1005",
+      "component_instance_id": "curriculum-2023-ci1005",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1005-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/06/CI1005-Qualidade-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1005/ficha-1.pdf",
+        "sha256": "935422a55c7fe7098ea65530797d554f49b2ebe7fff09518da78fe8858a55aae",
+        "title": "Qualidade de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1005-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Qualidade de software. Métricas de qualidade. Gerenciamento de Conﬁguração. Veriﬁcação e Validação. Teste de software. Qualidade de processo. Ética na computação. Computação e a sociedade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1005",
+      "component_instance_id": "curriculum-2023-ci1005",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1005-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1005-Qualidade-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1005/ficha-2.pdf",
+        "sha256": "b16a1f8b6c5e2aca1b6678734c212525ae0ba35826769a880605b36d3d8246e8",
+        "title": "Qualidade de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1005-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Qualidade de software. Métricas de qualidade. Gerenciamento de Conﬁguração. Veriﬁcação e Validação. Teste de software. Qualidade de processo."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Introdução à qualidade de Software 2. Qualidade de produto de Software: (a) Modelos de qualidade de produto de software; (b) Gestão da qualidade; (c) Medição da qualidade; (d) Requisitos de qualidade 3. Qualidade de processo de Software: (a) Modelos de qualidade de processo de software; (b) Melhoria do processo de qualidade de software 4. Veriﬁcação e validação 5. Teste de Software: (a) Fundamentos; (b) teste estrutural; (c) teste funcional; 6. Desenvolvimento orientado a testes 7. Gerenciamento de conﬁguração de software"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: O aluno deverá adquirir informações essenciais, obter uma visão geral de diferentes atividades que apoiam a qualidade de software e conseguir aplicá-las em diferentes tipos de sistemas, bem como nas diferentes abordagens existentes.; OBJETIVO ESPECÍFICO: O aluno deverá conhecer e aplicar as principais técnicas para realizar as diferentes atividades envolvidas."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; retained the inventory transcription's `criptograﬁa` and `Politicas`; applicability remains indeterminado.",
+      "component_code": "CI1007",
+      "component_instance_id": "curriculum-2023-ci1007",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1007-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1007-Seguran%C3%A7a-Computacional.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1007/ficha-1.pdf",
+        "sha256": "8aa057ad98da9cee72cd52308cf00b2dabc2e05c2c2657a255c3e174e105c4c3",
+        "title": "Segurança Computacional"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1007-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Conceitos básicos. Introdução à criptograﬁa. Autenticação e controle de acesso. Segurança de sistemas e aplicações. Segurança em redes e na Internet. Auditoria. Gestão da segurança. Ética na computação. Computação e a sociedade. Politicas nacionais de segurança da informação."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1007",
+      "component_instance_id": "curriculum-2023-ci1007",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1007-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1007-Seguran%C3%A7a-Computacional.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1007/ficha-2.pdf",
+        "sha256": "ec0352d9e4ed3a4f066cfa3b6a7b95e1216be346869a61f66e8010905a72afa4",
+        "title": "Segurança Computacional"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1007-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Conceitos básicos. Introdução à criptograﬁa. Autenticação e controle de acesso. Segurança de sistemas e aplicações. Segurança em redes e na Internet. Auditoria. Gestão da segurança. Ética na computação. Computação e a sociedade. Politicas nacionais de segurança da informação."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Conceitos básicos: princípios e propriedades fundamentais para segurança computacional; ameaças, vulnerabilidades e ataques; base de computação conﬁável; 2. Introdução à criptograﬁa: cifragem simétrica e assimétrica; hashes; assinaturas digitais; certiﬁcados; infraestruturas de chaves públicas; 3. Autenticação: local; em rede; distribuída; 4. Controle de acesso: políticas; modelos; mecanismos; 5. Segurança de sistemas e aplicações: ataques contra sistemas e mecanismos de defesa; segurança de sistemas; segurança em aplicações Web; desenvolvimento seguro; 6. Segurança em redes: ﬁltragem de pacotes; ﬁrewalls; DMZ; ataques contra redes; protocolos de segurança; 7. Auditoria: logs; testes de invasão; detecção de intrusão; antivírus; análise de malware; 8. Gestão da segurança: normas e padrões; gerenciamento de vulnerabilidades; ética em segurança."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: O aluno deve ser capaz de pensar criticamente sobre os problemas de segurança a que um sistema ou rede estão suscetíveis e soluções possíveis para mitigá-los. Deve também ser capaz de buscar formas de identiﬁcar ameaças e vulnerabilidades, planejar a implementação de soluções para defesa e gerenciar o processo de manutenção de segurança.; OBJETIVO ESPECÍFICO: 1. Entender o que é segurança computacional e os princípios fundamentais que norteiam a área; 2. Identiﬁcar ameaças, vulnerabilidades e ataques contra sistemas, redes e informação; 3. Aprender conceitos introdutórios sobre criptograﬁa, mecanismos que a implementam e suas aplicações em segurança; 4. Compreender os mecanismos utilizados para prover autenticação e controle de acesso em sistemas e redes; 5. Estudar ataques clássicos e modernos de forma a entender como são feitos, que vulnerabilidades exploram e por que funcionam; 6. Conhecer o funcionamento dos mecanismos de defesa utilizados em sistemas e redes; 7. Instalar e conﬁgurar mecanismos de defesa tradicionais para analisar sua eﬁcácia, eﬁciência e limitações; 8. Implementar ferramentas para varredura de vulnerabilidades, automatização de ataques e/ou detecção de ameaças; 9. Utilizar ferramentas (defensivas e ofensivas) para gerenciamento de vulnerabilidades em um sistema/rede: conﬁguração, instalação, execução, atualização, monitoramento; 10. Conhecer as normas e padrões que regem a segurança da informação e estudar conceitos éticos sobre pesquisa, desenvolvimento e atuação na área."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado because the PDF predates the 2023 reform and no continuity act is established here.",
+      "component_code": "CI1055",
+      "component_instance_id": "curriculum-2023-ci1055",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1055-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1055-Algoritmos-e-Estruturas-de-Dados-1.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1055/ficha-1.pdf",
+        "sha256": "2b08392604d4cfb41fbebef1d32ceb41372a8b7491fded4e593356735fcb5cca",
+        "title": "Algoritmos e Estruturas de Dados 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1055-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Programação de computadores em linguagem de alto nível: do modelo Von Neumann à programação estruturada com estruturas de dados elementares. Tipos abstratos de dados simples. Noções básicas de custo e de teste de programas."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1055",
+      "component_instance_id": "curriculum-2023-ci1055",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1055-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1055-Algoritmos-e-Estruturas-de-Dados-1.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1055/ficha-2.pdf",
+        "sha256": "42f73a148ef1a696f4e0b6fbb3c30c7f8138b0f6a2cad7adaa5ca5e60cd1274b",
+        "title": "Algoritmos e Estruturas de Dados 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1055-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Programação de computadores em linguagem de alto nível: do modelo Von Neumann à programação estruturada com estruturas de dados elementares. Tipos abstratos de dados simples. Noções básicas de custo e de teste de programas."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Parte 1: 10 aulas Introdução e conceitos básicos; O modelo Von Neumann e a abstração de um computador; Algoritmos básicos que usam comandos: de atribuição, entrada e saída, desvios condicionais e repetição; expressões aritméticas e booleanas; Bons princípios de redação de código (identação, nomes de variáveis, uso de constantes, clareza, simplicidade); Parte 2: 10 aulas A estrutura de dados ARRAY (unidimensional); Algoritmos que operam em ARRAY (unidimensional): inserção remoção e busca, em vetores não ordenados e ordenados, noção de complexidade; um método de ordenação (inserção); algoritmos soﬁsticados em ARRAY (unidimensional): comparações diversas envolvendo mais de um vetor; algoritmos de diﬁculdade média a moderada, explorando a eﬁciência dos algoritmos e noções de complexidade; Funções e procedimentos, passagem de parâmetros (por valor e por referência) e uso de variáveis locais e globais; Parte 3: 10 aulas A generalização da estrutura de dados ARRAY (bidimensional); A estrutura de REGISTRO (record, em Pascal), evitando-se a estrutura ARRAY of REGISTRO; Tipos abstratos de dados usando apenas REGISTRO contendo um ARRAY e um inteiro: conjunto e pilha; problemas que podem ser resolvidos usando-se conjuntos e pilhas; diferentes implementações de conjuntos e pilhas, explorando a eﬁciência dos algoritmos e noções de complexidade; Desenvolvimento por reﬁnamentos sucessivos: Princípios para desenvolvimento de programas que podem se tornar grandes (em número de linhas); Implementação de um ou dois problemas que usam os conceitos estudados, em especial ARRAY (bidimensional) e Tipos abstratos de dados. Estes problemas geralmente são grandes (em número de linhas) e complexos o suﬁciente para o conhecimento dos discentes e são trabalhados em mais de uma aula (cada problema). Devem ser feitos por reﬁnamentos sucessivos."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Fornecer ao discente habilidades práticas e teóricas compatíveis com uma primeira disciplina de programação, preparando-o para desenvolver tanto práticas avançadas de programação em disciplinas subsequentes bem como compreender os conceitos fundamentais de programação de computadores e seus fundamentos básicos.; OBJETIVO ESPECÍFICO: O discente deve aprender: Parte 1: os comandos elementares das linguagens de programação de alto nível; Parte 2: as principais estruturas de dados básicas e a programação modular Parte 3: compreendendo intuitivamente ao ﬁnal da disciplina a complexidade dos algoritmos estudados, pela programação modular em linguagem de alto nível usando técnica de programação por reﬁnamentos sucessivos e o conceito de tipos abstratos de dados."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado because the PDF predates the 2023 reform and no continuity act is established here.",
+      "component_code": "CI1056",
+      "component_instance_id": "curriculum-2023-ci1056",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1056-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1056-Algoritmos-e-Estrutura-de-Dados-2.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1056/ficha-1.pdf",
+        "sha256": "20bc2234d68d3c913eb61f9a3bb09d4f90ee22beae707b94ff04d9c20f943899",
+        "title": "Algoritmos e Estrutura de Dados 2"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1056-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Recursão, Busca, Ordenação, Heaps, Contagem de recursos computacionais."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Bullets joined with semicolons; whitespace and ligature normalization only.",
+      "component_code": "CI1056",
+      "component_instance_id": "curriculum-2023-ci1056",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1056-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1056-Algoritmos-e-Estrutura-de-Dados-2.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1056/ficha-2.pdf",
+        "sha256": "2ab19eb5b0ad0a97f2969fee48d20d1e3b7ca4d96c4ec84d54e0984349f6fb74",
+        "title": "Algoritmos e Estruturas de Dados 2"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1056-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "- Recursão - Busca - Ordenação - Heaps - Contagem de recursos computacionais"
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1 - Introdução à Recursão 1.1 - Exemplos numéricos dentre fatorial, potenciação, ﬁbonacci, algoritmo de Euclides, raiz quadrada pelo método de Newton, ... 1.2 - Deﬁnição de problemas computacionais 1.3 - Contagem de passos especíﬁcos (por exemplo, comparações, somas, trocas, ...) e relações de recorrência (sem notação assintótica) 2 - Busca 2.1 - Mínimo de vetor 2.2 - Busca em vetor 2.3 - Busca em vetor ordenado 2.4 - Busca binária 2.5 - k-ésimo menor do vetor 3 - Ordenação 3.1 - InsertionSort 3.2 - SelectionSort 3.3 - Intercalação e MergeSort 3.4 - Particionamento e QuickSort 5 - Heaps 5.1 - Heap 5.2 - HeapSort 5.3 - Fila de Prioridade 6 - Removendo Recursão 6.1 - Removendo recursão de cauda 6.2 - Removendo recursão usando pilha"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Introduzir a técnica de algoritmos recursivos, aplicada a problemas de busca, ordenação de vetores, problemas numéricos simples e à estrutura de dados heap. Avaliar a quantidade de recursos computacionais necessários para os algoritmos apresentados, usando relações de recorrência simples.; OBJETIVO ESPECÍFICO: - Apresentar a técnica de recursividade. - Desenvolver algoritmos recursivos para problemas numéricos básicos. - Desenvolver algoritmos recursivos de busca. - Ser capaz de implementar recursivamente algoritmos de ordenação quadráticos e O(n log n). - Descrever a propriedade heap e o uso de heaps na implementação de ﬁlas de prioridade. - Avaliar a eﬁciência em relação a um recurso usado pelo algoritmo (comparações, trocas, somas, ...). - Explicar o que se entende pelo melhor e pior caso do comportamento de um algoritmo. - Resolver relações de recorrência simples (i.e., sem uso de notação assintóica) que contam recursos especíﬁcos - Executar estudos empíricos para validar hipóteses sobre os recursos consumidos decorrentes da análise matemática."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source title uses the existing inventory's capitalization `Algoritmos e Estruturas de Dados 3`; ementa retains inventory spelling `seqüêncial`; applicability remains indeterminado.",
+      "component_code": "CI1057",
+      "component_instance_id": "curriculum-2023-ci1057",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1057-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1057-Algoritmos-e-estruturas-de-dados-3.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1057/ficha-1.pdf",
+        "sha256": "c320e876f8476b9e3886e333b0504fdfea46f2bff3c5c00044d7232a75736dd5",
+        "title": "Algoritmos e Estruturas de Dados 3"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1057-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Acesso seqüêncial, indexado. Tipo abstrato de dados dicionário. Ordenação externa. Algoritmos gulosos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source spelling seqüencial retained.",
+      "component_code": "CI1057",
+      "component_instance_id": "curriculum-2023-ci1057",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1057-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1057-Algoritmos-e-estruturas-de-dados-3.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1057/ficha-2.pdf",
+        "sha256": "b88ea7b59c1f1f2fa07ab99bf88d135a0d8f4cdb7493091dea2c7e40b3ea478b",
+        "title": "Algoritmos e Estruturas de Dados 3"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1057-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Acesso seqüêncial, indexado. Tipo abstrato de dados dicionário. Ordenação externa. Algoritmos gulosos."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Acesso seqüêncial, indexado. Hash. 2. Revisão de listas e pilhas. 3. Introdução a tipos abstratos de dados e o tipo dicionário. 4. Árvores: deﬁnição e conceitos; aplicações; algoritmos básicos. Árvores binárias. Árvores balanceadas: AVL, B, B+, ISAM. Árvores digitais de busca: Trie. 5. Compressão de dados: Huﬀman"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Apresentar e analisar algoritmos e estruturas de dados para representação do Tipo Abstrato de dados Dicionário. Apresentar algoritmos de compressão de dados e ordenação e busca em armazenamento externo.; OBJETIVO ESPECÍFICO: 1. Aprender algoritmos e estruturas de dados para TAD dicionário. 2. Aprender diferentes tipos de árvores e Hash. 3. Implementar os algoritmos em linguagem de programação estruturada."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado because the PDF predates the 2023 reform and no continuity act is established here.",
+      "component_code": "CI1062",
+      "component_instance_id": "curriculum-2023-ci1062",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1062-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1062-Paradigmas-de-Programa%C3%A7%C3%A3o.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1062/ficha-1.pdf",
+        "sha256": "b2cd36af20053f8350e540438b4c4b2a3858a0aa3d0433b12fe0743a463201da",
+        "title": "Paradigmas de Programação"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1062-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Aprender diferentes paradigmas de programação estruturados e não estruturados."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only; source pagination/footer excluded.",
+      "component_code": "CI1062",
+      "component_instance_id": "curriculum-2023-ci1062",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1062-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1062-Paradigmas-de-Programa%C3%A7%C3%A3o.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1062/ficha-2.pdf",
+        "sha256": "fe80ce8b01026d0ebbc01dbeeb16a0f60b08adcb71f09d2e9e04027718c88a1b",
+        "title": "Paradigmas de Programação"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1062-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Aprender diferentes paradigmas de programação estruturados e não estruturados."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Programação orientada à objetos Conceitos básicos (abstração e TAD OO) Estrutura da linguagem (classes, atributos, objetos, troca de mensagens) mensagens Polimorﬁsmo, herança e interfaces 2. Técnicas avançadas de programação orientada a objetos Encapsulamento, genéricos Reﬂexividade Design patterns 3. Programação funcionalista Introdução Expressões (transparência referencial, ausência de estado compartilhado) Funções como entidade de primeira ordem Estrutura de programa Listas e operações em listas Tuplas, funções Casamento de padrões Execução Avaliação de funções Chamadas recursivas. Funções como parâmetros"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Aprender os paradigmas de programação orientados a objeto e funcionalista.; OBJETIVO ESPECÍFICO: 1. Aprender programação orientada a objetos avançada, partindo dos conceitos básicos, até técnicas avançadas como utilização de padrões de projeto OO. 2. Apresentar técnicas avançadas utilizando padrões de projeto. 3. Aprender os conceitos básicos de programação funcionalista e ser capaz de construir programas simples usando este paradigma."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained inventory transcription wording including `Circuitos combinacionais Circuitos sequenciais`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1068",
+      "component_instance_id": "curriculum-2023-ci1068",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1068-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1068-Circuitos-Digitais.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1068/ficha-1.pdf",
+        "sha256": "084b876afffa82653a57836954458667f8ec07831db55f5d752749c4392ab8f6",
+        "title": "Circuitos Digitais"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1068-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Sistemas de numeração. Aritmética binária. Minimização e decomposição de funções booleanas. Circuitos combinacionais Circuitos sequenciais. Máquinas de estados. Gasto energético e meio ambiente."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1068",
+      "component_instance_id": "curriculum-2023-ci1068",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1068-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1068-Circuitos-Digitais.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1068/ficha-2.pdf",
+        "sha256": "6e058bd05aa110655c29802e29dc4251c719a070b6a05dcca10d35317b4dbb5c",
+        "title": "Circuitos Digitais"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1068-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Sistemas de numeração. Aritmética binária. Minimização e decomposição de funções booleanas. Circuitos combinacionais Circuitos sequenciais. Máquinas de estados."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Sistemas de numeração, conversão de bases. 2. Aritmética binária: Soma, Subtração, Multiplicação. 3. Equações booleanas, simpliﬁcação de álgebra booleana. 4. Mapas de Karnaugh. 5. Portas lógicas básicas. 6. Blocos combinacionais: multiplexadores, de-multiplexadores, decodiﬁcadores e seletores. 7. Latches e ﬂip-ﬂops. 8. Contadores síncronos e assíncronos. 9. Máquinas de estado ﬁnito: projeto, codiﬁcação de estados, fatoração."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Capacitar o estudante a compreender o sistema de numeração em diversas bases, e as estruturas básicas da eletrônica digital e dos circuitos lógicos digitais. Introduzir o aluno ao projeto e ao desenvolvimento de máquinas de estados ﬁnitos.; OBJETIVO ESPECÍFICO: 1. Capacitar o aluno a trabalhar com os diversos sistemas de numeração comumente adotado na computação. 2. Apresentar as diferenças e principais técnicas de aritmética em base dois. 3. Introduzir o conceito de equações e álgebra booleana. 4. Sistematizar as principais formas de redução booleana através dos mapas de Karnaugh. 5. Substituir a abstração de equações booleanas para componentes físicos. 6. Criar pequenos blocos combinacionais e combina-los para projetos maiores. 7. Introdução a elementos de memória simples de curto e longo tempo de gravação. 8. Apresentar os elementos de um circuito contador, e trabalhar os elementos síncronos e assíncronos em circuitos sequenciais. 9. Introdução a máquinas de estado ﬁnito como formalização de circuitos lógica sequencial."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained inventory transcription's `Não- Funcionais` and `especiﬁcação`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1162",
+      "component_instance_id": "curriculum-2023-ci1162",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1162-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1162-Engenharia-de-Requisitos.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1162/ficha-1.pdf",
+        "sha256": "b2ede35e45a0fe2a2a9cac34947685b01a46d52eada56af16f2051517cccac07",
+        "title": "Engenharia de Requisitos"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1162-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Introdução à Engenharia de Software; Sistemas de Software e Sistemas Sociotécnicos; Requisitos Funcionais e Não- Funcionais; Ética na Engenharia de Requisitos; Modelos de processos de software; Engenharia de requisitos; Análise de domínio: do problema e da solução; Técnicas para a elicitação, análise, especiﬁcação e validação de requisitos; Documento de requisitos; Introdução à UML: Diagrama de Casos de Uso, Modelo Conceitual. Computação e a sociedade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; PDF code has `CI 1163`; normalized code follows the existing inventory/manifest. Retained inventory transcription's `codiﬁcação`; applicability remains indeterminado.",
+      "component_code": "CI1163",
+      "component_instance_id": "curriculum-2023-ci1163",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1163-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1163-Design-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1163/ficha-1.pdf",
+        "sha256": "526de17265f23645e0c5f7acb2bb797181746d1a7fb322261cc722e8aef3d482",
+        "title": "Design de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1163-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Design de software. Interação entre análise de requisitos e design. Modelos de design de software. Linguagem de modelagem. Design da arquitetura de software. Design detalhado. Construção de modelos de design de software. Padrões de design. Revisões e inspeções. Correspondência entre design e codiﬁcação. Computação e a sociedade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1163",
+      "component_instance_id": "curriculum-2023-ci1163",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1163-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1163-Design-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1163/ficha-2.pdf",
+        "sha256": "a6ab7995bada41bcdd9682b5fe6911efde431ec27947cbcdd130118a8fe17086",
+        "title": "Design de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1163-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Design de software. Interação entre análise de requisitos e design. Modelos de design de software. Linguagem de modelagem. Design da arquitetura de software. Design detalhado. Construção de modelos de design de software. Padrões de design. Revisões e inspeções. Correspondência entre design e codiﬁcação."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Fundamentos de Design de Software 2. Arquitetura de Sofware (a) Estilos Arquiteturais; (b) Padrões Arquiteturais; 3. Modelos de Design de Software Geral e Detalhado (Modelos UML) (a) Modelos Comportamentais; (b) Modelos Estruturais; 4. Do Design para a codiﬁcação 5. Padrões de Design de Software 6. Métricas de Design de Software"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Ser capaz de projetar e modelar (desenhar) soluções de software passíveis de codiﬁcação, a partir de problemas modelados em etapa anterior.; OBJETIVO ESPECÍFICO: 1. O aluno deverá conhecer as principais técnicas de Design de Software; 2. O aluno deverá ser capaz de construir os modelos de Design tanto geral quanto detalhado; 3. O aluno deverá ser capaz de aplicar padrões de Design de software."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained inventory transcription's `classiﬁcadores`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1171",
+      "component_instance_id": "curriculum-2023-ci1171",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1171-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1171-Aprendizado-de-M%C3%A1quina.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1171/ficha-1.pdf",
+        "sha256": "11aebfd7d749eeeeb29f9cecd5fb220b759fd874c32f74eeb08ed46f0706bd45",
+        "title": "Aprendizado de Máquina"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1171-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Introdução ao aprendizado de máquina. Aprendizagem supervisionada. Avaliação de classiﬁcadores. Aprendizagem não supervisionada. Regressão. Algoritmos Genéticos e PSO."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Terminal punctuation normalized; source acronym PSO retained.",
+      "component_code": "CI1171",
+      "component_instance_id": "curriculum-2023-ci1171",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1171-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1171-Aprendizado-de-M%C3%A1quina.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1171/ficha-2.pdf",
+        "sha256": "1a498d6c626f7b6c5c79042f154c2165d86fae26749bbc64c92dbbaf739018b6",
+        "title": "Aprendizado de Máquina"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1171-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Introdução ao aprendizado de máquina. Aprendizagem supervisionada. Avaliação de classiﬁcadores. Aprendizagem não supervisionada. Regressão. Algoritmos Genéticos e PSO"
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Introdução: Representação de problema. Aprendizagem supervisionada: Aprendizagem Bayesiana, Árvores de decisão, Classiﬁcadores lineares, redes neurais, aprendizagem profunda, combinação e seleção de classiﬁcadores, ensembles. Avaliação de Classiﬁcadores: Curvas ROC e métricas de avaliação. Aprendizagem Não Supervisionada: kMeans, DBSCAN e índices de qualidade de agrupamento. Regressão: Linear e não linear. Algoritmos genéticos e PSO: Computação evolutiva para otimização de algoritmos de aprendizagem de máquina."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Habilitar os alunos em conhecimentos fundamentais sobre aprendizagem de máquina.; OBJETIVO ESPECÍFICO: Resolver problemas práticos de aprendizagem de máquina supervisionada e não supervisionada."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; PDF code has `CI 1209` and title extraction contains `Artiﬁcial`; normalized code/title follow the existing inventory/manifest. Applicability remains indeterminado.",
+      "component_code": "CI1209",
+      "component_instance_id": "curriculum-2023-ci1209",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1209-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1209-Intelig%C3%AAncia-Artificial.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1209/ficha-1.pdf",
+        "sha256": "3934fbf683f4fca4a63bc2522174122844f72cc8e4533eb350d6313810bf531f",
+        "title": "Inteligência Artificial"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1209-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Conceitos fundamentais da Inteligência Artiﬁcial simbólica e aplicações. Ética na computação."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. No signature line found; source absence retained explicitly.",
+      "component_code": "CI1209",
+      "component_instance_id": "curriculum-2023-ci1209",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1209-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1209-Intelig%C3%AAncia-Artificial.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1209/ficha-2.pdf",
+        "sha256": "33f6f9147a0503404a3198f9bea4fe8315a645d9a0b523cc3c5a9e64b3f85edd",
+        "title": "Inteligência Artificial"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1209-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Conceitos fundamentais da Inteligência Artiﬁcial simbólica e aplicações. Ética na computação."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1- Visão geral: Introdução à ideia de imitar o comportamento humano utilizando uma máquinacomo meio. O conceito de \"inteligência\" e suas características básicas. O Teste de Turing. 2- Revisão de Lógica Proposicional. Breve apresentação de Lógica de Predicados de PrimeiraOrdem. 3- Introdução ao conceito de Programação em Lógica. A linguagem Prolog e suas variações.Princípios de funcionamento da máquina Prolog. Construção de predicados para problemasclássicos. 4- Conceitos de solução automática de problemas. Divisibilidade de um problema. Buscaexaustiva (não apoiada por parâmetros heurísticos). Explosão combinatória do espaço de busca.Aplicação de funções heurísticas. Busca heurística. 5- Algoritmos tradicionais de Busca heurística em Grafos OU. Gerar e testar. Subida de encosta.Têmpera Simulada. A*. IDA*. SMA*. Análise Intermediária. 6- Algoritmos tradicionais de Busca heurística em Grafos E-OU. Fundamentos da representaçãopor Grafos E-OU em contraponto à de Grafos OU. Algoritmo SSS*. Algoritmo Poda Alfa-Beta. 7- Aplicação de conceitos de Busca heurística para planejamento automático. Sequências de açõescomo solução de problemas. O mundo de blocos virtuais. 8- Conceitos clássicos de Representação de Conhecimento humano. Representação interna eexterna do conhecimento. A pré-suposição da existência de um sistema de símbolos. Abordagemdos diferentes tipos de representação e suas implementações. Representação abstrata e o mundofísico. 9- Técnicas tradicionais de Representação de Conhecimento. Representações orientadas porassertivas lógicas: Regras de Produção, Regras de Horn. Representações orientadas a objeto:Frames, Redes Semânticas."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Dar uma visão introdutória e aprofundada (formativa) dos conceitos da Inteligência Artiﬁcialclássica (simbólica) que podem ser aplicados na representação e na automação da solução deproblemas variados.; OBJETIVO ESPECÍFICO:"
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained inventory transcription's `ﬂutuante`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1212",
+      "component_instance_id": "curriculum-2023-ci1212",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1212-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1212-Arquitetura-de-Computadores.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1212/ficha-1.pdf",
+        "sha256": "cca92429315225a76dfb47799ffe906036bbe191118491dfa8105b1d97fc59d1",
+        "title": "Arquitetura de Computadores"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1212-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Aritmética de inteiros e ponto ﬂutuante, avaliação de desempenho, processador pipeline, sistemas de memória, memória cache, memória virtual, arquiteturas de alto desempenho. Gasto energético e meio ambiente."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1212",
+      "component_instance_id": "curriculum-2023-ci1212",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1212-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1212-Arquitetura-de-Computadores.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1212/ficha-2.pdf",
+        "sha256": "1dafc6d8ddd012ef17e9e6e6dba63e8a881740d7d8946f8809b4e8f1d5eb4098",
+        "title": "Arquitetura de Computadores"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1212-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Aritmética de inteiros e ponto ﬂutuante, avaliação de desempenho, processador pipeline, sistemas de memória, memória cache, memória virtual, arquiteturas de alto desempenho. Gasto energético e meio ambiente."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Introdução Aritmética de inteiros e ponto ﬂutuante MIPs monociclo: organização MIPs monociclo: controle MIPs monociclo: excessões MIPs monociclo: desempenho Pipeline MIPS pipeline: caminho de dados, conﬂitos MIPS pipeline: controle, excessões MIPS pipeline: desempenho Pipeline superescalar Hierarquia de memória, tipos de memória (DDR, DDR2, DDR3, DDR4, SSD, entre outros) Memória cache, formas de organização, desempenho Memória virtual, formas de organização, desempenho Periféricos, barramentos, entrada/saída"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Capacitar a(o) aluna(o) a analisar, conceber, projetar e implementar a nível lógico Sistemas Digitais de média complexidade, envolvendo conceitos avançados (Processadores com pipeline, memórias cache e virtual) que permitem obtenção de maior desempenho de sistemas computacionais, dentro de soluções de compromisso entre características e recursos utilizados.; OBJETIVO ESPECÍFICO: Dominar conceitos de aritmética de inteiros e ponto ﬂutuante com sua implementação em hardware, avaliação de desempenho de sistemas, métricas, benchmarks, projeto de processador pipeline, incluindo gestão de conﬂitos na execução de partes de instruções em paralelo e unidade de controle, projeto e avaliação de de sistemas de memória cache e virtual. Entender reﬂexo das decisões de implementação da arquitetura no software e vice-e-versa. Implementar processador pipeline em VHDL com controle de conﬂitos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1215",
+      "component_instance_id": "curriculum-2023-ci1215",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1215-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1215-Sistemas-Operacionais.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1215/ficha-1.pdf",
+        "sha256": "1de3538f19829396f8c7a99cd8af298d33afbc0b7ce2148dfafda13298f91e93",
+        "title": "Sistemas Operacionais"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1215-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Estrutura básica de um sistema operacional e sua interface com as aplicações e hardware. Mecanismos de comunicação e sincronização entre processos. Principais estruturas de dados e algoritmos de um sistema operacional para gerenciamento de processos, memória, sistemas de arquivos e entrada e saída."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; PDF code has `CI 1218`; normalized code follows the existing inventory/manifest. Applicability remains indeterminado.",
+      "component_code": "CI1218",
+      "component_instance_id": "curriculum-2023-ci1218",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1218-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1218-Bancos-de-Dados.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1218/ficha-1.pdf",
+        "sha256": "85154d13ab06357b3cb1071dc6d4c45730151c0f81a0afb5b7eebc90197e7358",
+        "title": "Bancos de Dados"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1218-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Conceitos básicos de bancos de dados e sistema gerenciadores de bancos de dados (SGBD); Modelos de dados e linguagens de consultas; Processamento de consultas e otimização; Projeto de bancos de dados; Conceitos de transações; Controle de concorrência e recuperação. Gasto energético e meio ambiente."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1218",
+      "component_instance_id": "curriculum-2023-ci1218",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1218-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1218-Bancos-de-Dados.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1218/ficha-2.pdf",
+        "sha256": "6cd9c7a2c75a3653e5dd7346fc3d2822d98a52692602d30802ecea931bf85185",
+        "title": "Bancos de Dados"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1218-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Conceitos básicos de bancos de dados e sistema gerenciadores de bancos de dados (SGBD); Modelos de dados e linguagens de consultas; Processamento de consultas e otimização; Projeto de bancos de dados; Conceitos de transações; Controle de concorrência e recuperação. Gasto energético e meio ambiente."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Conceitos de Bancos de Dados e Sistemas Gerenciadores de Bancos de Dados (SGBD); 2. Proﬁssionais de Bancos de Dados e vantagens de utilização de SGBDs para o desenvolvimento de aplicações; 3. Arquitetura de um SGBD; 4. Modelos de dados; 5. Linguagens de manipulação de dados; 6. Projeto de bancos de dados; 7. Normalização; 8. Processamento de consultas e otimização; 9. Conceito de transações; 10. Protocolos de controle de concorrência; 11. Mecanismos de recuperação."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Fornecer ao aluno base teórica e prática para o desenvolvimento de projetos de Banco de dados, bem como base teórica e prática para a manipulação e administração de sistemas gerenciadores de bancos de dados.; OBJETIVO ESPECÍFICO: 1. Adquirir conhecimento de noções básicas de bancos de dados e sistemas gerenciadores de bancos de dados; 2. Conhecer as vantagens de utilização de um sistema gerenciador de bancos de dados para o desen- volvimento de aplicações; 3. Conhecer técnicas e conceitos para projetar e modelar bancos de dados para o armazenamento de dados de uma aplicação; 4. Obter familiaridade com linguagens de manipulação de dados teóricas e práticas; 5. Adquirir conhecimento sobre técnicas utilizadas para o controle de concorrência e recuperação em sistemas gerenciadores de bancos de dados."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; retained inventory transcription's `Politicas`; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1221",
+      "component_instance_id": "curriculum-2023-ci1221",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1221-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1221-Engenharia-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1221/ficha-1.pdf",
+        "sha256": "797917a917bdf10065b00957885b806408847df727053030fae0e4277fc7d86f",
+        "title": "Engenharia de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1221-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Software. Engenharia de software. Processos e modelos de processos de software. Gestão de projeto de software. Ética. Biodiversidade. Técnicas de Reuso. Manutenção e evolução. Computação e a sociedade. Politicas nacionais de computação."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1221",
+      "component_instance_id": "curriculum-2023-ci1221",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1221-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1221-Engenharia-de-Software.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1221/ficha-2.pdf",
+        "sha256": "4868ad64df82d88d38b13334e622edf2a1de36cbe51fcf8bb4abfb2725905ac7",
+        "title": "Engenharia de Software"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1221-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Software. Engenharia de software. Processos e modelos de processos de software. Gestão de projeto de software. Ética. Biodiversidade. Técnicas de Reuso. Manutenção e evolução"
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1) Introdução a software e engenharia de software 2) Software e produto de software 3) Processos de software 4) Modelos de processos de software. 5) Gestão de projeto de software. 6) Evolução de software e refatoração, 7) Manutenção e engenharia reversa, 8) Técnicas de Reuso. 9) Linha de produto 10) Software orientado a componentes"
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Desenvolver a capacidade de resolução de problemas de desenvolvimento, reuso e gerenciamento de projetos de software, considerados no contexto de equipes de desenvolvimento de sistemas baseados em software.; OBJETIVO ESPECÍFICO: Ao ﬁnal da disciplina, no contexto de equipes de desenvolvimento de sistemas baseados em software, o estudante deve estar habilitado a : 1) apoiar a deﬁnição de um modelo de processo de desenvolvimento; 2) estimar, planejar e executar atividades de gestão de projetos; e 3) realizar atividades de reuso e estimar, planejar e executar atividades de gestão de reuso."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; source PDF prevails; applicability remains indeterminado.",
+      "component_code": "CI1316",
+      "component_instance_id": "curriculum-2023-ci1316",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1316-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1316-Programa%C3%A7%C3%A3o-Paralela.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1316/ficha-1.pdf",
+        "sha256": "cabf4d62a7024ac5f740a781044b0d1a3e320754ba771eea54ea5d48ffe8ef69",
+        "title": "Programação Paralela"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1316-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Introdução ao paralelismo. Análise de algoritmos paralelos. Avaliação de desempenho. Programação multithreading e multi-processos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. Whitespace and ligature normalization only.",
+      "component_code": "CI1316",
+      "component_instance_id": "curriculum-2023-ci1316",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-ci1316-ficha-2",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1316-Programa%C3%A7%C3%A3o-Paralela.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1316/ficha-2.pdf",
+        "sha256": "f21ed72e45c0e3d98409397440714da28b457b5733e6e8250d24e79b831169e0",
+        "title": "Programação Paralela"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1316-ficha-2",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "Introdução ao paralelismo. Análise de algoritmos paralelos. Avaliação de desempenho. Programação multi-threading e multi-processos."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "1. Revisão de arquiteturas paralelas. 2. Modelos de programação paralela. 3. Avaliação de desempenho. 4. Modelo PRAM. 5. Modelo LogP. 6. Programação com PThreads. 7. Programação com OpenMP. 8. Programação com Processos. 9. Programação com MPI."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+          "text": "OBJETIVO GERAL: Introduzir os conceitos de programação paralela, complexidade dos algoritmos paralelos, compreender os diversos paradigmas de programação paralela em memória compartilhada e memória distribuída, capacitando o aluno a desenvolver programas paralelas para problemas clássicos da computação.; OBJETIVO ESPECÍFICO: 1. Relembrar os aspectos das arquiteturas de computadores paralelos. 2. Apresentar os principais termos e modelos de programação paralela. 3. Introdução a métricas e métodos de analise e comparação de desempenho. 4. Sistematizar a criação de algoritmos paralelas com o modelo de custo PRAM. 5. Ampliar o modelo de custo PRAM para introduzir o custo de comunicação presente no modelo LogP. 6. Resolver problemas básicos utilizando o paradigma Pthreads em memória compartilhada. 7. Introduzir um modelo de maior abstração para criação de threads paralelas. 8. Resolver problemas básicos utilizando o paradigma de Processos em memória distribuída. 9. Introduzir um modelo de maior abstração para criação de processos paralelos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized spacing/line breaks only; PDF code has `CI 1350`; normalized code follows the existing inventory/manifest. Retained inventory transcription's `Especiﬁcação` and `Politicas`; applicability remains indeterminado.",
+      "component_code": "CI1350",
+      "component_instance_id": "curriculum-2023-ci1350",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-ci1350-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1350-Intera%C3%A7%C3%A3o-Humano-Computador.pdf",
+        "repository_path": "curriculos/2023/fichas/dinf/CI1350/ficha-1.pdf",
+        "sha256": "dcb36c82f988408238c203f4545d1832354f3622a1ffacfddc4092a86ad188ae",
+        "title": "Interação Humano-Computador"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-ci1350-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Introdução à Interação Humano-Computador (IHC); Conceitos básicos em IHC; Qualidade em IHC; Teorias de IHC; Ética no projeto da IHC; Design Socialmente Consciente; Design Participativo e Design Universal; Especiﬁcação, Modelagem e Prototipação em IHC; Técnicas e Ferramentas de Prototipação; Avaliação em IHC. Ética na computação. Computação e a sociedade. Politicas nacionais de acessibilidade."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado; Ficha 2 is offering-specific. External-department Ficha 2 kept separate; term comes from document title and manifest; no applicability inference.",
+      "component_code": "MN129",
+      "component_instance_id": "curriculum-2023-mn129",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 2",
+        "id": "document-mn129-ficha-2-2022-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://saude.ufpr.br/enfermagem/wp-content/uploads/sites/4/2022/10/MN129_metodologia-da-pesquisa-e-bioetica-em-saude-1_2022.pdf",
+        "repository_path": "curriculos/2023/fichas/outros-departamentos/MN129-ficha-2-2022-1.pdf",
+        "sha256": "26d23f09c1250d85e14c1b37bb4616998cada9bfe47a8c5550f10226a333df2c",
+        "title": "Metodologia da Pesquisa e Bioética em saúde"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-mn129-ficha-2-2022-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "identity/term/permanent fields/ementa/program/objective: PDF p. 1; method/evaluation: PDF p. 2; bibliography/teacher: PDF pp. 3-6; cronograma: PDF pp. 7-8",
+          "text": "A pesquisa em saúde, métodos e técnicas de pesquisa. A Ética e bioética na pesquisa em saúde."
+        },
+        {
+          "kind": "program",
+          "locator": "identity/term/permanent fields/ementa/program/objective: PDF p. 1; method/evaluation: PDF p. 2; bibliography/teacher: PDF pp. 3-6; cronograma: PDF pp. 7-8",
+          "text": "1. Conceitos de Conhecimento Científico, Ciência, Pesquisa e Teoria; 2. Estrutura do trabalho científico; 3. Normas para apresentação dos trabalhos científicos, citação e referências; 4. Busca em Base de Dados; 5. Tipos de pesquisa; 6. Fases do projeto de Pesquisa 7. Aspectos éticos de Pesquisa 8. Ética e bioética na pesquisa em Saúde."
+        },
+        {
+          "kind": "objectives",
+          "locator": "identity/term/permanent fields/ementa/program/objective: PDF p. 1; method/evaluation: PDF p. 2; bibliography/teacher: PDF pp. 3-6; cronograma: PDF pp. 7-8",
+          "text": "O discente deverá ser capaz de usar o método científico para elaborar um projeto de acordo com as normas que regem a ética na pesquisa."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Applicability to curriculum 2023: indeterminado. Normalized whitespace/line breaks only; source PDF prevails. Manifest/W010 notes identify this as a Ficha signed in 2019 before formal code creation in 2022; applicability remains indeterminado rather than being inferred.",
+      "component_code": "MN162",
+      "component_instance_id": "curriculum-2023-mn162",
+      "curriculum_id": "curriculum-2023",
+      "document": {
+        "document_date": "not stated",
+        "document_type": "Ficha 1",
+        "id": "document-mn162-ficha-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://bio.ufpr.br/fisioterapia/wp-content/uploads/sites/20/2024/12/MN162___ORGANIZACAO_DO_SISTEMA_DE_SAUDE_BRASILEIRO.pdf",
+        "repository_path": "curriculos/2023/fichas/outros-departamentos/MN162-ficha-1.pdf",
+        "sha256": "cfcb6de27917d0edb92c0b5f10093aafcd4843b079e30abf53d912ab3f705135",
+        "title": "Organização do Sistema de Saúde Brasileiro"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-mn162-ficha-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+          "text": "Historicidade do processo saúde-doença e suas relações entre sociedade e natureza. Política nacional e internacional ambiental. Indicadores ambientais e saúde. Políticas de saúde. Legislação, princípios e organização do sistema de saúde brasileiro. Níveis de atenção à saúde. Serviços de saúde pública, complementar e suplementar. Modelos gerenciais, de planejamento e avaliação em saúde."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The source identifies CI055 and a 2011/01 validity date, but does not name Informática Biomédica/96A. Its applicability to the 2011 Biomedical Informatics curriculum is therefore indeterminate, not inferred from code/title.",
+      "component_code": "CI055",
+      "component_instance_id": "curriculum-2011-ci055",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2010-09-28",
+        "document_type": "Ficha 1",
+        "id": "document-w022-ci055-f1-2011",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/2011_Fichas1/CI055.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci055/ficha-1-indeterminada/CI055-ficha-1-2011-archive.pdf",
+        "sha256": "5f80efe78691fab04d22bb74d4b6aa065f775255f3008f0720a86df6afc72c22",
+        "title": "PLANO DE ENSINO — Ficha No 1 (parte PERMANENTE): CI055 – Algoritmos e Estruturas de Dados I"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w022-ci055-f1-2011",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1",
+          "text": "Características básicas do computador. Representação e aritmética binária. Algoritmos. Repre- sentação de dados. Introdução a uma linguagem de programação. Solução de problemas simples por computadores."
+        }
+      ]
+    },
+    {
+      "applicability": "not_applicable",
+      "applicability_note": "Kept separate from Ficha 1. It explicitly applies to Ciência da Computação turma A, not Informática Biomédica/96A; no substitution is made.",
+      "component_code": "CI055",
+      "component_instance_id": "curriculum-2011-ci055",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2011-08-15",
+        "document_type": "Ficha 2",
+        "id": "document-w022-ci055-f2-2011-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/arquivos/dinf/Disciplinas/201x_Fichas2/CI055_Ficha2_2011_Marcos.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci055/ficha-2-separada/CI055-ficha-2-2011-1-marcos.pdf",
+        "sha256": "0ba8308460a2930c3723f53e48874528b409a56d6b2a737db8e21e35c1976363",
+        "title": "PLANO DE ENSINO — Ficha N° 2: CI055 – Algoritmos e Estruturas de Dados I"
+      },
+      "documentary_state": "documented",
+      "id": "corpus-w022-ci055-f2-2011-1",
+      "occurrence_eligible": false,
+      "sections": [
+        {
+          "kind": "program",
+          "locator": "page:1;page:2",
+          "text": "1. Breve histórico e noções dos componentes de um computador. Modelo de Von Neumann. 2. Estrutura básica de um programa em PASCAL. Comandos simples, comandos de atribuição, comandos de entrada e saída. O compilador PASCAL. Um primeiro programa em PASCAL. Como compilar este programa nos laboratórios do Departamento de Informática. 3. Expressões lógicas e aritméticas. 4. Comandos de desvio, de repetição e aninhamento de comandos. 5. Subprogramas. Procedimentos, escopo de variáveis, passagem de parâmetro (por valor e por referência), funções e procedimentos. 6. Vetores unidimensionais e multidimensionais, strings. Algoritmos de ordenação e de pesquisa. 7. Resolução de problemas computacionais por refinamentos sucessivos."
+        },
+        {
+          "kind": "objectives",
+          "locator": "page:1",
+          "text": "Capacitar o estudante a compreender o modelo de programação dos computadores atuais e a desenvolver programas usando técnicas elementares de algoritmos e estruturas de dados sobre este modelo. Capacitar o aluno a desenvolver soluções simples e eficazes para problemas diversos que podem ser resolvidos com as técnicas elementares, sempre considerando a noção de eficiência dos códigos desenvolvidos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The PDF has no internal Ficha 1/Ficha 2 label or course assignment. It cannot establish 2011 or curriculum-96A applicability.",
+      "component_code": "CI055",
+      "component_instance_id": "curriculum-2011-ci055",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2007-12-13",
+        "document_type": "undesignated component document",
+        "id": "document-w022-ci055-older-component",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/CComputacaoeInformatica_1998a2010_Fichas1e2/CI055.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci055/ficha-1-indeterminada/CI055-ficha-1-1998-2010-directory.pdf",
+        "sha256": "035ac7ad3a4eb9fc11e71b0dc520b7edac1c1ef85414e78e44a24777401b537f",
+        "title": "CI055 – Algoritmos e Estruturas de Dados I"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w022-ci055-older-component",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1",
+          "text": "Caracterı́sticas básicas do computador. Representação e aritmética binária. Algoritmos. Representação de dados. Introdução a uma linguagem de programação. Solução de problemas simples por computadores. Objetivo: Apresentar ao aluno o funcionamento de um computador e técnicas elementares de pro- gramação e de desenvolvimento de algoritmos. Pré-requisito(s) sugerido(s): Não tem."
+        },
+        {
+          "kind": "program",
+          "locator": "page:1",
+          "text": "1. Breve histórico do computador. Noções dos componentes de um computador. 2. Estrutura básica de um programa. 3. Comandos simples, comandos de atribuição, comandos de entrada e saı́da. 4. O compilador PASCAL. Um primeiro programa em PASCAL. Como compilar um programa. 5. Comandos de repetição com FOR. 6. Comandos de repetição com WHILE e REPEAT. 7. Comando de desvio com IF. 8. Subprogramas. Procedimentos, escopo de variáveis, passagem de parâmetro por valor e por referência, funções. 9. Vetores unidimensionais e multidimensionais, strings. 10. Algoritmos de ordenação e de pesquisa. 11. Tipo Registro (RECORD). 12. Algoritmos simples de agenda."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The source identifies CI056 and a 2011/01 validity date, but does not name Informática Biomédica or curriculum 96A. Applicability to the 2011 Biomedical Informatics curriculum remains indeterminate.",
+      "component_code": "CI056",
+      "component_instance_id": "curriculum-2011-ci056",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2010-09-28",
+        "document_type": "Ficha 1",
+        "id": "document-w022-ci056-f1-2011",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/2011_Fichas1/CI056.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci056/ficha-1-indeterminada/CI056-ficha-1-2011-dinf-archive.pdf",
+        "sha256": "f52673afd6ef03d803bb26e57d94bcc7eaee3f5f8577dabe6d84a114cdfb5e3e",
+        "title": "PLANO DE ENSINO — Ficha No 1 (parte PERMANENTE): CI056 – Algoritmos e Estruturas de Dados II"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w022-ci056-f1-2011",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1",
+          "text": "Estilos de programação. Refinamentos sucessivos. Tipos abstratos de dados: listas, pilhas, filas. Recursividade. Ordenação interna. Busca. Análise de complexidade dos algoritmos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "Kept separate from Ficha 1. The source names Curso Informática Biomédica but does not identify a class or the 2011 curriculum version; its stated validity starts in 2010/1, so use in curriculum 96A is not inferred.",
+      "component_code": "CI056",
+      "component_instance_id": "curriculum-2011-ci056",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2013-04-12",
+        "document_type": "Ficha 2",
+        "id": "document-w022-ci056-f2-ibm-2010-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/infobiomedica/disciplinas/disciplinas_pdf/CI056_Ficha2.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci056/ficha-2-separada/CI056-ficha-2-infobiomedica-2010-1.pdf",
+        "sha256": "6cd371381d75140d506980c2ba0f0ee6c964929025358a71595fd1828f61a7d8",
+        "title": "PLANO DE ENSINO — Ficha N° 2: CI056 – Algoritmos e Estruturas de Dados II"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w022-ci056-f2-ibm-2010-1",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "program",
+          "locator": "page:1;page:2",
+          "text": "1. Introdução à análise de complexidade de algoritmos. Medidas de complexidade de algoritmos. 2. Análise assintótica de limites de complexidade. Crescimento de funções e comportamento assintótico. Notações e classes de complexidade padrão. 3. Compromissos de tempo e espaço em algoritmos. Eficiência dos algoritmos e uso dos recursos. 4. Técnicas para estimativa de custo e medições. Medidas empíricas de desempenho. 5. Existência de problemas intratáveis e de problemas não computáveis. 6. Recursão, funções matemáticas recursivas. Procedimentos recursivos simples. Implementação de recursão. 7. Análise de complexidade de algoritmos recursivos. 8. Uso de relações de recorrência para analisar algoritmos recursivos. Resolução de relações de recorrência simples. 9. Estruturas de dados fundamentais. Tipos de dados, estruturas de dados e tipos abstratos de dados. 10. Estruturas de dados na memória principal, alocação estática e dinâmica de memória. 11. Listas lineares e suas especializações: listas ordenadas, listas encadeadas, filas e pilhas. Aplicações de listas. 12. Algoritmos fundamentais para pesquisa e ordenação. Algoritmos para pesquisa e ordenação em memória principal. 13.Ordenação interna. Conceitos, classificação dos algoritmos de ordenação interna. 14. Algoritmos seleção direta, inserção direta, shellsort, quicksort, heapsort, mergesort. 15. Pesquisa em tabela não ordenada e ordenada, pesquisa binária."
+        },
+        {
+          "kind": "objectives",
+          "locator": "page:2",
+          "text": "Apresentar algoritmos e estruturas de dados básicas para o desenvolvimento de programas. Ao final do curso o aluno deverá ser capaz de utilizar a programação modular, dominando as principais técnicas utilizadas na implementação de estruturas de dados básicas, de algoritmos de ordenação e busca em memória principal. O aluno deverá ainda ser capaz de efetuar análises simples de complexidade de algoritmos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The source identifies CI057 and a 2011/01 validity date, but does not name Informática Biomédica or curriculum 96A. Applicability to the 2011 Biomedical Informatics curriculum remains indeterminate.",
+      "component_code": "CI057",
+      "component_instance_id": "curriculum-2011-ci057",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2010-09-28",
+        "document_type": "Ficha 1",
+        "id": "document-w022-ci057-f1-2011",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/2011_Fichas1/CI057.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci057/ficha-1-indeterminada/CI057-ficha-1-2011-dinf-archive.pdf",
+        "sha256": "5b028de6a54873b6c22922560dc8c55002aa6ff2b71406ce6cf26a4969e43e03",
+        "title": "PLANO DE ENSINO — Ficha No 1 (parte PERMANENTE): CI057 – Algoritmos e Estruturas de Dados III"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w022-ci057-f1-2011",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1",
+          "text": "Memória principal. Acesso seqüêncial, indexado. Árvore. Complexidade algoritmos. Ordenação externa. Árvores balanceadas. Conjuntos não ordenáveis."
+        }
+      ]
+    },
+    {
+      "applicability": "not_applicable",
+      "applicability_note": "Kept separate from Ficha 1. It explicitly applies to Ciência da Computação turmas A e B, not Informática Biomédica/96A; no substitution or code-continuity inference is made.",
+      "component_code": "CI057",
+      "component_instance_id": "curriculum-2011-ci057",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2011-10-17",
+        "document_type": "Ficha 2",
+        "id": "document-w022-ci057-f2-2011-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/arquivos/dinf/Disciplinas/201x_Fichas2/CI057_Ficha2_2011_Carmem.pdf",
+        "repository_path": "curriculos/2011/fichas/w022-ci057/ficha-2-separada/CI057-ficha-2-2011-1-carmem.pdf",
+        "sha256": "1ad92265f5f6ff59c31f4d796144dcad02c631daaea8b7fea3c6a29e6a67e93e",
+        "title": "PLANO DE ENSINO — Ficha N° 2: CI057 – Algoritmos e Estruturas de Dados III"
+      },
+      "documentary_state": "documented",
+      "id": "corpus-w022-ci057-f2-2011-1",
+      "occurrence_eligible": false,
+      "sections": [
+        {
+          "kind": "program",
+          "locator": "page:1",
+          "text": "Introdução a tipos abstratos de dados e o tipo dicionário. Árvores: definição e conceitos; aplicações; algoritmos básicos. Tipos de árvores: binária, binária de busca, AVL, rubro- negra. Busca externa: árvore B, B+, ISAM. Árvore digitais: de busca, trie, Patricia. Compressão de dados e Heap. Ordenação externa. Tabelas de dispersão."
+        },
+        {
+          "kind": "objectives",
+          "locator": "page:1",
+          "text": "Apresentar e analisar algoritmos e estruturas de dados para representação do Tipo Abstrato de dados Dicionário. Apresentar algoritmos de compressão de dados e ordenação e busca em armazenamento externo."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The source identifies CI244 and a 2011/01 validity date, but does not name Informática Biomédica or curriculum 96A. Applicability to the 2011 Biomedical Informatics curriculum remains indeterminate.",
+      "component_code": "CI244",
+      "component_instance_id": "curriculum-2011-ci244",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2010-09-28",
+        "document_type": "Ficha 1",
+        "id": "document-w023-ci244-f1-2011",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/2011_Fichas1/CI244.pdf",
+        "repository_path": "curriculos/2011/fichas/w023-ci244/ficha-1-indeterminada/CI244-ficha-1-2011-dinf-archive.pdf",
+        "sha256": "aa8795df0aecb1b39c09f265fbe86bbcbe18f08874c55c98a4de390d340bd936",
+        "title": "PLANO DE ENSINO — Ficha No 1 (parte PERMANENTE): CI244 – Fundamentos de Redes e Sistemas Distribuídos"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w023-ci244-f1-2011",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1",
+          "text": "Modelos OSI e TCP/IP. Camada de Aplicação. Camada de Transporte. Camada de Rede. Modelos de Sistemas Distribuídos. Estruturas de Sistemas Distribuídos. Coordenação Distribuída."
+        }
+      ]
+    },
+    {
+      "applicability": "not_applicable",
+      "applicability_note": "Kept separate from Ficha 1. It explicitly applies to Ciência da Computação turma A, not Informática Biomédica/96A; no substitution or code-continuity inference is made.",
+      "component_code": "CI244",
+      "component_instance_id": "curriculum-2011-ci244",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2012-02-16",
+        "document_type": "Ficha 2",
+        "id": "document-w023-ci244-f2-2011-1",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.inf.ufpr.br/dinf/Disciplinas/201x_Fichas2/CI244_Ficha2_2011_Albini.pdf",
+        "repository_path": "curriculos/2011/fichas/w023-ci244/ficha-2-separada/CI244-ficha-2-2011-1-albini.pdf",
+        "sha256": "05a949f9522a102756af2ba378b8f953fa2b21427a68882bf4aa48cf5d6898ab",
+        "title": "PLANO DE ENSINO — Ficha N° 2: CI244 – Fundamentos de Redes e Sistemas Distribuídos"
+      },
+      "documentary_state": "documented",
+      "id": "corpus-w023-ci244-f2-2011-1",
+      "occurrence_eligible": false,
+      "sections": [
+        {
+          "kind": "program",
+          "locator": "page:1",
+          "text": "1.Modelo OSI e Modelo TCP/IP 2.Protocolos de camada de aplicação 3.Principais serviços e aplicativos da camada de aplicação 4.Protocolo TCP 5.Protocolo UDP 6.Protocolo IP 7.Modelos de Sistemas Distribuídos 8.Coordenação de concorrência em sistemas distribuídos"
+        },
+        {
+          "kind": "objectives",
+          "locator": "page:1",
+          "text": "OBJETIVO GERAL Propiciar ao aluno uma visão geral do funcionamento da Internet, bem como de seus principais protocolos e aplicações. Por fim é dada uma visão sobre os conceitos iniciais de Sistemas Distribuídos junto com um panorama de aplicações. OBJETIVO ESPECÍFICO"
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The document names BQ005 but is signed in 2022 and does not establish applicability to curriculum 96A in 2011.",
+      "component_code": "BQ005",
+      "component_instance_id": "curriculum-2011-bq005",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2022-06-09",
+        "document_type": "Ficha 1",
+        "id": "document-w024-bq005-f1-2022",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://bio.ufpr.br/bioquimica/wp-content/uploads/sites/31/2021/12/BQ005-FICHA-1.pdf",
+        "repository_path": "curriculos/2011/fichas/w024-bq005/ficha-1-indeterminada/BQ005-ficha-1-2022.pdf",
+        "sha256": "2e86e1e0c72468fc69016a03e166e3a6c51d02134bf2ee15dd9cf158f57ec05e",
+        "title": "SEI/UFPR - 4213300 - PROGRAD: FORMULÁRIO FICHA 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w024-bq005-f1-2022",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1;page:2",
+          "text": "Aspectos gerais da estrutura, metabolismo e função das proteínas, carboidratos, lipídeos e ácidos nucleicos."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The document names BQ054 but is signed in 2022 and does not establish applicability to curriculum 96A in 2011.",
+      "component_code": "BQ054",
+      "component_instance_id": "curriculum-2011-bq054",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2022-06-09",
+        "document_type": "Ficha 1",
+        "id": "document-w024-bq054-f1-2022",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://bio.ufpr.br/bioquimica/wp-content/uploads/sites/31/2021/12/BQ054-FICHA-1.pdf",
+        "repository_path": "curriculos/2011/fichas/w024-bq054/ficha-1-indeterminada/BQ054-ficha-1-2022.pdf",
+        "sha256": "78746209fcdc3be5f61015e4df09cc2dd7840aef0f83277408f21b4324502aa5",
+        "title": "SEI/UFPR - 4219788 - PROGRAD: FORMULÁRIO FICHA 1"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w024-bq054-f1-2022",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:1;page:2",
+          "text": "Estrutura ácidos nucléicos; fluxo informacional em sistemas biológicos: replicação, transcrição, tradução, regulação da expressão gênica; princípios de manipulação gênica; aplicações biotecnológicas da biologia molecular; teoria e prática da manipulação de moléculas de DNA. Banco de dados biológicos; algoritmos de alinhamento de sequências e busca de genes; análise filogenética; análise Genômica, Transcriptômica e Proteômica; análise de macromoléculas in silico; aplicações da Bioinformática na pesquisa biológica."
+        }
+      ]
+    },
+    {
+      "applicability": "indeterminate",
+      "applicability_note": "The document identifies CE003 but provides no curriculum or 2011 applicability; code/title alone are insufficient.",
+      "component_code": "CE003",
+      "component_instance_id": "curriculum-2011-ce003",
+      "curriculum_id": "curriculum-2011",
+      "document": {
+        "document_date": "2022-10-03",
+        "document_type": "Ficha 1",
+        "id": "document-w024-ce003-f1-2022",
+        "institution": "Universidade Federal do Paraná",
+        "original_url": "https://www.est.ufpr.br/disciplinas/ficha1/ce003.pdf",
+        "repository_path": "curriculos/2011/fichas/w024-ce003/ficha-1-indeterminada/CE003-ficha-1-est-archive.pdf",
+        "sha256": "8fe87821fdc72ce153b11c1ddc4cb9be41da6c119f62b21def9c1089dad5f28d",
+        "title": "FICHA 1 (permanente) — Estatística II"
+      },
+      "documentary_state": "indeterminate",
+      "id": "corpus-w024-ce003-f1-2022",
+      "occurrence_eligible": true,
+      "sections": [
+        {
+          "kind": "ementa",
+          "locator": "page:2",
+          "text": "Estatística: Representação Tabular e Gráfica. Distribuições de Freqüências. Elementos de Probabilidade. Distribuições Discretas de Probabilidades. Distribuições Contínuas de Probabilidades. Noções de Amostragem. Estimativa de Parâmetros. Teoria das Pequenas Amostras. Testes de Hipóteses. Análise da Variância. Ajustamento de Curvas. Regressão e Correlação. Séries Temporais. Controle Estatístico de Qualidade. *OBS (1): ao assinalar a opção CH em EAD, indicar a carga horária que será à distância."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ibm.local/schemas/content-corpus.schema.json",
+  "title": "W033 usable curriculum-content corpus",
+  "type": "object",
+  "required": ["schema_version", "generated_by", "data_as_of", "method_note", "sources"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "generated_by": { "const": "scripts/build_w033_content_corpus.py" },
+    "data_as_of": { "type": "string" },
+    "method_note": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "curriculum_id", "component_instance_id", "component_code", "document", "sections", "applicability", "applicability_note", "documentary_state", "occurrence_eligible"],
+        "properties": {
+          "id": { "type": "string" },
+          "curriculum_id": { "enum": ["curriculum-2011", "curriculum-2023"] },
+          "component_instance_id": { "type": "string" },
+          "component_code": { "type": "string" },
+          "document": { "type": "object" },
+          "sections": { "type": "array", "minItems": 1 },
+          "applicability": { "enum": ["documented", "indeterminate", "not_applicable"] },
+          "applicability_note": { "type": "string" },
+          "documentary_state": { "enum": ["documented", "indeterminate"] },
+          "occurrence_eligible": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
