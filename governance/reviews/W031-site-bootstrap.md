@@ -31,7 +31,7 @@ route, or URL is claimed. HR-W031-001 precisely retains that external gate.
 | Persistent Tailscale state | identical state hash before and after `docker compose down` / `up`; ordinary down retained the named volume | pass |
 | Hostname | local Tailscale preferences report `Hostname: ibm`; authenticated tailnet self name is not yet observable | configuration observed; external observation pending |
 | Funnel excludes code | pre-auth status is empty; declarative `TS_SERVE_CONFIG` has sole backend `http://web:3000`; code is absent from edge and config | pass locally; public route pending |
-| Secret hygiene | real environment file is external mode 0600; only `.env.example` tracked; targeted scan found no credentials | pass |
+| Secret hygiene | project-local `.env` is ignored and mode 0600; only `.env.example` is tracked; targeted scan found no credentials | pass |
 | Repository governance | Work, source hashes, repository links, governance audit, and whitespace checks | pass |
 
 ## Security interpretation

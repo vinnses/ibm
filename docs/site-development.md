@@ -30,21 +30,21 @@ The stack pins these runtime images by version and digest:
 
 ## 2. Create local configuration
 
-Real credentials should remain outside the checkout. One reproducible option is:
+Real credentials remain inside this project's working directory but outside
+version control:
 
 ```sh
-install -d -m 700 ~/.config/ibm
-install -m 600 .env.example ~/.config/ibm/compose.env
-ln -s "$HOME/.config/ibm/compose.env" .env
+cp .env.example .env
+chmod 600 .env
 ```
 
-Edit `~/.config/ibm/compose.env` and replace
-`CODE_SERVER_PASSWORD` with a long random value. The `.env` path is ignored
-by Git; because it is an absolute symlink, it is also unresolved inside the
-repository bind mount seen by code-server.
+Edit `.env` in the project root and replace `CODE_SERVER_PASSWORD` with a long
+random value. The file is ignored by Git. Because code-server deliberately
+mounts the full checkout, its trusted development terminal can read this local
+file; the isolated web container cannot.
 
 `TS_AUTHKEY` is optional. If used, generate a reusable, non-ephemeral key in
-the Tailscale admin console and store it only in the external environment file.
+the Tailscale admin console and store it only in the project-local `.env`.
 The named Tailscale state volume normally makes that key necessary only for the
 first registration. Do not place OAuth secrets or auth keys in tracked files.
 
@@ -113,7 +113,7 @@ the container after the default one-minute timeout.
 
 ## 7. Authenticate and verify the `ibm` node
 
-With `TS_AUTHKEY` in the external environment file, recreate Tailscale:
+With `TS_AUTHKEY` in the project-local `.env`, recreate Tailscale:
 
 ```sh
 docker compose up -d web tailscale
