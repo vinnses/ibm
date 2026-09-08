@@ -62,7 +62,6 @@ RELATIONS = [
     {"key": "maintained-biological-databases", "source": ["bancos de dados biológicos"], "target": ["bancos de dados biológicos"], "change_type": "maintained", "method": "exact normalized topic-label overlap", "notes": "Candidate only; not merged with general database-system content."},
     {"key": "maintained-external-sorting", "source": ["ordenação externa"], "target": ["ordenação externa"], "change_type": "maintained", "method": "exact normalized topic-label overlap", "notes": "Candidate only; source versions remain independently evidenced."},
     {"key": "maintained-structured-programming", "source": ["programação estruturada"], "target": ["programação estruturada"], "change_type": "maintained", "method": "exact normalized topic-label overlap", "notes": "Candidate only; code/name were not used as evidence."},
-    {"key": "reduced-recursion", "source": ["recursão e relações de recorrência"], "target": ["recursão"], "change_type": "reduced", "method": "qualitative comparison of quoted topic scope", "notes": "Possible reduction candidate: the usable 2011 text names recurrence relations while the compared 2023 topic label is narrower. Program-level evidence may alter this reading; review required."},
     {"key": "fragmented-order-search", "source": ["pesquisa e ordenação em memória principal"], "target": ["algoritmos de busca", "algoritmos de ordenação"], "change_type": "fragmented", "method": "qualitative reconciliation of source-grounded topic units", "notes": "Split candidate: one combined 2011 analytical unit maps to separately represented search and sorting units in 2023; not a formal equivalence."},
     {"key": "merged-linear-structures", "source": ["tipos abstratos de dados lineares", "listas, filas e pilhas"], "target": ["estruturas de dados básicas"], "change_type": "merged", "method": "qualitative reconciliation of source-grounded topic units", "notes": "Merge candidate: two explicit 2011 units may be covered by a broader 2023 basic-data-structures description. The target's breadth makes this a hypothesis only."},
     {"key": "new-security-access-control", "source": [], "target": ["autenticação e controle de acesso"], "change_type": "new", "method": "absence check limited to the declared usable 2011 corpus", "notes": "New-content candidate only relative to the sparse usable corpus. It is not a claim that the curriculum lacked this content; 2011 coverage is insufficient and evidence strength is indeterminate."},
@@ -127,10 +126,10 @@ def build() -> dict[str, Any]:
                 aliases_by_topic[topic_id].add(record["label"])
             if "SGBD" in record["aliases"]:
                 aliases_by_topic[topic_id].add("SGBD")
-        for index, record in enumerate(group, start=1):
+        for record in group:
             corpus = record["corpus"]
-            occurrence_id = f"occurrence-{slug(corpus['id'])}-{slug(canonical)}-{index}"
-            evidence_id = f"evidence-{slug(corpus['id'])}-{slug(canonical)}-{index}"
+            occurrence_id = f"occurrence-{slug(corpus['id'])}-{slug(canonical)}"
+            evidence_id = f"evidence-{slug(corpus['id'])}-{slug(canonical)}"
             occurrence_ids_by_label_year[(canonical, corpus["curriculum_id"])].append(occurrence_id)
             evidence.append({"id": evidence_id, "document_id": corpus["document"]["id"], "page": None, "section": record["locator"], "cell_range": None, "normalized_excerpt": record["excerpt"], "applicability_note": corpus["applicability_note"], "documentary_state": "indeterminate", "notes": "Evidence locator and excerpt originate in the W033 consolidated normalized corpus; preserved source bytes prevail."})
             occurrences.append({"id": occurrence_id, "topic_id": topic_id, "component_instance_id": corpus["component_instance_id"], "evidence_text": record["excerpt"], "evidence_ids": [evidence_id], "locator": record["locator"], "evidence_strength": "indeterminate", "notes": f"{record['notes']} Source applicability: {corpus['applicability_note']}", "review_state": "proposed", "is_fixture": False})

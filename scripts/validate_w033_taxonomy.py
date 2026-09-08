@@ -13,6 +13,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
+sys.dont_write_bytecode = True
 from validate_w032_content_model import validate_model, validate_schema  # noqa: E402
 
 
@@ -122,7 +123,7 @@ def main() -> int:
         errors.append("ineligible source generated a topic occurrence")
 
     relations = taxonomy["evolution_relations"]
-    if len(relations) != 13:
+    if len(relations) != 12:
         errors.append("unexpected lineage candidate count")
     for relation in relations:
         endpoints = relation["source_occurrence_ids"] + relation["target_occurrence_ids"]
@@ -135,13 +136,15 @@ def main() -> int:
             errors.append(f"lineage candidate has overstated state: {relation['id']}")
         if not relation["candidate_method"] or not relation["analysis_provenance"] or relation["similarity_score"] is not None:
             errors.append(f"lineage method metadata invalid: {relation['id']}")
-        if relation["change_type"] == "removed" and ("coverage" not in relation["notes"].lower() or not relation["target_occurrence_ids"]):
+        if relation["change_type"] == "removed" and (not relation["source_occurrence_ids"] or relation["target_occurrence_ids"] or "coverage" not in relation["notes"].lower()):
             errors.append(f"removed candidate lacks coverage justification: {relation['id']}")
         if relation["change_type"] == "new" and "sparse usable corpus" not in relation["notes"]:
             errors.append(f"new candidate lacks bounded-corpus warning: {relation['id']}")
     relation_types = Counter(item["change_type"] for item in relations)
-    if relation_types["fragmented"] != 1 or relation_types["merged"] != 1 or relation_types["reduced"] != 1 or relation_types["indeterminate"] != 1 or relation_types["new"] != 1:
+    if relation_types["fragmented"] != 1 or relation_types["merged"] != 1 or relation_types["indeterminate"] != 1 or relation_types["new"] != 1:
         errors.append("qualitative relation cases are incomplete")
+    if relation_types["reduced"]:
+        errors.append("W033 should not retain the independently rejected reduction candidate")
     if relation_types["removed"]:
         errors.append("W033 should not assert removed content with current coverage")
 
@@ -150,7 +153,7 @@ def main() -> int:
         "topics.json": 156,
         "topic-occurrences.json": 242,
         "aliases.json": 3,
-        "candidate-lineage-relations.json": 13,
+        "candidate-lineage-relations.json": 12,
     }
     for filename, count in split_files.items():
         payload = load(f"site/data/generated/w033/{filename}")
@@ -161,7 +164,7 @@ def main() -> int:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print("W033 taxonomy valid: corpus=52, proposals=260, domains=18, topics=156, occurrences=242, aliases=3, relations=13; provenance and uncertainty checks passed")
+    print("W033 taxonomy valid: corpus=52, proposals=260, domains=18, topics=156, occurrences=242, aliases=3, relations=12; provenance and uncertainty checks passed")
     return 0
 
 

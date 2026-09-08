@@ -7,11 +7,11 @@
       "candidate_method": "qualitative reconciliation of source-grounded topic units",
       "change_type": "fragmented",
       "evidence_ids": [
-        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca-2",
-        "evidence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao-1",
-        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca-3",
-        "evidence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao-2",
-        "evidence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal-1"
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao",
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-fragmented-order-search",
@@ -20,13 +20,13 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal-1"
+        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca-2",
-        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao-1",
-        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca-3",
-        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao-2"
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao"
       ]
     },
     {
@@ -34,7 +34,7 @@
       "candidate_method": "coverage-gap check",
       "change_type": "indeterminate",
       "evidence_ids": [
-        "evidence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip-1"
+        "evidence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-indeterminate-networks",
@@ -43,7 +43,7 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip-1"
+        "occurrence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip"
       ],
       "target_occurrence_ids": []
     },
@@ -52,9 +52,9 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado-2",
-        "evidence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado-3",
-        "evidence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado-1"
+        "evidence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado",
+        "evidence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado",
+        "evidence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-access",
@@ -63,11 +63,11 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado-1"
+        "occurrence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado-2",
-        "occurrence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado-3"
+        "occurrence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado",
+        "occurrence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado"
       ]
     },
     {
@@ -75,8 +75,8 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-bq083-ficha-1-bancos-de-dados-biologicos-2",
-        "evidence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos-1"
+        "evidence-corpus-bq083-ficha-1-bancos-de-dados-biologicos",
+        "evidence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-biological-databases",
@@ -85,10 +85,10 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos-1"
+        "occurrence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-bq083-ficha-1-bancos-de-dados-biologicos-2"
+        "occurrence-corpus-bq083-ficha-1-bancos-de-dados-biologicos"
       ]
     },
     {
@@ -96,9 +96,9 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-ci1057-ficha-1-ordenacao-externa-2",
-        "evidence-corpus-ci1057-ficha-2-ordenacao-externa-3",
-        "evidence-corpus-w022-ci057-f1-2011-ordenacao-externa-1"
+        "evidence-corpus-ci1057-ficha-1-ordenacao-externa",
+        "evidence-corpus-ci1057-ficha-2-ordenacao-externa",
+        "evidence-corpus-w022-ci057-f1-2011-ordenacao-externa"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-external-sorting",
@@ -107,11 +107,11 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci057-f1-2011-ordenacao-externa-1"
+        "occurrence-corpus-w022-ci057-f1-2011-ordenacao-externa"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1057-ficha-1-ordenacao-externa-2",
-        "occurrence-corpus-ci1057-ficha-2-ordenacao-externa-3"
+        "occurrence-corpus-ci1057-ficha-1-ordenacao-externa",
+        "occurrence-corpus-ci1057-ficha-2-ordenacao-externa"
       ]
     },
     {
@@ -119,8 +119,8 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica-2",
-        "evidence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica-1"
+        "evidence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica",
+        "evidence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-omics",
@@ -129,10 +129,10 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica-1"
+        "occurrence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica-2"
+        "occurrence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica"
       ]
     },
     {
@@ -140,8 +140,8 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-bq083-ficha-1-analise-filogenetica-2",
-        "evidence-corpus-w024-bq054-f1-2022-analise-filogenetica-1"
+        "evidence-corpus-bq083-ficha-1-analise-filogenetica",
+        "evidence-corpus-w024-bq054-f1-2022-analise-filogenetica"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-phylogeny",
@@ -150,10 +150,10 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w024-bq054-f1-2022-analise-filogenetica-1"
+        "occurrence-corpus-w024-bq054-f1-2022-analise-filogenetica"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-bq083-ficha-1-analise-filogenetica-2"
+        "occurrence-corpus-bq083-ficha-1-analise-filogenetica"
       ]
     },
     {
@@ -161,9 +161,9 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca-2",
-        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca-3",
-        "evidence-corpus-w022-ci056-f1-2011-algoritmos-de-busca-1"
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "evidence-corpus-w022-ci056-f1-2011-algoritmos-de-busca"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-search",
@@ -172,11 +172,11 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci056-f1-2011-algoritmos-de-busca-1"
+        "occurrence-corpus-w022-ci056-f1-2011-algoritmos-de-busca"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca-2",
-        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca-3"
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca"
       ]
     },
     {
@@ -184,8 +184,8 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes-2",
-        "evidence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes-1"
+        "evidence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes",
+        "evidence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-sequence-alignment",
@@ -194,10 +194,10 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes-1"
+        "occurrence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes-2"
+        "occurrence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes"
       ]
     },
     {
@@ -205,9 +205,9 @@
       "candidate_method": "exact normalized topic-label overlap",
       "change_type": "maintained",
       "evidence_ids": [
-        "evidence-corpus-ci1055-ficha-1-programacao-estruturada-2",
-        "evidence-corpus-ci1055-ficha-2-programacao-estruturada-3",
-        "evidence-corpus-w022-ci055-older-component-programacao-estruturada-1"
+        "evidence-corpus-ci1055-ficha-1-programacao-estruturada",
+        "evidence-corpus-ci1055-ficha-2-programacao-estruturada",
+        "evidence-corpus-w022-ci055-older-component-programacao-estruturada"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-maintained-structured-programming",
@@ -216,11 +216,11 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci055-older-component-programacao-estruturada-1"
+        "occurrence-corpus-w022-ci055-older-component-programacao-estruturada"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1055-ficha-1-programacao-estruturada-2",
-        "occurrence-corpus-ci1055-ficha-2-programacao-estruturada-3"
+        "occurrence-corpus-ci1055-ficha-1-programacao-estruturada",
+        "occurrence-corpus-ci1055-ficha-2-programacao-estruturada"
       ]
     },
     {
@@ -228,10 +228,10 @@
       "candidate_method": "qualitative reconciliation of source-grounded topic units",
       "change_type": "merged",
       "evidence_ids": [
-        "evidence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas-1",
-        "evidence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas-2",
-        "evidence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares-1",
-        "evidence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas-1"
+        "evidence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas",
+        "evidence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas",
+        "evidence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares",
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-merged-linear-structures",
@@ -240,12 +240,12 @@
       "review_state": "proposed",
       "similarity_score": null,
       "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares-1",
-        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas-1"
+        "occurrence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares",
+        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas"
       ],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas-1",
-        "occurrence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas-2"
+        "occurrence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas",
+        "occurrence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas"
       ]
     },
     {
@@ -253,8 +253,8 @@
       "candidate_method": "absence check limited to the declared usable 2011 corpus",
       "change_type": "new",
       "evidence_ids": [
-        "evidence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso-1",
-        "evidence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso-2"
+        "evidence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso",
+        "evidence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso"
       ],
       "evidence_strength": "indeterminate",
       "id": "relation-new-security-access-control",
@@ -264,31 +264,8 @@
       "similarity_score": null,
       "source_occurrence_ids": [],
       "target_occurrence_ids": [
-        "occurrence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso-1",
-        "occurrence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso-2"
-      ]
-    },
-    {
-      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
-      "candidate_method": "qualitative comparison of quoted topic scope",
-      "change_type": "reduced",
-      "evidence_ids": [
-        "evidence-corpus-ci1056-ficha-1-recursao-2",
-        "evidence-corpus-ci1056-ficha-2-recursao-3",
-        "evidence-corpus-w022-ci056-f2-ibm-2010-1-recursao-e-relacoes-de-recorrencia-1"
-      ],
-      "evidence_strength": "indeterminate",
-      "id": "relation-reduced-recursion",
-      "is_fixture": false,
-      "notes": "Possible reduction candidate: the usable 2011 text names recurrence relations while the compared 2023 topic label is narrower. Program-level evidence may alter this reading; review required.",
-      "review_state": "proposed",
-      "similarity_score": null,
-      "source_occurrence_ids": [
-        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-recursao-e-relacoes-de-recorrencia-1"
-      ],
-      "target_occurrence_ids": [
-        "occurrence-corpus-ci1056-ficha-1-recursao-2",
-        "occurrence-corpus-ci1056-ficha-2-recursao-3"
+        "occurrence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso",
+        "occurrence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso"
       ]
     }
   ],
