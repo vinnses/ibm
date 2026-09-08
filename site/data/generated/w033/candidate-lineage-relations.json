@@ -1,0 +1,273 @@
+{
+  "data_as_of": "2026-09-08",
+  "generated_by": "scripts/build_w033_taxonomy.py",
+  "records": [
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "qualitative reconciliation of source-grounded topic units",
+      "change_type": "fragmented",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao",
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-fragmented-order-search",
+      "is_fixture": false,
+      "notes": "Split candidate: one combined 2011 analytical unit maps to separately represented search and sorting units in 2023; not a formal equivalence.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-pesquisa-e-ordenacao-em-memoria-principal"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-ordenacao",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-ordenacao"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "coverage-gap check",
+      "change_type": "indeterminate",
+      "evidence_ids": [
+        "evidence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-indeterminate-networks",
+      "is_fixture": false,
+      "notes": "No matching topic was located in the usable 2023 Ficha corpus, but incomplete coverage prohibits a removed classification.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w023-ci244-f1-2011-modelos-de-referencia-osi-e-tcp-ip"
+      ],
+      "target_occurrence_ids": []
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado",
+        "evidence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado",
+        "evidence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-access",
+      "is_fixture": false,
+      "notes": "Candidate only: matching source-grounded topic labels occur in both corpora; applicability of every source remains indeterminate.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci057-f1-2011-acesso-sequencial-e-indexado"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1057-ficha-1-acesso-sequencial-e-indexado",
+        "occurrence-corpus-ci1057-ficha-2-acesso-sequencial-e-indexado"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-bancos-de-dados-biologicos",
+        "evidence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-biological-databases",
+      "is_fixture": false,
+      "notes": "Candidate only; not merged with general database-system content.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w024-bq054-f1-2022-bancos-de-dados-biologicos"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-bq083-ficha-1-bancos-de-dados-biologicos"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-ci1057-ficha-1-ordenacao-externa",
+        "evidence-corpus-ci1057-ficha-2-ordenacao-externa",
+        "evidence-corpus-w022-ci057-f1-2011-ordenacao-externa"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-external-sorting",
+      "is_fixture": false,
+      "notes": "Candidate only; source versions remain independently evidenced.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci057-f1-2011-ordenacao-externa"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1057-ficha-1-ordenacao-externa",
+        "occurrence-corpus-ci1057-ficha-2-ordenacao-externa"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica",
+        "evidence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-omics",
+      "is_fixture": false,
+      "notes": "Candidate only; retained for human review with source applicability limits.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w024-bq054-f1-2022-analises-genomica-transcriptomica-e-proteomica"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-bq083-ficha-1-analises-genomica-transcriptomica-e-proteomica"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-analise-filogenetica",
+        "evidence-corpus-w024-bq054-f1-2022-analise-filogenetica"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-phylogeny",
+      "is_fixture": false,
+      "notes": "Candidate only; exact analytical label overlap does not establish a formal continuity act.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w024-bq054-f1-2022-analise-filogenetica"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-bq083-ficha-1-analise-filogenetica"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "evidence-corpus-ci1056-ficha-2-algoritmos-de-busca",
+        "evidence-corpus-w022-ci056-f1-2011-algoritmos-de-busca"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-search",
+      "is_fixture": false,
+      "notes": "Candidate only: content wording overlaps, but this is not documentary proof of curricular continuity.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci056-f1-2011-algoritmos-de-busca"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1056-ficha-1-algoritmos-de-busca",
+        "occurrence-corpus-ci1056-ficha-2-algoritmos-de-busca"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes",
+        "evidence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-sequence-alignment",
+      "is_fixture": false,
+      "notes": "Candidate only; both occurrences rely on sources of indeterminate curriculum applicability.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w024-bq054-f1-2022-alinhamento-de-sequencias-e-busca-de-genes"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-bq083-ficha-1-alinhamento-de-sequencias-e-busca-de-genes"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "exact normalized topic-label overlap",
+      "change_type": "maintained",
+      "evidence_ids": [
+        "evidence-corpus-ci1055-ficha-1-programacao-estruturada",
+        "evidence-corpus-ci1055-ficha-2-programacao-estruturada",
+        "evidence-corpus-w022-ci055-older-component-programacao-estruturada"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-maintained-structured-programming",
+      "is_fixture": false,
+      "notes": "Candidate only; code/name were not used as evidence.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci055-older-component-programacao-estruturada"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1055-ficha-1-programacao-estruturada",
+        "occurrence-corpus-ci1055-ficha-2-programacao-estruturada"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "qualitative reconciliation of source-grounded topic units",
+      "change_type": "merged",
+      "evidence_ids": [
+        "evidence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas",
+        "evidence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas",
+        "evidence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares",
+        "evidence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-merged-linear-structures",
+      "is_fixture": false,
+      "notes": "Merge candidate: two explicit 2011 units may be covered by a broader 2023 basic-data-structures description. The target's breadth makes this a hypothesis only.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [
+        "occurrence-corpus-w022-ci056-f1-2011-tipos-abstratos-de-dados-lineares",
+        "occurrence-corpus-w022-ci056-f2-ibm-2010-1-listas-filas-e-pilhas"
+      ],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1001-ficha-1-estruturas-de-dados-basicas",
+        "occurrence-corpus-ci1001-ficha-2-estruturas-de-dados-basicas"
+      ]
+    },
+    {
+      "analysis_provenance": "W033 primary-session qualitative reconciliation; no embeddings or numerical threshold used.",
+      "candidate_method": "absence check limited to the declared usable 2011 corpus",
+      "change_type": "new",
+      "evidence_ids": [
+        "evidence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso",
+        "evidence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso"
+      ],
+      "evidence_strength": "indeterminate",
+      "id": "relation-new-security-access-control",
+      "is_fixture": false,
+      "notes": "New-content candidate only relative to the sparse usable corpus. It is not a claim that the curriculum lacked this content; 2011 coverage is insufficient and evidence strength is indeterminate.",
+      "review_state": "proposed",
+      "similarity_score": null,
+      "source_occurrence_ids": [],
+      "target_occurrence_ids": [
+        "occurrence-corpus-ci1007-ficha-1-autenticacao-e-controle-de-acesso",
+        "occurrence-corpus-ci1007-ficha-2-autenticacao-e-controle-de-acesso"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

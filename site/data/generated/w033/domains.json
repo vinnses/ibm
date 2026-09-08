@@ -1,0 +1,151 @@
+{
+  "data_as_of": "2026-09-08",
+  "generated_by": "scripts/build_w033_taxonomy.py",
+  "records": [
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de algoritmos e estruturas de dados no corpus documental utilizável.",
+      "id": "domain-algoritmos-e-estruturas-de-dados",
+      "is_fixture": false,
+      "label": "Algoritmos e Estruturas de Dados",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de arquitetura e hardware no corpus documental utilizável.",
+      "id": "domain-arquitetura-e-hardware",
+      "is_fixture": false,
+      "label": "Arquitetura e Hardware",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de banco de dados no corpus documental utilizável.",
+      "id": "domain-banco-de-dados",
+      "is_fixture": false,
+      "label": "Banco de Dados",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de biociências no corpus documental utilizável.",
+      "id": "domain-biociencias",
+      "is_fixture": false,
+      "label": "Biociências",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de bioinformática no corpus documental utilizável.",
+      "id": "domain-bioinformatica",
+      "is_fixture": false,
+      "label": "Bioinformática",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de computação, sociedade e ética no corpus documental utilizável.",
+      "id": "domain-computacao-sociedade-e-etica",
+      "is_fixture": false,
+      "label": "Computação, Sociedade e Ética",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de engenharia de software no corpus documental utilizável.",
+      "id": "domain-engenharia-de-software",
+      "is_fixture": false,
+      "label": "Engenharia de Software",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de estatística no corpus documental utilizável.",
+      "id": "domain-estatistica",
+      "is_fixture": false,
+      "label": "Estatística",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de fundamentos da computação no corpus documental utilizável.",
+      "id": "domain-fundamentos-da-computacao",
+      "is_fixture": false,
+      "label": "Fundamentos da Computação",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de informática biomédica no corpus documental utilizável.",
+      "id": "domain-informatica-biomedica",
+      "is_fixture": false,
+      "label": "Informática Biomédica",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de inteligência artificial e aprendizado de máquina no corpus documental utilizável.",
+      "id": "domain-inteligencia-artificial-e-aprendizado-de-maquina",
+      "is_fixture": false,
+      "label": "Inteligência Artificial e Aprendizado de Máquina",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de interação humano-computador no corpus documental utilizável.",
+      "id": "domain-interacao-humano-computador",
+      "is_fixture": false,
+      "label": "Interação Humano-Computador",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de metodologia científica e bioética no corpus documental utilizável.",
+      "id": "domain-metodologia-cientifica-e-bioetica",
+      "is_fixture": false,
+      "label": "Metodologia Científica e Bioética",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de programação no corpus documental utilizável.",
+      "id": "domain-programacao",
+      "is_fixture": false,
+      "label": "Programação",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de redes, sistemas distribuídos e paralelismo no corpus documental utilizável.",
+      "id": "domain-redes-sistemas-distribuidos-e-paralelismo",
+      "is_fixture": false,
+      "label": "Redes, Sistemas Distribuídos e Paralelismo",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de saúde coletiva e sistema de saúde no corpus documental utilizável.",
+      "id": "domain-saude-coletiva-e-sistema-de-saude",
+      "is_fixture": false,
+      "label": "Saúde Coletiva e Sistema de Saúde",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de segurança computacional no corpus documental utilizável.",
+      "id": "domain-seguranca-computacional",
+      "is_fixture": false,
+      "label": "Segurança Computacional",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    },
+    {
+      "description": "Domínio analítico inicial que organiza tópicos de sistemas operacionais no corpus documental utilizável.",
+      "id": "domain-sistemas-operacionais",
+      "is_fixture": false,
+      "label": "Sistemas Operacionais",
+      "provenance_note": "W033 reconciliation of broad domain suggestions emerging from source-grounded topic proposals.",
+      "review_state": "proposed"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

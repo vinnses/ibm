@@ -12,7 +12,7 @@
   <p>{data.curriculum.validity}</p>
   <p class="meta">{data.curriculum.notes}</p>
   <h2>Evidências formais</h2>
-  <EvidenceList ids={data.curriculum.evidence_ids} />
+  <EvidenceList items={data.evidence} />
   <h2>Disciplinas e componentes</h2>
   <div class="grid">
     {#each data.components as component}

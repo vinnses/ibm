@@ -1,0 +1,2534 @@
+{
+  "dataset_id": "w033-agent-2023-proposals-v1",
+  "dataset_kind": "intermediate-agent-proposals",
+  "scope": "All 23 preserved Ficha 1 and 17 preserved Ficha 2 records in the declared 2023 corpus.",
+  "generation_method": "Deterministic mapping of manually reviewed, exact excerpts from normalized preserved-source fields. No title-only proposals and no cross-curriculum inference.",
+  "source_count": 40,
+  "all_applicability_2023": "indeterminado",
+  "sources": [
+    {
+      "source_document_id": "CI1001-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1001",
+      "component_name": "Programação 1",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1001/ficha-1.pdf",
+      "source_sha256": "de98f9b0340f8243d9f8f1f8eb9f0ef76a63ced54fd2088f915709281fa4dbb8",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1001-Programa%C3%A7%C3%A3o-1.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "ferramentas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Uso dirigido de ferramentas para programação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "estruturas de dados básicas",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Estudo de estruturas de dados básicas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "práticas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Práticas de programação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1002-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1002",
+      "component_name": "Programação 2",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1002/ficha-1.pdf",
+      "source_sha256": "166c5dcb4b46c9a999308d4907559c3bd4697f79315800de887b660abe80412a",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1002-Programa%C3%A7%C3%A3o-2.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "técnicas avançadas de desenvolvimento de software",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Uso de técnicas avançadas para desenvolvimento de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "projetos de programação de média e alta complexidade",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Práticas de projetos de desenvolvimento de programas de média e alta complexidade.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1003-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1003",
+      "component_name": "Introdução à Ciência da Computação",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1003/ficha-1.pdf",
+      "source_sha256": "50a65e1bfe4986f1e5ba39d9a36e1bec0ce8caf6c860df37ff5cfa99e748e91d",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/06/CI1003-Introdu%C3%A7%C3%A3o-%C3%A0-Ci%C3%AAncia-da-Computa%C3%A7%C3%A3o.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "história da computação",
+          "suggested_domain_label_pt": "Fundamentos da Computação",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "História da Computação;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "impactos sociais da computação",
+          "suggested_domain_label_pt": "Computação, Sociedade e Ética",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Impactos da Computação na Ciência, Tecnologia e Sociedade;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "pensamento computacional",
+          "suggested_domain_label_pt": "Fundamentos da Computação",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Pensamento Computacional;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "ética em computação",
+          "suggested_domain_label_pt": "Computação, Sociedade e Ética",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Computação, Ética e Sociedade;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1055-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1055",
+      "component_name": "Algoritmos e Estruturas de Dados 1",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1055/ficha-1.pdf",
+      "source_sha256": "2b08392604d4cfb41fbebef1d32ceb41372a8b7491fded4e593356735fcb5cca",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1055-Algoritmos-e-Estruturas-de-Dados-1.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "modelo de Von Neumann",
+          "suggested_domain_label_pt": "Fundamentos da Computação",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "do modelo Von Neumann",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "programação estruturada",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "programação estruturada",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "estruturas de dados elementares",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "estruturas de dados elementares",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "tipos abstratos de dados simples",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Tipos abstratos de dados simples.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "custo de programas",
+          "suggested_domain_label_pt": "Análise de Algoritmos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Noções básicas de custo",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "teste de programas",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "teste de programas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1215-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1215",
+      "component_name": "Sistemas Operacionais",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1215/ficha-1.pdf",
+      "source_sha256": "1de3538f19829396f8c7a99cd8af298d33afbc0b7ce2148dfafda13298f91e93",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1215-Sistemas-Operacionais.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "arquitetura básica de sistemas operacionais",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Estrutura básica de um sistema operacional",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "comunicação e sincronização entre processos",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Mecanismos de comunicação e sincronização entre processos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gerenciamento de processos",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "gerenciamento de processos",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gerenciamento de memória",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "memória",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "sistemas de arquivos",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "sistemas de arquivos",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "entrada e saída",
+          "suggested_domain_label_pt": "Sistemas Operacionais",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "entrada e saída.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1005-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1005",
+      "component_name": "Qualidade de Software",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1005/ficha-1.pdf",
+      "source_sha256": "935422a55c7fe7098ea65530797d554f49b2ebe7fff09518da78fe8858a55aae",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/06/CI1005-Qualidade-de-Software.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "qualidade de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Qualidade de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "métricas de qualidade",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Métricas de qualidade.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gerenciamento de configuração",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Gerenciamento de Conﬁguração.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "verificação e validação de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Veriﬁcação e Validação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "teste de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Teste de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "qualidade de processo de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Qualidade de processo.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1007-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1007",
+      "component_name": "Segurança Computacional",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1007/ficha-1.pdf",
+      "source_sha256": "8aa057ad98da9cee72cd52308cf00b2dabc2e05c2c2657a255c3e174e105c4c3",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1007-Seguran%C3%A7a-Computacional.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "fundamentos de segurança computacional",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Conceitos básicos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "criptografia",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Introdução à criptograﬁa.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "autenticação e controle de acesso",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Autenticação e controle de acesso.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "segurança de sistemas e aplicações",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Segurança de sistemas e aplicações.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "segurança de redes e internet",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Segurança em redes e na Internet.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "auditoria e gestão de segurança",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Auditoria. Gestão da segurança.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1056-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1056",
+      "component_name": "Algoritmos e Estrutura de Dados 2",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1056/ficha-1.pdf",
+      "source_sha256": "20bc2234d68d3c913eb61f9a3bb09d4f90ee22beae707b94ff04d9c20f943899",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1056-Algoritmos-e-Estrutura-de-Dados-2.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "recursão",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Recursão",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos de busca",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Busca",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos de ordenação",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Ordenação",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "heaps",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Heaps",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "contagem de recursos computacionais",
+          "suggested_domain_label_pt": "Análise de Algoritmos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Contagem de recursos computacionais",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1057-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1057",
+      "component_name": "Algoritmos e Estruturas de Dados 3",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1057/ficha-1.pdf",
+      "source_sha256": "c320e876f8476b9e3886e333b0504fdfea46f2bff3c5c00044d7232a75736dd5",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1057-Algoritmos-e-estruturas-de-dados-3.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "acesso sequencial e indexado",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Acesso seqüêncial, indexado.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "tipo abstrato de dados dicionário",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Tipo abstrato de dados dicionário.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "ordenação externa",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Ordenação externa.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos gulosos",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Algoritmos gulosos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1062-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1062",
+      "component_name": "Paradigmas de Programação",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1062/ficha-1.pdf",
+      "source_sha256": "b2cd36af20053f8350e540438b4c4b2a3858a0aa3d0433b12fe0743a463201da",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1062-Paradigmas-de-Programa%C3%A7%C3%A3o.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "paradigmas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "diferentes paradigmas de programação estruturados e não estruturados.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1068-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1068",
+      "component_name": "Circuitos Digitais",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1068/ficha-1.pdf",
+      "source_sha256": "084b876afffa82653a57836954458667f8ec07831db55f5d752749c4392ab8f6",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1068-Circuitos-Digitais.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "sistemas de numeração",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Sistemas de numeração.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "aritmética binária",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aritmética binária.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "funções booleanas",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Minimização e decomposição de funções booleanas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "circuitos combinacionais",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Circuitos combinacionais",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "circuitos sequenciais",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Circuitos sequenciais.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "máquinas de estados",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Máquinas de estados.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1162-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1162",
+      "component_name": "Engenharia de Requisitos",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1162/ficha-1.pdf",
+      "source_sha256": "b2ede35e45a0fe2a2a9cac34947685b01a46d52eada56af16f2051517cccac07",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1162-Engenharia-de-Requisitos.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "requisitos funcionais e não funcionais",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Requisitos Funcionais e Não- Funcionais;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "processos de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Modelos de processos de software;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "análise de domínio",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Análise de domínio: do problema e da solução;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "elicitação e validação de requisitos",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "elicitação, análise, especiﬁcação e validação de requisitos;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "documento de requisitos",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Documento de requisitos;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelagem de casos de uso",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Diagrama de Casos de Uso, Modelo Conceitual.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1163-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1163",
+      "component_name": "Design de Software",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1163/ficha-1.pdf",
+      "source_sha256": "526de17265f23645e0c5f7acb2bb797181746d1a7fb322261cc722e8aef3d482",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1163-Design-de-Software.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "design de arquitetura de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design da arquitetura de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "design detalhado de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design detalhado.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelos de design de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Modelos de design de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "padrões de design",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Padrões de design.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "revisões e inspeções de design",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Revisões e inspeções.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "correspondência entre design e codificação",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Correspondência entre design e codiﬁcação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1171-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1171",
+      "component_name": "Aprendizado de Máquina",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1171/ficha-1.pdf",
+      "source_sha256": "11aebfd7d749eeeeb29f9cecd5fb220b759fd874c32f74eeb08ed46f0706bd45",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1171-Aprendizado-de-M%C3%A1quina.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "aprendizagem supervisionada",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aprendizagem supervisionada.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de classificadores",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Avaliação de classiﬁcadores.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "aprendizagem não supervisionada",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aprendizagem não supervisionada.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "regressão em aprendizado de máquina",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Regressão.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos genéticos",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Algoritmos Genéticos",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "otimização por enxame de partículas",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "PSO.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1209-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1209",
+      "component_name": "Inteligência Artificial",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1209/ficha-1.pdf",
+      "source_sha256": "3934fbf683f4fca4a63bc2522174122844f72cc8e4533eb350d6313810bf531f",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1209-Intelig%C3%AAncia-Artificial.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "inteligência artificial simbólica",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Inteligência Artiﬁcial simbólica e aplicações.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1212-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1212",
+      "component_name": "Arquitetura de Computadores",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1212/ficha-1.pdf",
+      "source_sha256": "cca92429315225a76dfb47799ffe906036bbe191118491dfa8105b1d97fc59d1",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1212-Arquitetura-de-Computadores.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "aritmética de inteiros e ponto flutuante",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aritmética de inteiros e ponto ﬂutuante",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de desempenho de computadores",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "avaliação de desempenho",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "processador pipeline",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "processador pipeline",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "sistemas de memória",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "sistemas de memória",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "memória cache",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "memória cache",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "memória virtual",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "memória virtual",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "arquiteturas de alto desempenho",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "arquiteturas de alto desempenho.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1218-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1218",
+      "component_name": "Bancos de Dados",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1218/ficha-1.pdf",
+      "source_sha256": "85154d13ab06357b3cb1071dc6d4c45730151c0f81a0afb5b7eebc90197e7358",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1218-Bancos-de-Dados.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "sistemas gerenciadores de bancos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [
+            "SGBD"
+          ],
+          "alias_justification": "The source explicitly supplies the abbreviation in parentheses.",
+          "supporting_excerpt": "sistema gerenciadores de bancos de dados (SGBD)",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Modelos de dados",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "linguagens de consulta",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "linguagens de consultas",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "processamento e otimização de consultas",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Processamento de consultas e otimização",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "projeto de bancos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Projeto de bancos de dados",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "transações de banco de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Conceitos de transações",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "controle de concorrência e recuperação",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Controle de concorrência e recuperação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1221-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1221",
+      "component_name": "Engenharia de Software",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1221/ficha-1.pdf",
+      "source_sha256": "797917a917bdf10065b00957885b806408847df727053030fae0e4277fc7d86f",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1221-Engenharia-de-Software.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "processos de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Processos e modelos de processos de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gestão de projetos de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Gestão de projeto de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "reuso de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Técnicas de Reuso.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "manutenção e evolução de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Manutenção e evolução.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1316-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1316",
+      "component_name": "Programação Paralela",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1316/ficha-1.pdf",
+      "source_sha256": "cabf4d62a7024ac5f740a781044b0d1a3e320754ba771eea54ea5d48ffe8ef69",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1316-Programa%C3%A7%C3%A3o-Paralela.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "paralelismo",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Introdução ao paralelismo.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "análise de algoritmos paralelos",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Análise de algoritmos paralelos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de desempenho paralelo",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Avaliação de desempenho.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "programação multithreading e multiprocessos",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Programação multithreading e multi-processos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1350-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1350",
+      "component_name": "Interação Humano-Computador",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/dinf/CI1350/ficha-1.pdf",
+      "source_sha256": "dcb36c82f988408238c203f4545d1832354f3622a1ffacfddc4092a86ad188ae",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/CI1350-Intera%C3%A7%C3%A3o-Humano-Computador.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "fundamentos de interação humano-computador",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Conceitos básicos em IHC;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "qualidade em interação humano-computador",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Qualidade em IHC;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "design participativo",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design Participativo",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "design universal",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design Universal;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelagem e prototipação em IHC",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Especiﬁcação, Modelagem e Prototipação em IHC;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação em IHC",
+          "suggested_domain_label_pt": "Interação Humano-Computador",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Avaliação em IHC.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "BF114-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "BF114",
+      "component_name": "Fisiologia para Informática Biomédica",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/outros-departamentos/BF114-ficha-1.pdf",
+      "source_sha256": "405e9838e92b73ca318b66a9c5d47a7aed8e382bb64ee6d5b340bb3110e2300f",
+      "source_url": "https://bio.ufpr.br/fisiologia/wp-content/uploads/sites/37/2024/12/1141.pdf",
+      "locator": "PDF p. 2, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "homeostasia e fisiologia celular",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "atividade funcional da célula e dos diferentes sistemas que participam da homeostasia do meio interno.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "transporte através de membranas",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "bases fisiológicas do transporte através de membranas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "fisiologia dos sistemas corporais",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Fisiologia dos sistemas: Locomotor, cardiovascular, renal, respiratório e digestivo.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "fisiologia endócrina",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Fisiologia das Glândulas Endócrinas",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "neurofisiologia",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Neurofisiologia:",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "simulações computacionais em fisiologia",
+          "suggested_domain_label_pt": "Informática Biomédica",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Fundamentos fisiológicos para elaboração de simulações de computador.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "BQ083-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "BQ083",
+      "component_name": "Biologia Molecular e Bioinformática",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/outros-departamentos/BQ083-ficha-1.pdf",
+      "source_sha256": "65c7e762dd3e2587bee40187a0fdb690d60fd9f085b737b566b2439e95af5109",
+      "source_url": "https://bio.ufpr.br/bioquimica/wp-content/uploads/sites/31/2021/12/BQ083-FICHA-1.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA (Unidade Didática)`, two paragraphs below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "estrutura de ácidos nucléicos",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Estrutura ácidos nucléicos;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "replicação, transcrição e tradução",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "replicação, transcrição, tradução, regulação da expressão gênica;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "manipulação gênica",
+          "suggested_domain_label_pt": "Biociências e Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "princípios de manipulação gênica;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "bancos de dados biológicos",
+          "suggested_domain_label_pt": "Bioinformática",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Banco de dados biológicos;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "alinhamento de sequências e busca de genes",
+          "suggested_domain_label_pt": "Bioinformática",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "algoritmos de alinhamento de sequências e busca de genes;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "análise filogenética",
+          "suggested_domain_label_pt": "Bioinformática",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "análise filogenética;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "análises genômica, transcriptômica e proteômica",
+          "suggested_domain_label_pt": "Bioinformática",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "análise Genômica, Transcriptômica e Proteômica;",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "biologia de sistemas",
+          "suggested_domain_label_pt": "Bioinformática",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Biologia de Sistemas",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "MN162-ficha-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "MN162",
+      "component_name": "Organização do Sistema de Saúde Brasileiro",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2023/fichas/outros-departamentos/MN162-ficha-1.pdf",
+      "source_sha256": "cfcb6de27917d0edb92c0b5f10093aafcd4843b079e30abf53d912ab3f705135",
+      "source_url": "https://bio.ufpr.br/fisioterapia/wp-content/uploads/sites/20/2024/12/MN162___ORGANIZACAO_DO_SISTEMA_DE_SAUDE_BRASILEIRO.pdf",
+      "locator": "PDF p. 1, section heading `EMENTA`, paragraph below heading",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "processo saúde-doença",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Historicidade do processo saúde-doença",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "indicadores ambientais e saúde",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Indicadores ambientais e saúde.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "políticas de saúde",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Políticas de saúde.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "organização do sistema de saúde brasileiro",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "organização do sistema de saúde brasileiro.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "níveis de atenção à saúde",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Níveis de atenção à saúde.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "planejamento e avaliação em saúde",
+          "suggested_domain_label_pt": "Saúde Coletiva e Sistema de Saúde",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "planejamento e avaliação em saúde.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1001-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1001",
+      "component_name": "Programação 1",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1001/ficha-2.pdf",
+      "source_sha256": "84c915a688a91dbd12a2dc5b02880a9e527794e8fdbf93593a6c020fd46253ab",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1001-Programa%C3%A7%C3%A3o-1.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "ferramentas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Uso dirigido de ferramentas para programação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "estruturas de dados básicas",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Estudo de estruturas de dados básicas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "práticas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Práticas de programação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1002-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1002",
+      "component_name": "Programação 2",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1002/ficha-2.pdf",
+      "source_sha256": "38fa483c190948cb22650b4be7b2fad869c1d4873246ef20ec64b63b167762b6",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1002-Programa%C3%A7%C3%A3o-2.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "técnicas avançadas de desenvolvimento de software",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Uso de técnicas avançadas para desenvolvimento de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "projetos de programação de média e alta complexidade",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Práticas de projetos de desenvolvimento de programas de média e alta complexidade.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1005-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1005",
+      "component_name": "Qualidade de Software",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1005/ficha-2.pdf",
+      "source_sha256": "b16a1f8b6c5e2aca1b6678734c212525ae0ba35826769a880605b36d3d8246e8",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1005-Qualidade-de-Software.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "qualidade de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Qualidade de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "métricas de qualidade",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Métricas de qualidade.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gerenciamento de configuração",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Gerenciamento de Conﬁguração.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "verificação e validação de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Veriﬁcação e Validação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "teste de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Teste de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "qualidade de processo de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Qualidade de processo.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1007-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1007",
+      "component_name": "Segurança Computacional",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1007/ficha-2.pdf",
+      "source_sha256": "ec0352d9e4ed3a4f066cfa3b6a7b95e1216be346869a61f66e8010905a72afa4",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1007-Seguran%C3%A7a-Computacional.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "fundamentos de segurança computacional",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Conceitos básicos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "criptografia",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Introdução à criptograﬁa.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "autenticação e controle de acesso",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Autenticação e controle de acesso.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "segurança de sistemas e aplicações",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Segurança de sistemas e aplicações.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "segurança de redes e internet",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Segurança em redes e na Internet.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "auditoria e gestão de segurança",
+          "suggested_domain_label_pt": "Segurança Computacional",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Auditoria. Gestão da segurança.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1055-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1055",
+      "component_name": "Algoritmos e Estruturas de Dados 1",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1055/ficha-2.pdf",
+      "source_sha256": "42f73a148ef1a696f4e0b6fbb3c30c7f8138b0f6a2cad7adaa5ca5e60cd1274b",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1055-Algoritmos-e-Estruturas-de-Dados-1.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "modelo de Von Neumann",
+          "suggested_domain_label_pt": "Fundamentos da Computação",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "do modelo Von Neumann",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "programação estruturada",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "programação estruturada",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "estruturas de dados elementares",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "estruturas de dados elementares",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "tipos abstratos de dados simples",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Tipos abstratos de dados simples.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "custo de programas",
+          "suggested_domain_label_pt": "Análise de Algoritmos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Noções básicas de custo",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "teste de programas",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "teste de programas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1056-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1056",
+      "component_name": "Algoritmos e Estruturas de Dados 2",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1056/ficha-2.pdf",
+      "source_sha256": "2ab19eb5b0ad0a97f2969fee48d20d1e3b7ca4d96c4ec84d54e0984349f6fb74",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1056-Algoritmos-e-Estrutura-de-Dados-2.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "recursão",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Recursão",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos de busca",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Busca",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos de ordenação",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Ordenação",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "heaps",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Heaps",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "contagem de recursos computacionais",
+          "suggested_domain_label_pt": "Análise de Algoritmos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Contagem de recursos computacionais",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1057-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1057",
+      "component_name": "Algoritmos e Estruturas de Dados 3",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1057/ficha-2.pdf",
+      "source_sha256": "b88ea7b59c1f1f2fa07ab99bf88d135a0d8f4cdb7493091dea2c7e40b3ea478b",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1057-Algoritmos-e-estruturas-de-dados-3.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "acesso sequencial e indexado",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Acesso seqüêncial, indexado.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "tipo abstrato de dados dicionário",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Tipo abstrato de dados dicionário.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "ordenação externa",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Ordenação externa.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos gulosos",
+          "suggested_domain_label_pt": "Algoritmos e Estruturas de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Algoritmos gulosos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1062-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1062",
+      "component_name": "Paradigmas de Programação",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1062/ficha-2.pdf",
+      "source_sha256": "fe80ce8b01026d0ebbc01dbeeb16a0f60b08adcb71f09d2e9e04027718c88a1b",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1062-Paradigmas-de-Programa%C3%A7%C3%A3o.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "paradigmas de programação",
+          "suggested_domain_label_pt": "Programação e Desenvolvimento de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "diferentes paradigmas de programação estruturados e não estruturados.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1068-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1068",
+      "component_name": "Circuitos Digitais",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1068/ficha-2.pdf",
+      "source_sha256": "6e058bd05aa110655c29802e29dc4251c719a070b6a05dcca10d35317b4dbb5c",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1068-Circuitos-Digitais.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "sistemas de numeração",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Sistemas de numeração.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "aritmética binária",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aritmética binária.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "funções booleanas",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Minimização e decomposição de funções booleanas.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "circuitos combinacionais",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Circuitos combinacionais",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "circuitos sequenciais",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Circuitos sequenciais.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "máquinas de estados",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Máquinas de estados.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1163-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1163",
+      "component_name": "Design de Software",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1163/ficha-2.pdf",
+      "source_sha256": "a6ab7995bada41bcdd9682b5fe6911efde431ec27947cbcdd130118a8fe17086",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1163-Design-de-Software.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "design de arquitetura de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design da arquitetura de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "design detalhado de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Design detalhado.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelos de design de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Modelos de design de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "padrões de design",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Padrões de design.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "revisões e inspeções de design",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Revisões e inspeções.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "correspondência entre design e codificação",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Correspondência entre design e codiﬁcação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1171-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1171",
+      "component_name": "Aprendizado de Máquina",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1171/ficha-2.pdf",
+      "source_sha256": "1a498d6c626f7b6c5c79042f154c2165d86fae26749bbc64c92dbbaf739018b6",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1171-Aprendizado-de-M%C3%A1quina.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "aprendizagem supervisionada",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aprendizagem supervisionada.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de classificadores",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Avaliação de classiﬁcadores.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "aprendizagem não supervisionada",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aprendizagem não supervisionada.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "regressão em aprendizado de máquina",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Regressão.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "algoritmos genéticos",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Algoritmos Genéticos",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "otimização por enxame de partículas",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "PSO",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1209-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1209",
+      "component_name": "Inteligência Artificial",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1209/ficha-2.pdf",
+      "source_sha256": "33f6f9147a0503404a3198f9bea4fe8315a645d9a0b523cc3c5a9e64b3f85edd",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1209-Intelig%C3%AAncia-Artificial.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "inteligência artificial simbólica",
+          "suggested_domain_label_pt": "Inteligência Artificial e Aprendizado de Máquina",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Inteligência Artiﬁcial simbólica e aplicações.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1212-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1212",
+      "component_name": "Arquitetura de Computadores",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1212/ficha-2.pdf",
+      "source_sha256": "1dafc6d8ddd012ef17e9e6e6dba63e8a881740d7d8946f8809b4e8f1d5eb4098",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1212-Arquitetura-de-Computadores.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "aritmética de inteiros e ponto flutuante",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Aritmética de inteiros e ponto ﬂutuante",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de desempenho de computadores",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "avaliação de desempenho",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "processador pipeline",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "processador pipeline",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "sistemas de memória",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "sistemas de memória",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "memória cache",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "memória cache",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "memória virtual",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "memória virtual",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "arquiteturas de alto desempenho",
+          "suggested_domain_label_pt": "Arquitetura e Hardware",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "arquiteturas de alto desempenho.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1218-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1218",
+      "component_name": "Bancos de Dados",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1218/ficha-2.pdf",
+      "source_sha256": "6cd9c7a2c75a3653e5dd7346fc3d2822d98a52692602d30802ecea931bf85185",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1218-Bancos-de-Dados.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "sistemas gerenciadores de bancos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [
+            "SGBD"
+          ],
+          "alias_justification": "The source explicitly supplies the abbreviation in parentheses.",
+          "supporting_excerpt": "sistema gerenciadores de bancos de dados (SGBD)",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "modelos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Modelos de dados",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "linguagens de consulta",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "linguagens de consultas",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "processamento e otimização de consultas",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Processamento de consultas e otimização",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "projeto de bancos de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Projeto de bancos de dados",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "transações de banco de dados",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Conceitos de transações",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "controle de concorrência e recuperação",
+          "suggested_domain_label_pt": "Banco de Dados",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Controle de concorrência e recuperação.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1221-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1221",
+      "component_name": "Engenharia de Software",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1221/ficha-2.pdf",
+      "source_sha256": "4868ad64df82d88d38b13334e622edf2a1de36cbe51fcf8bb4abfb2725905ac7",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1221-Engenharia-de-Software.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "processos de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Processos e modelos de processos de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "gestão de projetos de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Gestão de projeto de software.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "reuso de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Técnicas de Reuso.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "manutenção e evolução de software",
+          "suggested_domain_label_pt": "Qualidade e Engenharia de Software",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Manutenção e evolução",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "CI1316-ficha-2",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "CI1316",
+      "component_name": "Programação Paralela",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/dinf/CI1316/ficha-2.pdf",
+      "source_sha256": "f21ed72e45c0e3d98409397440714da28b457b5733e6e8250d24e79b831169e0",
+      "source_url": "https://web.inf.ufpr.br/dinf/wp-content/uploads/sites/2/2020/05/2CI1316-Programa%C3%A7%C3%A3o-Paralela.pdf",
+      "locator": "identity/permanent fields/ementa/program: PDF p. 1; objectives/method/evaluation: PDF pp. 1-2; bibliography: PDF pp. 2-3; teacher/signature: PDF p. 3",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "paralelismo",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Introdução ao paralelismo.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "análise de algoritmos paralelos",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Análise de algoritmos paralelos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "avaliação de desempenho paralelo",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Avaliação de desempenho.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "programação multithreading e multiprocessos",
+          "suggested_domain_label_pt": "Sistemas Distribuídos e Paralelos",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "Programação multi-threading e multi-processos.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    },
+    {
+      "source_document_id": "MN129-ficha-2-2022-1",
+      "curriculum_id": "curriculum-2023",
+      "component_code": "MN129",
+      "component_name": "Metodologia da Pesquisa e Bioética em saúde",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2023/fichas/outros-departamentos/MN129-ficha-2-2022-1.pdf",
+      "source_sha256": "26d23f09c1250d85e14c1b37bb4616998cada9bfe47a8c5550f10226a333df2c",
+      "source_url": "https://saude.ufpr.br/enfermagem/wp-content/uploads/sites/4/2022/10/MN129_metodologia-da-pesquisa-e-bioetica-em-saude-1_2022.pdf",
+      "locator": "identity/term/permanent fields/ementa/program/objective: PDF p. 1; method/evaluation: PDF p. 2; bibliography/teacher: PDF pp. 3-6; cronograma: PDF pp. 7-8",
+      "applicability_2023": "indeterminado",
+      "documentary_status": "preserved; applicability indeterminate",
+      "topic_proposals": [
+        {
+          "proposed_label_pt": "métodos e técnicas de pesquisa em saúde",
+          "suggested_domain_label_pt": "Metodologia Científica e Bioética",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "A pesquisa em saúde, métodos e técnicas de pesquisa.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        },
+        {
+          "proposed_label_pt": "ética e bioética em pesquisa em saúde",
+          "suggested_domain_label_pt": "Metodologia Científica e Bioética",
+          "aliases": [],
+          "alias_justification": null,
+          "supporting_excerpt": "A Ética e bioética na pesquisa em saúde.",
+          "epistemic_state": "indeterminate",
+          "review_state": "proposed",
+          "notes": "Analytical proposal grounded in the quoted source text; it does not establish 2023 curriculum applicability."
+        }
+      ]
+    }
+  ]
+}

@@ -85,8 +85,8 @@
     },
     "evolutionRelation": {
       "type": "object", "additionalProperties": false,
-      "required": ["id", "source_occurrence_ids", "target_occurrence_ids", "change_type", "evidence_strength", "evidence_ids", "notes", "review_state", "is_fixture"],
-      "properties": { "id": { "$ref": "#/$defs/id" }, "source_occurrence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "target_occurrence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "change_type": { "enum": ["maintained", "expanded", "reduced", "moved", "fragmented", "merged", "new", "removed", "indeterminate"] }, "evidence_strength": { "$ref": "#/$defs/evidenceStrength" }, "evidence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "notes": { "type": "string" }, "review_state": { "$ref": "#/$defs/reviewState" }, "is_fixture": { "type": "boolean" } }
+      "required": ["id", "source_occurrence_ids", "target_occurrence_ids", "change_type", "evidence_strength", "evidence_ids", "notes", "review_state", "is_fixture", "candidate_method", "similarity_score", "analysis_provenance"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "source_occurrence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "target_occurrence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "change_type": { "enum": ["maintained", "expanded", "reduced", "moved", "fragmented", "merged", "new", "removed", "indeterminate"] }, "evidence_strength": { "$ref": "#/$defs/evidenceStrength" }, "evidence_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }, "notes": { "type": "string" }, "review_state": { "$ref": "#/$defs/reviewState" }, "is_fixture": { "type": "boolean" }, "candidate_method": { "type": "string" }, "similarity_score": { "type": ["string", "null"] }, "analysis_provenance": { "type": "string" } }
     },
     "evidence": {
       "type": "object", "additionalProperties": false,

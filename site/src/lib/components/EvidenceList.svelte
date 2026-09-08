@@ -1,15 +1,12 @@
 <script lang="ts">
-  import { byId, evidenceFor, model } from '$lib/data';
-  let { ids }: { ids: string[] } = $props();
-  let evidence = $derived(evidenceFor(ids));
+  let { items }: { items: Array<{ id: string; title: string; section: string | null; page: string | null }> } = $props();
 </script>
 
-{#if evidence.length}
+{#if items.length}
   <ul class="evidence-list">
-    {#each evidence as item}
-      {@const document = byId(model.factual.documents, item.document_id)}
+    {#each items as item}
       <li>
-        <a href={`/evidencias/${item.id}`}>{document?.title ?? item.id}</a>
+        <a href={`/evidencias/${item.id}`}>{item.title}</a>
         {#if item.section}<small>Seção: {item.section}</small>{/if}
         {#if item.page}<small>Página: {item.page}</small>{/if}
       </li>

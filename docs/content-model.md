@@ -63,18 +63,19 @@ origins, source/public hashes, the exact public file set, and negative mutated
 cases for orphan IDs, invalid states, duplicates, missing origins, and path
 traversal.
 
-For W033, replace or extend `site/data/source/analytical-fixtures.json` through
-a documented source adapter, remove the synthetic records when no longer
-needed, preserve identification provenance, and rerun the builder. W032's
-builder intentionally performs no content classification.
+W033 replaces the synthetic analytical fixture at build time with a documented
+corpus and taxonomy adapter. Its method, population counts, uncertainty rules,
+and extension workflow are described in `docs/content-taxonomy.md`. The W032
+builder itself still performs no content classification.
 
 ## Preserved public documents
 
 Only entries in `site/data/source/public-documents.json` are copied to
 `site/static/documents/`. Each entry must resolve to one existing manifest row,
 remain under an allowed repository prefix, be a regular non-symlink file, and
-match its recorded SHA-256. The generated tree currently contains only the
-2011 and 2023 formal resolutions and PPCs.
+match its recorded SHA-256. The generated tree now contains the four formal
+curricular documents plus the 52 W033 Ficha source records selected through
+the same allowlist and hash checks.
 
 Users follow entity → evidence → document → `/documentos/[id]/arquivo`. The
 endpoint accepts only a known document ID and redirects to its generated static

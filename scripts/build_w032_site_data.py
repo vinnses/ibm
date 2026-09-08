@@ -95,12 +95,50 @@ def build_documents(destination: Path) -> list[dict[str, Any]]:
                 "media_type": media_type,
             }
         )
+    corpus_path = ROOT / "site/data/source/w033/content-corpus.json"
+    if corpus_path.is_file():
+        corpus = read_json(corpus_path)
+        for item in sorted(corpus["sources"], key=lambda value: value["document"]["id"]):
+            source_document = item["document"]
+            relative = source_document["repository_path"]
+            if Path(relative).is_absolute() or ".." in Path(relative).parts or not relative.startswith(prefixes):
+                raise ValueError(f"unsafe or disallowed W033 public document path: {relative}")
+            source = ROOT / relative
+            if not source.is_file() or source.is_symlink():
+                raise ValueError(f"W033 public document is missing, not regular, or a symlink: {relative}")
+            actual_hash = sha256(source)
+            if actual_hash != source_document["sha256"]:
+                raise ValueError(f"W033 public document hash mismatch: {relative}")
+            document_id = source_document["id"]
+            target_dir = destination / document_id
+            target_dir.mkdir()
+            filename = f"source{source.suffix.lower()}"
+            target = target_dir / filename
+            shutil.copyfile(source, target)
+            documents.append({
+                "id": document_id,
+                "title": source_document["title"],
+                "institution": source_document["institution"],
+                "document_type": source_document["document_type"],
+                "document_date": source_document["document_date"],
+                "original_url": source_document["original_url"],
+                "repository_path": relative,
+                "sha256": actual_hash,
+                "documentary_state": item["documentary_state"],
+                "applicability_status": "indeterminate",
+                "applicability_note": item["applicability_note"],
+                "public_path": f"/documentos/{document_id}/arquivo",
+                "asset_path": f"/documents/{document_id}/{filename}",
+                "media_type": mimetypes.guess_type(target.name)[0] or "application/octet-stream",
+            })
     return documents
 
 
 def build_model(public_destination: Path) -> dict[str, Any]:
     documents = build_documents(public_destination)
     fixtures = read_json(FIXTURES)
+    taxonomy_path = ROOT / "site/data/source/w033/taxonomy.json"
+    taxonomy = read_json(taxonomy_path) if taxonomy_path.is_file() else None
     document_by_id = {document["id"]: document for document in documents}
 
     evidence = [
@@ -149,6 +187,8 @@ def build_model(public_destination: Path) -> dict[str, Any]:
             "notes": "Curriculum context only; component rows use the formal resolution as their structural basis.",
         },
     ]
+    if taxonomy:
+        evidence.extend(taxonomy["evidence"])
 
     curricula = [
         {
@@ -244,11 +284,14 @@ def build_model(public_destination: Path) -> dict[str, Any]:
         for evidence_id in curriculum["evidence_ids"]:
             evidence_links.append({"id": f"link-{evidence_id}-{curriculum['id']}", "evidence_id": evidence_id, "target_type": "curriculum", "target_id": curriculum["id"], "purpose": "Formal curriculum evidence"})
 
+    if taxonomy:
+        evidence_links.extend(taxonomy["evidence_links"])
+
     return {
         "schema_version": "1.0.0",
         "generated_at": "2026-09-08T00:00:00Z",
         "generated_by": "scripts/build_w032_site_data.py",
-        "fixture_notice": fixtures["fixture_notice"],
+        "fixture_notice": fixtures["fixture_notice"] if not taxonomy else "No synthetic fixture is present; W033 analytical records remain proposed pending review.",
         "factual": {
             "curricula": sorted(curricula, key=lambda item: item["id"]),
             "component_instances": sorted(components, key=lambda item: item["id"]),
@@ -256,7 +299,7 @@ def build_model(public_destination: Path) -> dict[str, Any]:
             "documents": documents,
         },
         "analytical": {
-            key: sorted(fixtures[key], key=lambda item: item["id"])
+            key: sorted((taxonomy[key] if taxonomy else fixtures[key]), key=lambda item: item["id"])
             for key in ("content_domains", "content_topics", "topic_occurrences", "evolution_relations")
         },
         "provenance": {

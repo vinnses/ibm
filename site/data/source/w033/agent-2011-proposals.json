@@ -1,0 +1,223 @@
+{
+  "schema_version": "w033-agent-proposals-1.0.0",
+  "generated_by": "taxonomy-2011 subagent documentary proposal",
+  "generated_at": "2026-09-08",
+  "scope": "Source-by-source analytical proposals from the twelve literal W030 historical-Ficha extractions. These are not factual curriculum assertions and do not establish applicability to curriculum 96A.",
+  "default_review_state": "proposed",
+  "default_epistemic_state": "indeterminate",
+  "method_note": "Labels abstract only the quoted content at intermediate granularity. A document's code identifies the source component, while curriculum applicability is retained verbatim from its manifest. Ficha 1, Ficha 2, and the undesignated older component document remain separate sources.",
+  "source_documents": [
+    {
+      "document_id": "W022-CI055-F1-2011",
+      "component_code": "CI055",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w022-ci055/ficha-1-indeterminada/CI055-ficha-1-2011-archive.pdf",
+      "source_sha256": "5f80efe78691fab04d22bb74d4b6aa065f775255f3008f0720a86df6afc72c22",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; the source identifies CI055 and validity 2011/01 but does not name Informática Biomédica/96A.",
+      "locator": "page:1; EMENTA (Unidades didáticas)",
+      "proposed_topics": [
+        {"label": "representação e aritmética binária", "domain_label": "Fundamentos de Computação", "supporting_excerpt": "Representação e aritmética binária.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support; curriculum applicability is not established."},
+        {"label": "representação de dados", "domain_label": "Fundamentos de Computação", "supporting_excerpt": "Repre- sentação de dados.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Literal extraction retains the line-break hyphenation; not expanded into formats not named by the source."},
+        {"label": "algoritmos e resolução de problemas computacionais", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Características básicas do computador. Representação e aritmética binária. Algoritmos. Repre- sentação de dados. Introdução a uma linguagem de programação. Solução de problemas simples por computadores.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The complete literal ementa supports the two named statements; no particular algorithmic method is claimed."},
+        {"label": "introdução à programação", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Introdução a uma linguagem de programação.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The source does not identify a language or paradigm."}
+      ]
+    },
+    {
+      "document_id": "W022-CI055-F2-2011-1",
+      "component_code": "CI055",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2011/fichas/w022-ci055/ficha-2-separada/CI055-ficha-2-2011-1-marcos.pdf",
+      "source_sha256": "0ba8308460a2930c3723f53e48874528b409a56d6b2a737db8e21e35c1976363",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "not applicable as direct evidence for curriculum-2011/96A; explicitly names Ciência da Computação turma A, not Informática Biomédica/96A.",
+      "locator": "page:1;page:2; Programa",
+      "proposed_topics": [
+        {"label": "arquitetura de Von Neumann", "domain_label": "Fundamentos de Computação", "supporting_excerpt": "Modelo de Von Neumann.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Offering-specific Ficha 2 for another course; retained as a separate source only."},
+        {"label": "programação estruturada em Pascal", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Estrutura básica de um programa em PASCAL. Comandos simples, comandos de atribuição, comandos de entrada e saída.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Language-specific program content; no assertion that this offering describes 96A."},
+        {"label": "expressões lógicas e aritméticas", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Expressões lógicas e aritméticas.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Literal program item."},
+        {"label": "estruturas de controle", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Comandos de desvio, de repetição e aninhamento de comandos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Normalized intermediate label for the quoted control constructs."},
+        {"label": "subprogramas e passagem de parâmetros", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Subprogramas. Procedimentos, escopo de variáveis, passagem de parâmetro (por valor e por referência), funções e procedimentos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Single program unit retained together because scope and parameters are taught through subprograms."},
+        {"label": "vetores, matrizes e cadeias de caracteres", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Vetores unidimensionais e multidimensionais, strings.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The normalized Portuguese label expands only the explicit dimensional distinction."},
+        {"label": "algoritmos de ordenação e pesquisa", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Algoritmos de ordenação e de pesquisa.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "No particular algorithm is inferred."},
+        {"label": "refinamento sucessivo", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Resolução de problemas computacionais por refinamentos sucessivos.", "aliases": ["refinamentos sucessivos"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Alias is justified by the singular/plural wording in CI055 F2 and CI056 F1; merge remains proposed."}
+      ]
+    },
+    {
+      "document_id": "W022-CI055-OLDER-COMPONENT",
+      "component_code": "CI055",
+      "document_type": "undesignated component document",
+      "source_path": "curriculos/2011/fichas/w022-ci055/ficha-1-indeterminada/CI055-ficha-1-1998-2010-directory.pdf",
+      "source_sha256": "035ac7ad3a4eb9fc11e71b0dc520b7edac1c1ef85414e78e44a24777401b537f",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate; the PDF has no internal Ficha 1/Ficha 2 label or course assignment and cannot establish 2011 or curriculum-96A applicability.",
+      "locator": "page:1; ementa and program",
+      "proposed_topics": [
+        {"label": "representação e aritmética binária", "domain_label": "Fundamentos de Computação", "supporting_excerpt": "Representação e aritmética binária.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Separate older source corroborates wording but does not upgrade applicability."},
+        {"label": "programação estruturada", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "5. Comandos de repetição com FOR. 6. Comandos de repetição com WHILE e REPEAT. 7. Comando de desvio com IF.", "aliases": ["estruturas de controle"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate merge only: constructs overlap the CI055 F2 control-structure proposal; terminology differs."},
+        {"label": "subprogramas e passagem de parâmetros", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Subprogramas. Procedimentos, escopo de variáveis, passagem de parâmetro por valor e por referência, funções.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Older undesignated source."},
+        {"label": "registros", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Tipo Registro (RECORD).", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "No extrapolation to record implementation details."}
+      ]
+    },
+    {
+      "document_id": "W022-CI056-F1-2011",
+      "component_code": "CI056",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w022-ci056/ficha-1-indeterminada/CI056-ficha-1-2011-dinf-archive.pdf",
+      "source_sha256": "f52673afd6ef03d803bb26e57d94bcc7eaee3f5f8577dabe6d84a114cdfb5e3e",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; validity 2011/01 is identified but Informática Biomédica/96A is not named.",
+      "locator": "page:1; EMENTA (Unidades didáticas)",
+      "proposed_topics": [
+        {"label": "refinamento sucessivo", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Refinamentos sucessivos.", "aliases": ["refinamento sucessivo"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Morphological alias justified by the CI055 F2 wording; proposed consolidation only."},
+        {"label": "tipos abstratos de dados lineares", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Tipos abstratos de dados: listas, pilhas, filas.", "aliases": ["listas, pilhas, filas"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Intermediate label groups exactly the three enumerated linear structures."},
+        {"label": "recursividade", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Recursividade.", "aliases": ["recursão"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Alias is supported by the same concept being named 'Recursão' in CI056 F2; reconciliation remains proposed."},
+        {"label": "ordenação interna", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Ordenação interna.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."},
+        {"label": "algoritmos de busca", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Busca.", "aliases": ["pesquisa"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Potential lexical alias only; source uses the broad term without a method."},
+        {"label": "análise de complexidade de algoritmos", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Análise de complexidade dos algoritmos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."}
+      ]
+    },
+    {
+      "document_id": "W022-CI056-F2-IBM-2010-1",
+      "component_code": "CI056",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2011/fichas/w022-ci056/ficha-2-separada/CI056-ficha-2-infobiomedica-2010-1.pdf",
+      "source_sha256": "6cd371381d75140d506980c2ba0f0ee6c964929025358a71595fd1828f61a7d8",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; it names Curso Informática Biomédica and validity 2010/1 but no class or curriculum version, so use in 96A is not inferred.",
+      "locator": "page:1;page:2; Programa",
+      "proposed_topics": [
+        {"label": "análise assintótica de complexidade", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Análise assintótica de limites de complexidade. Crescimento de funções e comportamento assintótico. Notações e classes de complexidade padrão.", "aliases": ["análise de complexidade de algoritmos"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "More specific candidate under the CI056 F1 complexity proposal; applicability remains indeterminate."},
+        {"label": "compromissos de tempo e espaço", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Compromissos de tempo e espaço em algoritmos. Eficiência dos algoritmos e uso dos recursos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "medição empírica de desempenho", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Técnicas para estimativa de custo e medições. Medidas empíricas de desempenho.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "computabilidade e intratabilidade", "domain_label": "Teoria da Computação", "supporting_excerpt": "Existência de problemas intratáveis e de problemas não computáveis.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups the two explicit problem classes without asserting formal proof techniques."},
+        {"label": "recursão e relações de recorrência", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "6. Recursão, funções matemáticas recursivas. Procedimentos recursivos simples. Implementação de recursão. 7. Análise de complexidade de algoritmos recursivos. 8. Uso de relações de recorrência para analisar algoritmos recursivos. Resolução de relações de recorrência simples.", "aliases": ["recursividade"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate refinement/merge with the CI056 F1 recursividade topic."},
+        {"label": "alocação estática e dinâmica de memória", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Estruturas de dados na memória principal, alocação estática e dinâmica de memória.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "listas, filas e pilhas", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Listas lineares e suas especializações: listas ordenadas, listas encadeadas, filas e pilhas.", "aliases": ["tipos abstratos de dados lineares"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate merge with CI056 F1; explicitly retains the structures named here."},
+        {"label": "pesquisa e ordenação em memória principal", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Algoritmos fundamentais para pesquisa e ordenação. Algoritmos para pesquisa e ordenação em memória principal.", "aliases": ["algoritmos de ordenação e pesquisa"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate merge with CI055 F2; this source adds the memory-main qualifier."},
+        {"label": "algoritmos de ordenação interna", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Algoritmos seleção direta, inserção direta, shellsort, quicksort, heapsort, mergesort.", "aliases": ["ordenação interna"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Specific program elaboration of the CI056 F1 ementa item."},
+        {"label": "pesquisa binária", "domain_label": "Programação e Algoritmos", "supporting_excerpt": "Pesquisa em tabela não ordenada e ordenada, pesquisa binária.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Specific search method explicitly named."}
+      ]
+    },
+    {
+      "document_id": "W022-CI057-F1-2011",
+      "component_code": "CI057",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w022-ci057/ficha-1-indeterminada/CI057-ficha-1-2011-dinf-archive.pdf",
+      "source_sha256": "5b028de6a54873b6c22922560dc8c55002aa6ff2b71406ce6cf26a4969e43e03",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; validity 2011/01 is identified but Informática Biomédica/96A is not named.",
+      "locator": "page:1; EMENTA (Unidades didáticas)",
+      "proposed_topics": [
+        {"label": "acesso sequencial e indexado", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Acesso seqüêncial, indexado.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Literal ementa support; no storage medium is inferred."},
+        {"label": "estruturas de dados em árvore", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Memória principal. Acesso seqüêncial, indexado. Árvore. Complexidade algoritmos. Ordenação externa. Árvores balanceadas. Conjuntos não ordenáveis.", "aliases": ["árvores balanceadas"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The complete literal ementa supports both tree references; later Ficha 2 contains candidate refinements."},
+        {"label": "ordenação externa", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Ordenação externa.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."}
+      ]
+    },
+    {
+      "document_id": "W022-CI057-F2-2011-1",
+      "component_code": "CI057",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2011/fichas/w022-ci057/ficha-2-separada/CI057-ficha-2-2011-1-carmem.pdf",
+      "source_sha256": "1ad92265f5f6ff59c31f4d796144dcad02c631daaea8b7fea3c6a29e6a67e93e",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "not applicable as direct evidence for curriculum-2011/96A; explicitly names Ciência da Computação turmas A e B, not Informática Biomédica/96A.",
+      "locator": "page:1;page:2; Programa",
+      "proposed_topics": [
+        {"label": "tipo abstrato de dados dicionário", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Introdução a tipos abstratos de dados e o tipo dicionário.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Offering-specific source for another course."},
+        {"label": "árvores de busca balanceadas", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Tipos de árvores: binária, binária de busca, AVL, rubro- negra.", "aliases": ["estruturas de dados em árvore"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Literal extraction retains the line-break hyphenation; candidate narrower topic under the CI057 F1 tree proposal."},
+        {"label": "busca externa e estruturas indexadas", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Busca externa: árvore B, B+, ISAM.", "aliases": ["acesso sequencial e indexado"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate relation only; indexed access does not automatically mean the same topic."},
+        {"label": "árvores digitais", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Árvore digitais: de busca, trie, Patricia.", "aliases": ["trie", "Patricia"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Aliases reproduce terms enumerated in the excerpt."},
+        {"label": "compressão de dados", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Compressão de dados e Heap.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Heap is not folded into compression because the source lists them separately."},
+        {"label": "estruturas heap", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Compressão de dados e Heap.", "aliases": ["Heap"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The source provides no further Heap qualification."},
+        {"label": "tabelas de dispersão", "domain_label": "Estruturas de Dados", "supporting_excerpt": "Tabelas de dispersão.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."}
+      ]
+    },
+    {
+      "document_id": "W023-CI244-F1-2011",
+      "component_code": "CI244",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w023-ci244/ficha-1-indeterminada/CI244-ficha-1-2011-dinf-archive.pdf",
+      "source_sha256": "aa8795df0aecb1b39c09f265fbe86bbcbe18f08874c55c98a4de390d340bd936",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; validity 2011/01 is identified but Informática Biomédica/96A is not named.",
+      "locator": "page:1; EMENTA (Unidades didáticas)",
+      "proposed_topics": [
+        {"label": "modelos de referência OSI e TCP/IP", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "Modelos OSI e TCP/IP.", "aliases": ["Modelo OSI e Modelo TCP/IP"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Alias is the singular wording in the associated Ficha 2; no curriculum applicability upgrade."},
+        {"label": "camadas de aplicação, transporte e rede", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "Camada de Aplicação. Camada de Transporte. Camada de Rede.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups exactly the three named network layers."},
+        {"label": "modelos e estruturas de sistemas distribuídos", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "Modelos de Sistemas Distribuídos. Estruturas de Sistemas Distribuídos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Aggregates two adjacent ementa statements."},
+        {"label": "coordenação distribuída", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "Coordenação Distribuída.", "aliases": ["coordenação de concorrência em sistemas distribuídos"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate lexical/conceptual merge with CI244 F2; not yet reviewed."}
+      ]
+    },
+    {
+      "document_id": "W023-CI244-F2-2011-1",
+      "component_code": "CI244",
+      "document_type": "Ficha 2",
+      "source_path": "curriculos/2011/fichas/w023-ci244/ficha-2-separada/CI244-ficha-2-2011-1-albini.pdf",
+      "source_sha256": "05a949f9522a102756af2ba378b8f953fa2b21427a68882bf4aa48cf5d6898ab",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "not applicable as direct evidence for curriculum-2011/96A; explicitly names Ciência da Computação turma A, not Informática Biomédica/96A.",
+      "locator": "page:1;page:2; Programa",
+      "proposed_topics": [
+        {"label": "protocolos e serviços da camada de aplicação", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "1.Modelo OSI e Modelo TCP/IP 2.Protocolos de camada de aplicação 3.Principais serviços e aplicativos da camada de aplicação 4.Protocolo TCP 5.Protocolo UDP 6.Protocolo IP 7.Modelos de Sistemas Distribuídos 8.Coordenação de concorrência em sistemas distribuídos", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The complete literal program includes the two named application-layer items; offering-specific source for another course."},
+        {"label": "protocolos TCP, UDP e IP", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "1.Modelo OSI e Modelo TCP/IP 2.Protocolos de camada de aplicação 3.Principais serviços e aplicativos da camada de aplicação 4.Protocolo TCP 5.Protocolo UDP 6.Protocolo IP 7.Modelos de Sistemas Distribuídos 8.Coordenação de concorrência em sistemas distribuídos", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The complete literal program includes the three named protocols."},
+        {"label": "coordenação de concorrência em sistemas distribuídos", "domain_label": "Redes e Sistemas Distribuídos", "supporting_excerpt": "8.Coordenação de concorrência em sistemas distribuídos", "aliases": ["coordenação distribuída"], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Candidate refinement/merge with CI244 F1; terminology differs in specificity."}
+      ]
+    },
+    {
+      "document_id": "W024-BQ005-F1-2022",
+      "component_code": "BQ005",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w024-bq005/ficha-1-indeterminada/BQ005-ficha-1-2022.pdf",
+      "source_sha256": "2e86e1e0c72468fc69016a03e166e3a6c51d02134bf2ee15dd9cf158f57ec05e",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; document is signed in 2022 and does not establish applicability in 2011.",
+      "locator": "page:2; EMENTA (Unidade Didática)",
+      "proposed_topics": [
+        {"label": "estrutura e função de biomoléculas", "domain_label": "Bioquímica", "supporting_excerpt": "Aspectos gerais da estrutura, metabolismo e função das proteínas, carboidratos, lipídeos e ácidos nucleicos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The label deliberately keeps structure/function distinct from metabolism below."},
+        {"label": "metabolismo de biomoléculas", "domain_label": "Bioquímica", "supporting_excerpt": "Aspectos gerais da estrutura, metabolismo e função das proteínas, carboidratos, lipídeos e ácidos nucleicos.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "The source does not identify metabolic pathways."}
+      ]
+    },
+    {
+      "document_id": "W024-BQ054-F1-2022",
+      "component_code": "BQ054",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w024-bq054/ficha-1-indeterminada/BQ054-ficha-1-2022.pdf",
+      "source_sha256": "78746209fcdc3be5f61015e4df09cc2dd7840aef0f83277408f21b4324502aa5",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; document is signed in 2022 and does not establish applicability in 2011.",
+      "locator": "page:1; EMENTA (Unidade Didática)",
+      "proposed_topics": [
+        {"label": "estrutura de ácidos nucleicos", "domain_label": "Biologia Molecular", "supporting_excerpt": "Estrutura ácidos nucléicos;", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."},
+        {"label": "fluxo informacional e regulação da expressão gênica", "domain_label": "Biologia Molecular", "supporting_excerpt": "fluxo informacional em sistemas biológicos: replicação, transcrição, tradução, regulação da expressão gênica", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups the linked processes as presented in the source."},
+        {"label": "manipulação genética e biotecnologia", "domain_label": "Biologia Molecular", "supporting_excerpt": "princípios de manipulação gênica; aplicações biotecnológicas da biologia molecular; teoria e prática da manipulação de moléculas de DNA.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "No particular laboratory technique is inferred."},
+        {"label": "bancos de dados biológicos", "domain_label": "Bioinformática", "supporting_excerpt": "Banco de dados biológicos;", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."},
+        {"label": "alinhamento de sequências e busca de genes", "domain_label": "Bioinformática", "supporting_excerpt": "algoritmos de alinhamento de sequências e busca de genes", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups two adjacent algorithmic applications."},
+        {"label": "análise filogenética", "domain_label": "Bioinformática", "supporting_excerpt": "análise filogenética", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."},
+        {"label": "análises genômica, transcriptômica e proteômica", "domain_label": "Bioinformática", "supporting_excerpt": "análise Genômica, Transcriptômica e Proteômica", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups exactly the three named omics analyses."},
+        {"label": "análise in silico de macromoléculas", "domain_label": "Bioinformática", "supporting_excerpt": "análise de macromoléculas in silico", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct ementa support."}
+      ]
+    },
+    {
+      "document_id": "W024-CE003-F1-2022",
+      "component_code": "CE003",
+      "document_type": "Ficha 1",
+      "source_path": "curriculos/2011/fichas/w024-ce003/ficha-1-indeterminada/CE003-ficha-1-est-archive.pdf",
+      "source_sha256": "8fe87821fdc72ce153b11c1ddc4cb9be41da6c119f62b21def9c1089dad5f28d",
+      "source_status": "preserved_indeterminate",
+      "source_applicability": "indeterminate for curriculum-2011/96A; document identifies CE003 but gives no curriculum or 2011 applicability.",
+      "locator": "page:2; Programa",
+      "proposed_topics": [
+        {"label": "representação tabular e gráfica de dados", "domain_label": "Estatística", "supporting_excerpt": "Representação Tabular e Gráfica.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "distribuições de frequências", "domain_label": "Estatística", "supporting_excerpt": "Distribuições de Freqüências.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "probabilidade e distribuições probabilísticas", "domain_label": "Estatística", "supporting_excerpt": "Elementos de Probabilidade. Distribuições Discretas de Probabilidades. Distribuições Contínuas de Probabilidades.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups probability foundations with the two distribution families named."},
+        {"label": "amostragem e estimação de parâmetros", "domain_label": "Estatística", "supporting_excerpt": "Noções de Amostragem. Estimativa de Parâmetros.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Adjacent program items; no estimator is inferred."},
+        {"label": "testes de hipóteses", "domain_label": "Estatística", "supporting_excerpt": "Testes de Hipóteses.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "análise de variância", "domain_label": "Estatística", "supporting_excerpt": "Análise da Variância.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "regressão, correlação e ajustamento de curvas", "domain_label": "Estatística", "supporting_excerpt": "Ajustamento de Curvas. Regressão e Correlação.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Groups adjacent modelling-related program items."},
+        {"label": "séries temporais", "domain_label": "Estatística", "supporting_excerpt": "Séries Temporais.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."},
+        {"label": "controle estatístico de qualidade", "domain_label": "Estatística", "supporting_excerpt": "Controle Estatístico de Qualidade.", "aliases": [], "epistemic_state": "indeterminate", "review_state": "proposed", "notes": "Direct program support."}
+      ]
+    }
+  ]
+}
