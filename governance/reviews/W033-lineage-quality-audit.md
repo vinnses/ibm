@@ -4,6 +4,8 @@ Date: 2026-09-08
 Reviewer: `lineage-review` subagent — GPT-5.6 Terra, high effort.  
 Role and routing rationale: independent cross-curriculum reconciliation, ambiguity review, and qualitative lineage audit; this is the demanding review role recorded in `governance/work-units/W033-first-content-taxonomy.md`.
 
+- Reviewer assignment (primary/subagent, model, effort, routing rationale): subagent / independent lineage, ambiguity, split/merge, and qualitative sample audit / GPT-5.6 Terra / high / demanding cross-curriculum reconciliation required a higher-capability independent review.
+
 ## Scope and method
 
 This independent audit read the W033 corpus, both source-proposal datasets and

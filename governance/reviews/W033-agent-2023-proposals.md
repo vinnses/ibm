@@ -1,5 +1,7 @@
 # W033 agent review — 2023 source-level topic proposals
 
+- Reviewer assignment (primary/subagent, model, effort, routing rationale): subagent / 2023 documentary extraction and source-grounded topic proposal / GPT-5.6 Terra / medium / structured documentary investigation required contextual extraction while final reconciliation remained with the primary session.
+
 ## Scope and result
 
 This bounded review processed the complete declared 2023 usable Ficha corpus:
