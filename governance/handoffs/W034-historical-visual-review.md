@@ -112,4 +112,5 @@ HISTORICAL REVIEW UI READY — 2011–2023 content lineage is visually explorabl
 - Global indexes updated: none; W034 did not add documentary sources or authorize a global-index milestone.
 - Post-merge validation: W031/W032/W033/W034, deterministic builders, runtime routes, preserved-file hash, invalid IDs, traversal, repository, governance, Compose configuration/build, Git LFS, and diff checks passed.
 - Local service update: `ibm-web:dev` was rebuilt, the web container was force-recreated after E-W034-011 detected a same-tag stale container, exact image IDs matched, and `/health`, `/`, `/mapa-curricular`, and `/metodologia` passed. The Tailscale service remained healthy.
-- Remote synchronization state: pending this integration-record commit and explicit push verification.
+- Remote synchronization state: `main` through integration record `790459a` was pushed successfully to `origin/main`; the final publication-record commit follows this verified push.
+- Public verification: Tailscale Funnel reported `https://ibm.tail6629d6.ts.net` proxying `/` to `http://web:3000`; external HTTPS checks for `/health`, `/`, and `/mapa-curricular` returned the expected updated W034 content.
