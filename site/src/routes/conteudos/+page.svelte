@@ -9,6 +9,7 @@
 <main>
   <h1>Conteúdos</h1>
   <p class="lede">Primeira taxonomia analítica do W033, separada dos registros factuais e publicada como proposta para revisão.</p>
+  <p><a class="map-link" href="/mapa-curricular">Explorar conteúdos no mapa 2011→2023</a></p>
   {#if data.has_fixture}<FixtureNotice />{/if}
   <form method="GET" class="filters">
     <label>Currículo
@@ -54,6 +55,7 @@
 </main>
 
 <style>
+  .map-link { display: inline-block; padding: .55rem .75rem; border: 1px solid var(--ink); background: var(--red); color: white; font-weight: 900; text-decoration: none; }
   .filters { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; margin: 1.5rem 0; padding: 1rem; background: white; border: 1px solid #cbd4cc; }
   label { display: grid; gap: .25rem; font-weight: 700; }
   select, button { min-height: 2.4rem; padding: .35rem .55rem; font: inherit; }
