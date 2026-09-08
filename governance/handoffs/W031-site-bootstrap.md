@@ -242,7 +242,7 @@ beyond the prior one-minute timeout; its health is correctly non-ready
 ## Problems and recovery
 
 The append-only log `governance/errors/W031.md` preserves E-W031-001 through
-E-W031-034. All agent-correctable defects are resolved. Notable runtime
+E-W031-037. All agent-correctable defects are resolved. Notable runtime
 recoveries were:
 
 - coordinated reboot after kernel/module replacement;
@@ -257,7 +257,8 @@ recoveries were:
 
 HR-W031-002 is resolved by the reboot. HR-W031-001 remains the sole external
 Tailscale authorization gate. Git publication also requires the user's GitHub
-SSH identity to be loaded into the live agent after reboot (E-W031-031).
+SSH identity to be loaded into the live agent after reboot (E-W031-031 and
+E-W031-035); no authenticated GitHub CLI fallback is installed (E-W031-036).
 
 ## Explicitly not performed
 
