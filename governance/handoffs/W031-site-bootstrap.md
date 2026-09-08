@@ -17,7 +17,9 @@
   - `20b6a87` — validate runtime isolation and persistence;
   - `72b0447` — finalize the initial hardened bootstrap handoff;
   - `b02eaaf` — automate Funnel through declarative configuration and record Docker group access;
-  - `c6e6e6e` — update the handoff for automatic Funnel.
+  - `c6e6e6e` — update the handoff for automatic Funnel;
+  - `1ecc99c` — record the post-reboot Git publication credential gate;
+  - `e6b743d` — keep runtime configuration project-local.
 - Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
 - Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
@@ -114,10 +116,13 @@ was not used.
 
 ## Secret configuration
 
-- A strong generated code-server password is stored outside the checkout at
-  `/home/vinnses/.config/ibm/compose.env`, owned by `vinnses:vinnses` with
-  mode 0600. Its value is intentionally not recorded.
-- Ignored `.env` is an absolute symlink to that external file.
+- A strong generated code-server password is stored in the project-local
+  `/home/vinnses/ibm/.env`, owned by `vinnses:vinnses` with mode 0600. Its
+  value is intentionally not recorded.
+- `.env` is a regular ignored file, not a symlink, and is not tracked.
+- Because `code` intentionally mounts the full project checkout, its trusted
+  terminal can read `.env`; the isolated `web` service has no mount or
+  credential access.
 - `TS_AUTHKEY` is currently empty; no Tailscale credential was supplied.
 - Git tracks only `.env.example`; targeted credential/private-key scans found
   no secret.
@@ -237,7 +242,7 @@ beyond the prior one-minute timeout; its health is correctly non-ready
 ## Problems and recovery
 
 The append-only log `governance/errors/W031.md` preserves E-W031-001 through
-E-W031-025. All agent-correctable defects are resolved. Notable runtime
+E-W031-034. All agent-correctable defects are resolved. Notable runtime
 recoveries were:
 
 - coordinated reboot after kernel/module replacement;
@@ -247,9 +252,12 @@ recoveries were:
   port while preserving two-network segmentation;
 - supported 24-hour Tailscale bootstrap timeout to prevent unauthenticated
   one-minute restart loops.
+- replacement of the external `.env` symlink with the ignored, mode-0600
+  project-local `.env`, preserving its existing values without disclosure.
 
 HR-W031-002 is resolved by the reboot. HR-W031-001 remains the sole external
-authorization gate.
+Tailscale authorization gate. Git publication also requires the user's GitHub
+SSH identity to be loaded into the live agent after reboot (E-W031-031).
 
 ## Explicitly not performed
 
