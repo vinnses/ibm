@@ -19,7 +19,9 @@
   - `b02eaaf` — automate Funnel through declarative configuration and record Docker group access;
   - `c6e6e6e` — update the handoff for automatic Funnel;
   - `1ecc99c` — record the post-reboot Git publication credential gate;
-  - `e6b743d` — keep runtime configuration project-local.
+  - `e6b743d` — keep runtime configuration project-local;
+  - `3a2cbf8` — update the handoff for the project-local environment;
+  - `559f632` — record the initial SSH publication blocker.
 - Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
 - Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
@@ -242,7 +244,7 @@ beyond the prior one-minute timeout; its health is correctly non-ready
 ## Problems and recovery
 
 The append-only log `governance/errors/W031.md` preserves E-W031-001 through
-E-W031-037. All agent-correctable defects are resolved. Notable runtime
+E-W031-039. All agent-correctable defects are resolved. Notable runtime
 recoveries were:
 
 - coordinated reboot after kernel/module replacement;
@@ -256,9 +258,9 @@ recoveries were:
   project-local `.env`, preserving its existing values without disclosure.
 
 HR-W031-002 is resolved by the reboot. HR-W031-001 remains the sole external
-Tailscale authorization gate. Git publication also requires the user's GitHub
-SSH identity to be loaded into the live agent after reboot (E-W031-031 and
-E-W031-035); no authenticated GitHub CLI fallback is installed (E-W031-036).
+Tailscale authorization gate. The user restored the GitHub SSH identity and
+the Work branch was published successfully; E-W031-031, E-W031-035, and
+E-W031-036 are superseded by the observed resolution in E-W031-039.
 
 ## Explicitly not performed
 
