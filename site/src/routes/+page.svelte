@@ -7,7 +7,7 @@
 
 <main class="home">
   <section class="hero" aria-labelledby="project-title">
-    <p class="eyebrow">Arquivo aberto · hipótese à vista</p>
+    <p class="eyebrow">Informática Biomédica — UFPR · arquivo aberto · hipótese à vista</p>
     <h1 id="project-title">O currículo<br /><span>em exame</span></h1>
     <p class="hero-note">O site protesta;<br />os dados depõem.</p>
     <div class="hero-copy">
