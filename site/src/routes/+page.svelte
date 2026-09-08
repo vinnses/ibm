@@ -2,42 +2,23 @@
   <title>Informática Biomédica — UFPR</title>
   <meta
     name="description"
-    content="Infraestrutura inicial do site do projeto Informática Biomédica da UFPR."
+    content="Infraestrutura de consulta e revisão curricular da Informática Biomédica da UFPR."
   />
 </svelte:head>
 
 <main>
-  <section aria-labelledby="project-title">
-    <p>Infraestrutura inicial do projeto</p>
+  <section aria-labelledby="project-title" class="card">
+    <p class="eyebrow">Infraestrutura de revisão</p>
     <h1 id="project-title">Informática Biomédica — UFPR</h1>
-    <p>Esta página comprova a execução da aplicação SvelteKit.</p>
+    <p class="lede">Consulte currículos e disciplinas como fatos documentais separados da camada analítica de conteúdos. Tópicos propostos permanecem visíveis com seu estado explícito.</p>
+    <p><a href="/curriculos">Abrir currículos</a> · <a href="/conteudos">Abrir conteúdos</a></p>
   </section>
 </main>
 
 <style>
-  :global(*) {
-    box-sizing: border-box;
-  }
-
-  :global(body) {
-    margin: 0;
-    color: #17211b;
-    background: #f4f6f2;
-    font-family: system-ui, sans-serif;
-  }
-
-  main {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-  }
-
   section {
-    width: min(42rem, 100%);
-    padding: clamp(2rem, 6vw, 4rem);
-    border: 1px solid #cbd4cc;
-    background: #ffffff;
+    max-width: 48rem;
+    padding: clamp(1.5rem, 5vw, 3rem);
   }
 
   h1 {
@@ -46,12 +27,7 @@
     line-height: 1.05;
   }
 
-  p {
-    margin: 0;
-    line-height: 1.6;
-  }
-
-  section > p:first-child {
+  .eyebrow {
     color: #4b6254;
     font-size: 0.875rem;
     font-weight: 700;
@@ -59,4 +35,3 @@
     text-transform: uppercase;
   }
 </style>
-
