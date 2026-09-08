@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_notice": "Synthetic records used only to exercise the review interface. They are not historical findings or the W033 taxonomy.",
+  "content_domains": [
+    {
+      "id": "fixture-domain-review",
+      "label": "Domínio de demonstração",
+      "description": "Fixture sintética para validar estados de revisão.",
+      "review_state": "proposed",
+      "provenance_note": "Created by W032 as a non-substantive interface fixture.",
+      "is_fixture": true
+    }
+  ],
+  "content_topics": [
+    {
+      "id": "fixture-topic-review",
+      "label": "Tópico de demonstração",
+      "domain_id": "fixture-domain-review",
+      "description": "Fixture sem associação a disciplina ou currículo real.",
+      "aliases": [],
+      "review_state": "proposed",
+      "identification_provenance": "Synthetic W032 interface fixture; not identified from documentary evidence.",
+      "evidence_ids": [],
+      "is_fixture": true
+    }
+  ],
+  "topic_occurrences": [],
+  "evolution_relations": []
+}

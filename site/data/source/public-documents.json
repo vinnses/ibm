@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "allowed_repository_prefixes": [
+    "curriculos/2011/fontes/",
+    "curriculos/2023/fontes/"
+  ],
+  "documents": [
+    {
+      "id": "document-2011-resolution-34-2010",
+      "manifest_path": "curriculos/2011/fontes/manifesto.csv",
+      "manifest_id": "2011-res34",
+      "applicability_status": "documented",
+      "applicability_note": "Ato formal da matriz implantada em 2011.",
+      "public_filename": "resolucao-34-2010-cepe.pdf"
+    },
+    {
+      "id": "document-2011-ppc",
+      "manifest_path": "curriculos/2011/fontes/manifesto.csv",
+      "manifest_id": "2011-ppc",
+      "applicability_status": "documented",
+      "applicability_note": "PPC de 2010 associado à implantação curricular de 2011.",
+      "public_filename": "ppc-2011.pdf"
+    },
+    {
+      "id": "document-2023-resolution-75-22",
+      "manifest_path": "curriculos/2023/fontes/manifesto.csv",
+      "manifest_id": "2023-R75",
+      "applicability_status": "documented",
+      "applicability_note": "Ato formal da matriz com vigência para ingressantes de 2022/2023.",
+      "public_filename": "resolucao-75-22-cepe.pdf"
+    },
+    {
+      "id": "document-2023-ppc",
+      "manifest_path": "curriculos/2023/fontes/manifesto.csv",
+      "manifest_id": "2023-PPC",
+      "applicability_status": "documented",
+      "applicability_note": "PPC preservado para a estrutura curricular de 2023.",
+      "public_filename": "ppc-2023.pdf"
+    }
+  ]
+}

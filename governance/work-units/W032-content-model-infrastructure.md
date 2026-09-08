@@ -1,0 +1,24 @@
+# W032 — Content, evidence, and review infrastructure
+
+- **Objective:** implement a deterministic, versioned content/evidence model and the minimum SvelteKit review routes needed to inspect factual curricula, analytical records, provenance, and explicitly allowlisted preserved public documents without performing substantive taxonomy or lineage analysis.
+- **Branch:** `work/w032-content-model-infrastructure`.
+- **Commit base:** `33c4fbda51b56de8110a19478908afb0ffa25fdd` (`main` and the locally tracked `origin/main` after W031 integration on 2026-09-08; the remote refresh attempt failed and is recorded as E-W032-001).
+- Primary-session assignment: GPT-5 family as exposed by the active runtime; exact backend model and reasoning effort are not exposed and are recorded as `unknown`, not inferred.
+
+| Actor | Primary/subagent | Functional role | Model | Effort | Planned/actual | Routing rationale |
+|---|---|---|---|---|---|---|
+| primary | primary | orchestration, architecture, implementation, validation, review, and handoff | GPT-5 family; exact backend unknown | unknown | actual | The user authorized one bounded implementation Work. No delegation was requested, and final audit remains primary-session work. |
+
+- Agent assignments: the table above is the complete planned/actual assignment record.
+- Escalation rule: no subagents are planned. Sol subagents are prohibited. Work genuinely requiring Sol returns to the user-supervised primary session after the assignment record is updated; any reassignment must be recorded before continued execution.
+- **Inputs:** W031 SvelteKit/Compose infrastructure; `curriculos/2011/inventario/`, `curriculos/2023/inventario/`, their source manifests and preserved formal documents; repository documentary methodology and governance.
+- **In scope:** explicit factual and analytical entity schemas; generic evidence links; deterministic builder and generated JSON; validation of identifiers, references, states, origins, preserved paths, hashes, and public-document allowlist; audited publication of a minimal formal-document subset; seven requested SvelteKit routes and a plain review interface; technical documentation; regression/build validation; incremental commits and handoff.
+- **Out of scope:** substantive taxonomy, bulk topic classification, 2011→2023 lineage, semantic similarity at scale, 2026 proposal evaluation, narrative, protest, final visual design, database, merge, and W033 execution.
+- **Deliverables:** `site/data/schema/`, `site/data/source/`, `site/src/lib/data/generated/`, `site/static/documents/`, `site/src/lib/`, requested routes, `scripts/build_w032_site_data.py`, `scripts/validate_w032_content_model.py`, `docs/content-model.md`, Work review, error log, and handoff.
+- **Method:** adapt existing CSVs without overwriting them; retain curriculum-specific component instances; separate factual and analytical arrays; express provenance through reusable evidence records and typed target links; generate stable sorted JSON and copied public artifacts from an explicit source allowlist; reject missing files, hash drift, unsafe paths, orphan references, duplicate IDs, and invalid states; label fixtures in both data and UI.
+- **Acceptance criteria:** all requested entities and independent change/evidence/review states exist in schema; generated factual records trace to repository evidence; analytical records cannot overwrite facts; no mass taxonomy or lineage exists; all requested routes build and expose proposed status; every public document is allowlisted, preserved, hash-verified, served through an ID lookup, and isolated from arbitrary paths; generation is reproducible; site and repository checks pass; Compose config/build pass.
+- **Risks and uncertainty:** source inventories use different historical field vocabularies; not all repository documents are suitable or needed for public delivery; dependency evidence fields differ by curriculum; remote Git and container registry access may fail independently of application correctness.
+- **Validation:** builder check mode; W032 validator and negative traversal/orphan/state fixtures; `npm ci`, `npm run check`, `npm run build`, `npm audit`; `docker compose config`, `docker compose build`; W031 tests; repository and governance validators; runtime requests for all routes, document bytes, unknown IDs, and traversal attempts; `git diff --check` and secret/path audit.
+- **Error log:** `governance/errors/W032.md` (append-only).
+- **Human review:** none anticipated; analytical records remain explicitly reviewable rather than gated from publication.
+- **Commit policy:** incremental semantic commits on this branch; no merge and no W033 start.
