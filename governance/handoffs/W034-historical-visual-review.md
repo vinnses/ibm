@@ -103,3 +103,13 @@ If candidate volume grows, a later Work should reassess relation overview and
 line routing; no heavier graph layer is warranted now.
 
 HISTORICAL REVIEW UI READY — 2011–2023 content lineage is visually explorable and evidence-accessible.
+
+## Integration update — 2026-09-08
+
+- Merged branch: `work/w034-historical-visual-review` into local `main` after explicit user authorization.
+- Merge commit: `b3bbf0001a6c2afe9c42d47b84d33f50220f632e` (`Merge W034 historical visual review`).
+- Conflict resolution: none; the `ort` merge completed cleanly.
+- Global indexes updated: none; W034 did not add documentary sources or authorize a global-index milestone.
+- Post-merge validation: W031/W032/W033/W034, deterministic builders, runtime routes, preserved-file hash, invalid IDs, traversal, repository, governance, Compose configuration/build, Git LFS, and diff checks passed.
+- Local service update: `ibm-web:dev` was rebuilt, the web container was force-recreated after E-W034-011 detected a same-tag stale container, exact image IDs matched, and `/health`, `/`, `/mapa-curricular`, and `/metodologia` passed. The Tailscale service remained healthy.
+- Remote synchronization state: pending this integration-record commit and explicit push verification.
