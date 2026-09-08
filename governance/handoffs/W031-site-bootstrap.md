@@ -22,7 +22,8 @@
   - `e6b743d` — keep runtime configuration project-local;
   - `3a2cbf8` — update the handoff for the project-local environment;
   - `559f632` — record the initial SSH publication blocker;
-  - `f86ee63` — record successful branch publication.
+  - `f86ee63` — record successful branch publication;
+  - `9a11808` — validate the authenticated Funnel endpoint.
 - Primary-session model and effort: GPT-5 family as exposed by the runtime; exact backend and effort are not exposed and remain `unknown`, not inferred.
 - Agent assignments actually used: primary / primary / orchestration, architecture research, implementation, validation, review, and handoff / GPT-5 family, exact backend unknown / effort unknown / actual / the bounded Work remained in the user-supervised primary session; no subagent was requested or used.
 - Reassignments, escalations, equivalent-tier mappings, and routing deviations: none.
@@ -249,7 +250,7 @@ and reports no health warnings.
 ## Problems and recovery
 
 The append-only log `governance/errors/W031.md` preserves E-W031-001 through
-E-W031-044. All agent-correctable defects are resolved. Notable runtime
+E-W031-045. All agent-correctable defects are resolved. Notable runtime
 recoveries were:
 
 - coordinated reboot after kernel/module replacement;
