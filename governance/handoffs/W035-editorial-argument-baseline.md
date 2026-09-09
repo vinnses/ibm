@@ -73,3 +73,13 @@ authorization, or implementation. No source establishes 2,700 as a MEC ceiling.
 - Gate consequences: these questions do not block this provisional argument; they block claiming a MEC ceiling, treating sector expectations as institutional facts, completing documentary 2023→2026 lineage, selecting defensible reductions/equivalences, or validating a final matrix.
 - Explicitly unperformed: complete 2026 matrix, component hours, workload optimization, named component removal, final recommendation, approval/rejection conclusion, systematic 2023→2026 comparison, Ficha ingestion, institutional request, formal sector negotiation, site changes, merge, push, deployment, global-index update, W036, manifesto, or campaign.
 - Recommended next bounded work unit: after the complete proposed matrix and new Fichas are obtained, preserve and ingest them before a documentary 2023→2026 lineage and scenario comparison. Do not start it automatically.
+
+## Integration update — 2026-09-09
+
+- Merged branch: `work/w035-editorial-argument-baseline` into local `main` after explicit user authorization.
+- Merge commit: `e4c23e03972a63b9b0c9f2ecb02d757c8dbc7ea2` (`Merge W035 editorial argument baseline`).
+- Conflict resolution: none; the `ort` merge completed cleanly.
+- Global indexes updated: none; W035 adds one locally manifested argument source but does not authorize a global documentary-index integration milestone.
+- Application/site state: unchanged. W035 is a documentary and editorial baseline, not a site implementation Work, so no route, container image, or public deployment was modified or unnecessarily rebuilt.
+- Final validation: W031, W032, W033, W034, W035, repository, governance, and diff checks passed on merged `main` before remote synchronization.
+- Remote synchronization state: the integration-record commit and merge are intended for `origin/main`; the final push result is recorded by the completing primary session.
