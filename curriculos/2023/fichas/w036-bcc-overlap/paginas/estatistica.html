@@ -1,0 +1,879 @@
+﻿<html>
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Estatística UFPR</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="SHORTCUT ICON" href="images/dest.ico">
+    <script language="javascript" type="text/javascript">
+      function clearText(field)
+      {
+	  if (field.defaultValue == field.value) field.value = '';
+	  else if (field.value == '') field.value = field.defaultValue;
+      }
+    </script>
+  </head>
+  
+  <body>
+
+    <div id="wrapper">
+      <div id="sidebar">
+	
+	<div id="site_title">
+	  <h1><a><strong>ESTATÍSTICA</strong> <span>Universidade Federal do Paraná</span></a></h1>
+	  <center><img src="images/logo-ufpr.jpg" alt="ufpr" width="150" height="100" /></center>
+	</div> <!-- end of site_title -->
+	
+	<div class="sidebar_box">
+	</div>
+	
+	<div class="sidebar_box">
+	  <h3>Laboratórios</h3>
+	  <div class="sidebar_content">
+	    <ul id="news_box">
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="infraestrutura.html">&nbsp; LABEST</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://datascilabs.leg.ufpr.br/">&nbsp; DataSciLabs</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://leg.ufpr.br/doku.php">&nbsp; LEG</a></b></li>
+	      <!-- <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.lea.ufpr.br/">&nbsp; LEA</a></b></li> -->
+	    </ul>
+	  </div>
+	</div>
+	
+	<div class="sidebar_box">
+	  <h3>Recursos</h3>
+	  <div class="sidebar_content">
+	    <ul id="news_box">
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="software.html">&nbsp; SOFTWARE</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="materiais.html">&nbsp; MATERIAIS</a></b></li>
+	    </ul>
+	  </div>
+	  
+	</div>
+	<div class="sidebar_box">
+	  <h3>Acesso Restrito</h3>
+	  <div class="sidebar_content">
+	    <ul id="news_box">
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.office.com">&nbsp; Office 365 UFPR</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="internodest.html">&nbsp; Interno DEST/UFPR</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://sistemas.ufpr.br">&nbsp; Sistemas da UFPR</a></b></li>
+	      <!--
+  <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://portaldoprofessor.ufpr.br/professor/login.action?error=">&nbsp; Portal do Professor UFPR</a></b></li>
+  <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.portaldoaluno.ufpr.br/">&nbsp; Portal do Aluno UFPR</a></b></li>
+  <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.siga.ufpr.br/">&nbsp; SIGA UFPR</a></b></li>
+	      -->
+	    </ul>
+	  </div>
+	</div>
+	
+	<div class="sidebar_box">
+	  <h3>Outros Links</h3>
+	  <div class="sidebar_content">
+	    <ul id="news_box">
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.coordest.ufpr.br/">&nbsp;Curso de Estatística e Ciência de Dados</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.exatas.ufpr.br/">&nbsp;Setor de Ciências Exatas</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="https://pet.leg.ufpr.br">&nbsp;PET Estatística UFPR</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.ufpr.br">&nbsp;Portal UFPR</a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.r-project.org/">&nbsp;The R Project </a></b></li>
+	      <li><b><img src="images/li.gif" width="8" height="8"/><a href="http://www.c3sl.ufpr.br/">&nbsp;C<sup>3</sup>SL UFPR</a></b></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      
+      <div id="content">
+	<div id="menu">
+	  <ul>
+	    <li><a href="index.html" class="current">Home</a></li>
+	    <li><a href="departamento.html">Departamento</a></li>
+	    <li><a href="cursos.html">Cursos</a></li>
+	    <li><a href="docentes.html">Docentes</a></li>
+	    <li><a href="monitoria.html">Monitoria</a></li>
+	    <li><a href="historico.html">Histórico</a></li>
+	    <li><a href="infraestrutura.html">Infraestrutura</a></li>
+	    <li><a href="concurso/index.html">Concursos</a></li>
+	    <li><a href="contatos.html">Contatos</a></li>
+	  </ul>
+	</div>
+	
+<!-- end of menu -->
+
+	<hr color="#d3d3d3">
+	<img src="images/img-01.jpg" width="910" height="170"/><br>
+	<hr color="#d3d3d3">
+	<br></br>
+	
+	<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6">
+	  <tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+	      <b><font face="Verdana" color="#ffffff" style="font-size: 11pt"> Informações </font></b></td>
+	  </tr>
+	</table>
+		
+	<table border="1" bordercolor="#d3d3d3">
+	  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 76px" >
+	    <td width="910">
+	      <a> <font style="font-size: 10pt" color="#B40431"> <b> Atendimento na Secretaria de Estatística (Departamento e Coordenação)</font></a></b>
+	      <br>
+	      <font style="font-size: 10pt" > 2o andar do Prédio do Setor de Ciências Exatas (Centro Politécnico) ou através do e-mail dest@ufpr.br</font>
+	</table>
+		    
+<!-- MONITORIA -->
+<!-- MONITORIA -->
+<!-- MONITORIA -->
+
+	<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br>
+	  <tr style="height: 38px;">
+	    <td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+	      <b><font color="#ffffff" style="font-size: 12pt"> Monitoria</font></b>
+	    </td>
+	  </tr>
+	</table>
+
+<!--
+	<table border="1" bordercolor="#d3d3d3">
+	  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	    <td width="910"> <span style="padding-left:30px">
+		  <font style="font-size: 10pt" color="##0000cd">
+		    <b> EDITAIS DE MONITORIA (2o semeste de 2026)</b></font>
+	  </td> </tr>
+	</table>
+-->
+
+<!--
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/EditalCE330-202602-FR.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL PARA SELEÇÃO DE MONITOR - CE-330 Fundamentos Matemáticos para Estatística - Profa. Fernanda Buhrer Rizzato</b></font></a>
+	    <br>
+	    <a href="monitoria/resultadosFR202602.pdf">
+	      <font style="font-size: 10pt" color="#B40431">
+		<b> Edital de resultado da seleção</b></font></a>
+	</td>
+      </tr>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/EditalCE315-202602-PJ.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL PARA SELEÇÃO DE MONITOR - CE-315 Estatística Bayesiana - Prof. Paulo Justiniano Ribeiro Junior </b></font></a>
+	    <br>
+	    <a href="monitoria/EditalCE315-202602-PJ.pdf">
+	      <font style="font-size: 10pt" color="#B40431">
+		<b> Edital de resultado da seleção</b></font></a>
+	</td>
+      </tr>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/EditalCE009-202602-EV.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL PARA SELEÇÃO DE MONITOR - CE-009 Introdução à Estatística - Profs. Eduardo e Pedro </b></font></a>
+	    <br>
+	    <a href="monitoria/EditalResultadoCE009-202602-EV.pd">
+	      <font style="font-size: 10pt" color="#B40431">
+		<b> Edital de resultado da seleção</b></font></a>
+	</td>
+      </tr>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/Edital_Monitoria_Silvia_2026-1.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL PARA SELEÇÃO DE MONITOR - CE-301 Estatística Básica - Prof. Silvia Emiko Shimakura </b></font></a>
+	    <br>
+	    <a href="monitoria/resultadosSS2026.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> Edital de resultado da seleção</b></font></a> 
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/Edital_Monitoria_PJ_2026-1.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL PARA SELEÇÃO DE MONITOR - CE-312 Estatística Computacional - Prof. Paulo Justiniano Ribeiro Junior </b></font></a>
+	    <br>
+	    <a href="monitoria/resultadosPJ2026.pdf">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> Edital de resultado da seleção</b></font></a>
+	</td>
+    </table>
+
+-->
+
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="monitoria/monitoria-hr.html">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b> HORÁRIOS DE MONITORIA (2o semeste de 2026)</b></font></a>
+      </td> </tr>
+    </table>
+     
+<!-- IC -->
+<!-- IC -->
+<!-- IC -->
+
+<!--
+    <table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br>
+	<tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+		<b><font color="#ffffff" style="font-size: 12pt"> Iniciação Científica (IC) </font></b></td>
+	</tr>
+</table>
+  
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/EditalSilvia2026.pdf">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 1 (Silvia)</b></font>
+	</a>
+	<br>
+		<a href="ic/EditalSilvia2026resultado.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="ic/EditalAmanda2026-CR.pdf">
+	      <font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 2 (Amanda)</b></font>
+	    </a>
+	<br>
+	    <a href="ic/EditalAmanda2026-CRresultado.pdf">
+	      <font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+	    </a>
+	</td>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="ic/EditalAmanda2026-SR.pdf">
+	      <font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 3 (Amanda)</b></font>
+	    </a>
+	    <br>
+	    <a href="ic/EditalAmanda2026-SRresultado.pdf">
+	      <font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+	    </a>
+	</td>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/EditalCesar2026.pdf">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 4 (Cesar)</b></font>
+	</a>
+	<br>
+		<a href="ic/EditalCesar2026resultado.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/IC2026Emerson.png">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 5 (Emerson)</b></font>
+	</a>
+	<br>
+		<a href="ic/EditalCesar2026resultado.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/IC_Deserto.pdf">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 6 (Deisy)</b></font>
+	</a>
+	<br>
+		<a href="ic/IC_Resultados.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+
+
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/IC_Dina.pdf">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 7 (Deisy)</b></font>
+	</a>
+	<br>
+		<a href="ic/IC_Resultados.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+
+    <table border="1" bordercolor="#d3d3d3">
+	<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+		<td width="910"> <span style="padding-left:30px">
+	<a href="ic/IC_LLM.pdf">
+		<font style="font-size: 10pt" color="##0000cd"><b> EDITAL DE SELEÇÃO PARA PROJETO DE IC - 8 (Deisy)</b></font>
+	</a>
+	<br>
+		<a href="ic/IC_Resultados.pdf">
+			<font style="font-size: 10pt" color="#B40431"><b> RESULTADO DO EDITAL </b></font>
+		</a>
+	</td>
+    </table>
+
+</tr>
+</tr>
+</table>
+
+-->
+
+<!-- EXTENSÃO -->
+<!-- EXTENSÃO -->
+<!-- EXTENSÃO -->
+
+
+<!--  
+
+<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br></br>
+<tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+		<b><font color="#ffffff" style="font-size: 12pt"> Extensão </font></b></td>
+</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	<a href="extensao/EditalExt2026.pdf">
+	<font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL DE SELEÇÃO DE BOLSISTA PARA PROJETO DE EXTENSÃO (Fernanda/Silvia)</b></font></a>
+	<br>
+	<a href="extensao/EditalExt2026resultado.pdf">
+	<font style="font-size: 10pt" color="#B40431">
+		<b> RESULTADO DO EDITAL</b></font></a>
+	</td>
+	</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="extensao/EditalExt2026-DS4OH.pdf">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b> EDITAL DE SELEÇÃO DE BOLSISTA PARA PROJETO DE EXTENSÃO - DS4OH (Silvia)</b></font></a>
+	<br>
+    <a href="extensao/EditalExt2026-DS4OHresultado.pdf">
+      <font style="font-size: 10pt" color="#B40431">
+	<b> RESULTADO DO EDITAL</b></font></a>
+</td>
+</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	<a href="extensao/EditalExt2026Amanda.pdf">
+	<font style="font-size: 10pt" color="##0000cd">
+	  <b> EDITAL DE SELEÇÃO DE BOLSISTA PARA PROJETO DE EXTENSÃO (Amanda) </b></font></a>
+	<br>
+	<a href="extensao/EditalExt2026AmandaResultado.pdf">
+	  <font style="font-size: 10pt" color="#B40431">
+	    <b> RESULTADO DO EDITAL </b></font></a>
+	</td>
+</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	<a href="extensao/IN_Edital_2026.pdf">
+	<font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL DE SELEÇÃO DE BOLSISTA PARA PROJETO DE EXTENSÃO (Maria Angélica/Paulo Justiniano)</b></font></a>
+	<br>
+	<a href="extensao/IN_Edital_2026resultado.pdf">
+	<font style="font-size: 10pt" color="#B40431">
+		<b> RESULTADO DO EDITAL</b></font></a>
+	</td>
+	</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	<a href="arquivos/RESULTADO2025.pdf">
+	<font style="font-size: 10pt" color="##0000cd">
+		<b> EDITAL DE RESULTADO DA SELEÇÃO PARA PROJETO DE EXTENSÃO </b></font></a>
+		</td>
+	</tr>
+</table>
+-->  
+
+
+<!-- Noticias -->
+<!-- Noticias -->
+<!-- Noticias -->
+
+    <table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br>
+      <tr style="height: 38px;">
+	<td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+	  <b><font color="#ffffff" style="font-size: 12pt">Notícias</font></b>
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="https://ufpr.br/equipe-da-ufpr-e-premiada-em-competicao-de-solucoes-para-industria-automotiva/">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b>Equipe da UFPR é premiada em competição de soluções para indústria automotiva</b>
+	      </font>
+	    </a> 
+	  </span>
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="https://www.youtube.com/live/i9OULVmFz4M?si=FaiyXPgex2MYkwSa&t=3270">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b>Cerimônia de Premiação da competição internacional de pôsteres estatísticos sediada pelo IBGE, na qual ficamos em segundo lugar na Etapa Brasil.</b>
+	      </font>
+	    </a> 
+	  </span>
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="https://revistapesquisa.fapesp.br/anderson-ara/">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b>Podcast revista FAPESP com Prof Anderson Ara - Algoritmo apoia diagnóstico de pessoas em estado mental de risco.</b>
+	      </font>
+	    </a> 
+	  </span>
+	</td>
+      </tr>
+    </table>
+    
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="https://ufpr.br/professor-da-ufpr-vence-premio-internacional-por-trabalho-estatistico/">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b>Professor da UFPR vence prêmio internacional por trabalho estatístico.</b>
+	      </font>
+	    </a> 
+	  </span>
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	    <a href="https://ufpr.br/estatistica-e-psiquiatria-pesquisa-de-professor-da-ufpr-contribui-para-dignostico-de-esquizofrenia/">
+	      <font style="font-size: 10pt" color="##0000cd">
+		<b>Estatística e psiquiatria: pesquisa de professor da UFPR contribui para diagnóstico de esquizofrenia.</b>
+	      </font>
+	    </a> 
+	  </span>
+	</td>
+      </tr>
+    </table>
+
+
+    <!-- EVENTOS -->
+<!-- EVENTOS -->
+<!-- EVENTOS -->
+
+<!--  
+<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br></br>
+<tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+		<b><font color="#ffffff" style="font-size: 12pt"> Evento Local </font></b></td>
+</tr></table>
+
+<center>
+<table border="1" bordercolor="#d3d3d3">
+<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+	<td width="910"> <span style="padding-left:30px">
+	<a href="https://sites.google.com/view/dia-do-estatistico/">
+	<font style="font-size: 10pt" color="##0000cd">
+		<b>Dia do Estatística- 2025, UFPR, 29/05/2025</b>
+	</font>
+	</a> 
+		</span>
+	</td>
+</tr>
+</table>
+
+</center>
+
+-->
+
+
+<!-- EVENTOS -->
+<!-- EVENTOS -->
+<!-- EVENTOS -->
+
+  
+<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br></br>
+  <tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+      <b><font color="#ffffff" style="font-size: 12pt"> Eventos </font></b></td>
+  </tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://sites.google.com/view/semana-de-estatstica-e-ciencia/home"> 
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Semana Acadêmica do Curso de Estatística e Ciência de Dados/UFPR, 03 a 07 de agosto de 2026, UFPR, Curitiba, PR</b>
+	  </font>
+	</a>  
+  </span></td></tr>
+</table>
+
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	 <a href="https://sinape2026.com.br/"> 
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>26º Simpósio Nacional de Probabilidade e Estatística (26º SINAPE), 13 a 18 de setembro de 2026, no Centro de Eventos do Hotel Wish Serrano, em Gramado (RS). Organização local pelo Departamento de Estatística da UFRGS.
+	</b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://70rbras.org">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>70ª RBras, 23-25 de Novembro de 2026, Unicamp, Campinas, SP</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+
+<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6">
+  <tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+      <b><font color="#ffffff" style="font-size: 12pt"> Eventos Recentes </font></b></td>
+  </tr>
+</table>
+
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://sites.google.com/view/dia-do-estatistico-2026-ufpr/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Dia do Estatística- 2025, UFPR, 29/05/2026, Curitiba, PR</b>
+	  </font>
+	</a> 
+  </span> </td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://xixemrvepbest.softaliza.com.br/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>XIX Escola de Modelos de Regressão, 27 a 31 de outubro 2025 - João Pessoa, PB</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://sites.google.com/view/2southstatmeeting/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>2º Encontro Sul-Brasileiro de Estatística e Ciência de Dados (2SS)</b></a>
+	<br>e
+	<br>
+	<a href="https://sites.google.com/view/5rday/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>5º Encontro Nacional de Usuários do R (5º R Day)</b>
+	    <br>
+	    <b>25-26 de setembro, 2025, Santa Maria, RS.</b>
+	  </font>
+	  <!-- </a> --></a>
+</span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://este2025.softaliza.com.br/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>21ª Escola de Séries Temporais e Econometria, 31/08 a 03/09/2025, Campinas</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://69rbras21seagro.com.br/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>69ª RBras e 21o SEAGRO, 04-08 de Agosto de 2025, Vitória/ES</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="http://bit.ly/semana-ecd-ufpr25">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Semana Acadêmica do Curso de Estatística e Ciência de dados/UFPR, 18 a 22 de agosto de 2024, UFPR, Curitiba, PR</b></font></a>
+  </span></td></tr>
+</table>
+
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://sites.google.com/view/dia-do-estatistico/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Dia do Estatística- 2025, UFPR, 29/05/2025, Curitiba, PR</b>
+	  </font>
+	</a> 
+  </span> </td></tr>
+</table>
+
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://www.sympla.com.br/evento/3-encontro-de-data-science-big-data-ufpr/2704028">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Encontro de Data Science e Big Data, 13 de Dezembro de 2024, UFPR, Curitiba/PR</b></font>
+	  <br><a href="https://ufpr.br/eventos/evento-debate-perfil-do-profissional-do-futuro-em-big-data/">Reportagem sobre o envento</a>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://www.even3.com.br/cobal-ebeb-2024/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>VII Latin American Meeting on Bayesian Statistics (COBAL) and XVII Brazilian Meeting of Bayesian Statistics (EBEB), 02-06 de Dezembro de 2024, Belo Horizonte/MG</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://doity.com.br/workshop-in-spatial-statistics-for-complex-data">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>1st Workshop in Spatial Statistics for Complex Data, 29 de Novembro de 2024, Belo Horizonte/MG</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://www.prppg.ufpr.br/site/ppgmne/pb/2024/10/17/smne2024/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>SMNE 2024 – Simpósio de Métodos Numéricos em Engenharia – PPGMNE 30 ANOS, 28-29 de Novembro de 2024, UFPR-Curitiba, PR</b></font>
+	  <!-- </a> -->
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://www.even3.com.br/ixconbratri">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>IX CONBRATRI, 27-29 de novembro de 2024, Rio de Janeiro/RJ</b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://viiwasa.softaliza.com.br/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>VII Workshop em Análise de Sobrevivência e Aplicações (VII WASA), 23-25 de outubro de 2024, Brasília/DF</b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="http://bit.ly/semana-ecd-ufpr">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>Semana Acadêmica do Curso de Estatística e Ciência de dados/UFPR, 02 a 06 de setembro de 2024, UFPR, Curitiba, PR</b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="https://www.even3.com.br/sinape2024/">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b>25o Simpósio Nacional de Probabilidade e Estatística (SINAPE), 04 a 09 de agosto de 2024, Fortaleza, CE</b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href=""https://68rbras.com.br/>
+	<font style="font-size: 10pt" color="##0000cd">
+	  <b>68ª RBras, 29 a 31 de Maio de 2024, Piracicaba/SP</b></font></a>
+</span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="http://1ss.leg.ufpr.br">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b> 1o Encontro Sulista de Estatística, 14-15 de dezembro de 2023, UFPR, Curitiba, PR </b></font></a>
+  </span></td></tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<a href="http://rday.leg.ufpr.br">
+	  <font style="font-size: 10pt" color="##0000cd">
+	    <b> R-Day, 13 de dezembro de 2023, UFPR, Curitiba/PR </b></font></a>
+  </span></td></tr>
+</table>
+
+<!--			
+			<table border="1" bordercolor="#d3d3d3">
+			  <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 36px">
+			    <td width="910"> <span style="padding-left:30px">
+				<a href="https://pet.leg.ufpr.br/semana/">
+				  <font style="font-size: 10pt" color="##0000cd">
+				    <b> Semana Acadêmica organizada pelo PET estatística. (17-21 de outubro de 2022) </b></font></a>
+			</td></tr></table>
+			-->
+			
+</div>
+<div class="cleaner"></div>
+</div>
+</div>
+<div class="cleaner"></div>
+</div>
+
+<div id="footer_wrapper">
+	<div id="footer">
+	  Copyright © 2026 <a> Webmaster Estatística UFPR</a>
+	</div> <!-- end of footer -->
+</div>
+
+</body>
+</html>
+
+
+<!-- CONCURSO -->
+<!-- CONCURSO -->
+<!-- CONCURSO -->
+			  
+<!--
+
+    <table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br>
+      <tr style="height: 38px;">
+	<td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+	  <b><font color="#ffffff" style="font-size: 12pt"> Concurso Público - Professor Adjunto A </font></b>
+	</td>
+      </tr>
+    </table>
+    
+    <table border="1" bordercolor="#d3d3d3">
+      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 46px">
+	<td width="910"><br>
+	  
+	  <a> <font style="font-size: 12pt" color="#0000cd">
+	      <b> Inscrições encerradas. </b> </font> </a><br><br>
+	  <font style="font-size: 10pt">
+	    
+	    <table border="1" bordercolor="#d3d3d3">
+	      <tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 46px">
+		<td width="910"><br>
+		  <a><font style="font-size: 12pt" color="#0000cd">
+		      <b> Edital de abertura publicado. 
+			<br>
+			Mais informações por email (<tt>dest @ ufpr.br</tt>) .
+		      </b>
+		  </font></a>
+		  <br><br>
+		  <font style="font-size: 10pt">
+</font></p>
+</td>
+</tr>
+</table>
+
+<table border="1" bordercolor="#d3d3d3">
+  <tr bgColor="#f1f1f1" valign="middle" align="left" style="height: 36px">
+    <td width="910"> <span style="padding-left:30px">
+	<img src="images/hand.gif" width="28" height="13"> &nbsp;
+	<font style="font-size: 10pt" color="#B40431">
+	  <b> INFORMAÇÕES E DOCUMENTOS DO CONCURSO DISPONIBILIZADOS <a href="concurso/index.html">NESTE LINK </a></b></font>
+    </td>
+  </tr>
+</table>
+
+</table>
+
+-->
+
+
+<!-- PROCESSO SELETIVO -->
+<!-- PROCESSO SELETIVO -->
+<!-- PROCESSO SELETIVO -->
+
+<!--
+			<table border="0" cellspacing="0" style="border-collapse: collapse;" bordercolor="#FFFFFF" bgcolor="#E6E6E6"><br>
+					<tr style="height: 38px;"><td width="910" style="solid #C0C0C0; "align="center" bordercolor="#C0C0C0" bgcolor="#282C75">
+					<b><font color="#ffffff"
+					style="font-size: 12pt"> Processo Seletivo - Professor Substituto </font></b></td>
+					</tr>
+					</table>
+
+				<table border="1" bordercolor="#d3d3d3">
+					<tr bgColor="#f1f1f1" valign="middle" align="center" style="height: 46px">
+					<td width="910"><br>
+							<a> <font style="font-size: 12pt" color="#0000cd">
+								<b><blink> Inscrições:  02/11/2024 a 06/12/2024 </b> </font> </a><br></blink><br> 
+								<b> Data de realização : (em andamento, ver editais)  </b> </font> </a><br><br> 
+					<font style="font-size: 10pt">
+				Informações sobre o andamento do processo seletivo e editais estão disponibilizados <b><a href="./pseletivo" style="color:red">neste link</a></b>.</br>
+								</font></p>
+				<font style="font-size: 10pt">
+				Mais informações sobre o andamento do processo seletivo no email dest@ufpr.br </font></p>
+					</td>
+					</tr>
+					</table>
+
+-->
+
