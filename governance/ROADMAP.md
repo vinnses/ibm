@@ -6,7 +6,7 @@ Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first exp
 
 W028 completed N2-N6 and published the documentary/data release under [`../dados/entrega-documental/`](../dados/entrega-documental/). Curricular comparison, evaluation and recommendations remain a separate future objective requiring direct user participation.
 
-Latest checkpoint: W030 completed the reproducible CPA workbook extraction and corrected a W029 omission covering twelve already-preserved W022-W024 PDFs. The access package now indexes 217 CSV datasets, 212 source-manifest records and 33 historical gap/search records. Remaining factual gaps require institutional access or a genuinely new documentary lead; none is currently executable by agents. No visualization or analytical Work is active.
+Latest checkpoint: W036 renewed the curriculum-2023 Ficha search through the BCC overlap and recovered six previously missing Ficha 1 versions (`CM303`, `CM304`, `CM310`, `CM311`, `CI1169`, `CI1172`). Fourteen component codes still have no public Ficha 1, but four TCC codes were removed from the operational request queue under recorded stakeholder direction, leaving ten requests. A possible secretariat folder is a stakeholder-supplied access lead, not yet verified. The W030 access-package counts remain a frozen prior snapshot and were not rebuilt by W036. No visualization or analytical Work is active.
 
 - W014: commit and integrate the new direction and checkpoint contract.
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.
@@ -28,6 +28,7 @@ These three small steps are explicitly covered by the user's execution request. 
 - The administrative research branch is merged into `main`; repository governance, transfer documentation, and automated validation are now present.
 - P0 preservation exceptions are closed: the 11 exact INEP packages and 11 XLSX inputs used by W006 are stored through Git LFS, remote clean-checkout reproduction passed, the assembly brief is current with the consolidated evidence, and the global catalog is explicitly a curated index backed by complete local manifests.
 - Agent/process failures, recovery attempts, review defects, and human-only questions now have append-only per-work audit trails. Stakeholder testimony and research hypotheses are preserved separately from documentary facts.
+- W036 provides the actionable `fichas_faltantes.md`, distinguishes formal Ficha 1 priority from term-specific Ficha 2 evidence, and records different-code/similar-name BCC leads only for DInf components.
 - Sol is reserved to the user-supervised primary session. Subagents use Luna or Terra according to task complexity, while model, effort, role, rationale, and escalation are mandatory prospective Work records. Integration, final audit, and global synthesis remain direct duties of the active primary session at its user-selected model/effort.
 
 ## Execution order
