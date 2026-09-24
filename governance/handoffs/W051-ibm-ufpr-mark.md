@@ -17,4 +17,8 @@
 
 ## Integration record
 
-Pending merge, publication, public HTTP checks, and non-forced `main` push by the primary session.
+- Merged branch `work/w051-ibm-ufpr-mark` into `main` at `e6f26931d411bd3763caadb01df943dc58486317`, without conflicts or global-index changes.
+- Published the validated web and Dash images through the existing Docker/Tailscale Funnel deployment and recreated the router. Public home and Dash routes returned HTTP 200; the live HTML/JSON both contained `IBM` and `UFPR` in the header mark.
+- Postmerge repository validation passed with zero warnings/errors. `main` was pushed by SSH to `origin/main` at the merge SHA; this final handoff addendum is to be pushed after commit.
+- The W051 work branch was not pushed separately because the known W049/W050 GitHub push-protection gate still applies to historical work-branch history. No force push, history rewrite, or source alteration was attempted; `main` contains the complete work.
+- Integration errors: none. E-W051-001 remains resolved in the append-only log; no W051 open events. Existing branch-archive gate remains external to this visual update.
