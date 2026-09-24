@@ -5,7 +5,7 @@
   <meta property="og:title" content={`${data.document.title} · Informática Biomédica UFPR`} />
   <meta property="og:description" content={`Documento público preservado sobre Informática Biomédica da UFPR: ${data.document.title}.`} />
   <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:site_name" content="Dados, Documentos e Análises sobre IBM/UFPR" />
   <meta property="og:locale" content="pt_BR" />
 </svelte:head>
 
