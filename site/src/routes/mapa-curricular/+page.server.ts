@@ -1,8 +1,3 @@
-import { mapViewModel } from '$lib/server/review';
+import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-
-export const load: PageServerLoad = ({ url }) => ({
-  ...mapViewModel(),
-  initial_component: url.searchParams.get('disciplina'),
-  initial_topic: url.searchParams.get('conteudo')
-});
+export const load: PageServerLoad = () => redirect(307, '/');
