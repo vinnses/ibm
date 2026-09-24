@@ -6,7 +6,9 @@ Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first exp
 
 W028 completed N2-N6 and published the documentary/data release under [`../dados/entrega-documental/`](../dados/entrega-documental/). Curricular comparison, evaluation and recommendations remain a separate future objective requiring direct user participation.
 
-Latest checkpoint: W036 renewed the curriculum-2023 Ficha search through the BCC overlap and recovered six previously missing Ficha 1 versions (`CM303`, `CM304`, `CM310`, `CM311`, `CI1169`, `CI1172`). Fourteen component codes still have no public Ficha 1, but four TCC codes were removed from the operational request queue under recorded stakeholder direction, leaving ten requests. A possible secretariat folder is a stakeholder-supplied access lead, not yet verified. The W030 access-package counts remain a frozen prior snapshot and were not rebuilt by W036. No visualization or analytical Work is active.
+Latest documentary checkpoint: W036 renewed the curriculum-2023 Ficha search through the BCC overlap and recovered six previously missing Ficha 1 versions (`CM303`, `CM304`, `CM310`, `CM311`, `CI1169`, `CI1172`). Fourteen component codes still have no public Ficha 1, but four TCC codes were removed from the operational request queue under recorded stakeholder direction, leaving ten requests. A possible secretariat folder is a stakeholder-supplied access lead, not yet verified. The W030 access-package counts remain a frozen prior snapshot and were not rebuilt by W036.
+
+Site checkpoint: W042/W043 replaced the public research-first interface with separate 2011/2023 grade views, discreet Ficha 1 availability, and explicitly non-formal same-code/name links. The work was integrated into `main` and deployed to the existing IBM Funnel URL on 2026-09-23. This does not complete Ficha applicability reconciliation or start curricular evaluation.
 
 - W014: commit and integrate the new direction and checkpoint contract.
 - W015: index existing datasets and preserved source records, with a queue of already documented gaps; Luna/medium.

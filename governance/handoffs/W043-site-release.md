@@ -1,0 +1,24 @@
+# W043 handoff — site integration and publication
+
+- **Branch:** `work/w043-site-release`, integrated into `main` by explicit user direction.
+- **Commit base:** `fdada2dd65aed5e6a24dd496c122ad2af7101af6`.
+- **Commits produced:** W043 specification `03d5691`, W042 integration `3a37cdd`, review `dba029b`, main integration `af1a99c`, plus this index/handoff closure commit.
+- **Primary-session model and effort actually used:** Runtime did not expose exact model/effort; `unknown / unknown`, not inferred.
+- **Agents:** Primary agent only; primary; integrator, release operator and final auditor; model/effort `unknown / unknown`; actual. Routing rationale: main integration and publication are reserved to the user-supervised primary session.
+- **Reassignments, escalations, equivalent-tier mappings, routing deviations:** None. No Sol subagents.
+- **Objective and verdict:** Complete. W042 is in `main`, and the existing public site serves the integrated two-grade interface.
+- **Deliverables:** Integrated site, `governance/reviews/W043-site-release.md`, updated roadmap/work index, this handoff, existing public service at `https://ibm.tail6629d6.ts.net/`.
+- **Sources added:** No new original research source. The six published W036 PDF copies and their hashes are recorded in `site/data/source/w042-static-fichas.csv`.
+- **Coverage:** Public 2011 and 2023 pages render 41 and 43 component cards. The 2023 page reports 29 located Ficha 1 versions and 10 non-TCC Ficha 1 gaps; four TCC alternatives are not counted as Ficha gaps. Existing documentary applicability limits remain visible.
+- **Validations:** Before both merges, repository validation and the W042 Svelte check/build passed; final Docker image build reran Svelte check with zero errors/warnings and built successfully. After main integration, repository validation reported 227 CSVs, 132 hashes, 282 links, zero warnings/errors. The new web container and unchanged Tailscale/code services are healthy. Public home, both curriculum pages, `/health`, and a new W036 PDF returned HTTP 200; the public PDF hash matched its preserved original.
+- **Gaps:** No formal equivalence or complete Ficha applicability proof. No browser screenshot QA was requested or performed.
+- **Divergences:** The existing Docker/Tailscale publication path was retained instead of migrating this SvelteKit/Node service to a second hosting platform. The public URL was already active; only the web service was rebuilt and recreated.
+- **Provisional information:** Same-code/name cross-grade links are navigation clues, not official equivalences.
+- **Explicitly unperformed:** No curricular evaluation, new source search, W041 jobs integration, unrelated file modification, or migration of hosting infrastructure.
+- **Error log:** `governance/errors/W043-site-release.md`; resolved events: none; open events: none.
+- **Human review:** None opened; existing institutional-access questions on Ficha applicability remain outside this release gate.
+- **Merged branches and conflict resolution:** W042 merged into W043 by `3a37cdd`; W043 merged into `main` by `af1a99c`; no conflicts.
+- **Global indexes updated:** `governance/ROADMAP.md` and `governance/WORK_INDEX.md` during this authorized integration.
+- **Final validation:** Public HTTP, health, component counts, PDF hash, and unchanged supporting services verified after deployment.
+- **Remote synchronization:** Pending final push of this closure record; update after verification.
+- **Recommended next bounded work unit:** User review of the live site; address only specific corrections the user identifies. Do not start automatically.

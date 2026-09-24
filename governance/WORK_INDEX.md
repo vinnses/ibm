@@ -65,6 +65,8 @@ W030 final documentary data closure: complete and published from branch `work/w0
 
 W036 refreshed missing-Ficha search: complete and integrated on 2026-09-10. Specification/error baseline `cc86d41`; source recovery `764e196`; actionable list `7d08b1a`; initial handoff `98d6694`; stakeholder revision `c4fe9b2`; merge `ca944ee`. Deliverable: `fichas_faltantes.md`, seventeen preserved public sources, six newly located Ficha 1 versions, a ten-item operational Ficha 1 request queue, DInf-only BCC similar-name crosswalk and a separately recorded secretariat-access lead. Formal applicability and term-specific non-TCC Ficha 2 collection remain institutional-access gaps; TCC exclusion is stakeholder direction, not a public-source finding.
 
+W042/W043 curriculum site: W042 completed the grade-first redesign in `27d3943` with handoff `1111334`; W043 review `dba029b`, integration merge `af1a99c`, and deployment to the existing IBM Funnel URL on 2026-09-23. The site displays both formal grade structures, 29 located 2023 Ficha 1 versions, ten non-TCC Ficha 1 search gaps, and selected code/name navigation clues without claiming formal equivalence. Six previously preserved W036 PDFs were published byte-for-byte with a local hash manifest. Applicability remains a documentary gap; no curricular evaluation was performed.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
