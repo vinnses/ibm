@@ -4,6 +4,8 @@ Baseline: 2026-09-06, documentary-delivery objective after P1 and data-first exp
 
 ## Active direction — documentary delivery
 
+Cross-conversation transfer checkpoint (2026-09-24): the external-context work has two **separate, unfinished research fronts**: Brazilian AI/Biomedical Informatics courses (W044) and Brazil AI/AI-in-health job postings (W040/W041). Their existing outputs are on local work branches, not `main`. The courses dataset is partial because live e-MEC coverage and many curriculum searches remain open; the two jobs capture lots are bounded-complete but not integrated or analyzed together. See [`RESEARCH_FRONTS.md`](RESEARCH_FRONTS.md) for exact branch locations, coverage, limitations, next gates and restart instructions. Do not start either front automatically or combine them into one Work.
+
 W028 completed N2-N6 and published the documentary/data release under [`../dados/entrega-documental/`](../dados/entrega-documental/). Curricular comparison, evaluation and recommendations remain a separate future objective requiring direct user participation.
 
 Latest documentary checkpoint: W036 renewed the curriculum-2023 Ficha search through the BCC overlap and recovered six previously missing Ficha 1 versions (`CM303`, `CM304`, `CM310`, `CM311`, `CI1169`, `CI1172`). Fourteen component codes still have no public Ficha 1, but four TCC codes were removed from the operational request queue under recorded stakeholder direction, leaving ten requests. A possible secretariat folder is a stakeholder-supplied access lead, not yet verified. The W030 access-package counts remain a frozen prior snapshot and were not rebuilt by W036.

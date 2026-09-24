@@ -77,6 +77,16 @@ W048 document archive and sharing metadata: complete and integrated on 2026-09-2
 
 W049 repository branch synchronization: integrated on 2026-09-24 via merge `dd897be`; partial, with HR-W049-001 pending. Twenty-four matching refs now track GitHub; `main` and W032-W049 are rejected by push protection because a preserved public PUC-PR HTML capture contains a Mapbox `pk` token. Four remote-only branches remain preserved. No force push, history rewrite or remote deletion occurred. Full result and verification are in the W049 handoff.
 
+## Unmerged external-context research branches — 2026-09-24
+
+| Work | Local branch and tip | Bounded result | Remaining boundary |
+|---|---|---|---|
+| W040 | `work/w040-brazil-ai-jobs-batch1` · `366479b` | 13 preserved postings, 11 open at capture; source manifests, originals, literal extracts, structured fields and validator | Bounded capture complete; not merged or analyzed |
+| W041 | `work/w041-brazil-ai-jobs-batch2` · `243acc4` (includes W040) | 15 more preserved postings, 11 open at capture; combined 28 preserved and 22 open at capture | Bounded capture complete; dependency-chain integration and coverage/coding review pending |
+| W044 | `work/w044-ai-courses-dataset` · `0864ce4` | 2024 INEP name-filtered baseline: 62 course codes, 53 institutions; separate post-2024 leads and partial curriculum tables | Partial; current e-MEC universe, six pending extractions and 44 individual searches remain open |
+
+These branches' data are not in `main`; see [`RESEARCH_FRONTS.md`](RESEARCH_FRONTS.md) and the branch-specific handoffs before resuming either front. The later W050/W051 site integrations pushed `main` successfully, but the historical all-branch push-protection gate remains; W049's remote-state sentence above is a dated snapshot, not the current `main` status.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

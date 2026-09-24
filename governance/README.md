@@ -21,6 +21,7 @@ This directory is the durable operating context for AI-assisted work on the hist
 | [`WORK_INDEX.md`](WORK_INDEX.md) | Historical work and commit map |
 | [`DECISIONS.md`](DECISIONS.md) | Durable methodological and workflow decisions |
 | [`AGENT_OPERATIONS.md`](AGENT_OPERATIONS.md) | Agent roles, effort routing, and compact result contract |
+| [`RESEARCH_FRONTS.md`](RESEARCH_FRONTS.md) | Separate restart records for the unmerged courses and jobs evidence fronts |
 | [`specs/WORK_UNIT.md`](specs/WORK_UNIT.md) | Required specification for a bounded work unit |
 | [`specs/SOURCE_RECORD.md`](specs/SOURCE_RECORD.md) | Provenance and preservation schema |
 | [`specs/ERROR_RECORD.md`](specs/ERROR_RECORD.md) | Append-only agent/process error and recovery schema |
