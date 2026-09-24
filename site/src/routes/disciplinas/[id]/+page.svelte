@@ -5,7 +5,7 @@
   <meta property="og:title" content={`${data.component.code} ${data.component.name} · Grade ${data.year} · Informática Biomédica UFPR`} />
   <meta property="og:description" content={`Consulte período, Ficha 1 disponível e documentos de ${data.component.name} (${data.component.code}) na grade ${data.year}.`} />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:site_name" content="Dados, Documentos e Análises sobre IBM/UFPR" />
   <meta property="og:locale" content="pt_BR" />
 </svelte:head>
 <main class="detail">
@@ -14,7 +14,6 @@
   <div class="columns">
     <section class="panel"><h2>Ficha 1</h2>
       {#if data.component.fichas.length}
-        <p>Versão{data.component.fichas.length > 1 ? 'ões' : ''} localizada{data.component.fichas.length > 1 ? 's' : ''}:</p>
         <ul class="fichas">{#each data.component.fichas as ficha}<li><a href={ficha.url} target="_blank" rel="noopener">Abrir {ficha.title} ↗</a><small>{ficha.note}</small></li>{/each}</ul>
       {:else if data.component.fichaState === 'not_located'}
         <p class="notice">Ficha 1 não localizada na busca pública. Isso não prova que o documento não exista.</p>
