@@ -1,0 +1,81 @@
+curriculum_year,recommended_period,component_code,component_name,component_kind,workload_hours,formal_basis,source_document_id,source_sha256
+2011,1,BA040,Anatomia Humana Sistêmica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,1,CI055,Algoritmos E Estruturas De Dados I,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,1,CI241,Introdução A Sistemas Computacionais,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,1,CM045,Geometria Analítica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,1,CM201,Calculo Diferencial E Integral I,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,2,BQ005,Introducao A Bioquimica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,2,CI056,Algoritmos E Estruturas De Dados Ii,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,2,CI067,Oficina De Computacao,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,2,CI243,Fundamentos De Projeto E Arquitetura De Computadores,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,2,CM005,Álgebra Linear,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,3,BC056,Fundamentos De Biologia Celular E Tecidual,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,3,BQ054,Biologia Molecular E Bioinformática,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,3,CI057,Algoritmos E Estruturas De Dados Iii,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,3,CI166,Metodologia Científica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,3,CI244,Fundamentos De Redes E Sistemas Distribuidos,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,BF075,Fisiologia Para Informática Biomédica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,BG054,Genética E Evolução Para O Curso De Informática Biomédica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,CE003,Estatística Ii,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,CI062,Tecnicas Alternativas De Programacao,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,CI164,Introdução À Computação Científica,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,4,CI215,Sistemas Operacionais,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,5,CI065,Algoritmos E Teoria Dos Grafos,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,5,CI162,Engenharia De Requisitos,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,5,CI171,Aprendizado De Máquinas,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,5,CI316,Programação Paralela,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,5,MN127,"Saúde, Meio Ambiente E Sociedade",componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,CI167,Sistemas De Informação Em Saúde,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,CI209,Inteligencia Artificial,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,CI218,Sistemas De Bancos De Dados,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,CI220,Teoria De Sistemas,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,CI394,Processamento De Imagens,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,6,MN128,Organização Do Sistema De Saúde Brasileiro,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,7,CI169,Bioinformática,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,7,CI172,Processamento De Imagnes Biomédicas,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,7,CI221,Engenharia De Software,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,7,CI262,Trabalho De Conclusão De Curso Em Informática,componente codificado,120,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2011,7,MN129,Metodologia Da Pesquisa E Bioética Em Saúde,componente codificado,60,Resolução 34/2010-CEPE,document-2011-resolution-34-2010,bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26
+2023,1,BA040,Anatomia Humana Sistêmica,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,1,CI1003,Introdução à Ciência da Computação,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,1,CI1055,Algoritmos e Estruturas de Dados 1,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,1,CI1068,Circuitos Digitais,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,1,CM310,Pré-Cálculo,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,1,MN162,Organização do Sistema de Saúde Brasileiro,obrigatória,60,Resoluções 75/22 e 77/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,2,BQ112,Introdução a Bioquímica,obrigatória,60,Resoluções 75/22 e 76/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,2,CI1001,Programação 1,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,2,CI1056,Algoritmos e Estrutura de Dados 2,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,2,CM304,Complementos de Matemática,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,2,CM311,Cálculo 1,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,BC056,Fundamentos de Biologia Celular e Tecidual,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,BQ083,Biologia Molecular e Bioinformática,obrigatória,60,Resoluções 75/22 e 76/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,CI1002,Programação 2,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,CI1057,Algoritmos e Estruturas de Dados 3,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,CI1212,Arquitetura de Computadores,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,3,CM303,Introdução à Geometria Analítica e Álgebra Linear,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,BF114,Fisiologia para Informática Biomédica,obrigatória,60,Resoluções 75/22 e 78/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,BG079,Genética e Evolução para Informática Biomédica,obrigatória,60,Resoluções 75/22 e 79/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,CI1054,Algoritmos em Grafos e Otimização,obrigatória,60,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,CI1062,Paradigmas de Programação,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,CI1101,Estágio Supervisionado em Informática Biomédica,estágio obrigatório,220,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,CI1350,Interação Humano-Computador,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,4,MN163,Sistema de Informação em Saúde,obrigatória,60,Resoluções 75/22 e 77/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,CE009,Introdução à Estatística,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,CI1162,Engenharia de Requisitos,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,CI1172,Processamento de Imagens Biomédicas,obrigatória,60,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,CI1215,Sistemas Operacionais,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,CI1244,Redes de Computadores,obrigatória,60,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,5,MN129,Metodologia da Pesquisa e Bioética em Saúde,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,6,CI1163,Design de Software,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,6,CI1171,Aprendizado de Máquina,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,6,CI1209,Inteligência Artificial,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,6,CI1218,Banco de Dados,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,6,CI1316,Programação Paralela,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,7,CI1007,Segurança Computacional,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,7,CI1131,Trabalho de Conclusão de Curso 1 em Informática Biomédica - extensionista,TCC alternativa,160,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,7,CI1133,Trabalho de Conclusão de Curso 1 em Informática Biomédica,TCC alternativa,160,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,7,CI1169,Bioinformática,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,7,CI1221,Engenharia de Software,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,8,CI1005,Qualidade de Software,obrigatória,60,Resolução 75/22-CEPE Anexo I,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,8,CI1132,Trabalho de Conclusão de Curso 2 em Informática Biomédica - extensionista,TCC alternativa,160,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d
+2023,8,CI1134,Trabalho de Conclusão de Curso 2 em Informática Biomédica,TCC alternativa,160,Resoluções 75/22 e 80/22-CEPE,document-2023-resolution-75-22,b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d

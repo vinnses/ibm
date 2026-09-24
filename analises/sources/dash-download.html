@@ -1,0 +1,3043 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Download | Plotly Dash</title>
+    
+    <link rel="canonical" href="https://dash.plotly.com/dash-core-components/download">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dcc.Download allows users to directly download files like spreadsheets, images, and text files from your app, notifying you when data changes.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Plotly Dash Documentation">
+    <meta property="og:title" content="Download | Plotly Dash">
+    <meta property="og:description" content="dcc.Download allows users to directly download files like spreadsheets, images, and text files from your app, notifying you when data changes.">
+    <meta name="twitter:title" content="Download | Plotly Dash">
+    <meta name="twitter:description" content="dcc.Download allows users to directly download files like spreadsheets, images, and text files from your app, notifying you when data changes.">
+    <meta property="og:url" content="https://dash.plotly.com/dash-core-components/download">
+    <meta property="og:image" content="https://dash.plotly.com/share-image/dash-core-components/download.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://dash.plotly.com/share-image/dash-core-components/download.png">
+    <meta name="google-site-verification" content="EgLBLquJuqD_NR96F-pKLhTy9ZKQlWIoQlexW_OVKrM" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico?m=1790191058.0">
+    <link rel="stylesheet" href="/_dash-component-suites/dash_design_kit/ddk-all.v3_0_1m1790191082.css">
+<link rel="stylesheet" href="/_dash-component-suites/dash_design_kit/bootstrap_build.v3_0_1m1790191082.css">
+<link rel="stylesheet" href="/_dash-component-suites/dash_design_kit/fa-ddk.v3_0_1m1790191082.css">
+<link rel="stylesheet" href="/assets/ag-grid-examples-css.css?m=1790191057.0">
+<link rel="stylesheet" href="/assets/auth.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/azure.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/base.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/code-copy.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/daq.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/dashbio.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/ddk.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/docs.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/dosis.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/gallery-style.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/loading.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/local-css-example.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/mcp.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/open-sans.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/override.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/percy.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/react-resizable.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/report.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/table.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/tabs-styled-with-classes.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/typography.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/font-awesome/css/fontawesome.min.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/font-awesome/css/solid.min.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/highlight/styles/default.css?m=1790191058.0">
+<link rel="stylesheet" href="/assets/highlight/styles/dm-mono.css?m=1790191058.0">
+<link rel="stylesheet" href="/_dash-component-suites/plotly_cloud/cloud_devtools.v0_4_1m1788476040.css">
+    <!-- Google Tag Manager Tag -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N6T2RXG');</script>
+
+    <style type="text/css">
+.placeholder-content{will-change:transform;animation:placeHolderShimmer 1s linear infinite forwards;-webkit-backface-visibility:hidden;background:#e6e6e6;background:linear-gradient(90deg,#eee 8%,#ddd 18%,#eee 33%);background-size:800px 104px;height:100%;position:relative}.placeholder-content *{color:transparent!important;opacity:0}@keyframes placeHolderShimmer{0%{-webkit-transform:translateZ(0);transform:translateZ(0);background-position:-468px 0;opacity:.7}45%{opacity:.8}75%{opacity:1}100%{-webkit-transform:translateZ(0);transform:translateZ(0);background-position:468px 0;opacity:.7}}@keyframes placeholderAnimate{0%{background-position:-650px 0}100%{background-position:650px 0}}.preload{position:fixed;top:0;left:0;right:0;bottom:0;transition:all ease .3s;z-index:99999;background-color:#fff}.preload *{box-sizing:border-box}.preload .pre-sidebar{position:absolute;top:0;left:0;bottom:0;width:300px;background-color:#fafafa}.preload .pre-content{position:absolute;top:0;left:300px;bottom:0;right:0;padding:0 0 0 90px;z-index:999;background-color:#fff}.preload .pre-brand{padding:35px 10px 20px 20px;display:flex;align-items:center;justify-content:space-between}.preload .pre-logo{width:100px;height:30px;flex-shrink:0;border-radius:6px}.preload .pre-switch{display:inline-flex !important;justify-content:flex-end;}.preload .pre-switch .pre-dot{flex-shrink:0;width:20px;height:20px;border-radius:20px;margin:0px !important;}.preload .pre-switch .pre-large{width:45px;height:20px;border-radius:20px;flex-shrink:0;margin:0 6px}.preload .pre-search{height:38px;width:223px;margin:10px 0 40px 36px;border-radius:30px}.preload .pre-line{width:100px;height:15px;margin:0 0 30px 30px;border-radius:3px}.preload .pre-line1{width:125px}.preload .pre-line2{width:135px}.preload .pre-line3{width:145px}.preload .pre-line4{width:245px}.preload .pre-line5{width:225px}.preload .pre-line6{width:235px}.preload .pre-line7{width:150px}.preload .pre-line8{width:180px}.preload .pre-line9{width:190px}.preload .pre-line10{width:120px}.preload .pre-menu{padding:20px 20px 0 0;text-align:right}.preload .pre-menu div{width:100px;display:inline-block;height:20px;border-radius:2px;margin:0 0 0 30px}.preload .pre-wrap{max-width:850px}.preload .pre-headline{height:30px;width:400px;margin:100px 0 70px 2px;border-radius:2px}.preload .pre-subhead{height:23px;width:180px;margin:0 0 28px 0;border-radius:2px}.preload .pre-subhead2{margin:70px 0 28px 0}.preload .pre-box-row{display:flex;flex-wrap:wrap;margin:0 -16px}.preload .pre-box-col{width:33.333%;margin:0 0 20px 0;padding:0 16px}.preload .pre-box{height:112px;width:100%;border-radius:2px}
+</style>
+</head>
+<body>
+  <div class="preload">
+    <div class="pre-wrap">
+      <div class="pre-sidebar">
+        <div class="pre-brand">
+          <div class="pre-logo placeholder-content">
+          </div>
+        </div>
+        <div class="pre-search placeholder-content">
+        </div>
+        <div class="pre-line pre-line1 placeholder-content">
+        </div>
+        <div class="pre-line pre-line2 placeholder-content">
+        </div>
+        <div class="pre-line pre-line3 placeholder-content">
+        </div>
+        <div class="pre-line pre-line4 placeholder-content">
+        </div>
+        <div class="pre-line pre-line5 placeholder-content">
+        </div>
+        <div class="pre-line pre-line6 placeholder-content">
+        </div>
+        <div class="pre-line pre-line7 placeholder-content">
+        </div>
+        <div class="pre-line pre-line8 placeholder-content">
+        </div>
+        <div class="pre-line pre-line9 placeholder-content">
+        </div>
+        <div class="pre-line pre-line10 placeholder-content">
+        </div>
+      </div>
+      <div class="pre-content">
+        <div class="pre-menu">
+          <div class=" placeholder-content">
+          </div>
+          <div class="pre-switch">
+            <div class="pre-dot placeholder-content">
+            </div>
+            <div class="pre-large placeholder-content">
+            </div>
+            <div class="pre-dot placeholder-content">
+          </div>
+          </div>
+          <div class=" placeholder-content">
+          </div>
+          <div class=" placeholder-content">
+          </div>
+          <div class=" placeholder-content">
+          </div>
+          <div class=" placeholder-content">
+          </div>
+        </div>
+        <div class="pre-wrap">
+          <div class="pre-headline placeholder-content">
+          </div>
+          <div class="pre-subhead placeholder-content">
+          </div>
+          <div class="pre-box-row">
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+          </div>
+          <div class="pre-subhead pre-subhead2 placeholder-content">
+          </div>
+          <div class="pre-box-row">
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+            <div class="pre-box-col">
+              <div class="pre-box placeholder-content">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Google Tag Manager Tag -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6T2RXG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="react-entry-point">
+        <div class="ssr-dash-core-components-markdown"><h1 id="dccdownload"><img alt="" src="/assets/images/language_icons/python_50px.svg" /> dcc.Download</h1>
+<p>With the <code>dcc.Download</code> component, you can allow users to directly download files from your app. These files include (but are not limited to) spreadsheets, images, text files, etc. <code>dcc.Download</code> opens a download dialog when the <code>data</code> property changes.</p>
+<p>Note that the following examples make use of the <code>prevent_initial_call</code> attribute to prevent the callbacks from being triggered when the app inputs are initially rendered. See <a href="/advanced-callbacks">Advanced Callbacks</a> for more details.</p>
+<h2 id="examples">Examples</h2>
+<p>Find a few usage examples below.</p>
+<p>For more examples of minimal Dash apps that use <code>dcc.Download</code>, go to the community-driven <a href="https://dash-example-index.herokuapp.com/?code=dcc.Download">Example Index</a>.</p>
+<h3 id="downloading-content-as-strings">Downloading Content as Strings</h3>
+<p>Here is an example of downloading content as a string, while showing the raw JSON:</p>
+</div>
+<div style="position: relative;">
+<div class="ssr-dash-core-components-clipboard" style="position: absolute; right: 10px; top: 10px; height: 50px;">
+</div>
+ <div class="ssr-dash-core-components-markdown"><pre><code class="language-python">from dash import Dash, dcc, html, Input, Output, callback
+
+app = Dash()
+app.layout = html.Div([
+    html.Button(&quot;Download Text&quot;, id=&quot;btn-download-txt&quot;),
+    dcc.Download(id=&quot;download-text&quot;)
+])
+
+
+@callback(
+    Output(&quot;download-text&quot;, &quot;data&quot;),
+    Input(&quot;btn-download-txt&quot;, &quot;n_clicks&quot;),
+    prevent_initial_call=True,
+)
+def func(n_clicks):
+    return dict(content=&quot;Hello world!&quot;, filename=&quot;hello.txt&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    app.run(debug=True)
+</code></pre>
+</div>
+</div>
+<div class="example-container" style=""><div>
+<button id="btn-download-txt">Download Text
+</button>
+ <div id="download-text" class="ssr-dash-core-components-download" style="height: 50px;">
+</div>
+</div>
+</div>
+<div class="ssr-dash-core-components-markdown"><h3 id="downloading-a-dataframe-as-a-csv-file">Downloading a Dataframe as a CSV file</h3>
+<p>For downloading dataframes, the many Pandas export methods are supported. Below we are downloading a dataframe as a CSV:</p>
+</div>
+<div style="position: relative;">
+<div class="ssr-dash-core-components-clipboard" style="position: absolute; right: 10px; top: 10px; height: 50px;">
+</div>
+ <div class="ssr-dash-core-components-markdown"><pre><code class="language-python">from dash import Dash, dcc, html, Input, Output, callback
+import pandas as pd
+
+app = Dash()
+app.layout = html.Div(
+    [
+        html.Button(&quot;Download CSV&quot;, id=&quot;btn_csv&quot;),
+        dcc.Download(id=&quot;download-dataframe-csv&quot;),
+    ]
+)
+
+df = pd.DataFrame({&quot;a&quot;: [1, 2, 3, 4], &quot;b&quot;: [2, 1, 5, 6], &quot;c&quot;: [&quot;x&quot;, &quot;x&quot;, &quot;y&quot;, &quot;y&quot;]})
+
+
+@callback(
+    Output(&quot;download-dataframe-csv&quot;, &quot;data&quot;),
+    Input(&quot;btn_csv&quot;, &quot;n_clicks&quot;),
+    prevent_initial_call=True,
+)
+def func(n_clicks):
+    return dcc.send_data_frame(df.to_csv, &quot;mydf.csv&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    app.run(debug=True)
+</code></pre>
+</div>
+</div>
+<div class="example-container" style=""><div>
+<button id="btn_csv">Download CSV
+</button>
+ <div id="download-dataframe-csv" class="ssr-dash-core-components-download" style="height: 50px;">
+</div>
+</div>
+</div>
+<div class="ssr-dash-core-components-markdown"><h3 id="downloading-a-dataframe-as-an-excel-file">Downloading a Dataframe as an Excel file</h3>
+<p>To download a dataframe as an Excel file with Pandas, add <code>xlsxwriter</code> or <code>openpyxl</code> as an app dependency:</p>
+</div>
+<div style="position: relative;">
+<div class="ssr-dash-core-components-clipboard" style="position: absolute; right: 10px; top: 10px; height: 50px;">
+</div>
+ <div class="ssr-dash-core-components-markdown"><pre><code class="language-python">from dash import Dash, dcc, html, Input, Output, callback
+import pandas as pd
+
+app = Dash()
+app.layout = html.Div([
+    html.Button(&quot;Download Excel&quot;, id=&quot;btn_xlsx&quot;),
+    dcc.Download(id=&quot;download-dataframe-xlsx&quot;),
+])
+
+
+df = pd.DataFrame({&quot;a&quot;: [1, 2, 3, 4], &quot;b&quot;: [2, 1, 5, 6], &quot;c&quot;: [&quot;x&quot;, &quot;x&quot;, &quot;y&quot;, &quot;y&quot;]})
+
+
+@callback(
+    Output(&quot;download-dataframe-xlsx&quot;, &quot;data&quot;),
+    Input(&quot;btn_xlsx&quot;, &quot;n_clicks&quot;),
+    prevent_initial_call=True,
+)
+def func(n_clicks):
+    return dcc.send_data_frame(df.to_excel, &quot;mydf.xlsx&quot;, sheet_name=&quot;Sheet_name_1&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    app.run(debug=True)
+</code></pre>
+</div>
+</div>
+<div class="example-container" style=""><div>
+<button id="btn_xlsx">Download Excel
+</button>
+ <div id="download-dataframe-xlsx" class="ssr-dash-core-components-download" style="height: 50px;">
+</div>
+</div>
+</div>
+<div class="ssr-dash-core-components-markdown"><h3 id="downloading-images">Downloading Images</h3>
+<p>To download a file from disk, use <code>dcc.send_file</code>, taking care to specify the file path.</p>
+</div>
+<div style="position: relative;">
+<div class="ssr-dash-core-components-clipboard" style="position: absolute; right: 10px; top: 10px; height: 50px;">
+</div>
+ <div class="ssr-dash-core-components-markdown"><pre><code class="language-python">from dash import Dash, dcc, html, Input, Output, callback
+
+app = Dash()
+app.layout = html.Div([
+    html.Button(&quot;Download Image&quot;, id=&quot;btn_image&quot;),
+    dcc.Download(id=&quot;download-image&quot;)
+])
+
+
+@callback(
+    Output(&quot;download-image&quot;, &quot;data&quot;),
+    Input(&quot;btn_image&quot;, &quot;n_clicks&quot;),
+    prevent_initial_call=True,
+)
+def func(n_clicks):
+    return dcc.send_file(
+        &quot;./dash_docs/assets/images/gallery/dash-community-components.png&quot;
+    )
+
+
+if __name__ == &quot;__main__&quot;:
+    app.run(debug=True)
+</code></pre>
+</div>
+</div>
+<div class="example-container" style=""><div>
+<button id="btn_image">Download Image
+</button>
+ <div id="download-image" class="ssr-dash-core-components-download" style="height: 50px;">
+</div>
+</div>
+</div>
+<div class="ssr-dash-core-components-markdown"><hr />
+</div>
+<div>
+<div class="ssr-dash-core-components-markdown"><h2 id="download-properties">Download Properties</h2>
+</div>
+ <div class="python-blockquote-ssr-dash-core-components-markdown"><blockquote>
+<p>Access this documentation in your Python terminal with:<br />
+```python</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>help(dash.dcc.Download)<br />
+```</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</div>
+  <div class="workspaces-blockquote-ssr-dash-core-components-markdown"><blockquote>
+<p>Our recommended IDE for writing Dash apps is Dash Enterprise&rsquo;s<br />
+<a href="https://plotly.com/dash/workspaces">Data Science Workspaces</a>,<br />
+which has typeahead support for Dash Component Properties.<br />
+<a href="https://plotly.com/company-lookup/">Find out if your company is using<br />
+Dash Enterprise</a>.</p>
+</blockquote>
+</div>
+   <div class="reference-ssr-dash-core-components-markdown"><p><strong><code>id</code></strong> (<em>string</em>; optional):<br />
+The ID of this component, used to identify dash components in<br />
+callbacks.</p>
+<p><strong><code>data</code></strong> (<em>dict</em>; optional):<br />
+On change, a download is invoked.</p>
+<p><code>data</code> is a dict with keys:</p>
+<ul>
+<li>
+<p><strong><code>base64</code></strong> (<em>boolean</em>; optional):<br />
+    Set to True, when data is base64 encoded.</p>
+</li>
+<li>
+<p><strong><code>content</code></strong> (<em>string</em>; required):<br />
+    File content.</p>
+</li>
+<li>
+<p><strong><code>filename</code></strong> (<em>string</em>; required):<br />
+    Suggested filename in the download dialogue.</p>
+</li>
+<li>
+<p><strong><code>type</code></strong> (<em>string</em>; optional):<br />
+    Blob type, usually a MIME-type.</p>
+</li>
+</ul>
+<p><strong><code>base64</code></strong> (<em>boolean</em>; default <code>False</code>):<br />
+Default value for base64, used when not set as part of the data<br />
+property.</p>
+<p><strong><code>type</code></strong> (<em>string</em>; default <code>'text/plain'</code>):<br />
+Default value for type, used when not set as part of the data property.</p>
+</div>
+</div>
+<div class="ssr-dash-core-components-markdown">
+</div>
+    </div>
+    <footer>
+        <script id="_dash-config" type="application/json">{"url_base_pathname":null,"requests_pathname_prefix":"\u002f","ui":false,"props_check":false,"disable_version_check":false,"show_undo_redo":false,"suppress_callback_exceptions":true,"update_title":null,"children_props":{"dash_core_components":{"Clipboard":["copied_children"],"ConfirmDialog":[],"ConfirmDialogProvider":[],"Download":[],"Geolocation":[],"Graph":[],"Interval":[],"Link":[],"Location":[],"Markdown":[],"Store":[],"Upload":[],"Button":[],"Checklist":[],"DatePickerRange":[],"DatePickerSingle":[],"Dropdown":[],"Input":[],"Loading":["custom_spinner"],"RadioItems":[],"RangeSlider":[],"Slider":[],"Tab":["label"],"Tabs":[],"Textarea":[],"Tooltip":[]},"dash_html_components":{"A":[],"Abbr":[],"Acronym":[],"Address":[],"Area":[],"Article":[],"Aside":[],"Audio":[],"B":[],"Base":[],"Basefont":[],"Bdi":[],"Bdo":[],"Big":[],"Blink":[],"Blockquote":[],"Br":[],"Button":[],"Canvas":[],"Caption":[],"Center":[],"Cite":[],"Code":[],"Col":[],"Colgroup":[],"Content":[],"Data":[],"Datalist":[],"Dd":[],"Del":[],"Details":[],"Dfn":[],"Dialog":[],"Div":[],"Dl":[],"Dt":[],"Em":[],"Embed":[],"Fieldset":[],"Figcaption":[],"Figure":[],"Font":[],"Footer":[],"Form":[],"Frame":[],"Frameset":[],"H1":[],"H2":[],"H3":[],"H4":[],"H5":[],"H6":[],"Header":[],"Hgroup":[],"Hr":[],"I":[],"Iframe":[],"Img":[],"Ins":[],"Kbd":[],"Keygen":[],"Label":[],"Legend":[],"Li":[],"Link":[],"Main":[],"MapEl":[],"Mark":[],"Marquee":[],"Meta":[],"Meter":[],"Nav":[],"Nobr":[],"Noscript":[],"ObjectEl":[],"Ol":[],"Optgroup":[],"Option":[],"Output":[],"P":[],"Param":[],"Picture":[],"Plaintext":[],"Pre":[],"Progress":[],"Q":[],"Rb":[],"Rp":[],"Rt":[],"Rtc":[],"Ruby":[],"S":[],"Samp":[],"Script":[],"Section":[],"Select":[],"Shadow":[],"Slot":[],"Small":[],"Source":[],"Spacer":[],"Span":[],"Strike":[],"Strong":[],"Sub":[],"Summary":[],"Sup":[],"Table":[],"Tbody":[],"Td":[],"Template":[],"Textarea":[],"Tfoot":[],"Th":[],"Thead":[],"Time":[],"Title":[],"Tr":[],"Track":[],"U":[],"Ul":[],"Var":[],"Video":[],"Wbr":[],"Xmp":[]},"dash_table":{"DataTable":[]},"dash_design_kit":{"App":[],"Block":[],"Card":[],"CardFooter":[],"CardHeader":[],"CollapsibleMenu":["title"],"ControlCard":[],"ControlItem":[],"ControlsHeader":["primary_controls","secondary_controls"],"DataCard":[],"DataTable":[],"Footer":["tags"],"FullScreen":["cardRef"],"Graph":["insights.title","insights_conversation[].answer"],"Header":[],"Hero":["tags"],"Icon":[],"Logo":[],"Menu":[],"Modal":["cardRef"],"Notification":[],"Page":[],"PageFooter":[],"PageHeader":[],"Report":[],"Row":[],"SectionTitle":[],"Sidebar":[],"SidebarCompanion":[],"Tag":[],"Title":[],"_Accordion":["control_groups[].children","action_button"],"_AccordionItem":[],"_ControlPanel":["control_groups[].children","action_button"],"_TabbedControls":["control_groups[].children","action_button"],"Exclude":[],"_Section":[],"_SectionHeading":[]},"dash_daq":{"BooleanSwitch":null,"ColorPicker":null,"DarkThemeProvider":null,"Gauge":null,"GraduatedBar":null,"Indicator":null,"Joystick":null,"Knob":null,"LEDDisplay":null,"NumericInput":null,"PowerButton":null,"PrecisionInput":null,"Slider":null,"StopButton":null,"Tank":null,"Thermometer":null,"ToggleSwitch":null},"dash_bootstrap_components":{"Accordion":[],"AccordionItem":["title"],"Alert":[],"Badge":[],"Breadcrumb":[],"Button":[],"ButtonGroup":[],"Card":[],"CardBody":[],"CardFooter":[],"CardGroup":[],"CardHeader":[],"CardImg":[],"CardImgOverlay":[],"CardLink":[],"Carousel":[],"Collapse":[],"DropdownMenu":["label"],"DropdownMenuItem":[],"Fade":[],"Form":[],"FormFeedback":[],"FormFloating":[],"FormText":[],"Label":[],"Checkbox":["label"],"Checklist":["options[].label"],"Input":[],"InputGroup":[],"InputGroupText":[],"RadioButton":["label"],"RadioItems":["options[].label"],"Select":[],"Switch":["label"],"Textarea":[],"Col":[],"Container":[],"Row":[],"Stack":[],"ListGroup":[],"ListGroupItem":[],"Modal":[],"ModalBody":[],"ModalFooter":[],"ModalHeader":[],"ModalTitle":[],"Nav":[],"NavItem":[],"NavLink":[],"Navbar":[],"NavbarBrand":[],"NavbarSimple":["brand"],"NavbarToggler":[],"Offcanvas":["title"],"Pagination":[],"Placeholder":[],"Popover":[],"PopoverBody":[],"PopoverHeader":[],"Progress":[],"Spinner":[],"Table":[],"Tab":[],"Tabs":[],"Toast":["header"],"Tooltip":[]},"dash_user_guide_components":{"PageMenu":[],"Sidebar":[]},"dash_iconify":{"DashIconify":null},"dash_enterprise_libraries":{"Chatbot":["chatbotButton"],"Header":[],"NavLinks":[],"QuickSettings":[],"ShareDialog":[]},"dash_bio":{"AlignmentChart":null,"Circos":null,"FornaContainer":null,"Ideogram":null,"Igv":null,"Jsme":null,"Molecule2dViewer":null,"Molecule3dViewer":null,"NeedlePlot":null,"NglMoleculeViewer":null,"OncoPrint":null,"Pileup":null,"SequenceViewer":null,"Speck":null},"dash_cytoscape":{"Cytoscape":null},"dash_embedded":{"ConsumerContext":[],"ConsumerFunction":[]},"dash_ag_grid":{"AgGrid":[]},"dash_player":{"DashPlayer":[]},"dash_notes":{"Notes":null},"dash_mantine_components":{"AreaChart":[],"BarChart":[],"BubbleChart":[],"CompositeChart":[],"DonutChart":[],"LineChart":[],"PieChart":[],"RadarChart":[],"ScatterChart":[],"Sparkline":[],"Accordion":["chevron"],"AccordionControl":["chevron","icon"],"AccordionItem":[],"AccordionPanel":[],"AppShell":[],"AppShellAside":[],"AppShellFooter":[],"AppShellHeader":[],"AppShellMain":[],"AppShellNavbar":[],"AppShellSection":[],"Avatar":[],"AvatarGroup":[],"ActionIcon":["loaderProps.children"],"ActionIconGroup":[],"Button":["leftSection","rightSection","loaderProps.children"],"ButtonGroup":[],"CopyButton":["copiedChildren"],"CustomCopyButton":[],"UnstyledButton":[],"Card":[],"CardSection":[],"Checkbox":["label","description","error","icon","indeterminateIcon"],"CheckboxCard":[],"CheckboxGroup":["label","description","error"],"CheckboxIndicator":["icon","indeterminateIcon"],"Chip":["icon"],"ChipGroup":[],"ChipGroupContext":[],"ColorInput":["popoverProps.children","popoverProps.middlewares.flip.boundary","eyeDropperIcon","label","description","error","leftSection","rightSection"],"ColorPicker":[],"Autocomplete":["clearButtonProps.children","clearButtonProps.icon","label","description","error","leftSection","rightSection","comboboxProps.children","comboboxProps.middlewares.flip.boundary"],"MultiSelect":["nothingFoundMessage","clearButtonProps.children","clearButtonProps.icon","label","description","error","leftSection","rightSection","comboboxProps.children","comboboxProps.middlewares.flip.boundary"],"Select":["nothingFoundMessage","clearButtonProps.children","clearButtonProps.icon","label","description","error","leftSection","rightSection","comboboxProps.children","comboboxProps.middlewares.flip.boundary"],"TagsInput":["clearButtonProps.children","clearButtonProps.icon","label","description","error","leftSection","rightSection","comboboxProps.children","comboboxProps.middlewares.flip.boundary"],"Drawer":["title","overlayProps.children"],"DrawerStack":[],"ManagedDrawer":["title","overlayProps.children"],"Grid":[],"GridCol":[],"HoverCard":["middlewares.flip.boundary"],"HoverCardDropdown":[],"HoverCardTarget":[],"BackgroundImage":[],"Image":[],"InputWrapper":["label","description","error"],"JsonInput":["validationError","label","description","error","leftSection","rightSection"],"NumberInput":["label","description","error","leftSection","rightSection"],"PasswordInput":["label","description","error","leftSection","rightSection"],"PinInput":[],"TextInput":["label","description","error","leftSection","rightSection"],"Textarea":["label","description","error","leftSection","rightSection"],"List":["icon"],"ListItem":["icon"],"Menu":["middlewares.flip.boundary"],"MenuDivider":[],"MenuDropdown":[],"MenuItem":["leftSection","rightSection"],"MenuLabel":[],"MenuTarget":[],"SubMenu":["middlewares.flip.boundary"],"SubMenuDropdown":[],"SubMenuItem":["leftSection","rightSection"],"SubMenuTarget":[],"ManagedModal":["title","overlayProps.children","closeButtonProps.children","closeButtonProps.icon"],"Modal":["title","overlayProps.children","closeButtonProps.children","closeButtonProps.icon"],"ModalStack":[],"Popover":["middlewares.flip.boundary"],"PopoverDropdown":[],"PopoverTarget":[],"Progress":[],"ProgressLabel":[],"ProgressRoot":[],"ProgressSection":[],"Radio":["label","description","error"],"RadioCard":[],"RadioGroup":["label","description","error"],"RadioGroupContext":[],"RadioIndicator":[],"ScrollArea":[],"ScrollAreaAutosize":[],"RangeSlider":["marks[].label","label","thumbChildren"],"Slider":["marks[].label","label","thumbChildren"],"Stepper":["icon","completedIcon","progressIcon"],"StepperCompleted":[],"StepperStep":["icon","completedIcon","progressIcon","label","description"],"Table":["data.head","data.foot"],"TableCaption":[],"TableScrollContainer":[],"TableTbody":[],"TableTd":[],"TableTfoot":[],"TableTh":[],"TableThead":[],"TableTr":[],"Tabs":[],"TabsList":[],"TabsPanel":[],"TabsTab":["rightSection","leftSection"],"Timeline":[],"TimelineItem":["title","bullet"],"FloatingTooltip":["label"],"Tooltip":["label"],"Affix":[],"Alert":["title","icon"],"Anchor":[],"AspectRatio":[],"Badge":["leftSection","rightSection"],"Blockquote":["icon","cite"],"Box":[],"Breadcrumbs":["separator"],"Burger":[],"Center":[],"Code":[],"Collapse":[],"Container":[],"Divider":["label"],"Fieldset":["legend"],"Flex":[],"Group":[],"Highlight":[],"Indicator":["label"],"Kbd":[],"Loader":[],"LoadingOverlay":["loaderProps.children","overlayProps.children"],"Mark":[],"NavLink":["label","description","leftSection","rightSection"],"NumberFormatter":[],"Overlay":[],"Pagination":[],"Paper":[],"Rating":["emptySymbol","fullSymbol"],"RingProgress":["label","sections[].tooltip"],"SegmentedControl":[],"SemiCircleProgress":["label"],"SimpleGrid":[],"Skeleton":[],"Space":[],"Spoiler":["hideLabel","showLabel"],"Stack":[],"Switch":["label","offLabel","onLabel","thumbIcon","description","error"],"Text":[],"ThemeIcon":[],"Title":[],"Tree":["data[].label","expandedIcon","collapsedIcon"],"VisuallyHidden":[],"DateInput":["popoverProps.middlewares.flip.boundary","clearButtonProps.children","clearButtonProps.icon","leftSection","rightSection","label","description","error","nextIcon","previousIcon"],"DatePicker":["nextIcon","previousIcon"],"DatePickerInput":["popoverProps.middlewares.flip.boundary","modalProps.overlayProps.children","modalProps.title","modalProps.closeButtonProps.children","modalProps.closeButtonProps.icon","clearButtonProps.children","clearButtonProps.icon","leftSection","rightSection","label","description","error","nextIcon","previousIcon"],"DateTimePicker":["leftSection","rightSection","label","description","error","popoverProps.middlewares.flip.boundary","clearButtonProps.children","clearButtonProps.icon","modalProps.overlayProps.children","modalProps.title","modalProps.closeButtonProps.children","modalProps.closeButtonProps.icon","nextIcon","previousIcon"],"DatesProvider":[],"MiniCalendar":[],"MonthPickerInput":["popoverProps.middlewares.flip.boundary","modalProps.overlayProps.children","modalProps.title","modalProps.closeButtonProps.children","modalProps.closeButtonProps.icon","clearButtonProps.children","clearButtonProps.icon","leftSection","rightSection","label","description","error","nextIcon","previousIcon"],"TimeGrid":[],"TimeInput":["label","description","error","leftSection","rightSection"],"TimePicker":["popoverProps.children","popoverProps.middlewares.flip.boundary","label","description","error","leftSection","rightSection"],"YearPickerInput":["popoverProps.middlewares.flip.boundary","modalProps.overlayProps.children","modalProps.title","modalProps.closeButtonProps.children","modalProps.closeButtonProps.icon","clearButtonProps.children","clearButtonProps.icon","leftSection","rightSection","label","description","error"],"Carousel":["nextControlIcon","previousControlIcon"],"CarouselSlide":[],"CodeHighlight":[],"CodeHighlightTabs":[],"InlineCodeHighlight":[],"Notification":["icon","title","message"],"NotificationContainer":[],"NotificationProvider":[],"NavigationProgress":[],"NavigationProgressProvider":[],"RichTextEditor":[],"DirectionProvider":[],"MantineProvider":[],"TypographyStylesProvider":[]},"dash_canvas":{"DashCanvas":null},"dash_vega_components":{"Vega":[]}},"serve_locally":true,"dash_version":"4.3.0","python_version":"3.12.14 (main, Aug 13 2026, 13:51:03) [GCC 15.2.0]","dash_version_url":"https:\u002f\u002fdash-version.plotly.com:8080\u002fcurrent_version","ddk_version":"3.0.1","plotly_version":"6.3.0","validate_callbacks":false,"csrf_token_name":"_csrf_token","csrf_header_name":"X-CSRFToken","plotly_cloud_installed":true}</script>
+        <script src="/_dash-component-suites/dash/deps/polyfill@7.v4_3_0m1788476040.12.1.min.js"></script>
+<script src="/_dash-component-suites/dash/deps/react@18.v4_3_0m1788476040.3.1.min.js"></script>
+<script src="/_dash-component-suites/dash/deps/react-dom@18.v4_3_0m1788476040.3.1.min.js"></script>
+<script src="/_dash-component-suites/dash/deps/prop-types@15.v4_3_0m1788476040.8.1.min.js"></script>
+<script src="/_dash-component-suites/dash_design_kit/dash_design_kit.v3_0_1m1790191082.min.js"></script>
+<script src="/_dash-component-suites/dash_daq/dash_daq.v0_6_0m1788476039.min.js"></script>
+<script src="/_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1788476039.min.js"></script>
+<script src="/_dash-component-suites/dash_user_guide_components/dash_user_guide_components.v0_0_8m1790191057.min.js"></script>
+<script src="/_dash-component-suites/dash_iconify/dash_iconify.v0_1_2m1788476040.min.js"></script>
+<script src="/_dash-component-suites/dash_enterprise_libraries/dash_renderer/dash_renderer/dash_renderer.v1_4_1m1790191082.js"></script>
+<script src="/_dash-component-suites/dash_enterprise_libraries/components/dash_enterprise_libraries/dash_enterprise_libraries.v1_4_1m1790191082.js"></script>
+<script src="/_dash-component-suites/dash_bio/bundle.v1_0_2m1788476044.js"></script>
+<script src="/_dash-component-suites/dash_cytoscape/dash_cytoscape.v0_2_0m1788476042.min.js"></script>
+<script src="/_dash-component-suites/dash_embedded/dash_embedded.v3_0_1m1790191082.min.js"></script>
+<script src="/_dash-component-suites/dash_ag_grid/dash_ag_grid.v35_2_0m1788476040.min.js"></script>
+<script src="/_dash-component-suites/dash_player/dash_player.v1_1_1m1789496670.min.js"></script>
+<script src="/_dash-component-suites/dash_notes/dash_notes.v0_0_3m1790191082.min.js"></script>
+<script src="/_dash-component-suites/dash_mantine_components/dash_mantine_components.v2_4_0m1788476039.js"></script>
+<script src="/_dash-component-suites/dash_canvas/dash_canvas.v0_1_0m1788476041.min.js"></script>
+<script src="/_dash-component-suites/dash_vega_components/dash_vega_components.v0_8_0devm1788476039.min.js"></script>
+<script src="/assets/clientside_example.js?m=1790191058.0"></script>
+<script src="/assets/code-copy.js?m=1790191058.0"></script>
+<script src="/assets/dashAgGridClientsideCallbacks.js?m=1790191058.0"></script>
+<script src="/assets/dashAgGridComponentFunctions.js?m=1790191058.0"></script>
+<script src="/assets/dashAgGridFunctions.js?m=1790191058.0"></script>
+<script src="/assets/loading.js?m=1790191058.0"></script>
+<script src="/assets/md_dropdown.js?m=1790191058.0"></script>
+<script src="/assets/tooltip.js?m=1790191058.0"></script>
+<script src="/assets/youtube-connectivity.js?m=1790191058.0"></script>
+<script src="/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_3_0m1788476040.min.js"></script>
+<script src="/_dash-component-suites/dash/dcc/async-markdown.v4_3_0m1788476040.js"></script>
+<script src="/_dash-component-suites/dash/dcc/dash_core_components.v4_3_0m1788476040.js"></script>
+<script src="/_dash-component-suites/dash/dcc/dash_core_components-shared.v4_3_0m1788476040.js"></script>
+<script src="/_dash-component-suites/dash/html/dash_html_components.v4_3_0m1788476040.min.js"></script>
+<script src="/_dash-component-suites/dash/dash_table/bundle.v7_3_0m1788476040.js"></script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["d32110f6252871a225be1df6b3e25534d0e52613af4a444992b5f829410b333d"] = 
+    function(index, theme, presets) {
+        if (index.every(x => x === undefined)) {
+            return Array(2).fill(window.dash_clientside.no_update);
+        }
+
+        theme = theme.toLowerCase();
+        var idx = dash_clientside.callback_context.triggered_id["index"];
+        var active_preset = presets[`${theme}-style`];
+        active_preset["accent"] = presets[theme][idx]["accent"];
+        active_preset["user_color"] = presets[theme][idx]["user_color"];
+        return [
+            active_preset,
+            [
+                active_preset["container_background"],
+                active_preset["line_separator_color"],
+                active_preset["header_title_color"],
+                active_preset["header_subtitle_color"],
+                active_preset["no_header_close_button_shadow_color"],
+                active_preset["accent"],
+                active_preset["user_color"],
+                active_preset["assistant_background"],
+                active_preset["assistant_color"],
+                active_preset["response_action_button"],
+                active_preset["chat_action_button_background_color"],
+                active_preset["chat_action_button_color"],
+            ]
+        ];
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["50355143269584b59943490dbf625504aa4fff023a27beb7e5987be9fb7afc14"] = 
+    function(){
+        console.log(dash_clientside.callback_context);
+        const triggered_id = dash_clientside.callback_context.triggered_id;
+        return "triggered id: " + triggered_id
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4592cd5306724bf681848b1438defe041995bbcb3fc7bce5b825858eeb2474c6"] = 
+    function () {
+        document.addEventListener('keydown', function(e) {
+
+            if (e.ctrlKey && e.keyCode == 82) {
+                // Simulate getting new data
+                newData = JSON.stringify(new Date())
+
+                // Update dcc.Store with ID store-events
+                dash_clientside.set_props("store-events", {data: newData})
+
+                event.preventDefault()
+                event.stopPropagation()
+                return dash_clientside.no_update;
+            }
+        });
+        return dash_clientside.no_update;
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["bc59509db9dbc9ca67e47ed57998330f227754191c2f804ae1f6fcd668a433db"] = 
+    function () {
+
+         var printContents = document.getElementById('grid-print-area').innerHTML;
+         var originalContents = document.body.innerHTML;
+
+         document.body.innerHTML = printContents;
+
+         window.print();
+
+         document.body.innerHTML = originalContents;
+         location.reload()
+
+        return window.dash_clientside.no_update
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["8078f58cb18f4491159fcfb28ac8887d0579977a04cd0630b8df970cdf0c4cfc"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer1) window._slicer_slicer1 = {};
+            let private_state = window._slicer_slicer1;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a11a47b742f0e458d9510f2aa8a55170d0d3335c66ec64d851c77c0f51420d84"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer1) window._slicer_slicer1 = {};
+            let private_state = window._slicer_slicer1;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer1-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["40992178b9d2d41a7d1a477d98a0199d1d7b93ec44e5b41a27fd9bf294164cf8"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer2) window._slicer_slicer2 = {};
+            let private_state = window._slicer_slicer2;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a61252172c75869ceea1743840abf064b855132ef4c14e6eb799f1469a383637"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer2) window._slicer_slicer2 = {};
+            let private_state = window._slicer_slicer2;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer2-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["7de3589c516874862a6861efcb57d36c327f5b0850c8b3c12b0960050dd83dec"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer3) window._slicer_slicer3 = {};
+            let private_state = window._slicer_slicer3;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["693aa95458e86c7ce8ec6145c8dfed9da1f46ebbd655a462b6e08e8121eb2d55"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer3) window._slicer_slicer3 = {};
+            let private_state = window._slicer_slicer3;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer3-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["768dc844c7c5399a567952800bcc1cd7cdfd588ac2d09fc8d97679740c5f9439"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer4) window._slicer_slicer4 = {};
+            let private_state = window._slicer_slicer4;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["9cb7d6cf4a2c728d8ee89be5f2fe861daade77da9e6dedbdafd07d9c091917c0"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer4) window._slicer_slicer4 = {};
+            let private_state = window._slicer_slicer4;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer4-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["dc16b1349f75a0c2740f93c8ad1ad947f2a1f80e7b329a47118315987ee51bb8"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer5) window._slicer_slicer5 = {};
+            let private_state = window._slicer_slicer5;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["faa62306b98f3ce4cf7ce574db47a66efd11e38dc1c98fafdf1d9a9d6652afeb"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer5) window._slicer_slicer5 = {};
+            let private_state = window._slicer_slicer5;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer5-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["19f2edf701f8491ff2dc5feb950e36b929bfe7b61986f90a10df0542fb51b4c4"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer6) window._slicer_slicer6 = {};
+            let private_state = window._slicer_slicer6;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f08409d656da94ba5d85185b81f78f10957b38eff5f375c28a578b38be26165e"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer6) window._slicer_slicer6 = {};
+            let private_state = window._slicer_slicer6;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer6-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f14be55984da1266fe5f898e53986abd85f025f85348fb5acb33d1d8b454a04b"] = 
+        function update_setpos_from_click(data, index, info) {
+            if (data && data.points && data.points.length) {
+                let point = data["points"][0];
+                let xyz = [point["x"], point["y"]];
+                let depth = info.offset[2] + index * info.stepsize[2];
+                xyz.splice(2 - info.axis, 0, depth);
+                return xyz;
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e4d1e647de5956da1ab7b3802a76f21aaf4ac93984e55465aad63ae7b52addae"] = 
+        function update_slider_value(positions, cur_index, info) {
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (!trigger.value) continue;
+                let pos = trigger.value[2 - info.axis];
+                if (typeof pos !== 'number') continue;
+                let index = Math.round((pos - info.offset[2]) / info.stepsize[2]);
+                if (index == cur_index) continue;
+                return Math.max(0, Math.min(info.size[2] - 1, index));
+            }
+            return dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a32e2596a7fa7301f6ff4c011e4d28409fa5630e50299d6a3cf278575b42c8e2"] = 
+        function update_rate_limiting_info(index, relayoutData, n_intervals) {
+
+            if (!window._slicer_slicer7) window._slicer_slicer7 = {};
+            let private_state = window._slicer_slicer7;
+            let now = window.performance.now();
+
+            // Get whether the slider was moved, layout was changed, or timer ticked
+            let slider_value_changed = false;
+            let graph_layout_changed = false;
+            let timer_ticked = false;
+            for (let trigger of dash_clientside.callback_context.triggered) {
+                if (trigger.prop_id.indexOf('slider') >= 0) slider_value_changed = true;
+                if (trigger.prop_id.indexOf('timer') >= 0) timer_ticked = true;
+                if (trigger.prop_id.indexOf('graph') >= 0) {
+                    for (let key in relayoutData) {
+                        if (key.startsWith("xaxis.range") || key.startsWith("yaxis.range")) {
+                            graph_layout_changed = true;
+                        }
+                    }
+                }
+            }
+
+            // Set timeout and whether to disable the timer
+            let disable_timer = false;
+            if (slider_value_changed) {
+                private_state.timeout = now + 200;
+            } else if (graph_layout_changed) {
+                private_state.timeout = now + 400;  // need longer timeout for smooth scroll zoom
+            } else if (!n_intervals) {
+                private_state.timeout = now + 100;  // initialize
+            } else if (!private_state.timeout) {
+                disable_timer = true;
+            }
+
+            return disable_timer;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["8a4b24b6271800153d3496e1b012557287b6d5aba4de636b3fc7fe6e5ce094e2"] = 
+        function update_state(n_intervals, index, info, figure) {
+
+            if (!window._slicer_slicer7) window._slicer_slicer7 = {};
+            let private_state = window._slicer_slicer7;
+            let now = window.performance.now();
+
+            // Ready to apply and stop the timer, or return early?
+            if (!(private_state.timeout && now >= private_state.timeout)) {
+                return dash_clientside.no_update;
+            }
+            // Give the plot time to settle the initial axis ranges
+            if (n_intervals < 5) {
+                return dash_clientside.no_update;
+            }
+
+            // Disable the timer
+            private_state.timeout = 0;
+
+            // Calculate view range based on the volume
+            let xrangeVol = [
+                info.offset[0] - 0.5 * info.stepsize[0],
+                info.offset[0] + (info.size[0] - 0.5) * info.stepsize[0]
+            ];
+            let yrangeVol = [
+                info.offset[1] - 0.5 * info.stepsize[1],
+                info.offset[1] + (info.size[1] - 0.5) * info.stepsize[1]
+            ];
+
+            // Get view range from the figure. We make range[0] < range[1]
+            let xrangeFig = figure.layout.xaxis.range
+            let yrangeFig = figure.layout.yaxis.range;
+            xrangeFig = [Math.min(xrangeFig[0], xrangeFig[1]), Math.max(xrangeFig[0], xrangeFig[1])];
+            yrangeFig = [Math.min(yrangeFig[0], yrangeFig[1]), Math.max(yrangeFig[0], yrangeFig[1])];
+
+            // Add offset to avoid the corner-indicators for THIS slicer to only be half-visible
+            let plotSize = [400, 400];  // This estimate results in ok results
+            let graphDiv = document.getElementById('slicer7-graph');
+            let plotDiv = graphDiv.getElementsByClassName('js-plotly-plot')[0];
+            if (plotDiv && plotDiv._fullLayout)
+                plotSize = [plotDiv._fullLayout.width, plotDiv._fullLayout.height];
+            xrangeFig[0] += 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            xrangeFig[1] -= 2 * (xrangeFig[1] - xrangeFig[0]) / plotSize[0];
+            yrangeFig[0] += 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+            yrangeFig[1] -= 2 * (yrangeFig[1] - yrangeFig[0]) / plotSize[1];
+
+            // Combine the ranges
+            let xrange = [Math.max(xrangeVol[0], xrangeFig[0]), Math.min(xrangeVol[1], xrangeFig[1])];
+            let yrange = [Math.max(yrangeVol[0], yrangeFig[0]), Math.min(yrangeVol[1], yrangeFig[1])];
+
+            // Create new state
+            let new_state = {
+                index: index,
+                index_changed: false,
+                xrange: xrange,
+                yrange: yrange,
+                zpos: info.offset[2] + index * info.stepsize[2],
+                axis: info.axis,
+                color: info.color,
+            };
+            if (index != private_state.last_index || info.infoid != private_state.infoid) {
+                private_state.last_index = index;
+                new_state.index_changed = true;
+            }
+            private_state.infoid = info.infoid;  // infoid changes on hot reload
+            return new_state;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["280a79c61b994d44eda071bb0fff25c8f8881932997e8e3389ea3b02d5f84369"] = 
+        function update_image_traces(index, server_data, overlays, thumbnails, info, current_traces) {
+
+            // Prepare traces
+            let slice_trace = {
+                type: 'image',
+                x0: info.offset[0],
+                y0: info.offset[1],
+                dx: info.stepsize[0],
+                dy: info.stepsize[1],
+                hovertemplate: '(%{x:.2f}, %{y:.2f})<extra></extra>'
+            };
+            let overlay_trace = {...slice_trace};
+            overlay_trace.hoverinfo = 'skip';
+            overlay_trace.source = overlays[index] || '';
+            overlay_trace.hovertemplate = '';
+            let new_traces = [slice_trace, overlay_trace];
+
+            // Use full data, or use thumbnails
+            if (index == server_data.index) {
+                slice_trace.source = server_data.slice;
+            } else {
+                slice_trace.source = thumbnails[index];
+                // Scale the image to take the exact same space as the full-res
+                // version. Note that depending on how the low-res data is
+                // created, the pixel centers may not be correctly aligned.
+                slice_trace.dx *= info.size[0] / info.thumbnail_size[0];
+                slice_trace.dy *= info.size[1] / info.thumbnail_size[1];
+                slice_trace.x0 += 0.5 * slice_trace.dx - 0.5 * info.stepsize[0];
+                slice_trace.y0 += 0.5 * slice_trace.dy - 0.5 * info.stepsize[1];
+            }
+
+            // Has the image data even changed?
+            if (!current_traces.length) { current_traces = [{source:''}, {source:''}]; }
+            if (new_traces[0].source == current_traces[0].source &&
+                new_traces[1].source == current_traces[1].source)
+            {
+                new_traces = dash_clientside.no_update;
+            }
+            return new_traces;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e8d2161e56a5d0a34e8bc130bcdbf21a309e3418cb2b6025569415bc563e7c91"] = 
+        function update_indicator_traces(states, info, thisState) {
+            let traces = [];
+
+            for (let state of states) {
+                if (!state) continue;
+                let zpos = [state.zpos, state.zpos];
+                let trace = null;
+                if        (info.axis == 0 && state.axis == 1) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 0 && state.axis == 2) {
+                    trace = {x: zpos, y: state.xrange};
+                } else if (info.axis == 1 && state.axis == 2) {
+                    trace = {x: zpos, y: state.yrange};
+                } else if (info.axis == 1 && state.axis == 0) {
+                    trace = {x: state.xrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 0) {
+                    trace = {x: state.yrange, y: zpos};
+                } else if (info.axis == 2 && state.axis == 1) {
+                    trace = {x: zpos, y: state.yrange};
+                }
+                if (trace) {
+                    trace.line = {color: state.color, width: 1};
+                    traces.push(trace);
+                }
+            }
+
+            // Show our own color around the image, but only if there are other
+            // slicers with the same scene id, on a different axis. We do some
+            // math to make sure that these indicators are the same size (in
+            // scene coordinates) for all slicers of the same data.
+            if (thisState && info.color && traces.length) {
+                let fraction = 0.1;
+                let lengthx = info.size[0] * info.stepsize[0];
+                let lengthy = info.size[1] * info.stepsize[1];
+                let lengthz = info.size[2] * info.stepsize[2];
+                let dd = fraction * (lengthx + lengthy + lengthz) / 3;  // average
+                dd = Math.min(dd, 0.45 * Math.min(lengthx, lengthy, lengthz));  // failsafe
+                let x1 = thisState.xrange[0];
+                let x2 = thisState.xrange[0] + dd;
+                let x3 = thisState.xrange[1] - dd;
+                let x4 = thisState.xrange[1];
+                let y1 = thisState.yrange[0];
+                let y2 = thisState.yrange[0] + dd;
+                let y3 = thisState.yrange[1] - dd;
+                let y4 = thisState.yrange[1];
+                traces.push({
+                    x: [x1, x1, x2, null, x3, x4, x4, null, x4, x4, x3, null, x2, x1, x1],
+                    y: [y2, y1, y1, null, y1, y1, y2, null, y3, y4, y4, null, y4, y4, y3],
+                    line: {color: info.color, width: 4}
+                });
+            }
+
+            // Post-process the traces we created above
+            for (let trace of traces) {
+                trace.type = 'scatter';
+                trace.mode = 'lines';
+                trace.hoverinfo = 'skip';
+                trace.showlegend = false;
+            }
+            if (thisState) {
+                return traces;
+            } else {
+                return dash_clientside.no_update;
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4f84255f8d1e848137904d58e835a8de8e5a9457ce7c3833e597b5b495f4f5d9"] = 
+        function update_figure(img_traces, indicator_traces, extra_traces, info, ori_figure) {
+            // Collect traces
+            let traces = [];
+            for (let trace of img_traces) { traces.push(trace); }
+            for (let trace of extra_traces) { traces.push(trace); }
+            for (let trace of indicator_traces) { if (trace.line.color) traces.push(trace); }
+            // Update figure
+            let figure = {...ori_figure};
+            figure.data = traces;
+            return figure;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["83337bd0a7dca72bf0c6a3e43c5ddc35e9e2970487419b3f1d9afe7c36090b2e"] = 
+    function(title, path, params, hash, refreshPage) {
+        // trigger a pagemenu rerender and set the document title
+        window.history.replaceState(null, null, path + (params || '') + (hash || ''));
+        if (title) { document.title = title; }
+        return ["", path, refreshPage];
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["737d4f9ccaa4fcfb4ff5f88585fe430b92cb9824fde4d834a87690af15d6478b"] = 
+    function(refreshPage) {
+    if (refreshPage===true) {
+        window.location.reload();
+    }
+    return "";
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["027aa177a875c6306c73df42701876ab073832b092a31d6a54a3471c00b8e8d0"] = 
+        function(toggler_clicks, signin_clicks, gate_clicks, mcp_clicks, is_open) {
+            var ctx = window.dash_clientside.callback_context;
+            var trigger = (ctx.triggered && ctx.triggered.length)
+                ? ctx.triggered[0].prop_id : "";
+            // Sign-in, content-gate, or MCP clicked → close the nav
+            if (trigger.indexOf("signin-btn") !== -1 ||
+                trigger.indexOf("content-gate-click-store") !== -1 ||
+                trigger.indexOf("mcp-quickstart-btn") !== -1) {
+                return [false, "☰"];
+            }
+            // Hamburger toggler
+            if (toggler_clicks) {
+                var new_state = !is_open;
+                return [new_state, new_state ? "✕" : "☰"];
+            }
+            return [is_open, "☰"];
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["70982212d1a934bd8f9729827c9d236b6fc00ef35cb65e7ebac68fd4d85b06f3"] = 
+    function(btn_clicks, done_clicks, link_clicks, is_open) {
+        var ctx = window.dash_clientside.callback_context;
+        if (!ctx.triggered || !ctx.triggered.length) {
+            return window.dash_clientside.no_update;
+        }
+        var trigger = ctx.triggered[0];
+        if (!trigger.value) { return window.dash_clientside.no_update; }
+        if (trigger.prop_id.indexOf("mcp-quickstart-btn") !== -1) { return !is_open; }
+        if (trigger.prop_id.indexOf("mcp-modal-done-btn") !== -1 ||
+            trigger.prop_id.indexOf("mcp-modal-read-more") !== -1) { return false; }
+        return window.dash_clientside.no_update;
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["923bd38b004f7ea2dfded65982719b20377110969531d8ba39cce2023871aefd"] = 
+        function(n_clicks, current_data) {
+            if (!n_clicks) {
+                return window.dash_clientside.no_update;
+            }
+            // Increment the store value to signal a click
+            return (current_data || 0) + 1;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["951d1bc83e7d285a3580d46f9bc829169bc232d0ef001fbcbac1fbdd57cc7353"] = 
+        function(search) {
+            if (search && search.includes('auth_error=')) {
+                // Remove auth_error from URL without page reload
+                var url = new URL(window.location.href);
+                url.searchParams.delete('auth_error');
+                window.history.replaceState({}, '', url.pathname + url.search);
+            }
+            return window.dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["952015540e4a6001fa79fe79b6044716bbb4634dd1bcd1a8ebf9a3dd8978a310"] = 
+        function(n_clicks) {
+            if (!n_clicks) {
+                return window.dash_clientside.no_update;
+            }
+
+            fetch('/auth/logout', {
+                method: 'POST',
+                credentials: 'same-origin',  // Include session cookie
+                headers: {'Content-Type': 'application/json'}
+            })
+            .then(function() {
+                // Force reload to clear auth state and update UI
+                window.location.reload();
+            })
+            .catch(function(error) {
+                console.error('Error during logout:', error);
+                // Reload anyway to clear client state
+                window.location.reload();
+            });
+
+            return window.dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["15c881daa278b72bc5797159ce4252f0cc0a95c614cf1540bf959aa0429b8491"] = 
+        function(n_clicks, current_path) {
+            if (!n_clicks) {
+                return window.dash_clientside.no_update;
+            }
+
+            // Force full page navigation to Flask route (bypass Dash client-side routing)
+            window.location.href = '/auth/workos/login?redirect=' + encodeURIComponent(current_path);
+
+            return window.dash_clientside.no_update;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["4cd9b7b44df5535e0c50355aff8f4c32287021a8cfabb36d51fdda8117344d6b"] = 
+        function(n_intervals, polling_data) {
+            // Only poll if we have polling data
+            if (!polling_data || !polling_data.device_code) {
+                return [window.dash_clientside.no_update, true];
+            }
+
+            // Make the polling request from the browser
+            fetch('/auth/keycloak/device/poll', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                credentials: 'same-origin',  // Include cookies
+                body: JSON.stringify({
+                    device_code: polling_data.device_code,
+                    de_url: polling_data.de_url
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.pending) {
+                    // Still waiting - keep polling
+                    document.getElementById('device-polling-status').innerText = 'Waiting for authorization...';
+                } else if (data.success) {
+                    // Success! Session cookie is now set by the browser
+                    document.getElementById('device-polling-status').innerText = 'Authorization successful! Reloading...';
+                    // Stop polling and reload page
+                    setTimeout(() => window.location.reload(), 500);
+                } else if (data.error) {
+                    // Error - stop polling
+                    document.getElementById('device-polling-status').innerText = 'Authorization failed: ' + data.error;
+                }
+            })
+            .catch(error => {
+                console.error('Polling error:', error);
+                document.getElementById('device-polling-status').innerText = 'Error checking authorization status';
+            });
+
+            // Return no_update for outputs (we update DOM directly above)
+            return [window.dash_clientside.no_update, window.dash_clientside.no_update];
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["d47d11591f64cc0536c7079a63dd9b2d097118ed962f5ad5a366ec5aaade92db"] = function(x) {return x};
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["d47d11591f64cc0536c7079a63dd9b2d097118ed962f5ad5a366ec5aaade92db"] = function(x) {return x};
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["d47d11591f64cc0536c7079a63dd9b2d097118ed962f5ad5a366ec5aaade92db"] = function(x) {return x};
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["3b87e7ea0a54697b84e2838b3ccf0a3ae2460cd236c5b482ca68d41bded2240b"] = 
+    function(data, scale) {
+        return {
+            'data': data,
+            'layout': {
+                 'yaxis': {'type': scale}
+             }
+        }
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["18eaf07bff6d0de1db46741289c67822cb8251e2eccffe8ed172f9848f28207c"] = 
+    async function(value) {
+    const response = await fetch(value);
+    const data = await response.json();
+    return data;
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["be83f4383cf8447f21a3a4d7e06c64b008750536a92dd203c7493931ab947b67"] = 
+    function(n_clicks) {
+        var patch = new dash_clientside.Patch;
+        // Toggle between true and false: even clicks show legend, odd clicks hide it
+        var showLegend = (n_clicks % 2 === 0);
+        return patch.assign(['layout', 'showlegend'], showLegend).build();
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f4f0cd36bb54318092c4b9fa3b0fa966873777ffcf4c46e97ddf56c86e749487"] = 
+    function(figure, scale) {
+        if(figure === undefined) {
+            return {'data': [], 'layout': {}};
+        }
+        const fig = Object.assign({}, figure, {
+            'layout': {
+                ...figure.layout,
+                'yaxis': {
+                    ...figure.layout.yaxis, type: scale
+                }
+             }
+        });
+        return fig;
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["e835da3fb0bc7a5c356464405f9f057074f1d4a072fbfd679318a47da93f0e07"] = 
+    function show_tooltip(hoverData) {
+        if(!hoverData) {
+            return [false, dash_clientside.no_update];
+        }
+        var pt = hoverData.points[0];
+        return [true, pt.bbox];
+    }
+    ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a11bb1a3027f9d15be5fe4f809eb250e2b776197e4dfabdb041ee105f2889991"] = async function (changedCell, forceRefresh) {
+        gridApi = await dash_ag_grid.getApiAsync('styling-cells-other-col')
+        forceRefresh.length != 0 && gridApi.refreshCells({force: true, columns: ['employee']})
+        return window.dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["9796bb299fabb2729b2658291fcad49f372c220ddf6d54242dd26b280f9145c0"] = async (n) => {
+        if (n) {
+            const gridApi =  await dash_ag_grid.getApiAsync("grid-flash-cells")
+
+            var rowCount = gridApi.getDisplayedRowCount();
+            // pick 20 cells at random to update
+            for (var i = 0; i < 20; i++) {
+              var row = Math.floor(Math.random() * rowCount);
+              var rowNode = gridApi.getDisplayedRowAtIndex(row);
+              var col = ['a', 'b', 'c', 'd', 'e', 'f'][i % 6];
+              rowNode.setDataValue(col, Math.floor(Math.random() * 10000));
+            }
+        }
+        return dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f102de72153d0603ad460498a71ee5c5625361b2fc659d3bb5ca6911d927ea47"] = async  (n) => {
+        if (n) {
+            const gridApi =  await dash_ag_grid.getApiAsync("grid-flash-cells")
+
+            // flash row 4 col 'c'
+            var rowNode = gridApi.getDisplayedRowAtIndex(4);
+            gridApi.flashCells({ rowNodes: [rowNode], columns: ['c'] });
+        }
+        return dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["8d6a5d15e1f42e13a0606479f2d38758c7082ee46b1e74850998e9a8d48548b6"] = async (n) => {
+        if (n) {
+            const gridApi =  await dash_ag_grid.getApiAsync("grid-flash-cells")
+
+            // pick row 4 and 5
+            var rowNode1 = gridApi.getDisplayedRowAtIndex(4);
+            var rowNode2 = gridApi.getDisplayedRowAtIndex(5);
+
+            // flash whole row, so leave column selection out
+            gridApi.flashCells({ rowNodes: [rowNode1, rowNode2] });
+        }
+        return dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["fb31606c398a49bfc46b5ebedc12f46cdbf059ac6118645b4758cb8534fbf117"] = async (n) => {
+         if (n) {
+           const gridApi = await dash_ag_grid.getApiAsync("grid-flash-cells");
+           gridApi.flashCells({ columns: ['c', 'd'] });
+        }
+        return dash_clientside.no_update;
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["269a07a9f13087f5de239cbdaf3c245f3df64ad35fb85aa9c84885a52b36042a"] = async (n) => {
+        if (n) {
+            const gridApi =  await dash_ag_grid.getApiAsync("grid-flash-cells-custom")
+
+            var rowCount = gridApi.getDisplayedRowCount();
+            // pick 20 cells at random to update
+            for (var i = 0; i < 20; i++) {
+              var row = Math.floor(Math.random() * rowCount);
+              var rowNode = gridApi.getDisplayedRowAtIndex(row);
+              var col = ['a', 'b', 'c', 'd', 'e', 'f'][i % 6];
+              rowNode.setDataValue(col, Math.floor(Math.random() * 10000));
+            }
+        }
+        return dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f463cc968fe9db83fba2bce301964b6aef7d938bdcf421887d4b9067a169fade"] = async  (n) =>  {
+        if (n) {
+            const gridApi =  await dash_ag_grid.getApiAsync("grid-flash-cells-custom")
+
+            // pick row 4 and 5
+            var rowNode1 = gridApi.getDisplayedRowAtIndex(4);
+            var rowNode2 = gridApi.getDisplayedRowAtIndex(5);
+
+            // flash whole row, so leave column selection out
+            gridApi.flashCells({
+              rowNodes: [rowNode1, rowNode2],
+              flashDuration: 3000,
+              fadeDuration: 2000,
+            });
+        }
+        return dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["9d78fc30a966b86f145628b531f51bd3c2815b1b600350a2e92ca5c0c128e8b7"] = function (rowId) {
+        if (rowId) {
+            grid = dash_ag_grid.getApi("grid-scroll-to-pagination")
+            rowIndex = grid.getRowNode(rowId).rowIndex
+            pageTarget = Math.floor(rowIndex / grid.paginationGetPageSize())
+            grid.paginationGoToPage(pageTarget)
+        }
+        return {"rowId": rowId.toString()}
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["02901b6011bc7cd27565dc26a63b94319df594ddf9a5c0c38512bb5a4e78654f"] = function (rowId) {
+        if (rowId) {
+            grid = dash_ag_grid.getApi("grid-scroll-to-group")
+            grid.setRowNodeExpanded(grid.getRowNode(rowId), true, true)
+        }
+        return {"rowId": rowId.toString()}
+    };
+})();
+</script>
+        <script id="_dash-renderer" type="application/javascript">var renderer = new DashRenderer();</script>
+    </footer>
+</body></html>

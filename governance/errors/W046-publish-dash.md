@@ -14,3 +14,75 @@
 - **Resolution/status:** Resolved for branch-base verification; remote push capability remains to be tested if needed.
 - **Prevention/follow-up:** Keep HTTPS read-only comparison as fallback; do not embed credentials in Git URLs or logs.
 - **Evidence:** W046 Git tool outputs and work specification.
+
+## E-W046-002 — Host Python lacks pip for package-version inspection
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash`.
+- **Actor:** Primary agent / host Python environment.
+- **Operation:** Inspect available Dash, Gunicorn and pandas versions with `python -m pip index versions`.
+- **Expected result:** Version list for reproducible Dash service dependencies.
+- **Actual result:** `/usr/bin/python: No module named pip` for all three queries.
+- **Affected paths/state:** No repository files or running services changed.
+- **Impact:** Brief dependency-selection delay; no data or deployment impact.
+- **Attempts:** (1) Host pip lookup failed. (2) Queried the public PyPI JSON metadata endpoints through HTTPS and confirmed Dash 4.4.1, Gunicorn 26.2.0 and pandas 3.0.6 as available. (3) Use a containerized Python build for installation/tests.
+- **Resolution/status:** Resolved for version selection.
+- **Prevention/follow-up:** Do not assume pip is installed in the host Python; use the pinned build container or isolated environment.
+- **Evidence:** W046 package-metadata and host command outputs.
+
+## E-W046-003 — Overly narrow 2023 formal-basis assertion
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash`.
+- **Actor:** Primary agent / data generator.
+- **Operation:** Generate the demo CSV from formal component inventories.
+- **Expected result:** All 37 (2011) and 43 (2023) coded component rows with formal basis retained.
+- **Actual result:** Initial assertion required the literal `Resolução 75/22-CEPE`; 14 of the 2023 rows instead state joint bases such as `Resoluções 75/22 e 80/22-CEPE`, so generation stopped before output.
+- **Affected paths/state:** No output CSV/release was produced on failed run; original inventories unchanged.
+- **Impact:** The first parser would have obscured source-specific creation acts if relaxed without review.
+- **Attempts:** (1) Printed all distinct 2023 `formal_basis` strings and counts. (2) Confirmed 75/22 appears in every row, with five preserved additional 76–80 acts. (3) Retained literal per-row formal basis and listed all five additional-act hashes in release metadata; rerun and validate generation.
+- **Resolution/status:** Recovery pending data regeneration.
+- **Prevention/follow-up:** Preserve multi-act basis strings rather than requiring one spelling or silently reducing to the matrix resolution.
+- **Evidence:** `curriculos/2023/inventario/componentes.csv`, formal source manifest and W046 generator run.
+
+### Resolution update for E-W046-003
+
+- **Attempts continued:** Regenerated 80 rows (37 for 2011, 43 for 2023); output retains each formal-basis string, lists hashes for Resoluções 76–80/22, and records the four TCC alternatives separately.
+- **Resolution/status:** Resolved.
+- **Verification:** `analises/data/formal_components.csv`, `analises/data/release.json`, focused W046 validation.
+
+## E-W046-004 — Gunicorn control socket lacked a writable home
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash`.
+- **Actor:** Primary agent / Dash preview runtime.
+- **Operation:** Start the non-root Gunicorn Dash container and inspect health.
+- **Expected result:** Clean production-server startup and responsive prefixed routes.
+- **Actual result:** Routes returned HTTP 200, but Gunicorn logged `Control server error: [Errno 13] Permission denied: '/home/app'` because its default control socket targeted a nonexistent non-root home directory.
+- **Affected paths/state:** Temporary Dash preview only; no public service or source data changed.
+- **Impact:** Background control socket feature unavailable; request serving was functional, but a clean runtime is required before deployment.
+- **Attempts:** (1) Inspected Gunicorn help/default `--control-socket` path and container identity/home. (2) Added the supported `--no-control-socket` option; rebuild and confirm startup without this error.
+- **Resolution/status:** Recovery pending rebuild.
+- **Prevention/follow-up:** Explicitly disable unused control socket in immutable non-root containers.
+- **Evidence:** W046 preview logs and Dockerfile.
+
+## E-W046-005 — Chart callback validator assumed JSON number array
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash`.
+- **Actor:** Primary agent / HTTP validator.
+- **Operation:** Validate Dash's chart callback for the 2011 filter.
+- **Expected result:** Sum eight numeric `y` values to 37.
+- **Actual result:** Dash/Plotly serialized the chart's pandas-derived numeric series as a typed-array object (`dtype=i1`, base64 `bdata`); `sum` over the dictionary raised a `TypeError`.
+- **Affected paths/state:** Validator only; Dash callback itself returned HTTP 200 and a valid figure.
+- **Impact:** False validation failure, no published or source-data impact.
+- **Attempts:** (1) Printed the callback's figure data. (2) Updated validator to decode the documented wire representation when present and sum the eight values. (3) Rerun callback and CSV-download checks.
+- **Resolution/status:** Recovery pending rerun.
+- **Prevention/follow-up:** Validate Plotly's JSON serialization variants rather than assuming a plain list.
+- **Evidence:** W046 local callback response and validator.
+
+### Resolution update for E-W046-004 and E-W046-005
+
+- **Attempts continued:** Rebuilt the Dash image with `--no-control-socket`; startup logs were clean. The prefixed root, health, layout, dependencies and CSS returned HTTP 200. The revised validator decoded Plotly's typed-array value and confirmed the 2011 filter yields 37 records; the CSV callback downloaded exactly those 37 records.
+- **Resolution/status:** Both resolved.
+- **Verification:** `python scripts/validate_w046_dashboard.py --base-url http://127.0.0.1:5186` passed.

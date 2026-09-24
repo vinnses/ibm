@@ -1,0 +1,50 @@
+{
+  "release_id": "formal-coded-components-2011-2023-v1",
+  "generated_from": [
+    {
+      "inventory": "curriculos/2011/inventario/componentes.csv",
+      "inventory_sha256": "3aa1f75002dff58b67c184cf6f5c67ce7c2adbebc9adbd9b76f0be550c210c44",
+      "formal_source": "curriculos/2011/fontes/resolucao-34-2010-cepe.pdf",
+      "formal_source_sha256": "bd1a73901393c98eb205a0adbaf8a36c1f6fcaa1b0130f4aed066fdc3c343a26",
+      "public_document_id": "document-2011-resolution-34-2010"
+    },
+    {
+      "inventory": "curriculos/2023/inventario/componentes.csv",
+      "inventory_sha256": "633790ef777b097115e913dbd549643a86ba30b994e4ac700521ac0d7ce9f5ee",
+      "formal_source": "curriculos/2023/fontes/resolucao-75-22-cepe.pdf",
+      "formal_source_sha256": "b003d94ffe7a5d91b4f352c6531186cbf2e1ce3a3ee2acc5e1267ad572826d1d",
+      "public_document_id": "document-2023-resolution-75-22"
+    }
+  ],
+  "additional_2023_creation_acts": [
+    {
+      "path": "curriculos/2023/fontes/resolucao-76-22-cepe.pdf",
+      "sha256": "e3524cf27bd8e6440c018c19c5881daf73f73fa2bb6a24e88148afd2796ed820"
+    },
+    {
+      "path": "curriculos/2023/fontes/resolucao-77-22-cepe.pdf",
+      "sha256": "f68fcfb012ea216a3cf8444d93d47d13cf5b65882cabcf236048349cf348bc07"
+    },
+    {
+      "path": "curriculos/2023/fontes/resolucao-78-22-cepe.pdf",
+      "sha256": "9469d5d32629d024cef7ce56139fc4fda3d626027d7441c184e6880d4add6543"
+    },
+    {
+      "path": "curriculos/2023/fontes/resolucao-79-22-cepe.pdf",
+      "sha256": "d0690f2ae20bce17c3e609c88eea3389c22681e5c83beb5c6d36cb770b5044db"
+    },
+    {
+      "path": "curriculos/2023/fontes/resolucao-80-22-cepe.pdf",
+      "sha256": "341692b01d0570e2b642aaab758e3c932e1d8ea37668d97afadab0ece2503d73"
+    }
+  ],
+  "csv_sha256": "b132dffa9218782cfa51ba5fa5a63bd357948b50ef9443b73f27be30195d0617",
+  "row_count": 80,
+  "row_count_by_curriculum": {
+    "2011": 37,
+    "2023": 43
+  },
+  "observation_unit": "one coded component listed in one formal curriculum",
+  "exclusions": "2011 elective spaces without codes; 2023 formal elective catalogue and non-coded spaces",
+  "important_limit": "The four 2023 TCC codes are alternatives, not four simultaneous completion requirements."
+}
