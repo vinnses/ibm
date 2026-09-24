@@ -71,6 +71,8 @@ W045 documentary site architecture: complete and integrated via W046 on 2026-09-
 
 W046 Dash example and publication: complete locally and live on 2026-09-24, with remote synchronization open. Commits `eb45049`, `3ea356e`, `d2a6353`, `aa98a56`, `8175e41`; merges into `main` `1893c17` and `9382409`. Deliverable: source-grounded 80-row formal-component CSV, a descriptive Dash chart/table/filter/download at `/analises/`, and same-origin routing through the existing Funnel. Public checks passed; `origin/main` remains behind because SSH push authentication is unavailable (E-W046-011). This demonstration is not a P2 audit or P3 curricular analysis.
 
+W047 curriculum navigation simplification: complete and integrated on 2026-09-24. Implementation commit `0dc6cdb`; merge into `main` `5cf76a0`. The global menu now has one “Grades” link; the existing page tabs switch between 2011 and 2023. No curricular data changed. GitHub remote synchronization remains pending under W046 E-W046-011.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
