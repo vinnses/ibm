@@ -5,17 +5,17 @@
 - **Commits produced:** Work specification `4796fcd`; merge into `main` `dd897be`.
 - **Primary-session model and effort:** Unknown / unknown; not exposed by runtime.
 - **Actors and routing:** One primary-session Git operator/integrator; model/effort unknown / unknown. No subagents, reassignment, escalation, or routing deviations.
-- **Objective and verdict:** Align local committed branches with GitHub without rewriting or deleting history; verdict pending push and exact-ref audit.
+- **Objective and verdict:** Align local committed branches with GitHub without rewriting or deleting history; partial. Existing matching branches were confirmed and tracking was set, but GitHub push protection rejected `main` plus 18 descendant refs because a preserved public HTML capture contains a Mapbox `pk` token. Owner false-positive classification is pending.
 - **Deliverables:** Branch refs plus W049 spec, error log, handoff and integration index update.
-- **Sources:** Git repository refs only; no documentary research sources.
-- **Coverage:** Before synchronization: 43 local branch refs and 29 remote branch refs; 18 local names lacked remote counterparts, `main` was the only same-name divergence (local ahead by 19 commits), and four branches existed only remotely. Exact post-push counts to be recorded after the push.
-- **Validations:** Remote fetch succeeded; pre-push `main` had 19 local-only commits and no remote-only commit. Repository validator is required before integration.
-- **Gaps:** Uncommitted content, if any, is not transferred by branch pushes.
-- **Divergences:** None confirmed yet; non-fast-forward rejection will be recorded and preserved.
+- **Sources:** Git refs plus preserved official technical pages, captured and hashed in `governance/sources/W049-public-token-classification/manifest.csv`.
+- **Coverage:** Before synchronization: 43 local refs and 29 remote refs; 18 local names lacked remote counterparts; `main` was ahead by 23 commits with no remote-only commits; four refs existed only remotely. After the partial push, 24 same-name refs match exactly and track their remote counterparts; `main` and 18 local names remain pending. Remote-only refs, preserved without deletion: `governance/finalize-remote-handoff`, `governance/local-codex-handoff`, `research/admin-data-2026`, `work/w017-ementas-preservadas-2011`.
+- **Validations:** Remote fetch succeeded; repository validator passed. A non-forced push uploaded one 457 MB LFS object, configured tracking for matching refs, and was rejected by push protection for `main` and W032-W049. The rejected branches remain byte-for-byte unchanged locally and remotely.
+- **Gaps:** HR-W049-001 is the current push gate. Uncommitted content remains local in W041 (PDF) and W027 (`scripts/__pycache__/`); neither was staged or altered.
+- **Divergences:** GitHub's protected push rejected new refs/fast-forward update based on the Mapbox `pk` occurrence in the preserved W044 public HTML capture. No history rewrite occurred.
 - **Provisional information:** Branch names with no matching remote ref will be created remotely if push permissions allow.
-- **Explicitly unperformed:** No force pushes, rebases, remote branch deletions, or staging of worktree files.
-- **Error log:** `governance/errors/W049-repository-branch-sync.md`; open/resolved events to be listed at closure.
-- **Human review:** None anticipated. A GitHub branch-protection denial would be reported as a remote authority gate.
+- **Explicitly unperformed:** No force pushes, rebases, remote branch deletions, staging of worktree files, or push-protection bypass. No browser-based GitHub action was submitted.
+- **Error log:** `governance/errors/W049-repository-branch-sync.md`; resolved E-W049-003; open E-W049-001 and E-W049-002.
+- **Human review:** `governance/human-reviews/W049.md`; HR-W049-001 pending. Gate consequence: affected refs cannot be pushed until owner classification.
 - **Integration:** Merged into `main` as `dd897be`; no conflicts. `governance/WORK_INDEX.md` updated.
-- **Remote sync state:** Pending.
+- **Remote sync state:** Partial; pending false-positive classification and retry.
 - **Recommended next bounded work:** None beyond this explicit synchronization task.

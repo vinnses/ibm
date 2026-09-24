@@ -75,7 +75,7 @@ W047 curriculum navigation simplification: complete and integrated on 2026-09-24
 
 W048 document archive and sharing metadata: complete and integrated on 2026-09-24. Implementation commit `e8a48a5`; merge into `main` `7675ab3`. The general document archive no longer lists Ficha 1/Ficha 2; the grade pages retain discipline-level ficha links. Route-specific titles, descriptions and Open Graph text were added for link sharing. No source records or files were deleted.
 
-W049 repository branch synchronization: integrated on 2026-09-24 via merge `dd897be`; synchronization outcome is recorded in its handoff. Scope: publish committed local branch heads to GitHub and configure upstreams, without force pushes, branch deletions, or staging uncommitted worktree files.
+W049 repository branch synchronization: integrated on 2026-09-24 via merge `dd897be`; partial, with HR-W049-001 pending. Twenty-four matching refs now track GitHub; `main` and W032-W049 are rejected by push protection because a preserved public PUC-PR HTML capture contains a Mapbox `pk` token. Four remote-only branches remain preserved. No force push, history rewrite or remote deletion occurred. Full result and verification are in the W049 handoff.
 
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
