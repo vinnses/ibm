@@ -14,7 +14,7 @@
 - **Divergences:** No change to the underlying document inventory or public PDF routes.
 - **Provisional information:** Share descriptions summarize the route; they do not establish institutional affiliation or document applicability.
 - **Explicitly unperformed:** No document deletion, research work, metadata image generation, or change to grade data.
-- **Error log:** `governance/errors/W048-document-archive-sharing.md`; resolved E-W048-001 and E-W048-002; no open events.
+- **Error log:** `governance/errors/W048-document-archive-sharing.md`; resolved E-W048-001 through E-W048-003; no open events.
 - **Human review:** None; no human-review question or gate.
 - **Integration:** Merged into `main` as `7675ab3`; no conflicts. Updated `governance/WORK_INDEX.md` and `governance/ROADMAP.md`.
 - **Remote synchronization:** W048 is integrated and live; the subsequent repository/branch synchronization is in progress under the user's explicit request.

@@ -29,3 +29,18 @@
 - **Resolution/status:** Resolved. Router recovered and public routes returned HTTP 200.
 - **Prevention/follow-up:** Recreate the router after replacing upstream Web/Dash containers when the NGINX resolver captures their addresses at startup.
 - **Evidence:** W048 deployment command results, router logs, public metadata/archive responses and `docker ps` health status.
+
+## E-W048-003 — Worktree audit helper had invalid JavaScript regex syntax
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W048 integration / `main`.
+- **Actor:** Primary agent / tool orchestration.
+- **Operation:** Parse `git worktree list --porcelain` and inspect every worktree status from one JavaScript orchestration call.
+- **Expected result:** Report only worktrees with tracked or untracked changes.
+- **Actual result:** The helper failed at parse time with `SyntaxError: Invalid regular expression flags`; no nested shell commands ran.
+- **Affected paths/state:** None; this was an orchestration-script syntax error.
+- **Impact:** No Git or file state changed; status audit was briefly delayed.
+- **Attempts:** (1) Replaced regex parsing with simple line-prefix/string-split parsing. (2) Read each worktree status successfully; only the active W041 worktree's untracked PDF and a pre-existing W027 `scripts/__pycache__/` were reported.
+- **Resolution/status:** Resolved. Both user/worktree items remain untouched and uncommitted.
+- **Prevention/follow-up:** Prefer literal string splitting for this small worktree listing instead of escaped nested regexes.
+- **Evidence:** Successful status audit output.
