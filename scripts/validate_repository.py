@@ -75,6 +75,8 @@ def sha256(path: Path) -> str:
 def validate_csv_widths(errors: list[str]) -> int:
     checked = 0
     for path in ROOT.rglob("*.csv"):
+        if "node_modules" in path.relative_to(ROOT).parts:
+            continue
         with path.open(encoding="utf-8-sig", newline="") as stream:
             rows = list(csv.reader(stream))
         checked += 1
@@ -140,6 +142,8 @@ def validate_manifests(errors: list[str], warnings: list[str]) -> int:
 def validate_markdown_links(errors: list[str]) -> int:
     checked = 0
     for document in ROOT.rglob("*.md"):
+        if "node_modules" in document.relative_to(ROOT).parts:
+            continue
         text = document.read_text(encoding="utf-8")
         for raw_target in MARKDOWN_LINK.findall(text):
             target = raw_target.strip().strip("<>").split("#", 1)[0]

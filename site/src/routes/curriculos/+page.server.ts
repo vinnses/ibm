@@ -1,4 +1,3 @@
-import { model } from '$lib/server/data';
+import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-
-export const load: PageServerLoad = () => ({ curricula: model.factual.curricula });
+export const load: PageServerLoad = () => redirect(307, '/');

@@ -1,10 +1,8 @@
 import { error } from '@sveltejs/kit';
-import { model, byId, evidenceViews } from '$lib/server/data';
-import { componentCoverage } from '$lib/server/review';
+import { curriculumView } from '$lib/server/curriculum';
 import type { PageServerLoad } from './$types';
-
 export const load: PageServerLoad = ({ params }) => {
-  const curriculum = byId(model.factual.curricula, params.id);
-  if (!curriculum) error(404, 'Currículo não encontrado');
-  return { curriculum, evidence: evidenceViews(curriculum.evidence_ids), components: model.factual.component_instances.filter((item) => item.curriculum_id === curriculum.id).map((item) => ({ ...item, coverage: componentCoverage(item) })) };
+  if (params.id === 'curriculum-2011') return curriculumView(2011);
+  if (params.id === 'curriculum-2023') return curriculumView(2023);
+  error(404, 'Grade não encontrada');
 };

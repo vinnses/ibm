@@ -1,4 +1,3 @@
-import { mapViewModel } from '$lib/server/review';
+import { curriculumView } from '$lib/server/curriculum';
 import type { PageServerLoad } from './$types';
-
-export const load: PageServerLoad = () => ({ summary: mapViewModel().summary });
+export const load: PageServerLoad = () => curriculumView(2023);
