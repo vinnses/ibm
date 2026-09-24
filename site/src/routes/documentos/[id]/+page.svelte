@@ -1,7 +1,12 @@
 <script lang="ts">let { data } = $props();</script>
 <svelte:head>
-  <title>{data.document.title} · Documentos · Informática Biomédica</title>
-  <meta name="description" content={`Consulte ${data.document.title}, documento público preservado sobre Informática Biomédica.`} />
+  <title>{data.document.title} · Informática Biomédica UFPR</title>
+  <meta name="description" content={`Consulte ${data.document.title}, documento público preservado sobre o curso de Informática Biomédica da UFPR.`} />
+  <meta property="og:title" content={`${data.document.title} · Informática Biomédica UFPR`} />
+  <meta property="og:description" content={`Documento público preservado sobre Informática Biomédica da UFPR: ${data.document.title}.`} />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:locale" content="pt_BR" />
 </svelte:head>
 
 <main class="document-detail">

@@ -78,6 +78,15 @@ app = Dash(
     routes_pathname_prefix="/analises/",
     requests_pathname_prefix="/analises/",
     title="Análises · Informática Biomédica",
+    meta_tags=[
+        {"name": "description", "content": "Explore uma análise descritiva das disciplinas codificadas nas grades curriculares de Informática Biomédica da UFPR, com dados e fontes para consulta."},
+        {"property": "og:title", "content": "Análises curriculares · Informática Biomédica UFPR"},
+        {"property": "og:description", "content": "Visualize e baixe dados das grades curriculares de Informática Biomédica da UFPR, com fontes e limites documentais."},
+        {"property": "og:type", "content": "website"},
+        {"property": "og:site_name", "content": "Informática Biomédica · UFPR"},
+        {"property": "og:locale", "content": "pt_BR"},
+        {"property": "og:url", "content": "https://ibm.tail6629d6.ts.net/analises/"},
+    ],
     health_endpoint="health",
 )
 server = app.server
@@ -86,7 +95,7 @@ app.layout = html.Div([
     html.Header(html.Div([
         html.A("IB", href="/", className="mark", title="Voltar ao início"),
         html.Div([html.Strong("Informática Biomédica"), html.Small("Dados e análises · UFPR")], className="brand-name"),
-        html.Nav([html.A("Grades", href="/curriculos/curriculum-2023"), html.A("Documentos", href="/documentos"), html.A("Metodologia", href="/metodologia")]),
+        html.Nav([html.A("Grades", href="/"), html.A("Documentos", href="/documentos"), html.A("Metodologia", href="/metodologia")]),
     ], className="header-inner")),
     html.Main([
         html.P("Análise demonstrativa", className="eyebrow"),

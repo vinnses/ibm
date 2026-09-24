@@ -2,7 +2,7 @@
   let { data } = $props();
   let query = $state('');
   let kind = $state('Todos');
-  const categories = ['Todos', 'Resolução', 'Projeto pedagógico', 'Ficha 1', 'Ficha 2', 'Outro documento'];
+  const categories = ['Todos', 'Resolução', 'Projeto pedagógico', 'Outro documento'];
   const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   let filtered = $derived(data.documents.filter((document) =>
     (kind === 'Todos' || document.type === kind) &&
@@ -11,15 +11,21 @@
 </script>
 
 <svelte:head>
-  <title>Documentos · Informática Biomédica UFPR</title>
-  <meta name="description" content="Consulte os documentos públicos preservados sobre as grades de Informática Biomédica da UFPR." />
+  <title>Documentos curriculares · Informática Biomédica UFPR</title>
+  <meta name="description" content="Consulte resoluções, projetos pedagógicos e outros documentos públicos do curso de Informática Biomédica da UFPR. As Fichas 1 e 2 aparecem junto às disciplinas nas grades." />
+  <meta property="og:title" content="Documentos curriculares · Informática Biomédica UFPR" />
+  <meta property="og:description" content="Resoluções, projetos pedagógicos e outros documentos públicos do curso. As fichas aparecem junto às disciplinas nas grades." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://ibm.tail6629d6.ts.net/documentos" />
 </svelte:head>
 
 <main class="archive">
   <header class="page-heading">
     <p class="eyebrow">Acervo público</p>
     <h1>Documentos</h1>
-    <p>Resoluções, projetos pedagógicos e fichas já disponíveis para consulta. Cada registro leva ao arquivo preservado.</p>
+    <p>Resoluções, projetos pedagógicos e outros documentos para consulta. As Fichas 1 disponíveis aparecem junto às disciplinas nas grades.</p>
   </header>
 
   <section class="controls" aria-label="Filtrar documentos">
