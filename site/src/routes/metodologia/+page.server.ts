@@ -1,8 +1,3 @@
-import { model } from '$lib/server/data';
+import { curriculumView } from '$lib/server/curriculum';
 import type { PageServerLoad } from './$types';
-
-export const load: PageServerLoad = () => ({
-  evidence_count: model.provenance.evidence.length,
-  document_count: model.factual.documents.length,
-  sample_evidence: model.provenance.evidence.slice(0, 6).map((item) => ({ id: item.id, excerpt: item.normalized_excerpt }))
-});
+export const load: PageServerLoad = () => ({ curricula: [curriculumView(2011), curriculumView(2023)] });

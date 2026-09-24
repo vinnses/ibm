@@ -1,53 +1,30 @@
-<script lang="ts">
-  import CoverageBadge from '$lib/components/CoverageBadge.svelte';
-  import EvidenceList from '$lib/components/EvidenceList.svelte';
-  import StatusBadge from '$lib/components/StatusBadge.svelte';
-  let { data } = $props();
-</script>
-
-<svelte:head><title>{data.component.code} · IBM</title></svelte:head>
-<main>
-  <p class="breadcrumb"><a href={`/curriculos/${data.curriculum?.id}`}>← {data.curriculum?.label}</a></p>
-  <header class="record-header">
-    <p class="eyebrow">Componente curricular · camada factual</p>
-    <h1>{data.component.code || 'Espaço optativo'} <span>{data.component.name}</span></h1>
-    <CoverageBadge {...data.coverage} /> <StatusBadge value={data.component.evidence_state} />
-    <p>{data.coverage.detail}</p>
-    <a class="map-action" href={`/mapa-curricular?disciplina=${data.component.id}`}>Localizar no mapa 2011→2023</a>
-  </header>
-  <section class="facts">
-    <dl>
-      <dt>Período recomendado</dt><dd>{data.component.recommended_period ?? 'Não informado'}</dd>
-      <dt>Carga horária</dt><dd>{data.component.workload_hours ?? 'Não informada'} h</dd>
-      <dt>Natureza</dt><dd>{data.component.nature}</dd>
-      <dt>Limitação documental</dt><dd>{data.component.notes || 'Nenhuma nota adicional registrada.'}</dd>
-    </dl>
-  </section>
-  <div class="two-column">
-    <section><h2>Conteúdos propostos</h2>{#if data.occurrences.length}<ul class="occurrences">{#each data.occurrences as occurrence}<li><div><a href={`/conteudos/${occurrence.topic?.id}`}>{occurrence.topic?.label}</a> <StatusBadge value={occurrence.review_state} /> <StatusBadge value={occurrence.evidence_strength} /></div><blockquote>{occurrence.evidence_text}</blockquote><p class="meta">{occurrence.locator}</p><EvidenceList items={occurrence.evidence} compact /></li>{/each}</ul>{:else}<p class="gap">Nenhuma ocorrência analítica foi proposta no corpus utilizável. Isso não prova ausência de conteúdo.</p>{/if}</section>
-    <section><h2>Possíveis destinos ou origens</h2>{#if data.relatedComponents.length}<div class="related">{#each data.relatedComponents as item}<article><h3><a href={`/disciplinas/${item.id}`}>{item.code} · {item.name}</a></h3><p>{item.curriculum?.label} · {item.workload_hours ?? '—'} h</p><CoverageBadge {...item.coverage} /></article>{/each}</div>{:else}<p class="gap">Nenhuma contraparte está ligada por candidato de linhagem. Ausência de candidato não significa remoção.</p>{/if}</section>
+<script lang="ts">let { data } = $props();</script>
+<svelte:head><title>{data.component.code} · {data.component.name} · IBM UFPR</title><meta name="description" content={`Disciplina ${data.component.code} da grade ${data.year}, com Fichas 1 localizadas e fontes.`} /></svelte:head>
+<main class="detail">
+  <a class="back" href={`/curriculos/curriculum-${data.year}`}>← Voltar à grade {data.year}</a>
+  <header><p class="eyebrow">Grade {data.year} · {data.component.period}º período</p><h1><span>{data.component.code}</span>{data.component.name}</h1><p class="summary">{data.component.hours ?? '—'} horas · {data.component.nature === 'elective_space' ? 'Espaço optativo' : data.component.nature.includes('TCC') || data.component.code === 'CI262' ? 'Trabalho de conclusão de curso' : data.component.nature.includes('estágio') ? 'Estágio obrigatório' : 'Disciplina obrigatória'}</p></header>
+  <div class="columns">
+    <section class="panel"><h2>Ficha 1</h2>
+      {#if data.component.fichas.length}
+        <p>Versão{data.component.fichas.length > 1 ? 'ões' : ''} localizada{data.component.fichas.length > 1 ? 's' : ''}:</p>
+        <ul class="fichas">{#each data.component.fichas as ficha}<li><a href={ficha.url} target="_blank" rel="noopener">Abrir {ficha.title} ↗</a><small>{ficha.note}</small></li>{/each}</ul>
+      {:else if data.component.fichaState === 'not_located'}
+        <p class="notice">Ficha 1 não localizada na busca pública. Isso não prova que o documento não exista.</p>
+      {:else}
+        <p class="notice">Este componente não entra na busca de Fichas 1; consulte os documentos formais e regulamentos pertinentes.</p>
+      {/if}
+    </section>
+    <section class="panel"><h2>Na outra grade</h2>
+      {#if data.component.counterpart}
+        <p>Foi localizada uma disciplina com {data.component.counterpart.relation === 'Mesmo código' ? 'o mesmo código' : 'nome semelhante'}:</p>
+        <a class="peer" href={`/disciplinas/${data.component.counterpart.id}`}><strong>{data.component.counterpart.code} · {data.component.counterpart.name}</strong><span>Grade {data.component.counterpart.year} · {data.component.counterpart.hours ?? '—'} h →</span></a>
+        <p class="notice">Essa ligação facilita a consulta; não estabelece equivalência formal nem identidade de conteúdo.</p>
+      {:else}<p class="notice">Nenhuma correspondência simples foi indicada. Isso não significa que a disciplina não tenha relação com conteúdos da outra grade.</p>{/if}
+    </section>
   </div>
-  <section><h2>Candidatos de continuidade</h2>{#if data.relations.length}<div class="relations">{#each data.relations as relation}<article><strong>{relation.change_type}</strong> <StatusBadge value={relation.review_state} /> <StatusBadge value={relation.evidence_strength} /><p>{relation.notes}</p><EvidenceList items={relation.evidence} compact /></article>{/each}</div>{:else}<p class="gap">Nenhum candidato registrado.</p>{/if}</section>
-  <section><h2>Pré-requisitos e condições</h2>{#if data.dependencies.length}<ul>{#each data.dependencies as dependency}<li>{dependency.requirement_text} <StatusBadge value={dependency.documentary_state} /></li>{/each}</ul>{:else}<p class="gap">Nenhuma dependência registrada.</p>{/if}</section>
-  <section><h2>Ver evidências</h2><EvidenceList items={data.evidence} /></section>
+  {#if data.component.prerequisites.length}<section class="panel below"><h2>Pré-requisitos registrados</h2><ul>{#each data.component.prerequisites as requirement}<li>{requirement}</li>{/each}</ul></section>{/if}
+  <section class="sources"><h2>Documentos formais da grade {data.year}</h2><ul>{#each data.formalDocuments as document}<li><a href={document.url} target="_blank" rel="noopener">{document.title} ↗</a></li>{/each}</ul></section>
 </main>
-
 <style>
-  .breadcrumb { margin-top: 0; }
-  .record-header { padding: clamp(1.2rem, 4vw, 2.5rem); border: 2px solid var(--ink); background: var(--surface); box-shadow: 6px 6px 0 var(--red); }
-  .record-header h1 { max-width: 20ch; font-size: clamp(2.5rem, 7vw, 5.5rem); }
-  .record-header h1 span { display: block; margin-top: .4rem; font: 800 clamp(1.2rem, 3vw, 2rem)/1.1 var(--sans); letter-spacing: 0; }
-  .map-action { display: inline-block; margin-top: .6rem; font-weight: 900; }
-  .facts { max-width: 56rem; margin: 2.5rem 0; padding: 1rem; border-left: .35rem solid var(--ink); background: var(--surface); }
-  .two-column { display: grid; grid-template-columns: 1.25fr .75fr; gap: 2rem; }
-  section h2 { font: 900 1.45rem var(--display); text-transform: uppercase; }
-  .occurrences { padding-left: 1.2rem; }
-  .occurrences li + li { margin-top: 1.2rem; }
-  blockquote { margin: .5rem 0; padding-left: .75rem; border-left: 3px solid var(--highlight-strong); }
-  .related, .relations { display: grid; gap: .7rem; }
-  .related article, .relations article { padding: .8rem; border: 1px solid var(--line); background: var(--surface); }
-  .related h3 { margin: 0; font-size: .95rem; }
-  .related p { margin: .35rem 0; color: var(--ink-soft); font-size: .85rem; }
-  .gap { padding: .8rem; border: 1px dashed var(--line); background: var(--surface); color: var(--ink-soft); }
-  @media (max-width: 760px) { .two-column { grid-template-columns: 1fr; } .record-header { box-shadow: 4px 4px 0 var(--red); } }
+  .detail{max-width:1050px}.back{font-size:.86rem;font-weight:700}header{margin:1.6rem 0 2rem}.eyebrow{margin:0 0 .4rem;color:var(--green);font-size:.77rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}h1{display:grid;gap:.3rem;max-width:850px;margin:0;font-size:clamp(2rem,5vw,3.5rem);letter-spacing:-.04em}h1 span{color:var(--green);font-size:.85rem;letter-spacing:.08em}.summary{color:var(--muted)}.columns{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.panel{padding:1.4rem;border:1px solid var(--line);border-radius:14px;background:var(--surface)}h2{margin:0 0 .7rem;font-size:1.2rem}.panel p{font-size:.88rem}.notice{color:var(--muted)}.fichas{padding-left:1.2rem}.fichas li+li{margin-top:.9rem}.fichas a{font-weight:750}.fichas small{display:block;margin-top:.25rem;color:var(--muted);font-size:.75rem}.peer{display:grid;gap:.25rem;padding:1rem;border-radius:10px;background:var(--soft);text-decoration:none}.peer span{color:var(--muted);font-size:.78rem}.below{margin-top:1rem}.below ul{margin-bottom:0}.sources{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.84rem}.sources li+li{margin-top:.4rem}@media(max-width:700px){.columns{grid-template-columns:1fr}}
 </style>
