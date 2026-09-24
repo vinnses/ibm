@@ -1,0 +1,21 @@
+# W049 handoff — repository and branch synchronization
+
+- **Branch:** `work/w049-repository-branch-sync`.
+- **Commit base:** `3f2ef35a2cc76d1ad07950a2c952101b85389cf8`.
+- **Commits produced:** To be recorded after work-unit commit and integration.
+- **Primary-session model and effort:** Unknown / unknown; not exposed by runtime.
+- **Actors and routing:** One primary-session Git operator/integrator; model/effort unknown / unknown. No subagents, reassignment, escalation, or routing deviations.
+- **Objective and verdict:** Align local committed branches with GitHub without rewriting or deleting history; verdict pending push and exact-ref audit.
+- **Deliverables:** Branch refs plus W049 spec, error log, handoff and integration index update.
+- **Sources:** Git repository refs only; no documentary research sources.
+- **Coverage:** Local branches and remote-only branches inventoried; exact aligned counts to be recorded after push.
+- **Validations:** Remote fetch succeeded; pre-push `main` had 19 local-only commits and no remote-only commit. Repository validator is required before integration.
+- **Gaps:** Uncommitted content, if any, is not transferred by branch pushes.
+- **Divergences:** None confirmed yet; non-fast-forward rejection will be recorded and preserved.
+- **Provisional information:** Branch names with no matching remote ref will be created remotely if push permissions allow.
+- **Explicitly unperformed:** No force pushes, rebases, remote branch deletions, or staging of worktree files.
+- **Error log:** `governance/errors/W049-repository-branch-sync.md`; open/resolved events to be listed at closure.
+- **Human review:** None anticipated. A GitHub branch-protection denial would be reported as a remote authority gate.
+- **Integration:** Pending main merge and global index update.
+- **Remote sync state:** Pending.
+- **Recommended next bounded work:** None beyond this explicit synchronization task.
