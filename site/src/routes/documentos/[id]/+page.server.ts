@@ -1,8 +1,8 @@
-import { error, redirect } from '@sveltejs/kit';
-import { model, byId } from '$lib/server/data';
+import { error } from '@sveltejs/kit';
+import { publicDocuments } from '$lib/server/public-documents';
 import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = ({ params }) => {
-  const document = byId(model.factual.documents, params.id);
+  const document = publicDocuments.find((item) => item.id === params.id);
   if (!document) error(404, 'Documento não encontrado');
-  redirect(307, document.public_path);
+  return { document };
 };

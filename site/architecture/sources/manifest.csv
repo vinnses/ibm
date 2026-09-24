@@ -1,0 +1,2 @@
+source_id,title,publisher,url,access_date,version_or_date,document_type,local_path,sha256,purpose
+DASH_SERVER_BACKENDS,Server Backends,Plotly Dash,https://dash.plotly.com/server-backends,2026-09-24,Access snapshot 2026-09-24,official_documentation_html,site/architecture/sources/dash-server-backends.html,79aeacf193f53ccbd1732ccb9662bd9e3cf4853246038a6afb01a5e27a7bfbfa,Confirm Dash can be served under a route prefix alongside another frontend
