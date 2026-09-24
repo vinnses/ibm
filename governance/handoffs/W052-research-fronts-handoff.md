@@ -20,4 +20,7 @@
 
 ## Integration record
 
-Pending merge, final validator and non-forced `main` push by the primary session. No site deployment is needed because no site source changed.
+- Merged `work/w052-research-fronts-handoff` into `main` at `d54bfd31f368b3a3adda367afab3a430bffb2492`, without conflicts. Updated global governance navigation (`README.md`, `ROADMAP.md`, `WORK_INDEX.md`); preserved all existing work branches unchanged.
+- Final `python scripts/validate_repository.py` passed with 232 CSV files, 132 preserved hashes, 285 Markdown links and zero warnings/errors.
+- Pushed the merge to `origin/main` by SSH. This integration addendum and W052 index entry require one final `main` push after commit.
+- No site files changed and no site deployment was necessary. No new research front was started. Branch-specific remote availability remains subject to the pre-existing W049/W050 gate.

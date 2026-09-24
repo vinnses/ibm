@@ -87,6 +87,8 @@ W049 repository branch synchronization: integrated on 2026-09-24 via merge `dd89
 
 These branches' data are not in `main`; see [`RESEARCH_FRONTS.md`](RESEARCH_FRONTS.md) and the branch-specific handoffs before resuming either front. The later W050/W051 site integrations pushed `main` successfully, but the historical all-branch push-protection gate remains; W049's remote-state sentence above is a dated snapshot, not the current `main` status.
 
+W052 cross-conversation transfer: governance-only Work `dd456ba` and `0fdea30`, merged by `d54bfd3` on 2026-09-24. It records the two independent front restart paths in `RESEARCH_FRONTS.md`; no W040/W041/W044 data, new sources, analyses or site files were integrated.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)
