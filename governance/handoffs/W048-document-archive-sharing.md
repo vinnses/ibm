@@ -9,13 +9,13 @@
 - **Deliverables:** `site/src/routes/documentos/+page.server.ts`, page-specific metadata in Svelte routes, `analises/app.py`, W048 spec/error/handoff.
 - **Sources added:** None to the research repository. Dash constructor metadata followed the official [Dash meta-tags documentation](https://dash.plotly.com/external-resources).
 - **Coverage:** Archive query omits only `Ficha 1` and `Ficha 2` display records and removes those filter options; curriculum ficha links and source files remain. Open Graph text is route-specific; no preview image was added.
-- **Validations:** Web and Dash Docker images built from the branch; Svelte check passed with zero errors and warnings; `python scripts/validate_repository.py` checked 231 CSVs, 132 preserved hashes and 282 local Markdown links with zero warnings/errors. Public metadata/archive checks remain release steps.
+- **Validations:** Web and Dash Docker images built from the branch; Svelte check passed with zero errors and warnings; `python scripts/validate_repository.py` checked 231 CSVs, 132 preserved hashes and 282 local Markdown links with zero warnings/errors. Public HTML verified route-specific title/Open Graph fields on home, methodology, one discipline detail, one document detail and Dash; archive labels include only resolution, project pedagogy and other document. All five production containers healthy after the router was recreated to clear stale upstream addresses (E-W048-002).
 - **Gaps:** Link preview services may retain cached old text temporarily. No social-card image exists, and image creation was not requested.
 - **Divergences:** No change to the underlying document inventory or public PDF routes.
 - **Provisional information:** Share descriptions summarize the route; they do not establish institutional affiliation or document applicability.
 - **Explicitly unperformed:** No document deletion, research work, metadata image generation, or change to grade data.
-- **Error log:** `governance/errors/W048-document-archive-sharing.md`; resolved E-W048-001 (wrong guessed inspection paths); no open events.
+- **Error log:** `governance/errors/W048-document-archive-sharing.md`; resolved E-W048-001 and E-W048-002; no open events.
 - **Human review:** None; no human-review question or gate.
-- **Integration:** Pending merge into `main`; update indexes during integration.
-- **Remote synchronization:** Awaiting W048 integration and the user's SSH-enabled repository alignment request.
+- **Integration:** Merged into `main` as `7675ab3`; no conflicts. Updated `governance/WORK_INDEX.md` and `governance/ROADMAP.md`.
+- **Remote synchronization:** W048 is integrated and live; the subsequent repository/branch synchronization is in progress under the user's explicit request.
 - **Recommended next bounded work:** None beyond finishing this integration and then aligning the requested Git branches.
