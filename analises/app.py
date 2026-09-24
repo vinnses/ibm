@@ -93,7 +93,10 @@ server = app.server
 app.layout = html.Div([
     html.A("Pular para a análise", href="#analise", className="skip-link"),
     html.Header(html.Div([
-        html.A("IB", href="/", className="mark", title="Voltar ao início"),
+        html.A([html.Span("IBM", className="mark-initials"),
+                html.Span("UFPR", className="mark-university")],
+               href="/", className="mark", title="Voltar ao início",
+               **{"aria-label": "Informática Biomédica — início"}),
         html.Div([html.Strong("Informática Biomédica"), html.Small("Dados e análises · UFPR")], className="brand-name"),
         html.Nav([html.A("Início", href="/"), html.A("Grades", href="/curriculos"),
                   html.A("Documentos", href="/documentos"),
