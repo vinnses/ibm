@@ -86,3 +86,18 @@
 - **Attempts continued:** Rebuilt the Dash image with `--no-control-socket`; startup logs were clean. The prefixed root, health, layout, dependencies and CSS returned HTTP 200. The revised validator decoded Plotly's typed-array value and confirmed the 2011 filter yields 37 records; the CSV callback downloaded exactly those 37 records.
 - **Resolution/status:** Both resolved.
 - **Verification:** `python scripts/validate_w046_dashboard.py --base-url http://127.0.0.1:5186` passed.
+
+## E-W046-006 — Incorrect preserved Tailscale source filename
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash`.
+- **Actor:** Primary agent / source inspection.
+- **Operation:** Inspect preserved Tailscale proxy-path handling before choosing deployment routing.
+- **Expected result:** Find whether a mounted path is stripped before proxying.
+- **Actual result:** Initial `rg` targeted nonexistent `tailscale-v1.102.3-serve.go.source` and reported a file error.
+- **Affected paths/state:** No source or service changed.
+- **Impact:** Brief inspection delay. Choosing Tailscale's path handler without checking would have broken Dash's prefix.
+- **Attempts:** (1) Listed preserved source filenames. (2) Read `tailscale-v1.102.3-ipnlocal-serve.go.source` and found `http.StripPrefix` for non-root mounts. (3) Chose a same-origin NGINX router behind Tailscale's root mount, then validated Dash assets/callbacks through it.
+- **Resolution/status:** Resolved.
+- **Prevention/follow-up:** Resolve file paths from the local source catalog before targeted search.
+- **Evidence:** W046 source-inspection output, NGINX config and local routed callback tests.
