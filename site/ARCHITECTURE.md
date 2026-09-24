@@ -1,8 +1,8 @@
 # Public site architecture
 
-Status: W045 architecture contract, 2026-09-24. This describes the intended
-boundary between documentary browsing and future analysis. It does **not**
-claim that a Dash service or the analysis routes are implemented.
+Status: W045 contract updated for W046's bounded Dash example, 2026-09-24.
+The first `/analises/` question is implemented; additional analyses remain
+future work and require their own validated public data slices.
 
 ## Product boundary
 
@@ -20,10 +20,10 @@ remain separate layers.
 | `/documentos`, `/documentos/{id}` | SvelteKit | Catalogue and human-readable record for approved public documents. |
 | `/documentos/{id}/arquivo` | SvelteKit | Stable original-file link; no public repository path is exposed. |
 | `/metodologia` | SvelteKit | Reader-facing source and uncertainty conventions. |
-| `/analises/...` | Dash (future) | Question-led filters, plots, tables, download of the exact public data slice, and source/method links. No empty route is published until a complete first analysis exists. |
+| `/analises/...` | Dash | Question-led filters, plots, tables, download of the exact public data slice, and source/method links. The first example counts formal coded components by recommended period. |
 
-The current Tailscale Funnel routes `/` to SvelteKit only. A later deployment
-can introduce a small HTTP reverse proxy in the existing Docker `edge` network:
+W046 adds a small NGINX HTTP router in the existing Docker `edge` network;
+Tailscale Funnel still has one root handler, now aimed at that router:
 
 ```text
 public HTTPS / Tailscale Funnel
@@ -32,12 +32,12 @@ public HTTPS / Tailscale Funnel
        -> all other paths : SvelteKit service
 ```
 
-The router should preserve the `/analises/` prefix; configure Dash with a
-matching route/request prefix and test its callback and asset URLs through the
-public origin before enabling the route. Dash's official server-backend guide
-documents a mounted application prefix (preserved copy:
-`architecture/sources/dash-server-backends.html`). The existing Tailscale
-Funnel configuration and source capture are under `../infrastructure/tailscale/`.
+The router preserves `/analises/` when proxying to Dash. This matters because
+Dash assets and callback URLs use the same prefix. The official server-backend
+guide documents a mounted application prefix (preserved copy:
+`architecture/sources/dash-server-backends.html`). The Tailscale configuration
+and sources are under `../infrastructure/tailscale/`; router config and official
+NGINX references are under `../infrastructure/router/`.
 Do not expose Dash or the code-server development service as separate public
 ports. Preserve the existing code-server authentication/network boundary.
 
@@ -84,9 +84,10 @@ filters, a chart, a corresponding table, and a downloadable filtered slice.
 Annual snapshots must not be merged with cumulative cohort indicators.
 Formal curriculum versions must not be joined by title similarity alone.
 
-The first Dash work should choose **one** reproducible question and test the
-full source-to-chart path. Dashboard framework setup alone is not a useful
-public deliverable. Future analyses can then reuse the validated contract.
+W046's first slice asks about formal coded components by recommended period.
+Its source-to-chart path is documented in `../analises/README.md`; this is a
+descriptive example, not a normative comparison. Future analyses must reuse
+the contract with their own validated data releases.
 
 ## Delivery order and safeguards
 
@@ -99,5 +100,6 @@ public deliverable. Future analyses can then reuse the validated contract.
 5. Switch Funnel from the web container to the router only after rollback is
    prepared; verify that the public origin still exposes only intended routes.
 
-W045 covers only the first item and this contract. No public service is changed
-by this work. A later deployment is a separate bounded, reviewed work unit.
+W045 covered only the first item and the contract. W046 implements and tests
+the first analysis and deploys the router/Dash service as a separate bounded
+work unit; additional analyses are not authorized by this example alone.
