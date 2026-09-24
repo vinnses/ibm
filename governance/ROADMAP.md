@@ -115,6 +115,10 @@ Begin only after both curriculum inventory gates and the P2 audit pass.
 2. Include source catalogs, methodology, limitations, conflicts, and reproducibility instructions.
 3. Tag the evidence baseline and archive large source artifacts through the chosen repository-backed mechanism.
 
+## Site delivery checkpoint — 2026-09-24
+
+W045/W046 integrated an evidence catalogue and a bounded Dash example into the existing public site. The example describes the number of formally coded components by recommended period in the separate 2011 and 2023 matrices, with CSV download and source links. It does not reconcile Ficha applicability, actual course offering, equivalences or curricular merits. The broader P2 and P3 gates above remain unchanged. The live deployment passed public route and callback checks, but GitHub `origin/main` synchronization is open pending authentication (E-W046-011).
+
 ## Explicitly deferred
 
 - Judging whether the 2026 change is desirable.

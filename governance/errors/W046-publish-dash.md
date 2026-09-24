@@ -131,3 +131,69 @@
 - **Resolution/status:** Recovery pending router retest.
 - **Prevention/follow-up:** Test the exact non-root and capability profile in isolated preview, not just read-only behavior.
 - **Evidence:** Production Compose status/logs and amended Compose file.
+
+### Resolution update for E-W046-008
+
+- **Attempts continued:** An isolated router running as UID/GID 101 with all capabilities dropped and a writable tmpfs passed Dash callbacks and site health. The fix was committed, independently validated and merged into `main`; the production router was recreated and passed the same local routing checks before Funnel cutover.
+- **Resolution/status:** Resolved; no public outage was caused by the initial router failure.
+- **Verification:** Production router healthy, `python scripts/validate_w046_dashboard.py --base-url http://127.0.0.1:5174` passed.
+
+## E-W046-009 — Transient 502 while web container was replaced
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `main` integration and deployment.
+- **Actor:** Primary agent / Docker Compose rollout.
+- **Operation:** Rebuild and replace the SvelteKit web container, then immediately probe it through the healthy router.
+- **Expected result:** New web container reaches healthy state before route checks.
+- **Actual result:** The immediate routed root and `/documentos` probes returned HTTP 502 while the replacement web container was still starting. Dash callbacks passed at the same time.
+- **Affected paths/state:** Brief web-route startup window; Funnel still pointed directly to `web:3000` until later cutover. No data was changed.
+- **Impact:** Potential seconds-long availability interruption during web container replacement; no sustained outage observed.
+- **Attempts:** (1) Inspected Compose status and found web `health: starting`. (2) Repeated probes after it became healthy; root, documents, PDF and health each returned HTTP 200. (3) Continued cutover only after all services were healthy.
+- **Resolution/status:** Resolved.
+- **Prevention/follow-up:** Gate route probes on web health after replacement, and use blue/green web cutover if zero-downtime publication becomes a requirement.
+- **Evidence:** W046 Compose status and HTTP probe outputs.
+
+## E-W046-010 — Funnel status queried before startup configuration applied
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `main` integration and deployment.
+- **Actor:** Primary agent / Tailscale container startup.
+- **Operation:** Inspect Funnel immediately after recreating the container with the router target.
+- **Expected result:** Report new target `http://router:8081`.
+- **Actual result:** First query reported `No serve config` during the startup interval.
+- **Affected paths/state:** Temporary control-plane state only; code-server and backing web/Dash/router services remained healthy.
+- **Impact:** Public route could not be declared ready from that early query.
+- **Attempts:** (1) Read Tailscale startup logs. (2) Confirmed backend reached `Running` and applied serve config after the transient unset. (3) Requeried Funnel status and verified router target. (4) Tested all public routes and callbacks.
+- **Resolution/status:** Resolved.
+- **Prevention/follow-up:** Wait for Tailscale healthy state and applied serve configuration before judging release status.
+- **Evidence:** W046 Tailscale logs/status and public HTTP checks.
+
+## E-W046-011 — GitHub push denied by missing SSH identity
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `main` integration and deployment.
+- **Actor:** Primary agent / Git SSH environment.
+- **Operation:** Push published `main` commits to `origin/main`.
+- **Expected result:** Remote GitHub branch synchronized to the locally deployed source.
+- **Actual result:** Batch-mode `git push origin main` returned `Permission denied (publickey)`; `gh auth status` also reported no authenticated GitHub host.
+- **Affected paths/state:** Local `main` and live site remain updated; `origin/main` remains behind. No credentials were exposed or modified.
+- **Impact:** Remote repository does not yet reproduce the published release from a fresh clone. This is an unresolved preservation/synchronization exception.
+- **Attempts:** (1) Earlier SSH fetch failed; read-only HTTPS remote comparison established the original base. (2) Tried one non-interactive SSH push after deployment; denied. (3) Checked GitHub CLI auth status; unauthenticated. No alternate credential path was attempted.
+- **Resolution/status:** Open. User-provided GitHub authentication or another authorized remote synchronization method is required.
+- **Prevention/follow-up:** Authenticate GitHub without embedding secrets in repository files/URLs, then push `main` and verify remote SHA equals the deployed local commit.
+- **Evidence:** W046 Git push and GitHub CLI status outputs; handoff records local/remote divergence.
+
+## E-W046-012 — Compose status command lacked ignored local secret
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `main` final audit.
+- **Actor:** Primary agent / shell diagnostic.
+- **Operation:** Run `docker compose ps` from the integration worktree.
+- **Expected result:** Display the five production service health states.
+- **Actual result:** Compose interpolation stopped because `CODE_SERVER_PASSWORD` is absent from this worktree's ignored `.env` file. The running code-server was not changed.
+- **Affected paths/state:** None; read-only diagnostic failed before contacting services.
+- **Impact:** No production change; Compose could not render service status in this shell context.
+- **Attempts:** (1) Compose status failed. (2) `docker ps` directly showed all five production services healthy and the code-server still bound to `127.0.0.1:8080`.
+- **Resolution/status:** Resolved for health inspection via Docker's read-only status. Do not copy or expose the ignored secret.
+- **Prevention/follow-up:** For post-deployment health checks in a separate worktree, use direct Docker status or an already-authorized environment; do not require secret interpolation merely to inspect running containers.
+- **Evidence:** Final-audit command outputs and public W046 callback checks.
