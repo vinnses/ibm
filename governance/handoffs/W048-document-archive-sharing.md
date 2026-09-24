@@ -1,0 +1,21 @@
+# W048 handoff — document archive and sharing metadata
+
+- **Branch:** `work/w048-document-archive-sharing`.
+- **Commit base:** `ee6bbf77b376732dcdc6f53a8c60b3ebd565ca59`.
+- **Commits produced:** `3a51f74` (implementation and governance records); integration merge is recorded during integration.
+- **Primary-session model and effort:** Unknown / unknown; not exposed by runtime.
+- **Actors and routing:** One primary-session site editor/releaser; model/effort unknown / unknown. No subagents; no rerouting, reassignment, or escalation.
+- **Objective and completion verdict:** Exclude Ficha 1/Ficha 2 from the general archive while keeping ficha links with grades; improve share metadata for the home, curriculum detail, document archive/detail, methodology and Dash analysis. Complete when integrated and live checks pass.
+- **Deliverables:** `site/src/routes/documentos/+page.server.ts`, page-specific metadata in Svelte routes, `analises/app.py`, W048 spec/error/handoff.
+- **Sources added:** None to the research repository. Dash constructor metadata followed the official [Dash meta-tags documentation](https://dash.plotly.com/external-resources).
+- **Coverage:** Archive query omits only `Ficha 1` and `Ficha 2` display records and removes those filter options; curriculum ficha links and source files remain. Open Graph text is route-specific; no preview image was added.
+- **Validations:** Web and Dash Docker images built from the branch; Svelte check passed with zero errors and warnings; `python scripts/validate_repository.py` checked 231 CSVs, 132 preserved hashes and 282 local Markdown links with zero warnings/errors. Public metadata/archive checks remain release steps.
+- **Gaps:** Link preview services may retain cached old text temporarily. No social-card image exists, and image creation was not requested.
+- **Divergences:** No change to the underlying document inventory or public PDF routes.
+- **Provisional information:** Share descriptions summarize the route; they do not establish institutional affiliation or document applicability.
+- **Explicitly unperformed:** No document deletion, research work, metadata image generation, or change to grade data.
+- **Error log:** `governance/errors/W048-document-archive-sharing.md`; resolved E-W048-001 (wrong guessed inspection paths); no open events.
+- **Human review:** None; no human-review question or gate.
+- **Integration:** Pending merge into `main`; update indexes during integration.
+- **Remote synchronization:** Awaiting W048 integration and the user's SSH-enabled repository alignment request.
+- **Recommended next bounded work:** None beyond finishing this integration and then aligning the requested Git branches.

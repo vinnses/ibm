@@ -1,5 +1,13 @@
 <script lang="ts">let { data } = $props();</script>
-<svelte:head><title>{data.component.code} · {data.component.name} · IBM UFPR</title><meta name="description" content={`Disciplina ${data.component.code} da grade ${data.year}, com Fichas 1 localizadas e fontes.`} /></svelte:head>
+<svelte:head>
+  <title>{data.component.code} {data.component.name} · Grade {data.year} · Informática Biomédica UFPR</title>
+  <meta name="description" content={`${data.component.name} (${data.component.code}) na grade ${data.year} de Informática Biomédica da UFPR. Consulte período, Ficha 1 disponível e documentos relacionados.`} />
+  <meta property="og:title" content={`${data.component.code} ${data.component.name} · Grade ${data.year} · Informática Biomédica UFPR`} />
+  <meta property="og:description" content={`Consulte período, Ficha 1 disponível e documentos de ${data.component.name} (${data.component.code}) na grade ${data.year}.`} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:locale" content="pt_BR" />
+</svelte:head>
 <main class="detail">
   <a class="back" href={`/curriculos/curriculum-${data.year}`}>← Voltar à grade {data.year}</a>
   <header><p class="eyebrow">Grade {data.year} · {data.component.period}º período</p><h1><span>{data.component.code}</span>{data.component.name}</h1><p class="summary">{data.component.hours ?? '—'} horas · {data.component.nature === 'elective_space' ? 'Espaço optativo' : data.component.nature.includes('TCC') || data.component.code === 'CI262' ? 'Trabalho de conclusão de curso' : data.component.nature.includes('estágio') ? 'Estágio obrigatório' : 'Disciplina obrigatória'}</p></header>

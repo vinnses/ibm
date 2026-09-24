@@ -11,8 +11,14 @@
 </script>
 
 <svelte:head>
-  <title>Grade {data.year} · Informática Biomédica UFPR</title>
-  <meta name="description" content={`Disciplinas, períodos e Fichas 1 localizadas do currículo ${data.year} de Informática Biomédica da UFPR.`} />
+  <title>Informática Biomédica UFPR | Grades curriculares 2011 e 2023</title>
+  <meta name="description" content="Consulte as grades curriculares de Informática Biomédica da UFPR, navegue pelas disciplinas e acesse as Fichas 1 localizadas e os documentos de cada currículo." />
+  <meta property="og:title" content="Informática Biomédica UFPR | Grades curriculares 2011 e 2023" />
+  <meta property="og:description" content="Explore as grades de 2011 e 2023, consulte disciplinas e acesse fichas e fontes curriculares do curso de Informática Biomédica da UFPR." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Informática Biomédica · UFPR" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary" />
 </svelte:head>
 
 <main class="grade">
