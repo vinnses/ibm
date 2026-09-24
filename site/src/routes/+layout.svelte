@@ -4,7 +4,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/" aria-label="Informática Biomédica — início"><span class="brand-icon">IB</span><span class="brand-copy">Informática Biomédica<small>Acervo curricular · UFPR</small></span></a>
-    <nav aria-label="Navegação principal"><a href="/curriculos/curriculum-2011">Grade 2011</a><a href="/curriculos/curriculum-2023">Grade 2023</a><a href="/documentos">Documentos</a><a href="/analises/">Análises</a><a href="/metodologia">Metodologia</a></nav>
+    <nav aria-label="Navegação principal"><a href="/">Grades</a><a href="/documentos">Documentos</a><a href="/analises/">Análises</a><a href="/metodologia">Metodologia</a></nav>
   </div>
 </header>
 <div id="conteudo">{@render children()}</div>
