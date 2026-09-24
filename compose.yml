@@ -57,6 +57,7 @@ services:
   router:
     image: nginx:stable-alpine@sha256:985220252f3863977e468f611ef118ebd01421289dd86ee1ae99cb068c3bce2b
     entrypoint: ["nginx", "-g", "daemon off;"]
+    user: "101:101"
     restart: unless-stopped
     init: true
     read_only: true
@@ -76,7 +77,7 @@ services:
       - ./infrastructure/router/nginx.conf:/etc/nginx/nginx.conf:ro
     tmpfs:
       - /tmp:size=4m,mode=1777
-      - /var/cache/nginx:size=16m,mode=0755
+      - /var/cache/nginx:size=16m,mode=1777
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://127.0.0.1:8081/health"]
       interval: 10s
