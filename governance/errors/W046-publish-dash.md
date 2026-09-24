@@ -101,3 +101,33 @@
 - **Resolution/status:** Resolved.
 - **Prevention/follow-up:** Resolve file paths from the local source catalog before targeted search.
 - **Evidence:** W046 source-inspection output, NGINX config and local routed callback tests.
+
+## E-W046-007 — Production-status formatting command failed
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash` integration.
+- **Actor:** Primary agent / shell diagnostic.
+- **Operation:** Format `docker compose ps --format json` through a short Python one-liner while checking pre-cutover state.
+- **Expected result:** Concise service status.
+- **Actual result:** The f-string quoting in the command raised `SyntaxError`; the preceding read-only Funnel status and Compose config checks had succeeded.
+- **Affected paths/state:** None; no running service changed.
+- **Impact:** Diagnostic display only.
+- **Attempts:** (1) Failed custom formatter. (2) Reran plain `docker compose ps`, which displayed all services and ports correctly.
+- **Resolution/status:** Resolved.
+- **Prevention/follow-up:** Prefer plain Compose output over shell-embedded formatters for small status checks.
+- **Evidence:** W046 tool output.
+
+## E-W046-008 — Router restart loop under dropped CHOWN capability
+
+- **Date/time:** 2026-09-24, America/Sao_Paulo.
+- **Work / branch:** W046 / `work/w046-publish-dash` staged deployment.
+- **Actor:** Primary agent / NGINX container runtime.
+- **Operation:** Start Dash and internal router before switching public Funnel.
+- **Expected result:** Both healthy while public traffic remains on old web target.
+- **Actual result:** Dash became healthy; router entered a restart loop with `chown("/var/cache/nginx/client_temp", 101) failed (1: Operation not permitted)` because root NGINX attempted ownership changes after all capabilities were dropped.
+- **Affected paths/state:** Only new `ibm-router-1`; public Funnel still pointed directly to healthy `ibm-web-1`, and code-server was unchanged.
+- **Impact:** Public cutover halted until router startup is corrected; no public outage.
+- **Attempts:** (1) HTTP validation failed with connection refused. (2) Inspected Compose status and router logs. (3) Changed router to run as NGINX UID/GID 101 with writable tmpfs, avoiding startup chown; rebuild/recreate and revalidate before cutover.
+- **Resolution/status:** Recovery pending router retest.
+- **Prevention/follow-up:** Test the exact non-root and capability profile in isolated preview, not just read-only behavior.
+- **Evidence:** Production Compose status/logs and amended Compose file.
