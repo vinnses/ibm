@@ -21,4 +21,8 @@
 
 ## Integration record
 
-Pending merge, publication, public HTTP verification, and non-forced GitHub sync attempt by the primary session.
+- Merged branch: `work/w050-site-home-review`, merge commit `7fcb054ffa6adb4f30903d59a6fd72efa672e13b`; no conflicts. No global index changed.
+- Final validation: Docker Svelte/Dash builds passed, repository validator passed with zero errors/warnings, and public HTTP checks returned 200 for home, grade chooser, both grades, documents, and Dash. The four formal-document links resolved to PDFs with HTTP 200. Live Dash JSON confirmed the menu entries Início, Grades, Documentos, and Análises.
+- Publication: updated web and Dash containers, recreated router, and verified `https://ibm.tail6629d6.ts.net/` publicly. The homepage head contains the agreed title and general description.
+- Remote synchronization: `main` pushed by SSH and matched `origin/main` at the merge SHA. A subsequent non-forced all-branches push was rejected for 19 historical work branches by GitHub push protection on preserved W044 HTML; no rewrite or bypass performed. This integration addendum requires one final `main` push after its commit.
+- Integration error events: E-W050-007 resolved; E-W050-008 open for historical branch archive only. The site-release gate passed; full branch-sync gate remains pending external classification.

@@ -91,3 +91,33 @@ Append-only log. No events at work start.
 - Resolution/status: resolved.
 - Prevention/follow-up: validate metadata on both variants of a shared page component.
 - Evidence: local HTTP response inspection in W050 execution.
+
+## E-W050-007
+
+- Date/time: 2026-09-24, America/Sao_Paulo.
+- Work / branch: W050 integration / `main`.
+- Actor: primary validator / HTTP diagnostic.
+- Operation: inspect a limited prefix of the live Dash layout response with `curl | head`.
+- Expected result: short response preview.
+- Actual result: `curl: (23) Failure writing output to destination` because `head` closed the pipe after its byte limit.
+- Affected paths/state: none; read-only public HTTP request.
+- Impact: no site impact; diagnostic output was intentionally incomplete.
+- Attempts: (1) partial byte preview; (2) parse the full JSON response with Python and confirm the four menu labels and URLs.
+- Resolution/status: resolved.
+- Prevention/follow-up: parse the full response instead of truncating a live pipeline.
+- Evidence: live Dash layout inspection in W050 integration.
+
+## E-W050-008
+
+- Date/time: 2026-09-24, America/Sao_Paulo.
+- Work / branch: W050 integration / `main` and 19 historical local work branches.
+- Actor: GitHub push protection / primary integrator.
+- Operation: non-forced `git push --all --set-upstream origin` after successfully pushing `main`.
+- Expected result: synchronize local work branches to the GitHub remote.
+- Actual result: GitHub GH013 rejected branches W032–W050 because their reachable history includes a Mapbox public token inside preserved HTML from W044. No token value or bypass URL is recorded here.
+- Affected paths/state: 19 local work branches remain absent remotely; `main` pushed successfully and matches `origin/main` at integration SHA `7fcb054ffa6adb4f30903d59a6fd72efa672e13b` before this audit addendum.
+- Impact: public site and `main` are synchronized; branch archive remains incomplete on GitHub.
+- Attempts: (1) SSH push of `main` succeeded; (2) all-branches push rejected by GH013; (3) remote/local refs checked, with 44 local branches and 29 remote branches. No source rewrite, force push, or suppression attempted.
+- Resolution/status: blocked for branch archive only; human GitHub secret-scanning classification or a separately approved preservation-safe history remedy is required.
+- Prevention/follow-up: keep the original preserved HTML unchanged and avoid broad branch pushes until the GitHub gate is resolved.
+- Evidence: GitHub push output and remote-ref audit in W050 integration; related W049 record.
