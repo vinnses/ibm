@@ -73,6 +73,8 @@ W046 Dash example and publication: complete locally and live on 2026-09-24, with
 
 W047 curriculum navigation simplification: complete and integrated on 2026-09-24. Implementation commit `0dc6cdb`; merge into `main` `5cf76a0`. The global menu now has one “Grades” link; the existing page tabs switch between 2011 and 2023. No curricular data changed. GitHub remote synchronization remains pending under W046 E-W046-011.
 
+W048 document archive and sharing metadata: complete and integrated on 2026-09-24. Implementation commit `e8a48a5`; merge into `main` `7675ab3`. The general document archive no longer lists Ficha 1/Ficha 2; the grade pages retain discipline-level ficha links. Route-specific titles, descriptions and Open Graph text were added for link sharing. No source records or files were deleted.
+
 W017 remaining-data planning: complete and integrated on 2026-09-05, plan `61702d3`, merge `f3f9d4e`. Deliverable: `governance/REMAINING_DATA.md`, with D01-D09 selectable batch boundaries. All batches remain unstarted pending the user's choice; no new collection or analysis was performed.
 
 - General source catalog: [`../fontes/catalogo.csv`](../fontes/catalogo.csv)

@@ -121,6 +121,8 @@ W045/W046 integrated an evidence catalogue and a bounded Dash example into the e
 
 W047 then consolidated the two global curriculum links into one “Grades” item; the 2011/2023 choice remains inside the shared grade view. No curricular data or documentary claims changed.
 
+W048 removed Ficha 1/Ficha 2 from the general document archive because the grade pages expose them alongside each discipline, and added route-specific share titles/descriptions. Original fiche files and discipline links remain preserved. No documentary milestone was changed.
+
 ## Explicitly deferred
 
 - Judging whether the 2026 change is desirable.
